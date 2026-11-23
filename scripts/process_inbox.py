@@ -29,6 +29,138 @@ def generate_id():
     return f"brief-{timestamp}"
 
 
+def split_camel_case(text):
+    """Split CamelCase into words: 'LionsvsBulls' -> 'Lions vs Bulls'"""
+    # Insert space before uppercase letters that follow lowercase
+    result = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)
+    return result
+
+
+def parse_clip_name(clip_name):
+    """
+    Parse clip name like: 20260802_LionsvsBulls_Stan_0105
+    Returns dict with: date, event, broadcaster, clip_id
+    Pattern: YYYYMMDD_<TeamA>vs<TeamB>_<Broadcaster>_<ClipId>
+    """
+    metadata = {}
+    
+    # Match pattern: YYYYMMDD_<event>_<broadcaster>_<clipid>
+    pattern = r'(\d{8})_([^_]+)_([^_]+)_(.+)'
+    match = re.match(pattern, clip_name, re.IGNORECASE)
+    
+    if match:
+        date_str, event_part, broadcaster, clip_id = match.groups()
+        
+        # Parse date
+        try:
+            year = int(date_str[0:4])
+            month = int(date_str[4:6])
+            day = int(date_str[6:8])
+            metadata['date_start'] = f"{year:04d}-{month:02d}-{day:02d}"
+        except:
+            pass
+        
+        # Parse event: look for 'vs' (case insensitive)
+        vs_match = re.search(r'(.+?)vs(.+)', event_part, re.IGNORECASE)
+        if vs_match:
+            team_a = vs_match.group(1).strip()
+            team_b = vs_match.group(2).strip()
+            # Split CamelCase
+            team_a = split_camel_case(team_a)
+            team_b = split_camel_case(team_b)
+            metadata['event'] = f"{team_a} vs {team_b}"
+        else:
+            metadata['event'] = split_camel_case(event_part)
+        
+        metadata['broadcaster'] = broadcaster
+    
+    return metadata
+
+
+def read_sidecar_file(xlsx_path):
+    """
+    Read optional sidecar file (.txt or .json) with same stem as xlsx.
+    For .txt: parse simple key: value lines (English and Greek keys).
+    Returns dict with metadata to override inferred values.
+    """
+    metadata = {}
+    
+    # Map Greek keys to English
+    greek_to_english = {
+        'πελάτης': 'client',
+        'διοργάνωση': 'competition',
+        'άθλημα': 'sport',
+        'ημερομηνία': 'date_start',
+        'σημειώσεις': 'notes',
+        'αθλητής': 'athlete',  # athlete
+        'γεγονός': 'event',  # event
+    }
+    
+    stem = xlsx_path.stem
+    parent = xlsx_path.parent
+    
+    # Try .txt first
+    txt_path = parent / f"{stem}.txt"
+    if txt_path.exists():
+        try:
+            with open(txt_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if ':' in line and not line.startswith('#'):
+                        key, value = line.split(':', 1)
+                        key = key.strip().lower()
+                        value = value.strip()
+                        
+                        # Map Greek to English
+                        if key in greek_to_english:
+                            key = greek_to_english[key]
+                        
+                        if value:
+                            metadata[key] = value
+            
+            metadata['_sidecar_path'] = txt_path
+        except Exception as e:
+            print(f"Warning: Could not read sidecar {txt_path.name}: {e}")
+    
+    # Try .json
+    json_path = parent / f"{stem}.json"
+    if json_path.exists():
+        try:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_metadata = json.load(f)
+                metadata.update(json_metadata)
+            
+            metadata['_sidecar_path'] = json_path
+        except Exception as e:
+            print(f"Warning: Could not read sidecar {json_path.name}: {e}")
+    
+    return metadata
+
+
+def extract_source_clips(sheet):
+    """
+    Extract source clip names from FilesTable at F2:F in Summary sheet.
+    Returns list of clip names (skips header).
+    """
+    clips = []
+    
+    if not sheet:
+        return clips
+    
+    try:
+        # FilesTable starts at F2 (header), data at F3+
+        for row in sheet.iter_rows(min_row=3, min_col=6, max_col=6, values_only=True):
+            if row[0] and isinstance(row[0], str) and row[0].strip():
+                clip_name = row[0].strip()
+                # Skip if it looks like a header
+                if clip_name.lower() not in ['clip', 'clips', 'file', 'files', 'filename']:
+                    clips.append(clip_name)
+    except Exception as e:
+        print(f"Warning: Could not extract source clips: {e}")
+    
+    return clips
+
+
 def find_sheet(wb, names):
     """Find a sheet by one of several possible names (case-insensitive)"""
     for name in names:
@@ -503,18 +635,34 @@ def process_excel_file(filepath, output_dir):
         # Parse Annotations sheet
         annotation_images = parse_annotations_images(filepath, brief_dir)
         
-        # Build brief data
+        # Extract source clips from FilesTable
+        source_clips = extract_source_clips(summary_sheet)
+        
+        # Infer metadata from first clip name or filename
+        inferred_metadata = {}
+        if source_clips:
+            inferred_metadata = parse_clip_name(source_clips[0])
+        if not inferred_metadata:
+            # Fallback to filename
+            inferred_metadata = parse_clip_name(filepath.stem)
+        
+        # Read optional sidecar file
+        sidecar_metadata = read_sidecar_file(filepath)
+        sidecar_path = sidecar_metadata.pop('_sidecar_path', None)
+        
+        # Build brief data with inferred values
         brief_data = {
             'id': brief_id,
-            'client': 'Unknown',
-            'event': filepath.stem,
+            'client': '',  # Empty string instead of 'Unknown'
+            'event': inferred_metadata.get('event', filepath.stem),
             'competition': None,
             'sport': None,
-            'footage_clips': None,
-            'date_start': None,
+            'broadcaster': inferred_metadata.get('broadcaster'),
+            'date_start': inferred_metadata.get('date_start'),
             'date_end': None,
             'notes': None,
             'rules': None,
+            'source_clips': source_clips if source_clips else None,
             'brands': summary_data['brands'],
             'locations': summary_data['locations'],
             'combinations': summary_data['combinations'],
@@ -522,6 +670,19 @@ def process_excel_file(filepath, output_dir):
             'annotation_images': annotation_images,
             'created_at': datetime.now().isoformat()
         }
+        
+        # Override with sidecar values
+        for key in ['client', 'event', 'competition', 'sport', 'date_start', 'date_end', 'broadcaster', 'notes', 'rules']:
+            if key in sidecar_metadata:
+                brief_data[key] = sidecar_metadata[key]
+        
+        # Delete sidecar file after processing
+        if sidecar_path and sidecar_path.exists():
+            try:
+                sidecar_path.unlink()
+                print(f"✓ Deleted sidecar file: {sidecar_path.name}")
+            except Exception as e:
+                print(f"Warning: Could not delete sidecar {sidecar_path.name}: {e}")
         
         # Save brief.json
         with open(brief_dir / 'brief.json', 'w', encoding='utf-8') as f:
