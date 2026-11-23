@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Βιβλιοθήκη Briefs - isieve</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1>isieve Briefs</h1>
+            </div>
+            <div class="navbar-menu">
+                <a href="upload.html" class="btn btn-primary">+ Νέο Brief</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <div class="filters-section">
+            <div class="search-box">
+                <input type="search" id="globalSearch" placeholder="Αναζήτηση σε όλα τα briefs (brand, location, event, client)...">
+            </div>
+            
+            <div class="filters">
+                <select id="filterSport">
+                    <option value="">Όλα τα αθλέματα</option>
+                </select>
+                
+                <select id="filterClient">
+                    <option value="">Όλοι οι πελάτες</option>
+                </select>
+                
+                <input type="date" id="filterDateFrom" placeholder="Από ημερομηνία">
+                <input type="date" id="filterDateTo" placeholder="Έως ημερομηνία">
+                
+                <button id="clearFilters" class="btn btn-secondary btn-sm">Καθαρισμός</button>
+            </div>
+        </div>
+
+        <div id="briefsContainer" class="briefs-grid">
+            <div class="loading">Φόρτωση briefs...</div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
