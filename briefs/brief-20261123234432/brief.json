@@ -1,0 +1,427 @@
+{
+  "id": "brief-20261123234432",
+  "client": "Omnicom / FSE",
+  "event": "Lions vs Bulls – Currie Cup",
+  "competition": "Carling Black Label Currie Cup",
+  "sport": "Rugby",
+  "footage_clips": null,
+  "date_start": "2026-08-02",
+  "date_end": null,
+  "notes": null,
+  "rules": null,
+  "brands": [
+    "ACDC Express",
+    "Burger King",
+    "Everest Wealth",
+    "Fidelity",
+    "Fidelity ADT",
+    "Fidelity SecureDrive",
+    "Isorade",
+    "Jonnson Workwear",
+    "SPAR",
+    "The Capital Hotels",
+    "947"
+  ],
+  "locations": [
+    "Player Jersey - Shoulder",
+    "LED Board",
+    "Player Shorts - Rear",
+    "Player Jersey - Front",
+    "Flag",
+    "TVGI",
+    "TVGI Name",
+    "Player Jersey - Rear",
+    "Player Shorts - Side",
+    "Player Shorts - Front",
+    "Sleeve Shirt"
+  ],
+  "combinations": [
+    {
+      "brand": "ACDC Express",
+      "location": "Player Jersey - Shoulder",
+      "auto_closed": false
+    },
+    {
+      "brand": "ACDC Express",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Burger King",
+      "location": "Player Shorts - Rear",
+      "auto_closed": false
+    },
+    {
+      "brand": "Burger King",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Everest Wealth",
+      "location": "Player Jersey - Shoulder",
+      "auto_closed": false
+    },
+    {
+      "brand": "Everest Wealth",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity",
+      "location": "Player Jersey - Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity",
+      "location": "Player Jersey - Shoulder",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity",
+      "location": "TVGI",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity ADT",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity ADT",
+      "location": "Player Jersey - Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity ADT",
+      "location": "TVGI Name",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity ADT",
+      "location": "TVGI",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity SecureDrive",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity SecureDrive",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fidelity SecureDrive",
+      "location": "Player Jersey - Rear",
+      "auto_closed": false
+    },
+    {
+      "brand": "Isorade",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Isorade",
+      "location": "Player Shorts - Side",
+      "auto_closed": false
+    },
+    {
+      "brand": "Jonnson Workwear",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Jonnson Workwear",
+      "location": "Player Jersey - Rear",
+      "auto_closed": false
+    },
+    {
+      "brand": "SPAR",
+      "location": "Player Shorts - Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "SPAR",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "The Capital Hotels",
+      "location": "Sleeve Shirt",
+      "auto_closed": false
+    },
+    {
+      "brand": "The Capital Hotels",
+      "location": "LED Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "947",
+      "location": "LED Board",
+      "auto_closed": false
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "acdc_express_0.jpeg",
+      "brand": "ACDC Express",
+      "location": "Player Jersey - Shoulder",
+      "sort_order": 0
+    },
+    {
+      "type": "example",
+      "filename": "acdc_express_1.jpeg",
+      "brand": "ACDC Express",
+      "location": "LED Board",
+      "sort_order": 1
+    },
+    {
+      "type": "example",
+      "filename": "acdc_express_2.jpeg",
+      "brand": "ACDC Express",
+      "location": "Player Jersey - Shoulder",
+      "sort_order": 2
+    },
+    {
+      "type": "example",
+      "filename": "acdc_express_3.jpeg",
+      "brand": "ACDC Express",
+      "location": "LED Board",
+      "sort_order": 3
+    },
+    {
+      "type": "example",
+      "filename": "burger_king_0.jpeg",
+      "brand": "Burger King",
+      "location": "Player Shorts - Rear",
+      "sort_order": 4
+    },
+    {
+      "type": "example",
+      "filename": "burger_king_1.jpeg",
+      "brand": "Burger King",
+      "location": "LED Board",
+      "sort_order": 5
+    },
+    {
+      "type": "example",
+      "filename": "everest_wealth_0.jpeg",
+      "brand": "Everest Wealth",
+      "location": "Player Jersey - Shoulder",
+      "sort_order": 6
+    },
+    {
+      "type": "example",
+      "filename": "everest_wealth_1.jpeg",
+      "brand": "Everest Wealth",
+      "location": "LED Board",
+      "sort_order": 7
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_0.jpeg",
+      "brand": "Fidelity",
+      "location": "Player Jersey - Shoulder",
+      "sort_order": 8
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_1.jpeg",
+      "brand": "Fidelity",
+      "location": "Player Jersey - Front",
+      "sort_order": 9
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_2.jpeg",
+      "brand": "Fidelity",
+      "location": "Flag",
+      "sort_order": 10
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_3.jpeg",
+      "brand": "Fidelity",
+      "location": "TVGI",
+      "sort_order": 11
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_adt_0.jpeg",
+      "brand": "Fidelity ADT",
+      "location": "Player Jersey - Shoulder",
+      "sort_order": 12
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_adt_1.jpeg",
+      "brand": "Fidelity ADT",
+      "location": "Player Jersey - Front",
+      "sort_order": 13
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_adt_2.jpeg",
+      "brand": "Fidelity ADT",
+      "location": "Flag",
+      "sort_order": 14
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_adt_3.jpeg",
+      "brand": "Fidelity ADT",
+      "location": "TVGI Name",
+      "sort_order": 15
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_adt_4.jpeg",
+      "brand": "Fidelity ADT",
+      "location": "TVGI",
+      "sort_order": 16
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_securedrive_0.jpeg",
+      "brand": "Fidelity SecureDrive",
+      "location": "Flag",
+      "sort_order": 17
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_securedrive_1.jpeg",
+      "brand": "Fidelity SecureDrive",
+      "location": "LED Board",
+      "sort_order": 18
+    },
+    {
+      "type": "example",
+      "filename": "fidelity_securedrive_2.jpeg",
+      "brand": "Fidelity SecureDrive",
+      "location": "Player Jersey - Rear",
+      "sort_order": 19
+    },
+    {
+      "type": "example",
+      "filename": "isorade_0.jpeg",
+      "brand": "Isorade",
+      "location": "LED Board",
+      "sort_order": 20
+    },
+    {
+      "type": "example",
+      "filename": "isorade_1.jpeg",
+      "brand": "Isorade",
+      "location": "Player Shorts - Side",
+      "sort_order": 21
+    },
+    {
+      "type": "example",
+      "filename": "jonnson_workwear_0.jpeg",
+      "brand": "Jonnson Workwear",
+      "location": "LED Board",
+      "sort_order": 22
+    },
+    {
+      "type": "example",
+      "filename": "jonnson_workwear_1.jpeg",
+      "brand": "Jonnson Workwear",
+      "location": "Player Jersey - Rear",
+      "sort_order": 23
+    },
+    {
+      "type": "example",
+      "filename": "spar_0.jpeg",
+      "brand": "SPAR",
+      "location": "Player Shorts - Front",
+      "sort_order": 24
+    },
+    {
+      "type": "example",
+      "filename": "spar_1.jpeg",
+      "brand": "SPAR",
+      "location": "LED Board",
+      "sort_order": 25
+    },
+    {
+      "type": "example",
+      "filename": "the_capital_hotels_0.jpeg",
+      "brand": "The Capital Hotels",
+      "location": "Sleeve Shirt",
+      "sort_order": 26
+    },
+    {
+      "type": "example",
+      "filename": "the_capital_hotels_1.jpeg",
+      "brand": "The Capital Hotels",
+      "location": "LED Board",
+      "sort_order": 27
+    },
+    {
+      "type": "example",
+      "filename": "the_capital_hotels_2.jpeg",
+      "brand": "The Capital Hotels",
+      "location": "Sleeve Shirt",
+      "sort_order": 28
+    },
+    {
+      "type": "example",
+      "filename": "947_0.jpeg",
+      "brand": "947",
+      "location": "LED Board",
+      "sort_order": 29
+    }
+  ],
+  "annotation_images": [
+    {
+      "type": "annotation",
+      "filename": "annotation_0.png",
+      "annotation_type": "exclude",
+      "sort_order": 0
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_1.jpeg",
+      "annotation_type": "exclude",
+      "sort_order": 1
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_2.jpeg",
+      "annotation_type": "include",
+      "sort_order": 2
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_3.jpeg",
+      "annotation_type": "include",
+      "sort_order": 3
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_4.jpeg",
+      "annotation_type": "exclude",
+      "sort_order": 4
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_5.jpeg",
+      "annotation_type": "include",
+      "sort_order": 5
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_6.jpeg",
+      "annotation_type": "include",
+      "sort_order": 6
+    }
+  ],
+  "created_at": "2026-11-23T23:44:39.171940"
+}
