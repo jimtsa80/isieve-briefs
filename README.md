@@ -73,20 +73,57 @@ git push -u origin main
 
 1. GitHub → Repository → `briefs-inbox/` folder
 2. Add file → Upload files
-3. Ανεβάστε το .xlsx
-4. Commit
-5. Το GitHub Action:
+3. Ανεβάστε το .xlsx αρχείο
+4. **(Προαιρετικά)** Ανεβάστε ένα `.txt` αρχείο με το ίδιο όνομα για να ορίσετε metadata:
+   
+   **Παράδειγμα:** Για το `20260802_LionsvsBulls_Stan_brief.xlsx`, δημιουργήστε `20260802_LionsvsBulls_Stan_brief.txt`:
+   
+   ```
+   πελάτης: Omnicom / FSE
+   διοργάνωση: Carling Black Label Currie Cup
+   άθλημα: Rugby
+   σημειώσεις: Τελικός αγώνας της σεζόν
+   ```
+   
+   **Υποστηριζόμενα κλειδιά (Ελληνικά/English):**
+   - `πελάτης` / `client` - Όνομα πελάτη
+   - `γεγονός` / `event` - Τίτλος γεγονότος
+   - `διοργάνωση` / `competition` - Όνομα διοργάνωσης
+   - `άθλημα` / `sport` - Άθλημα (Rugby, Football, κλπ.)
+   - `ημερομηνία` / `date_start` - Ημερομηνία έναρξης (YYYY-MM-DD)
+   - `σημειώσεις` / `notes` - Πρόσθετες σημειώσεις
+
+5. Commit
+6. Το GitHub Action:
    - Αναλύει το .xlsx
+   - Εξάγει metadata από ονόματα clips (π.χ. `20260802_LionsvsBulls_Stan_0105`)
+   - Διαβάζει το προαιρετικό .txt αρχείο (αν υπάρχει)
    - Εξάγει embedded images με openpyxl
    - Δημιουργεί brief package στον `briefs/`
-   - Διαγράφει το inbox file
+   - Διαγράφει το .xlsx και .txt
    - Ενημερώνει το index.json
    - Redeploys το site
-6. Ελέγξτε **Actions** tab για πρύοδο (2-3 λεπτά)
+7. Ελέγξτε **Actions** tab για πρόοδο (2-3 λεπτά)
 
 **Πλεονεκτήματα:** Πλήρως αυτόματο, one-click, πλήρης εξαγωγή images
 
 **⚠️ Προσοχή:** Για public repo, μην ανεβάζετε εμπιστευτικά .xlsx απευθείας. Χρησιμοποιήστε Τρόπο 1.
+
+---
+
+### 🔧 Διόρθωση Metadata Μετά το Upload
+
+Αν χρειάζεται να διορθώσετε τον πελάτη, το γεγονός ή άλλα metadata μετά το upload:
+
+1. GitHub → Repository → `briefs/brief-ΧΧΧΧΧΧΧΧ/` folder
+2. Κλικ στο `brief.json`
+3. Κλικ το εικονίδιο μολυβιού (Edit)
+4. Επεξεργαστείτε τα πεδία `client`, `event`, `competition`, `sport`, `notes`, κλπ.
+5. Commit changes
+6. Το GitHub Action ανιχνεύει την αλλαγή και ενημερώνει αυτόματα το `index.json`
+7. Το site ενημερώνεται σε 1-2 λεπτά
+
+**Σημείωση:** Αν ο πελάτης είναι άγνωστος, εμφανίζεται ως "Πελάτης: —" στη βιβλιοθήκη.
 
 ---
 
