@@ -9,7 +9,7 @@
         const briefId = params.get('id');
         
         if (!briefId) {
-            showError('Δεν βρέθηδε ID brief');
+            showError('No brief ID provided');
             return;
         }
 
@@ -24,7 +24,7 @@
             
         } catch (error) {
             console.error('Error loading brief:', error);
-            showError(`Σφάλμα φόρτωσης brief: ${error.message}`);
+            showError(`Error loading brief: ${error.message}`);
         }
     }
 
@@ -33,29 +33,29 @@
         
         // Build HTML
         let html = `
-            <div class=\"brief-header\">
-                <h1 class=\"brief-title\">${escapeHtml(brief.event)}</h1>
-                <div class=\"brief-client\">${escapeHtml(brief.client)}</div>
+            <div class="brief-header">
+                <h1 class="brief-title">${escapeHtml(brief.event)}</h1>
+                <div class="brief-client">${escapeHtml(brief.client)}</div>
                 
-                <div class=\"brief-meta-grid\">
+                <div class="brief-meta-grid">
                     ${brief.competition ? `
-                        <div class=\"meta-item\">
-                            <div class=\"meta-label\">Διοργάνωση</div>
-                            <div class=\"meta-value\">${escapeHtml(brief.competition)}</div>
+                        <div class="meta-item">
+                            <div class="meta-label">Competition</div>
+                            <div class="meta-value">${escapeHtml(brief.competition)}</div>
                         </div>
                     ` : ''}
                     
                     ${brief.sport ? `
-                        <div class=\"meta-item\">
-                            <div class=\"meta-label\">Άθλημα</div>
-                            <div class=\"meta-value\">${escapeHtml(brief.sport)}</div>
+                        <div class="meta-item">
+                            <div class="meta-label">Sport</div>
+                            <div class="meta-value">${escapeHtml(brief.sport)}</div>
                         </div>
                     ` : ''}
                     
                     ${brief.date_start || brief.date_end ? `
-                        <div class=\"meta-item\">
-                            <div class=\"meta-label\">Περίοδος</div>
-                            <div class=\"meta-value\">
+                        <div class="meta-item">
+                            <div class="meta-label">Period</div>
+                            <div class="meta-value">
                                 ${formatDate(brief.date_start)} 
                                 ${brief.date_end && brief.date_end !== brief.date_start ? ` - ${formatDate(brief.date_end)}` : ''}
                             </div>
@@ -63,17 +63,17 @@
                     ` : ''}
                     
                     ${brief.footage_clips ? `
-                        <div class=\"meta-item\">
-                            <div class=\"meta-label\">Footage/Clips</div>
-                            <div class=\"meta-value\">${escapeHtml(brief.footage_clips)}</div>
+                        <div class="meta-item">
+                            <div class="meta-label">Footage/Clips</div>
+                            <div class="meta-value">${escapeHtml(brief.footage_clips)}</div>
                         </div>
                     ` : ''}
                 </div>
                 
                 ${brief.notes ? `
-                    <div style=\"margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);\">
-                        <div class=\"meta-label\">Σημειώσεις</div>
-                        <div style=\"margin-top: 0.5rem;\">${escapeHtml(brief.notes)}</div>
+                    <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);">
+                        <div class="meta-label">Notes</div>
+                        <div style="margin-top: 0.5rem;">${escapeHtml(brief.notes)}</div>
                     </div>
                 ` : ''}
             </div>
@@ -82,13 +82,13 @@
         // Brands section
         if (brief.brands && brief.brands.length > 0) {
             html += `
-                <div class=\"brief-section\">
+                <div class="brief-section">
                     <h2>Brands (${brief.brands.length})</h2>
-                    <div class=\"brands-list\">
+                    <div class="brands-list">
                         ${brief.brands.map(brand => `
-                            <div class=\"brand-tag\" onclick=\"copyToClipboard('${escapeHtml(brand)}')\">
+                            <div class="brand-tag" onclick="copyToClipboard('${escapeHtml(brand)}')">
                                 ${escapeHtml(brand)}
-                                <span class=\"copy-btn\">📋</span>
+                                <span class="copy-btn">📋</span>
                             </div>
                         `).join('')}
                     </div>
@@ -99,13 +99,13 @@
         // Locations section
         if (brief.locations && brief.locations.length > 0) {
             html += `
-                <div class=\"brief-section\">
+                <div class="brief-section">
                     <h2>Locations / Assets (${brief.locations.length})</h2>
-                    <div class=\"locations-list\">
+                    <div class="locations-list">
                         ${brief.locations.map(location => `
-                            <div class=\"location-tag\" onclick=\"copyToClipboard('${escapeHtml(location)}')\">
+                            <div class="location-tag" onclick="copyToClipboard('${escapeHtml(location)}')">
                                 ${escapeHtml(location)}
-                                <span class=\"copy-btn\">📋</span>
+                                <span class="copy-btn">📋</span>
                             </div>
                         `).join('')}
                     </div>
@@ -116,17 +116,17 @@
         // Combinations section
         if (brief.combinations && brief.combinations.length > 0) {
             html += `
-                <div class=\"brief-section\">
-                    <h2>Brand × Location Συνδυασμοί (${brief.combinations.length})</h2>
+                <div class="brief-section">
+                    <h2>Brand × Location Combinations (${brief.combinations.length})</h2>
                     
-                    <div class=\"combinations-filter\">
-                        <input type=\"text\" id=\"filterBrand\" placeholder=\"Φίλτρο Brand...\" style=\"padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;\">
-                        <input type=\"text\" id=\"filterLocation\" placeholder=\"Φίλτρο Location...\" style=\"padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;\">
-                        <button onclick=\"document.getElementById('filterBrand').value=''; document.getElementById('filterLocation').value=''; filterCombinations()\" class=\"btn btn-secondary btn-sm\">Καθαρισμός</button>
+                    <div class="combinations-filter">
+                        <input type="text" id="filterBrand" placeholder="Filter Brand..." style="padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;">
+                        <input type="text" id="filterLocation" placeholder="Filter Location..." style="padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;">
+                        <button onclick="document.getElementById('filterBrand').value=''; document.getElementById('filterLocation').value=''; filterCombinations()" class="btn btn-secondary btn-sm">Clear</button>
                     </div>
                     
-                    <div class=\"combinations-grid\" id=\"combinationsGrid\">
-                        ${brief.combinations.map(combo => renderCombination(combo, brief.id)).join('')}
+                    <div class="combinations-grid" id="combinationsGrid">
+                        ${brief.combinations.map(combo => renderCombination(combo, brief)).join('')}
                     </div>
                 </div>
             `;
@@ -135,40 +135,45 @@
         // Rules/Annotations section
         if (brief.annotation_images && brief.annotation_images.length > 0) {
             html += `
-                <div class=\"brief-section\">
-                    <h2>Κανόνες & Εξαιράσεις</h2>
+                <div class="brief-section">
+                    <h2>Rules & Exceptions</h2>
                     
                     ${brief.rules ? `
-                        <div style=\"margin-bottom: 1.5rem; padding: 1rem; background: var(--bg-tertiary); border-radius: 6px;\">
+                        <div style="margin-bottom: 1.5rem; padding: 1rem; background: var(--bg-tertiary); border-radius: 6px;">
                             ${escapeHtml(brief.rules).replace(/\n/g, '<br>')}
                         </div>
                     ` : ''}
                     
-                    <div class=\"rules-legend\">
-                        <div class=\"legend-item include\">✓ Περιλαμβάνεται (Πρασίνο)</div>
-                        <div class=\"legend-item exclude\">✗ Εξαιρείται - Lookalike (Κόκκινο)</div>
-                        <div class=\"legend-item variant\">⚠ Παραλλαγή (Κίτρινο/Πρτοκαλί)]</div>
+                    <div class="rules-legend">
+                        <div class="legend-item include">✓ Included (Green)</div>
+                        <div class="legend-item exclude">✗ Excluded - Lookalike (Red)</div>
+                        <div class="legend-item variant">⚠ Variant (Yellow/Orange)</div>
                     </div>
                     
-                    <div class=\"annotation-images\">
-                        ${brief.annotation_images.map(img => `
-                            <div class=\"annotation-card\">
-                                <img src=\"briefs/${brief.id}/${img.filename}\" 
-                                     alt=\"Annotation\" 
-                                     onclick=\"openLightbox('briefs/${brief.id}/${img.filename}', 'Annotation: ${img.annotation_type || 'include'}')\">
-                                <div class=\"annotation-label ${img.annotation_type || 'include'}\">
+                    <div class="annotation-images">
+                        ${brief.annotation_images.map(img => {
+                            const thumbSrc = img.thumbnail ? `briefs/${brief.id}/${img.thumbnail}` : `briefs/${brief.id}/${img.filename}`;
+                            const fullSrc = `briefs/${brief.id}/${img.filename}`;
+                            return `
+                            <div class="annotation-card">
+                                <img src="${thumbSrc}" 
+                                     alt="Annotation" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     onclick="openLightbox('${fullSrc}', 'Annotation: ${img.annotation_type || 'include'}')">
+                                <div class="annotation-label ${img.annotation_type || 'include'}">
                                     ${getAnnotationLabel(img.annotation_type)}
                                 </div>
-                            </div>
-                        `).join('')}
+                            </div>`;
+                        }).join('')}
                     </div>
                 </div>
             `;
         } else if (brief.rules) {
             html += `
-                <div class=\"brief-section\">
-                    <h2>Κανόνες & Εξαιρέσεις</h2>
-                    <div style=\"padding: 1rem; background: var(--bg-tertiary); border-radius: 6px;\">
+                <div class="brief-section">
+                    <h2>Rules & Exceptions</h2>
+                    <div style="padding: 1rem; background: var(--bg-tertiary); border-radius: 6px;">
                         ${escapeHtml(brief.rules).replace(/\n/g, '<br>')}
                     </div>
                 </div>
@@ -178,52 +183,71 @@
         container.innerHTML = html;
     }
 
-    function renderCombination(combo, briefId) {
-        const images = combo.images || [];
+    function renderCombination(combo, brief) {
+        // Match images from brief.images array by brand and location (case-insensitive, whitespace-insensitive)
+        const normalize = (str) => str.toLowerCase().replace(/\s+/g, '');
+        const comboBrand = normalize(combo.brand);
+        const comboLocation = normalize(combo.location);
+        
+        // Find matching images from the top-level brief.images array
+        const matchingImages = (brief.images || [])
+            .filter(img => img.type === 'example' && 
+                           normalize(img.brand || '') === comboBrand && 
+                           normalize(img.location || '') === comboLocation)
+            .sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+        
+        // Fallback to combo.images if present (for backwards compatibility)
+        const images = matchingImages.length > 0 ? matchingImages : (combo.images || []);
         
         return `
-            <div class=\"combination-card\">
-                <div class=\"combination-header\">
-                    <div class=\"combination-title\">
-                        <span class=\"brand-name\" onclick=\"copyToClipboard('${escapeHtml(combo.brand).replace(/'/g, \"\\\\'\")}')\" title=\"Click to copy\">
+            <div class="combination-card">
+                <div class="combination-header">
+                    <div class="combination-title">
+                        <span class="brand-name" onclick="copyToClipboard('${escapeHtml(combo.brand).replace(/'/g, '\\\'')}')" title="Click to copy">
                             ${escapeHtml(combo.brand)}
                         </span>
-                        <span style=\"opacity: 0.5; margin: 0 0.3rem;\">×</span>
+                        <span style="opacity: 0.5; margin: 0 0.3rem;">×</span>
                         ${escapeHtml(combo.location)}
                     </div>
-                    ${combo.auto_closed ? '<span class=\"auto-closed-badge\">Auto-closed</span>' : ''}
+                    ${combo.auto_closed ? '<span class="auto-closed-badge">Auto-closed</span>' : ''}
                 </div>
                 
                 ${images.length > 0 ? `
-                    <div class=\"combination-images\">
-                        ${images.map(img => `
-                            <div class=\"combo-image\">
-                                <img src=\"briefs/${briefId}/${img.filename}\" 
-                                     alt=\"${escapeHtml(combo.brand)} - ${escapeHtml(combo.location)}\"
-                                     onclick=\"openLightbox('briefs/${briefId}/${img.filename}', '${escapeHtml(combo.brand)} × ${escapeHtml(combo.location)}')\">
-                            </div>
-                        `).join('')}
+                    <div class="combination-images">
+                        ${images.map(img => {
+                            const thumbSrc = img.thumbnail ? `briefs/${brief.id}/${img.thumbnail}` : `briefs/${brief.id}/${img.filename}`;
+                            const fullSrc = `briefs/${brief.id}/${img.filename}`;
+                            return `
+                            <div class="combo-image">
+                                <img src="${thumbSrc}" 
+                                     data-full="${fullSrc}"
+                                     alt="${escapeHtml(combo.brand)} - ${escapeHtml(combo.location)}"
+                                     loading="lazy"
+                                     decoding="async"
+                                     onclick="openLightbox('${fullSrc}', '${escapeHtml(combo.brand)} × ${escapeHtml(combo.location)}')">
+                            </div>`;
+                        }).join('')}
                     </div>
-                ` : '<div class=\"text-muted\">Νωρίς εικόνες πραραδείγματος</div>'}
+                ` : '<div class="text-muted">No example images</div>'}
                 
-                ${combo.notes ? `<div class=\"text-muted\" style=\"margin-top: 0.5rem; font-size: 0.85rem;\">${escapeHtml(combo.notes)}</div>` : ''}
+                ${combo.notes ? `<div class="text-muted" style="margin-top: 0.5rem; font-size: 0.85rem;">${escapeHtml(combo.notes)}</div>` : ''}
             </div>
         `;
     }
 
     function getAnnotationLabel(type) {
         switch(type) {
-            case 'exclude': return '✗ Εξαιρείται (Lookalike)';
-            case 'variant': return '⚠ Παραλλαγή';
+            case 'exclude': return '✗ Excluded (Lookalike)';
+            case 'variant': return '⚠ Variant';
             case 'include':
-            default: return '✓ Περιλαμβάνεται';
+            default: return '✓ Included';
         }
     }
 
     function formatDate(dateStr) {
         if (!dateStr) return '';
         const date = new Date(dateStr);
-        return date.toLocaleDateString('el-GR', { 
+        return date.toLocaleDateString('en-US', { 
             day: 'numeric', 
             month: 'short', 
             year: 'numeric' 
@@ -239,8 +263,8 @@
 
     function showError(message) {
         document.getElementById('briefContainer').innerHTML = `
-            <div class=\"error-message\">
-                <strong>Σφάλμα:</strong> ${escapeHtml(message)}
+            <div class="error-message">
+                <strong>Error:</strong> ${escapeHtml(message)}
             </div>
         `;
     }
@@ -293,7 +317,7 @@
         navigator.clipboard.writeText(text).then(() => {
             // Show brief feedback
             const notification = document.createElement('div');
-            notification.textContent = `Αντιγράφηκε: ${text}`;
+            notification.textContent = `Copied: ${text}`;
             notification.style.cssText = `
                 position: fixed;
                 bottom: 20px;
@@ -329,10 +353,10 @@
             return brandMatch && locationMatch;
         });
         
-        grid.innerHTML = filtered.map(combo => renderCombination(combo, currentBrief.id)).join('');
+        grid.innerHTML = filtered.map(combo => renderCombination(combo, currentBrief)).join('');
         
         if (filtered.length === 0) {
-            grid.innerHTML = '<div class=\"text-muted\" style=\"grid-column: 1/-1; text-align: center; padding: 2rem;\">δεν βρέθηκαν συνδυασμοί</div>';
+            grid.innerHTML = '<div class="text-muted" style="grid-column: 1/-1; text-align: center; padding: 2rem;">No combinations found</div>';
         }
     };
     

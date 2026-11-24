@@ -29,10 +29,10 @@
             console.error('Error loading briefs:', error);
             document.getElementById('briefsContainer').innerHTML = `
                 <div class="error-message">
-                    <strong>Σφάλμα φόρτωσης:</strong> 
+                    <strong>Loading error:</strong> 
                     ${error.message}
                     <br><br>
-                    <small>Βεβαιωθείτε ότι υπάρχει το αρχείο briefs/index.json</small>
+                    <small>Make sure the briefs/index.json file exists</small>
                 </div>
             `;
         }
@@ -63,7 +63,7 @@
         const container = document.getElementById('briefsContainer');
         
         if (briefs.length === 0) {
-            container.innerHTML = '<div class="loading">Δεν βρέθ αν briefs</div>';
+            container.innerHTML = '<div class="loading">No briefs found</div>';
             return;
         }
         
@@ -146,7 +146,7 @@
     function formatDate(dateStr) {
         if (!dateStr) return '';
         const date = new Date(dateStr);
-        return date.toLocaleDateString('el-GR', { 
+        return date.toLocaleDateString('en-US', { 
             day: 'numeric', 
             month: 'short', 
             year: 'numeric' 
