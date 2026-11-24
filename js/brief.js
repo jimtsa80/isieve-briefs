@@ -126,7 +126,7 @@
                     </div>
                     
                     <div class="combinations-grid" id="combinationsGrid">
-                        ${brief.combinations.map(combo => renderCombination(combo, brief.id)).join('')}
+                        ${brief.combinations.map(combo => renderCombination(combo, brief)).join('')}
                     </div>
                 </div>
             `;
@@ -178,8 +178,21 @@
         container.innerHTML = html;
     }
 
-    function renderCombination(combo, briefId) {
-        const images = combo.images || [];
+    function renderCombination(combo, brief) {
+        // Match images from brief.images array by brand and location (case-insensitive, whitespace-insensitive)
+        const normalize = (str) => str.toLowerCase().replace(/\s+/g, '');
+        const comboBrand = normalize(combo.brand);
+        const comboLocation = normalize(combo.location);
+        
+        // Find matching images from the top-level brief.images array
+        const matchingImages = (brief.images || [])
+            .filter(img => img.type === 'example' && 
+                           normalize(img.brand || '') === comboBrand && 
+                           normalize(img.location || '') === comboLocation)
+            .sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+        
+        // Fallback to combo.images if present (for backwards compatibility)
+        const images = matchingImages.length > 0 ? matchingImages : (combo.images || []);
         
         return `
             <div class="combination-card">
@@ -198,9 +211,9 @@
                     <div class="combination-images">
                         ${images.map(img => `
                             <div class="combo-image">
-                                <img src="briefs/${briefId}/${img.filename}" 
+                                <img src="briefs/${brief.id}/${img.filename}" 
                                      alt="${escapeHtml(combo.brand)} - ${escapeHtml(combo.location)}"
-                                     onclick="openLightbox('briefs/${briefId}/${img.filename}', '${escapeHtml(combo.brand)} × ${escapeHtml(combo.location)}')">
+                                     onclick="openLightbox('briefs/${brief.id}/${img.filename}', '${escapeHtml(combo.brand)} × ${escapeHtml(combo.location)}')">
                             </div>
                         `).join('')}
                     </div>
@@ -329,7 +342,7 @@
             return brandMatch && locationMatch;
         });
         
-        grid.innerHTML = filtered.map(combo => renderCombination(combo, currentBrief.id)).join('');
+        grid.innerHTML = filtered.map(combo => renderCombination(combo, currentBrief)).join('');
         
         if (filtered.length === 0) {
             grid.innerHTML = '<div class="text-muted" style="grid-column: 1/-1; text-align: center; padding: 2rem;">No combinations found</div>';
