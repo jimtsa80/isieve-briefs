@@ -69,7 +69,7 @@
         try {
             const data = await readFileAsArrayBuffer(file);
             
-            showProgress('Άνοιγμα Excel...', 20);
+            showProgress('Opening Excel...', 20);
             
             // Load as ZIP for image extraction
             excelZip = await JSZip.loadAsync(data);
@@ -430,17 +430,17 @@
         
         const warnings = [];
         if (parsedData.brands.length === 0) {
-            warnings.push('⚠️ Δεν βρέθηκαν brands - θα χρειαστεί χειροκίνητη επεξεργασία');
+            warnings.push('⚠️ No brands found - manual processing required');
         }
         if (parsedData.images.length === 0 && parsedData.annotation_images.length === 0) {
-            warnings.push('⚠️ Δεν εξήχθησαν εικόνες - χρησιμοποιήστε GitHub Action για πλήρη εξαγωγή');
+            warnings.push('⚠️ No images extracted - use GitHub Action for full extraction');
         }
         
         document.getElementById('parseInfo').innerHTML = `
             <p><strong>Brands:</strong> ${parsedData.brands.length}</p>
             <p><strong>Locations:</strong> ${parsedData.locations.length}</p>
-            <p><strong>Συνδυασμοί:</strong> ${parsedData.combinations.length}</p>
-            <p><strong>Εικόνες:</strong> ${parsedData.images.length + parsedData.annotation_images.length}</p>
+            <p><strong>Combinations:</strong> ${parsedData.combinations.length}</p>
+            <p><strong>Images:</strong> ${parsedData.images.length + parsedData.annotation_images.length}</p>
             ${warnings.length > 0 ? `<div class="text-muted" style="margin-top: 1rem;">${warnings.join('<br>')}</div>` : ''}
         `;
     }
@@ -499,10 +499,10 @@
             `).join('');
             
             if (allImages.length > 20) {
-                imagesPreview.innerHTML += `<div class="text-muted" style="grid-column: 1/-1; text-align: center;">...και ${allImages.length - 20} ακόμα</div>`;
+                imagesPreview.innerHTML += `<div class="text-muted" style="grid-column: 1/-1; text-align: center;">...and ${allImages.length - 20} more</div>`;
             }
         } else {
-            imagesPreview.innerHTML = '<div class="text-muted">Δεν εξήχθησαν εικόνες</div>';
+            imagesPreview.innerHTML = '<div class="text-muted">No images extracted</div>';
         }
     }
 
@@ -561,17 +561,17 @@
         folder.file('README.txt', `
 Brief Package: ${briefData.event}
 Client: ${briefData.client}
-Created: ${new Date().toLocaleString('el-GR')}
+Created: ${new Date().toLocaleString('en-US')}
 
-Αυτός ο φάκελος περιέχει:
-- brief.json: Τα δεδομένα του brief
-- ${allImages.length} εικόνες
+This folder contains:
+- brief.json: The brief data
+- ${allImages.length} images
 
-Για να προσθέσετε αυτό το brief στη βιβλιοθήκη:
-1. Αποσυμπιέστε αυτό το αρχείο
-2. Ανεβάστε τον φάκελο "${briefData.id}" στον φάκελο briefs/ του repository
-3. Τράξτε: python scripts/rebuild_index.py
-4. Commit τις αλλαγές
+To add this brief to the library:
+1. Extract this archive
+2. Upload the folder "${briefData.id}" to the briefs/ folder of the repository
+3. Run: python scripts/rebuild_index.py
+4. Commit the changes
         `.trim());
         
         // Store package for download
