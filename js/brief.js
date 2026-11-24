@@ -151,16 +151,21 @@
                     </div>
                     
                     <div class="annotation-images">
-                        ${brief.annotation_images.map(img => `
+                        ${brief.annotation_images.map(img => {
+                            const thumbSrc = img.thumbnail ? `briefs/${brief.id}/${img.thumbnail}` : `briefs/${brief.id}/${img.filename}`;
+                            const fullSrc = `briefs/${brief.id}/${img.filename}`;
+                            return `
                             <div class="annotation-card">
-                                <img src="briefs/${brief.id}/${img.filename}" 
+                                <img src="${thumbSrc}" 
                                      alt="Annotation" 
-                                     onclick="openLightbox('briefs/${brief.id}/${img.filename}', 'Annotation: ${img.annotation_type || 'include'}')">
+                                     loading="lazy"
+                                     decoding="async"
+                                     onclick="openLightbox('${fullSrc}', 'Annotation: ${img.annotation_type || 'include'}')">
                                 <div class="annotation-label ${img.annotation_type || 'include'}">
                                     ${getAnnotationLabel(img.annotation_type)}
                                 </div>
-                            </div>
-                        `).join('')}
+                            </div>`;
+                        }).join('')}
                     </div>
                 </div>
             `;
@@ -209,13 +214,19 @@
                 
                 ${images.length > 0 ? `
                     <div class="combination-images">
-                        ${images.map(img => `
+                        ${images.map(img => {
+                            const thumbSrc = img.thumbnail ? `briefs/${brief.id}/${img.thumbnail}` : `briefs/${brief.id}/${img.filename}`;
+                            const fullSrc = `briefs/${brief.id}/${img.filename}`;
+                            return `
                             <div class="combo-image">
-                                <img src="briefs/${brief.id}/${img.filename}" 
+                                <img src="${thumbSrc}" 
+                                     data-full="${fullSrc}"
                                      alt="${escapeHtml(combo.brand)} - ${escapeHtml(combo.location)}"
-                                     onclick="openLightbox('briefs/${brief.id}/${img.filename}', '${escapeHtml(combo.brand)} × ${escapeHtml(combo.location)}')">
-                            </div>
-                        `).join('')}
+                                     loading="lazy"
+                                     decoding="async"
+                                     onclick="openLightbox('${fullSrc}', '${escapeHtml(combo.brand)} × ${escapeHtml(combo.location)}')">
+                            </div>`;
+                        }).join('')}
                     </div>
                 ` : '<div class="text-muted">No example images</div>'}
                 
