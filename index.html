@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="el">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Βιβλιοθήκη Briefs - isieve</title>
+    <title>Briefs Library - isieve</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
                 <h1>isieve Briefs</h1>
             </div>
             <div class="navbar-menu">
-                <a href="upload.html" class="btn btn-primary">+ Νέο Brief</a>
+                <a href="upload.html" class="btn btn-primary">+ New Brief</a>
             </div>
         </div>
     </nav>
@@ -21,27 +21,27 @@
     <div class="container main-content">
         <div class="filters-section">
             <div class="search-box">
-                <input type="search" id="globalSearch" placeholder="Αναζήτηση σε όλα τα briefs (brand, location, event, client)...">
+                <input type="search" id="globalSearch" placeholder="Search all briefs (brand, location, event, client)...">
             </div>
             
             <div class="filters">
                 <select id="filterSport">
-                    <option value="">Όλα τα αθλέματα</option>
+                    <option value="">All sports</option>
                 </select>
                 
                 <select id="filterClient">
-                    <option value="">Όλοι οι πελάτες</option>
+                    <option value="">All clients</option>
                 </select>
                 
-                <input type="date" id="filterDateFrom" placeholder="Από ημερομηνία">
-                <input type="date" id="filterDateTo" placeholder="Έως ημερομηνία">
+                <input type="date" id="filterDateFrom" placeholder="From date">
+                <input type="date" id="filterDateTo" placeholder="To date">
                 
-                <button id="clearFilters" class="btn btn-secondary btn-sm">Καθαρισμός</button>
+                <button id="clearFilters" class="btn btn-secondary btn-sm">Clear</button>
             </div>
         </div>
 
         <div id="briefsContainer" class="briefs-grid">
-            <div class="loading">Φόρτωση briefs...</div>
+            <div class="loading">Loading briefs...</div>
         </div>
     </div>
 

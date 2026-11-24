@@ -60,21 +60,21 @@
 
     async function handleFile(file) {
         if (!file.name.match(/\.(xlsx|xls)$/i)) {
-            alert('Παρακαλώ επιλέξτε ένα αρχείο Excel (.xlsx ή .xls)');
+            alert('Please select an Excel file (.xlsx or .xls)');
             return;
         }
         
-        showProgress('Ανάγηση αρχείου...', 10);
+        showProgress('Reading file...', 10);
         
         try {
             const data = await readFileAsArrayBuffer(file);
             
-            showProgress('Άόρτωση Excel...', 20);
+            showProgress('Loading Excel...', 20);
             
             // Load as ZIP for image extraction
             excelZip = await JSZip.loadAsync(data);
             
-            showProgress('Ανάλυση Excel...', 40);
+            showProgress('Parsing Excel...', 40);
             
             // Also load with SheetJS for data
             workbook = XLSX.read(data, { 
@@ -83,10 +83,10 @@
                 cellNF: true
             });
             
-            showProgress('Εξαγωγή δεδομένωβ...', 60);
+            showProgress('Extracting data...', 60);
             parsedData = await parseWorkbook(workbook);
             
-            showProgress('Εξαγωγή εικόνωβ...', 80);
+            showProgress('Extracting images...', 80);
             await extractImages(excelZip, parsedData);
             
             hideProgress();
@@ -95,7 +95,7 @@
         } catch (error) {
             console.error('Parse error:', error);
             hideProgress();
-            alert('Σφάλμα ανάλυσης: ' + error.message);
+            alert('Parse error: ' + error.message);
         }
     }
 
@@ -121,7 +121,7 @@
         };
         
         // Find Summary sheet
-        const summarySheet = findSheet(wb, ['Summary', 'SUMMARY', 'Σύνοψη']);
+        const summarySheet = findSheet(wb, ['Summary', 'SUMMARY']);
         if (summarySheet) {
             const summaryData = parseSummarySheet(wb.Sheets[summarySheet]);
             data.brands = summaryData.brands;
@@ -165,7 +165,7 @@ function findSheet(wb, names) {
             const row = data[r];
             for (let c = 0; c < row.length; c++) {
                 const cell = String(row[c] || '').toLowerCase();
-                if (cell.match(/brand|μάρκα|επωνυμία|marca/)) {
+                if (cell.match(/brand|marca/)) {
                     headerRow = r;
                     brandCol = c;
                     
@@ -174,7 +174,7 @@ function findSheet(wb, names) {
                         const headerValue = String(row[lc] || '').trim();
                         if (headerValue && 
                             headerValue.toLowerCase() !== 'none' &&
-                            !headerValue.match(/total|σύνολο|sum|grand/i)) {
+                            !headerValue.match(/total|sum|grand/i)) {
                             locationCols.push({ col: lc, name: headerValue });
                         }
                     }
@@ -213,7 +213,7 @@ function findSheet(wb, names) {
             }
             
             // Skip empty after trim or junk rows
-            if (!brandName || brandName.match(/total|σύνολο|sum|grand|template|πρότυπο/i)) {
+            if (!brandName || brandName.match(/total|sum|grand|template/i)) {
                 continue;
             }
             
