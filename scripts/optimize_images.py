@@ -104,9 +104,9 @@ def process_brief_folder(brief_folder):
             thumb_path = thumbs_dir / thumb_filename
             
             try:
-                optimize_image(img_path, thumb_path, max_size=480, quality=70)
-                img['thumbnail'] = f"thumbs/{thumb_filename}"
-                print(f"  Created thumbnail: {thumb_path.name}")
+                actual_thumb = Path(optimize_image(img_path, thumb_path, max_size=480, quality=70))
+                img['thumbnail'] = f"thumbs/{actual_thumb.name}"
+                print(f"  Created thumbnail: {actual_thumb.name}")
             except Exception as e:
                 print(f"  Error creating thumbnail: {e}")
                 continue

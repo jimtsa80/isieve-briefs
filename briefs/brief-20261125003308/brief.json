@@ -1,0 +1,3792 @@
+{
+  "id": "brief-20261125003308",
+  "client": "",
+  "event": "Sandown 500 – Track & Venue",
+  "competition": "Repco Supercars Championship",
+  "sport": "Motorsport",
+  "broadcaster": "Sandown500",
+  "date_start": "2026-11-06",
+  "date_end": "2026-11-08",
+  "notes": null,
+  "rules": "Red - Billboard - Turn 4 Exit\nYello - Billboard - Turn 4 Side A",
+  "source_clips": [
+    "20261106_SC_Sandown500_Day01_Fox_0730_20261106_1315",
+    "20261107_20261107_SC_Sandown500_Day02_0800_0800",
+    "20261108_20261108_SC_Sandown_Day03_0855_0855"
+  ],
+  "brands": [
+    "Supercars",
+    "Super2",
+    "Shannons",
+    "Subaru",
+    "Volkswagen Amarok",
+    "BP",
+    "Dunlop",
+    "Repco",
+    "Boost Mobile",
+    "Thrifty",
+    "Repco Rewards",
+    "Pirtek",
+    "Coopers",
+    "Foxtel",
+    "Kayo",
+    "Penrite",
+    "Armor All",
+    "Coates",
+    "Century Batteries",
+    "Hino",
+    "Battery World",
+    "Tyrepower",
+    "Titanium Caravans",
+    "Equip Super",
+    "BLAHST",
+    "Commvault",
+    "Signevent",
+    "Oliver Boots",
+    "Blackwoods",
+    "Fireball",
+    "Pedders",
+    "Sure Vision",
+    "Pizza Hut",
+    "Bundaberg",
+    "Niterra",
+    "NTK",
+    "Bailey Ladders",
+    "NTI Limited",
+    "Get2It",
+    "Logicalis",
+    "NGK"
+  ],
+  "locations": [
+    "Staff Uniform",
+    "Side Skirt - Series Logo",
+    "Safety Car",
+    "Recovery Car",
+    "Presenter Desk",
+    "Presenter Clothing",
+    "Presenter Cap",
+    "Precinct Signage",
+    "Pole Position Arch",
+    "Pole Award Hat",
+    "Pole Award Cheque",
+    "Pit Garage Sign",
+    "Pit Building Balustrade",
+    "Pillar - Sprint Cup",
+    "Pillar",
+    "Microphone",
+    "Medical Car",
+    "Helmet",
+    "Garage",
+    "Flag",
+    "Driver Suit - Series Logo",
+    "Driver Introduction Backdrop",
+    "Cool Down Room",
+    "Commentator Backdrop",
+    "Car Roof - Super 2 Series Logo",
+    "Car Door Decal - Rear Qtr Window",
+    "Car Door Decal",
+    "Brand Ambassador",
+    "Board",
+    "Billboard - 100 Years - Main Straight",
+    "Podium",
+    "Billboard - Main Straight",
+    "Podium Backdrop",
+    "Billboard - Turn 9-10",
+    "Brake Marker - 100 Years - Main Straight",
+    "Billboard - Turn 4 Exit",
+    "Virtual Overtrack - Turn 4 Exit",
+    "Foam Sign - Turn 4",
+    "Virtual Billboard - Turn 4",
+    "Virtual Barrier - Turn 4",
+    "Foam Sign - Turn 5-6",
+    "Foam Sign - Turn 6-8",
+    "Double sided overtrack bridge - 100 Years - Turn 10 Exit",
+    "Double sided overtrack bridge - Turn 10 Exit",
+    "Virtual Barrier - Turn 11",
+    "Virtual Billboard - Turn 11",
+    "Virtual Ground Sign - Turn 11",
+    "Virtual Billboard - Turn 12",
+    "Virtual Billboard - Need a Car Battery? - Turn 12",
+    "Virtual Ground Sign - Turn 12",
+    "Foam Sign - Pit Entry",
+    "Foam Sign - Turn 10 Exit",
+    "Virtual Foam Sign - Turn 13",
+    "Mesh Signage - Pit Entry",
+    "Virtual Billboard - Main Straight",
+    "Billboard - Turn 1",
+    "Virtual Ground Sign - Turn 1-2",
+    "Billboard - Turn 4 Side A",
+    "Billboard - Turn 4 Side B",
+    "Foam Sign - Turn 12",
+    "Foam Sign - Turn 11",
+    "Overtrack Bridge - 100 Years - Main Straight",
+    "Overtrack bridge - Turn 5-6",
+    "Overtrack Bridge - Main Straight",
+    "Barrier Block - Turn 4 Exit",
+    "Virtual Billboard - Turn 6-8",
+    "Virtual Ground Sign - Turn 6-8",
+    "Virtual Barrier - Turn 6-8",
+    "Virtual Barrier - Turn 2-3",
+    "Virtual Billboard - Win Pizza. Lose? Pizza - Turn 2-3",
+    "Pit Lane Gantry",
+    "Pit Building Balustrade - 100 Years",
+    "Virtual Ground Sign - Turn 1",
+    "Foam Sign - Turn 1-2",
+    "Shed - Turn 1 Entry",
+    "Virtual Grass Sign - Turn 1",
+    "Virtual Billboard - Turn 2-3",
+    "Billboard - Turn 2-3",
+    "Virutal Billboard - Turn 11",
+    "Billboard - Turn 12",
+    "Billboard - Turn 1 Entry",
+    "Mesh Signage - Pit Lane",
+    "Tyre Rubber - Pit Entry",
+    "Virtual Barrier - Main Straight",
+    "Virtual Ground Sign - Turn 4",
+    "Billboard - Pit Exit",
+    "Foam Sign - Turn 2-3",
+    "Virtual Barrier - Turn 1",
+    "Virtual Billboard - Turn 1",
+    "Starter's box - Main Straight",
+    "Timing Tower",
+    "Trophy",
+    "Virtual Victory Lane Arch",
+    "Virtual Barrier - Turn 13",
+    "Virtual Billboard - Pit Entry",
+    "Virtual Billboard - Turn 13",
+    "Virtual Billboard - Need a Car Battery? Turn 11",
+    "Virtual Victory Lane"
+  ],
+  "combinations": [
+    {
+      "brand": "Supercars",
+      "location": "Staff Uniform",
+      "auto_closed": false
+    },
+    {
+      "brand": "Super2",
+      "location": "Side Skirt - Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "Safety Car",
+      "auto_closed": false
+    },
+    {
+      "brand": "Subaru",
+      "location": "Safety Car",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Safety Car",
+      "auto_closed": false
+    },
+    {
+      "brand": "Volkswagen Amarok",
+      "location": "Recovery Car",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Presenter Desk",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Presenter Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Presenter Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Presenter Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Presenter Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Presenter Cap",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Presenter Cap",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Precinct Signage",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Pole Position Arch",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Pole Position Arch",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Pole Position Arch",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Pole Award Hat",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Pole Award Cheque",
+      "auto_closed": false
+    },
+    {
+      "brand": "Thrifty",
+      "location": "Pit Garage Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Pit Building Balustrade",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Pillar - Sprint Cup",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco Rewards",
+      "location": "Pillar",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Pillar",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Pillar",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Microphone",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Microphone",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "Medical Car",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Helmet",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Garage",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coopers",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Super2",
+      "location": "Driver Suit - Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Driver Introduction Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Cool Down Room",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Cool Down Room",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Commentator Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Commentator Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Car Roof - Super 2 Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Super2",
+      "location": "Car Roof - Super 2 Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "auto_closed": false
+    },
+    {
+      "brand": "Foxtel",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "auto_closed": false
+    },
+    {
+      "brand": "Kayo",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Car Door Decal",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Brand Ambassador",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Billboard - 100 Years - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Podium",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Billboard - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "Podium Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Podium Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Billboard - Turn 9-10",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Brake Marker - 100 Years - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "Virtual Overtrack - Turn 4 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Thrifty",
+      "location": "Foam Sign - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "Thrifty",
+      "location": "Virtual Billboard - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "Thrifty",
+      "location": "Virtual Barrier - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "Armor All",
+      "location": "Foam Sign - Turn 5-6",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coates",
+      "location": "Foam Sign - Turn 6-8",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - 100 Years - Turn 10 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - Turn 10 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Century Batteries",
+      "location": "Billboard - Turn 9-10",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hino",
+      "location": "Billboard - Turn 9-10",
+      "auto_closed": false
+    },
+    {
+      "brand": "Battery World",
+      "location": "Virtual Barrier - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hino",
+      "location": "Virtual Billboard - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Tyrepower",
+      "location": "Virtual Ground Sign - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Tyrepower",
+      "location": "Virtual Billboard - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Need a Car Battery? - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Titanium Caravans",
+      "location": "Virtual Billboard - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Equip Super",
+      "location": "Virtual Ground Sign - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Foam Sign - Pit Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 10 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "BLAHST",
+      "location": "Virtual Foam Sign - Turn 13",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coates",
+      "location": "Mesh Signage - Pit Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Commvault",
+      "location": "Virtual Billboard - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Signevent",
+      "location": "Billboard - Turn 1",
+      "auto_closed": false
+    },
+    {
+      "brand": "Oliver Boots",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "auto_closed": false
+    },
+    {
+      "brand": "Blackwoods",
+      "location": "Billboard - Turn 4 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Side A",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Side B",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fireball",
+      "location": "Virtual Ground Sign - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Foam Sign - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 6-8",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pedders",
+      "location": "Foam Sign - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - 100 Years - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "Virtual Overtrack - Turn 4 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Armor All",
+      "location": "Overtrack bridge - Turn 5-6",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Barrier Block - Turn 4 Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virtual Billboard - Turn 6-8",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virtual Ground Sign - Turn 6-8",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virtual Barrier - Turn 6-8",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pizza Hut",
+      "location": "Virtual Barrier - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pizza Hut",
+      "location": "Virtual Billboard - Win Pizza. Lose? Pizza - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Pit Lane Gantry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Pit Building Balustrade",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Pit Building Balustrade - 100 Years",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Virtual Ground Sign - Turn 1",
+      "auto_closed": false
+    },
+    {
+      "brand": "Bundaberg",
+      "location": "Foam Sign - Turn 1-2",
+      "auto_closed": false
+    },
+    {
+      "brand": "Century Batteries",
+      "location": "Foam Sign - Turn 1-2",
+      "auto_closed": false
+    },
+    {
+      "brand": "Century Batteries",
+      "location": "Shed - Turn 1 Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Virtual Grass Sign - Turn 1",
+      "auto_closed": false
+    },
+    {
+      "brand": "Niterra",
+      "location": "Virtual Billboard - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "NTK",
+      "location": "Virtual Billboard - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "Niterra",
+      "location": "Billboard - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "Volkswagen Amarok",
+      "location": "Virutal Billboard - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virutal Billboard - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "Billboard - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Bailey Ladders",
+      "location": "Virtual Billboard - Turn 12",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coates",
+      "location": "Billboard - Turn 1 Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "NTI Limited",
+      "location": "Virtual Barrier - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "NTI Limited",
+      "location": "Virtual Billboard - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Mesh Signage - Pit Lane",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "Tyre Rubber - Pit Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Commvault",
+      "location": "Virtual Barrier - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Pit Garage Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Get2It",
+      "location": "Virtual Ground Sign - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "Logicalis",
+      "location": "Virtual Billboard - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coates",
+      "location": "Billboard - Pit Exit",
+      "auto_closed": false
+    },
+    {
+      "brand": "Kayo",
+      "location": "Virtual Ground Sign - Turn 4",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Podium",
+      "auto_closed": false
+    },
+    {
+      "brand": "NGK",
+      "location": "Foam Sign - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "NTK",
+      "location": "Foam Sign - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virtual Barrier - Turn 1",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Podium Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virtual Billboard - Turn 1",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sure Vision",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Presenter Desk",
+      "auto_closed": false
+    },
+    {
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Starter's box - Main Straight",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Timing Tower",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Trophy",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Virtual Victory Lane Arch",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Virtual Barrier - Turn 13",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Virtual Billboard - Pit Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "BLAHST",
+      "location": "Virtual Barrier - Turn 13",
+      "auto_closed": false
+    },
+    {
+      "brand": "BLAHST",
+      "location": "Virtual Billboard - Turn 13",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Virtual Billboard - Turn 13",
+      "auto_closed": false
+    },
+    {
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Need a Car Battery? Turn 11",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "Virtual Foam Sign - Turn 13",
+      "auto_closed": false
+    },
+    {
+      "brand": "BLAHST",
+      "location": "Virtual Billboard - Pit Entry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "Virtual Victory Lane",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Foam Sign - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "NTK",
+      "location": "Billboard - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "NGK",
+      "location": "Billboard - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "NGK",
+      "location": "Virtual Billboard - Turn 2-3",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "Virtual Billboard - Turn 2-3",
+      "auto_closed": false
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "supercars_0.jpg",
+      "brand": "Supercars",
+      "location": "TV Screen - Event Logo",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_supercars_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_1.jpg",
+      "brand": "Supercars",
+      "location": "Truck",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_supercars_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_2.jpg",
+      "brand": "Supercars",
+      "location": "Trophy Stand",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_supercars_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_3.jpg",
+      "brand": "Supercars",
+      "location": "Trophy",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_supercars_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_4.jpg",
+      "brand": "Supercars",
+      "location": "Trophy",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_supercars_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_5.jpg",
+      "brand": "Supercars",
+      "location": "Trophy",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_supercars_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_6.jpg",
+      "brand": "Supercars",
+      "location": "Staff Uniform",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_supercars_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_7.jpg",
+      "brand": "Supercars",
+      "location": "Staff Uniform",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_supercars_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_8.jpg",
+      "brand": "Supercars",
+      "location": "Staff Uniform",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_supercars_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_9.jpg",
+      "brand": "Supercars",
+      "location": "Staff Uniform",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_supercars_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_10.jpg",
+      "brand": "Supercars",
+      "location": "Staff Uniform",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_supercars_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_11.jpg",
+      "brand": "Supercars",
+      "location": "Safety Car",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_supercars_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_12.jpg",
+      "brand": "Supercars",
+      "location": "Safety Car",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_supercars_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_13.jpg",
+      "brand": "Supercars",
+      "location": "Safety Car",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_supercars_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_14.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Desk",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_supercars_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_15.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Desk",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_supercars_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_16.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Desk",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_supercars_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_17.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Clothing",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_supercars_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_18.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Clothing",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_supercars_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_19.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Clothing",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_supercars_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_20.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Clothing",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_supercars_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_21.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Clothing",
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_supercars_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_22.jpg",
+      "brand": "Supercars",
+      "location": "Presenter Cap",
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_supercars_22.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_23.jpg",
+      "brand": "Supercars",
+      "location": "Precinct Signage",
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_supercars_23.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_24.jpg",
+      "brand": "Supercars",
+      "location": "Pole Position Arch",
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_supercars_24.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_25.jpg",
+      "brand": "Supercars",
+      "location": "Pole Position Arch",
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_supercars_25.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_26.jpg",
+      "brand": "Supercars",
+      "location": "Pit Building Balustrade",
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_supercars_26.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_27.jpg",
+      "brand": "Supercars",
+      "location": "Microphone",
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_supercars_27.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_28.jpg",
+      "brand": "Supercars",
+      "location": "Microphone",
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_supercars_28.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_29.jpg",
+      "brand": "Supercars",
+      "location": "Driver Introduction Backdrop",
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_supercars_29.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_30.jpg",
+      "brand": "Supercars",
+      "location": "Driver Introduction Backdrop",
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_supercars_30.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_31.jpg",
+      "brand": "Supercars",
+      "location": "Cool Down Room",
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_supercars_31.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_32.jpg",
+      "brand": "Supercars",
+      "location": "Cool Down Room",
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_supercars_32.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_33.jpg",
+      "brand": "Supercars",
+      "location": "Commentator Backdrop",
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_supercars_33.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_34.jpg",
+      "brand": "Supercars",
+      "location": "Car Door Decal",
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_supercars_34.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_35.jpg",
+      "brand": "Supercars",
+      "location": "Podium",
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_supercars_35.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_36.jpg",
+      "brand": "Supercars",
+      "location": "Podium Backdrop",
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_supercars_36.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_37.jpg",
+      "brand": "Supercars",
+      "location": "Podium Backdrop",
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_supercars_37.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_38.jpg",
+      "brand": "Supercars",
+      "location": "Podium Backdrop",
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_supercars_38.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super2_0.jpg",
+      "brand": "Super2",
+      "location": "Side Skirt - Series Logo",
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_super2_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super2_1.jpg",
+      "brand": "Super2",
+      "location": "Side Skirt - Series Logo",
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_super2_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super2_2.jpg",
+      "brand": "Super2",
+      "location": "Driver Suit - Series Logo",
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_super2_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super2_3.jpg",
+      "brand": "Super2",
+      "location": "Car Roof - Super 2 Series Logo",
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_super2_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_0.jpg",
+      "brand": "Shannons",
+      "location": "Truck",
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_shannons_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_1.jpg",
+      "brand": "Shannons",
+      "location": "Safety Car",
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_shannons_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_2.jpg",
+      "brand": "Shannons",
+      "location": "Safety Car",
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_shannons_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_3.jpg",
+      "brand": "Shannons",
+      "location": "Safety Car",
+      "sort_order": 46,
+      "thumbnail": "thumbs/thumb_shannons_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_4.jpg",
+      "brand": "Shannons",
+      "location": "Safety Car",
+      "sort_order": 47,
+      "thumbnail": "thumbs/thumb_shannons_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_5.jpg",
+      "brand": "Shannons",
+      "location": "Medical Car",
+      "sort_order": 48,
+      "thumbnail": "thumbs/thumb_shannons_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_6.jpg",
+      "brand": "Shannons",
+      "location": "Virtual Overtrack - Turn 4 Exit",
+      "sort_order": 49,
+      "thumbnail": "thumbs/thumb_shannons_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_7.jpg",
+      "brand": "Shannons",
+      "location": "Virtual Overtrack - Turn 4 Exit",
+      "sort_order": 50,
+      "thumbnail": "thumbs/thumb_shannons_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "subaru_0.jpg",
+      "brand": "Subaru",
+      "location": "Safety Car",
+      "sort_order": 51,
+      "thumbnail": "thumbs/thumb_subaru_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "subaru_1.jpg",
+      "brand": "Subaru",
+      "location": "Safety Car",
+      "sort_order": 52,
+      "thumbnail": "thumbs/thumb_subaru_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "volkswagen_amarok_0.jpg",
+      "brand": "Volkswagen Amarok",
+      "location": "Recovery Car",
+      "sort_order": 53,
+      "thumbnail": "thumbs/thumb_volkswagen_amarok_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "volkswagen_amarok_1.jpg",
+      "brand": "Volkswagen Amarok",
+      "location": "Virutal Billboard - Turn 11",
+      "sort_order": 54,
+      "thumbnail": "thumbs/thumb_volkswagen_amarok_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "volkswagen_amarok_2.jpg",
+      "brand": "Volkswagen Amarok",
+      "location": "Virutal Billboard - Turn 11",
+      "sort_order": 55,
+      "thumbnail": "thumbs/thumb_volkswagen_amarok_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_0.jpg",
+      "brand": "BP",
+      "location": "Presenter Clothing",
+      "sort_order": 56,
+      "thumbnail": "thumbs/thumb_bp_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_1.jpg",
+      "brand": "BP",
+      "location": "Presenter Clothing",
+      "sort_order": 57,
+      "thumbnail": "thumbs/thumb_bp_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_2.jpg",
+      "brand": "BP",
+      "location": "Cool Down Room",
+      "sort_order": 58,
+      "thumbnail": "thumbs/thumb_bp_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_3.jpg",
+      "brand": "BP",
+      "location": "Cool Down Room",
+      "sort_order": 59,
+      "thumbnail": "thumbs/thumb_bp_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_4.jpg",
+      "brand": "BP",
+      "location": "Cool Down Room",
+      "sort_order": 60,
+      "thumbnail": "thumbs/thumb_bp_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_5.jpg",
+      "brand": "BP",
+      "location": "Cool Down Room",
+      "sort_order": 61,
+      "thumbnail": "thumbs/thumb_bp_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_6.jpg",
+      "brand": "BP",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "sort_order": 62,
+      "thumbnail": "thumbs/thumb_bp_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_7.jpg",
+      "brand": "BP",
+      "location": "Foam Sign - Pit Entry",
+      "sort_order": 63,
+      "thumbnail": "thumbs/thumb_bp_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_8.jpg",
+      "brand": "BP",
+      "location": "Foam Sign - Pit Entry",
+      "sort_order": 64,
+      "thumbnail": "thumbs/thumb_bp_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_9.jpg",
+      "brand": "BP",
+      "location": "Foam Sign - Pit Entry",
+      "sort_order": 65,
+      "thumbnail": "thumbs/thumb_bp_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_10.jpg",
+      "brand": "BP",
+      "location": "Foam Sign - Pit Entry",
+      "sort_order": 66,
+      "thumbnail": "thumbs/thumb_bp_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_11.jpg",
+      "brand": "BP",
+      "location": "Foam Sign - Pit Entry",
+      "sort_order": 67,
+      "thumbnail": "thumbs/thumb_bp_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_12.jpg",
+      "brand": "BP",
+      "location": "Pit Lane Gantry",
+      "sort_order": 68,
+      "thumbnail": "thumbs/thumb_bp_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_13.jpg",
+      "brand": "BP",
+      "location": "Pit Lane Gantry",
+      "sort_order": 69,
+      "thumbnail": "thumbs/thumb_bp_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_14.jpg",
+      "brand": "BP",
+      "location": "Pit Lane Gantry",
+      "sort_order": 70,
+      "thumbnail": "thumbs/thumb_bp_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_15.jpg",
+      "brand": "BP",
+      "location": "Pit Lane Gantry",
+      "sort_order": 71,
+      "thumbnail": "thumbs/thumb_bp_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_16.jpg",
+      "brand": "BP",
+      "location": "Pit Lane Gantry",
+      "sort_order": 72,
+      "thumbnail": "thumbs/thumb_bp_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_17.jpg",
+      "brand": "BP",
+      "location": "Mesh Signage - Pit Lane",
+      "sort_order": 73,
+      "thumbnail": "thumbs/thumb_bp_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_18.jpg",
+      "brand": "BP",
+      "location": "Mesh Signage - Pit Lane",
+      "sort_order": 74,
+      "thumbnail": "thumbs/thumb_bp_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_19.jpg",
+      "brand": "BP",
+      "location": "Mesh Signage - Pit Lane",
+      "sort_order": 75,
+      "thumbnail": "thumbs/thumb_bp_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_20.jpg",
+      "brand": "BP",
+      "location": "Mesh Signage - Pit Lane",
+      "sort_order": 76,
+      "thumbnail": "thumbs/thumb_bp_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_21.jpg",
+      "brand": "BP",
+      "location": "Mesh Signage - Pit Lane",
+      "sort_order": 77,
+      "thumbnail": "thumbs/thumb_bp_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_22.jpg",
+      "brand": "BP",
+      "location": "Tyre Rubber - Pit Entry",
+      "sort_order": 78,
+      "thumbnail": "thumbs/thumb_bp_22.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_23.jpg",
+      "brand": "BP",
+      "location": "Tyre Rubber - Pit Entry",
+      "sort_order": 79,
+      "thumbnail": "thumbs/thumb_bp_23.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_0.jpg",
+      "brand": "Dunlop",
+      "location": "Winners Cap",
+      "sort_order": 80,
+      "thumbnail": "thumbs/thumb_dunlop_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_1.jpg",
+      "brand": "Dunlop",
+      "location": "Winners Cap",
+      "sort_order": 81,
+      "thumbnail": "thumbs/thumb_dunlop_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_2.jpg",
+      "brand": "Dunlop",
+      "location": "Winners Cap",
+      "sort_order": 82,
+      "thumbnail": "thumbs/thumb_dunlop_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_3.jpg",
+      "brand": "Dunlop",
+      "location": "Winners Cap",
+      "sort_order": 83,
+      "thumbnail": "thumbs/thumb_dunlop_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_4.jpg",
+      "brand": "Dunlop",
+      "location": "Winners Cap",
+      "sort_order": 84,
+      "thumbnail": "thumbs/thumb_dunlop_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_5.jpg",
+      "brand": "Dunlop",
+      "location": "Victory Lane Bollard",
+      "sort_order": 85,
+      "thumbnail": "thumbs/thumb_dunlop_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_6.jpg",
+      "brand": "Dunlop",
+      "location": "Tyres",
+      "sort_order": 86,
+      "thumbnail": "thumbs/thumb_dunlop_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_7.jpg",
+      "brand": "Dunlop",
+      "location": "Tyres",
+      "sort_order": 87,
+      "thumbnail": "thumbs/thumb_dunlop_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_8.jpg",
+      "brand": "Dunlop",
+      "location": "Truck",
+      "sort_order": 88,
+      "thumbnail": "thumbs/thumb_dunlop_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_9.jpg",
+      "brand": "Dunlop",
+      "location": "Truck",
+      "sort_order": 89,
+      "thumbnail": "thumbs/thumb_dunlop_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_10.jpg",
+      "brand": "Dunlop",
+      "location": "Trophy Stand",
+      "sort_order": 90,
+      "thumbnail": "thumbs/thumb_dunlop_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_11.jpg",
+      "brand": "Dunlop",
+      "location": "Presenter Clothing",
+      "sort_order": 91,
+      "thumbnail": "thumbs/thumb_dunlop_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_12.jpg",
+      "brand": "Dunlop",
+      "location": "Presenter Clothing",
+      "sort_order": 92,
+      "thumbnail": "thumbs/thumb_dunlop_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_13.jpg",
+      "brand": "Dunlop",
+      "location": "Flag",
+      "sort_order": 93,
+      "thumbnail": "thumbs/thumb_dunlop_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_14.jpg",
+      "brand": "Dunlop",
+      "location": "Flag",
+      "sort_order": 94,
+      "thumbnail": "thumbs/thumb_dunlop_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_15.jpg",
+      "brand": "Dunlop",
+      "location": "Car Roof - Super 2 Series Logo",
+      "sort_order": 95,
+      "thumbnail": "thumbs/thumb_dunlop_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_16.jpg",
+      "brand": "Dunlop",
+      "location": "Brand Ambassador",
+      "sort_order": 96,
+      "thumbnail": "thumbs/thumb_dunlop_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_17.jpg",
+      "brand": "Dunlop",
+      "location": "Brand Ambassador",
+      "sort_order": 97,
+      "thumbnail": "thumbs/thumb_dunlop_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_18.jpg",
+      "brand": "Dunlop",
+      "location": "Board",
+      "sort_order": 98,
+      "thumbnail": "thumbs/thumb_dunlop_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_19.jpg",
+      "brand": "Dunlop",
+      "location": "Foam Sign - Turn 12",
+      "sort_order": 99,
+      "thumbnail": "thumbs/thumb_dunlop_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_20.jpg",
+      "brand": "Dunlop",
+      "location": "Billboard - Turn 12",
+      "sort_order": 100,
+      "thumbnail": "thumbs/thumb_dunlop_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_21.jpg",
+      "brand": "Dunlop",
+      "location": "Billboard - Turn 12",
+      "sort_order": 101,
+      "thumbnail": "thumbs/thumb_dunlop_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_0.jpg",
+      "brand": "Repco",
+      "location": "Trophy Stand",
+      "sort_order": 102,
+      "thumbnail": "thumbs/thumb_repco_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_1.jpg",
+      "brand": "Repco",
+      "location": "Trophy Stand",
+      "sort_order": 103,
+      "thumbnail": "thumbs/thumb_repco_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_2.jpg",
+      "brand": "Repco",
+      "location": "Trophy",
+      "sort_order": 104,
+      "thumbnail": "thumbs/thumb_repco_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_3.jpg",
+      "brand": "Repco",
+      "location": "Presenter Clothing",
+      "sort_order": 105,
+      "thumbnail": "thumbs/thumb_repco_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_4.jpg",
+      "brand": "Repco",
+      "location": "Presenter Clothing",
+      "sort_order": 106,
+      "thumbnail": "thumbs/thumb_repco_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_5.jpg",
+      "brand": "Repco",
+      "location": "Presenter Clothing",
+      "sort_order": 107,
+      "thumbnail": "thumbs/thumb_repco_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_6.jpg",
+      "brand": "Repco",
+      "location": "Presenter Cap",
+      "sort_order": 108,
+      "thumbnail": "thumbs/thumb_repco_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_7.jpg",
+      "brand": "Repco",
+      "location": "Pole Position Arch",
+      "sort_order": 109,
+      "thumbnail": "thumbs/thumb_repco_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_8.jpg",
+      "brand": "Repco",
+      "location": "Pole Position Arch",
+      "sort_order": 110,
+      "thumbnail": "thumbs/thumb_repco_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_9.jpg",
+      "brand": "Repco",
+      "location": "Pillar - Sprint Cup",
+      "sort_order": 111,
+      "thumbnail": "thumbs/thumb_repco_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_10.jpg",
+      "brand": "Repco",
+      "location": "Pillar",
+      "sort_order": 112,
+      "thumbnail": "thumbs/thumb_repco_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_11.jpg",
+      "brand": "Repco",
+      "location": "Pillar",
+      "sort_order": 113,
+      "thumbnail": "thumbs/thumb_repco_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_12.jpg",
+      "brand": "Repco",
+      "location": "Pillar",
+      "sort_order": 114,
+      "thumbnail": "thumbs/thumb_repco_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_13.jpg",
+      "brand": "Repco",
+      "location": "Microphone",
+      "sort_order": 115,
+      "thumbnail": "thumbs/thumb_repco_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_14.jpg",
+      "brand": "Repco",
+      "location": "Microphone",
+      "sort_order": 116,
+      "thumbnail": "thumbs/thumb_repco_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_15.jpg",
+      "brand": "Repco",
+      "location": "Microphone",
+      "sort_order": 117,
+      "thumbnail": "thumbs/thumb_repco_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_16.jpg",
+      "brand": "Repco",
+      "location": "Flag",
+      "sort_order": 118,
+      "thumbnail": "thumbs/thumb_repco_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_17.jpg",
+      "brand": "Repco",
+      "location": "Flag",
+      "sort_order": 119,
+      "thumbnail": "thumbs/thumb_repco_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_18.jpg",
+      "brand": "Repco",
+      "location": "Flag",
+      "sort_order": 120,
+      "thumbnail": "thumbs/thumb_repco_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_19.jpg",
+      "brand": "Repco",
+      "location": "Commentator Backdrop",
+      "sort_order": 121,
+      "thumbnail": "thumbs/thumb_repco_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_20.jpg",
+      "brand": "Repco",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "sort_order": 122,
+      "thumbnail": "thumbs/thumb_repco_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_21.jpg",
+      "brand": "Repco",
+      "location": "Podium Backdrop",
+      "sort_order": 123,
+      "thumbnail": "thumbs/thumb_repco_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_22.jpg",
+      "brand": "Repco",
+      "location": "Podium Backdrop",
+      "sort_order": 124,
+      "thumbnail": "thumbs/thumb_repco_22.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_23.jpg",
+      "brand": "Repco",
+      "location": "Foam Sign - Turn 2-3",
+      "sort_order": 125,
+      "thumbnail": "thumbs/thumb_repco_23.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_24.jpg",
+      "brand": "Repco",
+      "location": "Virtual Billboard - Turn 2-3",
+      "sort_order": 126,
+      "thumbnail": "thumbs/thumb_repco_24.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_0.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Position Arch",
+      "sort_order": 127,
+      "thumbnail": "thumbs/thumb_boost_mobile_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_1.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Position Arch",
+      "sort_order": 128,
+      "thumbnail": "thumbs/thumb_boost_mobile_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_2.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Position Arch",
+      "sort_order": 129,
+      "thumbnail": "thumbs/thumb_boost_mobile_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_3.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Position Arch",
+      "sort_order": 130,
+      "thumbnail": "thumbs/thumb_boost_mobile_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_4.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Award Hat",
+      "sort_order": 131,
+      "thumbnail": "thumbs/thumb_boost_mobile_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_5.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Award Hat",
+      "sort_order": 132,
+      "thumbnail": "thumbs/thumb_boost_mobile_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_6.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Award Hat",
+      "sort_order": 133,
+      "thumbnail": "thumbs/thumb_boost_mobile_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_7.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Award Cheque",
+      "sort_order": 134,
+      "thumbnail": "thumbs/thumb_boost_mobile_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_8.jpg",
+      "brand": "Boost Mobile",
+      "location": "Pole Award Cheque",
+      "sort_order": 135,
+      "thumbnail": "thumbs/thumb_boost_mobile_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_9.jpg",
+      "brand": "Boost Mobile",
+      "location": "Helmet",
+      "sort_order": 136,
+      "thumbnail": "thumbs/thumb_boost_mobile_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_10.jpg",
+      "brand": "Boost Mobile",
+      "location": "Garage",
+      "sort_order": 137,
+      "thumbnail": "thumbs/thumb_boost_mobile_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_11.jpg",
+      "brand": "Boost Mobile",
+      "location": "Garage",
+      "sort_order": 138,
+      "thumbnail": "thumbs/thumb_boost_mobile_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_12.jpg",
+      "brand": "Boost Mobile",
+      "location": "Flag",
+      "sort_order": 139,
+      "thumbnail": "thumbs/thumb_boost_mobile_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_13.jpg",
+      "brand": "Boost Mobile",
+      "location": "Flag",
+      "sort_order": 140,
+      "thumbnail": "thumbs/thumb_boost_mobile_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_14.jpg",
+      "brand": "Boost Mobile",
+      "location": "Virtual Overtrack - Turn 4 Exit",
+      "sort_order": 141,
+      "thumbnail": "thumbs/thumb_boost_mobile_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_0.jpg",
+      "brand": "Thrifty",
+      "location": "Pit Garage Sign",
+      "sort_order": 142,
+      "thumbnail": "thumbs/thumb_thrifty_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_1.jpg",
+      "brand": "Thrifty",
+      "location": "Pit Garage Sign",
+      "sort_order": 143,
+      "thumbnail": "thumbs/thumb_thrifty_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_2.jpg",
+      "brand": "Thrifty",
+      "location": "Pit Garage Sign",
+      "sort_order": 144,
+      "thumbnail": "thumbs/thumb_thrifty_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_3.jpg",
+      "brand": "Thrifty",
+      "location": "Foam Sign - Turn 4",
+      "sort_order": 145,
+      "thumbnail": "thumbs/thumb_thrifty_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_4.jpg",
+      "brand": "Thrifty",
+      "location": "Foam Sign - Turn 4",
+      "sort_order": 146,
+      "thumbnail": "thumbs/thumb_thrifty_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_5.jpg",
+      "brand": "Thrifty",
+      "location": "Virtual Billboard - Turn 4",
+      "sort_order": 147,
+      "thumbnail": "thumbs/thumb_thrifty_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_6.jpg",
+      "brand": "Thrifty",
+      "location": "Virtual Barrier - Turn 4",
+      "sort_order": 148,
+      "thumbnail": "thumbs/thumb_thrifty_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_7.jpg",
+      "brand": "Thrifty",
+      "location": "Virtual Barrier - Turn 4",
+      "sort_order": 149,
+      "thumbnail": "thumbs/thumb_thrifty_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_rewards_0.jpg",
+      "brand": "Repco Rewards",
+      "location": "Pillar",
+      "sort_order": 150,
+      "thumbnail": "thumbs/thumb_repco_rewards_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_0.jpg",
+      "brand": "Pirtek",
+      "location": "Victory Lane Bollard",
+      "sort_order": 151,
+      "thumbnail": "thumbs/thumb_pirtek_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_1.jpg",
+      "brand": "Pirtek",
+      "location": "Victory Lane",
+      "sort_order": 152,
+      "thumbnail": "thumbs/thumb_pirtek_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_2.jpg",
+      "brand": "Pirtek",
+      "location": "Victory Lane",
+      "sort_order": 153,
+      "thumbnail": "thumbs/thumb_pirtek_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_3.jpg",
+      "brand": "Pirtek",
+      "location": "Victory Lane",
+      "sort_order": 154,
+      "thumbnail": "thumbs/thumb_pirtek_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_4.jpg",
+      "brand": "Pirtek",
+      "location": "Victory Lane",
+      "sort_order": 155,
+      "thumbnail": "thumbs/thumb_pirtek_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_5.jpg",
+      "brand": "Pirtek",
+      "location": "Pillar",
+      "sort_order": 156,
+      "thumbnail": "thumbs/thumb_pirtek_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_6.jpg",
+      "brand": "Pirtek",
+      "location": "Flag",
+      "sort_order": 157,
+      "thumbnail": "thumbs/thumb_pirtek_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_7.jpg",
+      "brand": "Pirtek",
+      "location": "Flag",
+      "sort_order": 158,
+      "thumbnail": "thumbs/thumb_pirtek_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_8.jpg",
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Exit",
+      "sort_order": 159,
+      "thumbnail": "thumbs/thumb_pirtek_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_9.jpg",
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Exit",
+      "sort_order": 160,
+      "thumbnail": "thumbs/thumb_pirtek_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_10.jpg",
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Exit",
+      "sort_order": 161,
+      "thumbnail": "thumbs/thumb_pirtek_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_11.jpg",
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Side A",
+      "sort_order": 162,
+      "thumbnail": "thumbs/thumb_pirtek_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_12.jpg",
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Side B",
+      "sort_order": 163,
+      "thumbnail": "thumbs/thumb_pirtek_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_13.jpg",
+      "brand": "Pirtek",
+      "location": "Billboard - Turn 4 Side B",
+      "sort_order": 164,
+      "thumbnail": "thumbs/thumb_pirtek_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_14.jpg",
+      "brand": "Pirtek",
+      "location": "Barrier Block - Turn 4 Exit",
+      "sort_order": 165,
+      "thumbnail": "thumbs/thumb_pirtek_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_15.jpg",
+      "brand": "Pirtek",
+      "location": "Barrier Block - Turn 4 Exit",
+      "sort_order": 166,
+      "thumbnail": "thumbs/thumb_pirtek_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_16.jpg",
+      "brand": "Pirtek",
+      "location": "Barrier Block - Turn 4 Exit",
+      "sort_order": 167,
+      "thumbnail": "thumbs/thumb_pirtek_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_17.jpg",
+      "brand": "Pirtek",
+      "location": "Barrier Block - Turn 4 Exit",
+      "sort_order": 168,
+      "thumbnail": "thumbs/thumb_pirtek_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_18.jpg",
+      "brand": "Pirtek",
+      "location": "Virtual Ground Sign - Turn 1",
+      "sort_order": 169,
+      "thumbnail": "thumbs/thumb_pirtek_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_19.jpg",
+      "brand": "Pirtek",
+      "location": "Virtual Grass Sign - Turn 1",
+      "sort_order": 170,
+      "thumbnail": "thumbs/thumb_pirtek_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_20.jpg",
+      "brand": "Pirtek",
+      "location": "Virtual Victory Lane Arch",
+      "sort_order": 171,
+      "thumbnail": "thumbs/thumb_pirtek_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_21.jpg",
+      "brand": "Pirtek",
+      "location": "Virtual Victory Lane",
+      "sort_order": 172,
+      "thumbnail": "thumbs/thumb_pirtek_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coopers_0.jpg",
+      "brand": "Coopers",
+      "location": "Staff Uniform",
+      "sort_order": 173,
+      "thumbnail": "thumbs/thumb_coopers_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coopers_1.jpg",
+      "brand": "Coopers",
+      "location": "Flag",
+      "sort_order": 174,
+      "thumbnail": "thumbs/thumb_coopers_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "foxtel_0.jpg",
+      "brand": "Foxtel",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "sort_order": 175,
+      "thumbnail": "thumbs/thumb_foxtel_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kayo_0.jpg",
+      "brand": "Kayo",
+      "location": "Car Door Decal - Rear Qtr Window",
+      "sort_order": 176,
+      "thumbnail": "thumbs/thumb_kayo_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kayo_1.jpg",
+      "brand": "Kayo",
+      "location": "Virtual Ground Sign - Turn 4",
+      "sort_order": 177,
+      "thumbnail": "thumbs/thumb_kayo_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_0.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - 100 Years - Main Straight",
+      "sort_order": 178,
+      "thumbnail": "thumbs/thumb_penrite_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_1.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - 100 Years - Main Straight",
+      "sort_order": 179,
+      "thumbnail": "thumbs/thumb_penrite_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_2.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - 100 Years - Main Straight",
+      "sort_order": 180,
+      "thumbnail": "thumbs/thumb_penrite_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_3.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Main Straight",
+      "sort_order": 181,
+      "thumbnail": "thumbs/thumb_penrite_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_4.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Main Straight",
+      "sort_order": 182,
+      "thumbnail": "thumbs/thumb_penrite_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_5.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Main Straight",
+      "sort_order": 183,
+      "thumbnail": "thumbs/thumb_penrite_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_6.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Main Straight",
+      "sort_order": 184,
+      "thumbnail": "thumbs/thumb_penrite_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_7.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Main Straight",
+      "sort_order": 185,
+      "thumbnail": "thumbs/thumb_penrite_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_8.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 186,
+      "thumbnail": "thumbs/thumb_penrite_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_9.jpg",
+      "brand": "Penrite",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 187,
+      "thumbnail": "thumbs/thumb_penrite_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_10.jpg",
+      "brand": "Penrite",
+      "location": "Brake Marker - 100 Years - Main Straight",
+      "sort_order": 188,
+      "thumbnail": "thumbs/thumb_penrite_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_11.jpg",
+      "brand": "Penrite",
+      "location": "Brake Marker - 100 Years - Main Straight",
+      "sort_order": 189,
+      "thumbnail": "thumbs/thumb_penrite_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_12.jpg",
+      "brand": "Penrite",
+      "location": "Brake Marker - 100 Years - Main Straight",
+      "sort_order": 190,
+      "thumbnail": "thumbs/thumb_penrite_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_13.jpg",
+      "brand": "Penrite",
+      "location": "Brake Marker - 100 Years - Main Straight",
+      "sort_order": 191,
+      "thumbnail": "thumbs/thumb_penrite_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_14.jpg",
+      "brand": "Penrite",
+      "location": "Brake Marker - 100 Years - Main Straight",
+      "sort_order": 192,
+      "thumbnail": "thumbs/thumb_penrite_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_15.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - 100 Years - Turn 10 Exit",
+      "sort_order": 193,
+      "thumbnail": "thumbs/thumb_penrite_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_16.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - 100 Years - Turn 10 Exit",
+      "sort_order": 194,
+      "thumbnail": "thumbs/thumb_penrite_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_17.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - 100 Years - Turn 10 Exit",
+      "sort_order": 195,
+      "thumbnail": "thumbs/thumb_penrite_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_18.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - 100 Years - Turn 10 Exit",
+      "sort_order": 196,
+      "thumbnail": "thumbs/thumb_penrite_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_19.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - Turn 10 Exit",
+      "sort_order": 197,
+      "thumbnail": "thumbs/thumb_penrite_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_20.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - Turn 10 Exit",
+      "sort_order": 198,
+      "thumbnail": "thumbs/thumb_penrite_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_21.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - Turn 10 Exit",
+      "sort_order": 199,
+      "thumbnail": "thumbs/thumb_penrite_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_22.jpg",
+      "brand": "Penrite",
+      "location": "Double sided overtrack bridge - Turn 10 Exit",
+      "sort_order": 200,
+      "thumbnail": "thumbs/thumb_penrite_22.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_23.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 10 Exit",
+      "sort_order": 201,
+      "thumbnail": "thumbs/thumb_penrite_23.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_24.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 10 Exit",
+      "sort_order": 202,
+      "thumbnail": "thumbs/thumb_penrite_24.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_25.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 10 Exit",
+      "sort_order": 203,
+      "thumbnail": "thumbs/thumb_penrite_25.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_26.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 11",
+      "sort_order": 204,
+      "thumbnail": "thumbs/thumb_penrite_26.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_27.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 11",
+      "sort_order": 205,
+      "thumbnail": "thumbs/thumb_penrite_27.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_28.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 11",
+      "sort_order": 206,
+      "thumbnail": "thumbs/thumb_penrite_28.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_29.jpg",
+      "brand": "Penrite",
+      "location": "Foam Sign - Turn 6-8",
+      "sort_order": 207,
+      "thumbnail": "thumbs/thumb_penrite_29.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_30.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - 100 Years - Main Straight",
+      "sort_order": 208,
+      "thumbnail": "thumbs/thumb_penrite_30.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_31.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - 100 Years - Main Straight",
+      "sort_order": 209,
+      "thumbnail": "thumbs/thumb_penrite_31.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_32.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - 100 Years - Main Straight",
+      "sort_order": 210,
+      "thumbnail": "thumbs/thumb_penrite_32.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_33.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - 100 Years - Main Straight",
+      "sort_order": 211,
+      "thumbnail": "thumbs/thumb_penrite_33.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_34.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - 100 Years - Main Straight",
+      "sort_order": 212,
+      "thumbnail": "thumbs/thumb_penrite_34.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_35.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - Main Straight",
+      "sort_order": 213,
+      "thumbnail": "thumbs/thumb_penrite_35.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_36.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - Main Straight",
+      "sort_order": 214,
+      "thumbnail": "thumbs/thumb_penrite_36.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_37.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - Main Straight",
+      "sort_order": 215,
+      "thumbnail": "thumbs/thumb_penrite_37.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_38.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - Main Straight",
+      "sort_order": 216,
+      "thumbnail": "thumbs/thumb_penrite_38.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_39.jpg",
+      "brand": "Penrite",
+      "location": "Overtrack Bridge - Main Straight",
+      "sort_order": 217,
+      "thumbnail": "thumbs/thumb_penrite_39.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_40.jpg",
+      "brand": "Penrite",
+      "location": "Pit Building Balustrade",
+      "sort_order": 218,
+      "thumbnail": "thumbs/thumb_penrite_40.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_41.jpg",
+      "brand": "Penrite",
+      "location": "Pit Building Balustrade",
+      "sort_order": 219,
+      "thumbnail": "thumbs/thumb_penrite_41.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_42.jpg",
+      "brand": "Penrite",
+      "location": "Pit Building Balustrade - 100 Years",
+      "sort_order": 220,
+      "thumbnail": "thumbs/thumb_penrite_42.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_43.jpg",
+      "brand": "Penrite",
+      "location": "Pit Building Balustrade - 100 Years",
+      "sort_order": 221,
+      "thumbnail": "thumbs/thumb_penrite_43.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_44.jpg",
+      "brand": "Penrite",
+      "location": "Podium",
+      "sort_order": 222,
+      "thumbnail": "thumbs/thumb_penrite_44.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_45.jpg",
+      "brand": "Penrite",
+      "location": "Podium",
+      "sort_order": 223,
+      "thumbnail": "thumbs/thumb_penrite_45.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_46.jpg",
+      "brand": "Penrite",
+      "location": "Podium Backdrop",
+      "sort_order": 224,
+      "thumbnail": "thumbs/thumb_penrite_46.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_47.jpg",
+      "brand": "Penrite",
+      "location": "Presenter Desk",
+      "sort_order": 225,
+      "thumbnail": "thumbs/thumb_penrite_47.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_48.jpg",
+      "brand": "Penrite",
+      "location": "Starter's box - Main Straight",
+      "sort_order": 226,
+      "thumbnail": "thumbs/thumb_penrite_48.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_49.jpg",
+      "brand": "Penrite",
+      "location": "Starter's box - Main Straight",
+      "sort_order": 227,
+      "thumbnail": "thumbs/thumb_penrite_49.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_50.jpg",
+      "brand": "Penrite",
+      "location": "Starter's box - Main Straight",
+      "sort_order": 228,
+      "thumbnail": "thumbs/thumb_penrite_50.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_51.jpg",
+      "brand": "Penrite",
+      "location": "Timing Tower",
+      "sort_order": 229,
+      "thumbnail": "thumbs/thumb_penrite_51.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_52.jpg",
+      "brand": "Penrite",
+      "location": "Timing Tower",
+      "sort_order": 230,
+      "thumbnail": "thumbs/thumb_penrite_52.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_53.jpg",
+      "brand": "Penrite",
+      "location": "Timing Tower",
+      "sort_order": 231,
+      "thumbnail": "thumbs/thumb_penrite_53.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_54.jpg",
+      "brand": "Penrite",
+      "location": "Timing Tower",
+      "sort_order": 232,
+      "thumbnail": "thumbs/thumb_penrite_54.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_55.jpg",
+      "brand": "Penrite",
+      "location": "Trophy",
+      "sort_order": 233,
+      "thumbnail": "thumbs/thumb_penrite_55.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_56.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Barrier - Turn 13",
+      "sort_order": 234,
+      "thumbnail": "thumbs/thumb_penrite_56.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_57.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Barrier - Turn 13",
+      "sort_order": 235,
+      "thumbnail": "thumbs/thumb_penrite_57.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_58.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Barrier - Turn 13",
+      "sort_order": 236,
+      "thumbnail": "thumbs/thumb_penrite_58.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_59.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Billboard - Pit Entry",
+      "sort_order": 237,
+      "thumbnail": "thumbs/thumb_penrite_59.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_60.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Billboard - Pit Entry",
+      "sort_order": 238,
+      "thumbnail": "thumbs/thumb_penrite_60.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_61.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Billboard - Turn 13",
+      "sort_order": 239,
+      "thumbnail": "thumbs/thumb_penrite_61.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_62.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Billboard - Turn 13",
+      "sort_order": 240,
+      "thumbnail": "thumbs/thumb_penrite_62.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_63.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Foam Sign - Turn 13",
+      "sort_order": 241,
+      "thumbnail": "thumbs/thumb_penrite_63.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_64.jpg",
+      "brand": "Penrite",
+      "location": "Virtual Foam Sign - Turn 13",
+      "sort_order": 242,
+      "thumbnail": "thumbs/thumb_penrite_64.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "armor_all_0.jpg",
+      "brand": "Armor All",
+      "location": "Foam Sign - Turn 5-6",
+      "sort_order": 243,
+      "thumbnail": "thumbs/thumb_armor_all_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "armor_all_1.jpg",
+      "brand": "Armor All",
+      "location": "Foam Sign - Turn 5-6",
+      "sort_order": 244,
+      "thumbnail": "thumbs/thumb_armor_all_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "armor_all_2.jpg",
+      "brand": "Armor All",
+      "location": "Overtrack bridge - Turn 5-6",
+      "sort_order": 245,
+      "thumbnail": "thumbs/thumb_armor_all_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "armor_all_3.jpg",
+      "brand": "Armor All",
+      "location": "Overtrack bridge - Turn 5-6",
+      "sort_order": 246,
+      "thumbnail": "thumbs/thumb_armor_all_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "armor_all_4.jpg",
+      "brand": "Armor All",
+      "location": "Overtrack bridge - Turn 5-6",
+      "sort_order": 247,
+      "thumbnail": "thumbs/thumb_armor_all_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_0.jpg",
+      "brand": "Coates",
+      "location": "Staff Uniform",
+      "sort_order": 248,
+      "thumbnail": "thumbs/thumb_coates_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_1.jpg",
+      "brand": "Coates",
+      "location": "Staff Uniform",
+      "sort_order": 249,
+      "thumbnail": "thumbs/thumb_coates_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_2.jpg",
+      "brand": "Coates",
+      "location": "Foam Sign - Turn 6-8",
+      "sort_order": 250,
+      "thumbnail": "thumbs/thumb_coates_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_3.jpg",
+      "brand": "Coates",
+      "location": "Foam Sign - Turn 6-8",
+      "sort_order": 251,
+      "thumbnail": "thumbs/thumb_coates_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_4.jpg",
+      "brand": "Coates",
+      "location": "Mesh Signage - Pit Entry",
+      "sort_order": 252,
+      "thumbnail": "thumbs/thumb_coates_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_5.jpg",
+      "brand": "Coates",
+      "location": "Mesh Signage - Pit Entry",
+      "sort_order": 253,
+      "thumbnail": "thumbs/thumb_coates_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_6.jpg",
+      "brand": "Coates",
+      "location": "Billboard - Turn 1 Entry",
+      "sort_order": 254,
+      "thumbnail": "thumbs/thumb_coates_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_7.jpg",
+      "brand": "Coates",
+      "location": "Billboard - Turn 1 Entry",
+      "sort_order": 255,
+      "thumbnail": "thumbs/thumb_coates_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_8.jpg",
+      "brand": "Coates",
+      "location": "Billboard - Turn 1 Entry",
+      "sort_order": 256,
+      "thumbnail": "thumbs/thumb_coates_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coates_9.jpg",
+      "brand": "Coates",
+      "location": "Billboard - Pit Exit",
+      "sort_order": 257,
+      "thumbnail": "thumbs/thumb_coates_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_0.jpg",
+      "brand": "Century Batteries",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 258,
+      "thumbnail": "thumbs/thumb_century_batteries_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_1.jpg",
+      "brand": "Century Batteries",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 259,
+      "thumbnail": "thumbs/thumb_century_batteries_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_2.jpg",
+      "brand": "Century Batteries",
+      "location": "Foam Sign - Turn 1-2",
+      "sort_order": 260,
+      "thumbnail": "thumbs/thumb_century_batteries_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_3.jpg",
+      "brand": "Century Batteries",
+      "location": "Foam Sign - Turn 1-2",
+      "sort_order": 261,
+      "thumbnail": "thumbs/thumb_century_batteries_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_4.jpg",
+      "brand": "Century Batteries",
+      "location": "Shed - Turn 1 Entry",
+      "sort_order": 262,
+      "thumbnail": "thumbs/thumb_century_batteries_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_5.jpg",
+      "brand": "Century Batteries",
+      "location": "Shed - Turn 1 Entry",
+      "sort_order": 263,
+      "thumbnail": "thumbs/thumb_century_batteries_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_6.jpg",
+      "brand": "Century Batteries",
+      "location": "Shed - Turn 1 Entry",
+      "sort_order": 264,
+      "thumbnail": "thumbs/thumb_century_batteries_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_0.jpg",
+      "brand": "Hino",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 265,
+      "thumbnail": "thumbs/thumb_hino_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_1.jpg",
+      "brand": "Hino",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 266,
+      "thumbnail": "thumbs/thumb_hino_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_2.jpg",
+      "brand": "Hino",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 267,
+      "thumbnail": "thumbs/thumb_hino_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_3.jpg",
+      "brand": "Hino",
+      "location": "Billboard - Turn 9-10",
+      "sort_order": 268,
+      "thumbnail": "thumbs/thumb_hino_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_4.jpg",
+      "brand": "Hino",
+      "location": "Virtual Billboard - Turn 11",
+      "sort_order": 269,
+      "thumbnail": "thumbs/thumb_hino_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_0.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Barrier - Turn 11",
+      "sort_order": 270,
+      "thumbnail": "thumbs/thumb_battery_world_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_1.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Barrier - Turn 11",
+      "sort_order": 271,
+      "thumbnail": "thumbs/thumb_battery_world_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_2.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Barrier - Turn 11",
+      "sort_order": 272,
+      "thumbnail": "thumbs/thumb_battery_world_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_3.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Barrier - Turn 11",
+      "sort_order": 273,
+      "thumbnail": "thumbs/thumb_battery_world_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_4.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Need a Car Battery? - Turn 12",
+      "sort_order": 274,
+      "thumbnail": "thumbs/thumb_battery_world_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_5.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 275,
+      "thumbnail": "thumbs/thumb_battery_world_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_6.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 276,
+      "thumbnail": "thumbs/thumb_battery_world_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_7.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Turn 11",
+      "sort_order": 277,
+      "thumbnail": "thumbs/thumb_battery_world_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "battery_world_8.jpg",
+      "brand": "Battery World",
+      "location": "Virtual Billboard - Need a Car Battery? Turn 11",
+      "sort_order": 278,
+      "thumbnail": "thumbs/thumb_battery_world_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tyrepower_0.jpg",
+      "brand": "Tyrepower",
+      "location": "Virtual Ground Sign - Turn 11",
+      "sort_order": 279,
+      "thumbnail": "thumbs/thumb_tyrepower_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tyrepower_1.jpg",
+      "brand": "Tyrepower",
+      "location": "Virtual Ground Sign - Turn 11",
+      "sort_order": 280,
+      "thumbnail": "thumbs/thumb_tyrepower_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tyrepower_2.jpg",
+      "brand": "Tyrepower",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 281,
+      "thumbnail": "thumbs/thumb_tyrepower_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tyrepower_3.jpg",
+      "brand": "Tyrepower",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 282,
+      "thumbnail": "thumbs/thumb_tyrepower_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tyrepower_4.jpg",
+      "brand": "Tyrepower",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 283,
+      "thumbnail": "thumbs/thumb_tyrepower_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "titanium_caravans_0.jpg",
+      "brand": "Titanium Caravans",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 284,
+      "thumbnail": "thumbs/thumb_titanium_caravans_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "titanium_caravans_1.jpg",
+      "brand": "Titanium Caravans",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 285,
+      "thumbnail": "thumbs/thumb_titanium_caravans_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "equip_super_0.jpg",
+      "brand": "Equip Super",
+      "location": "Virtual Ground Sign - Turn 12",
+      "sort_order": 286,
+      "thumbnail": "thumbs/thumb_equip_super_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "equip_super_1.jpg",
+      "brand": "Equip Super",
+      "location": "Virtual Ground Sign - Turn 12",
+      "sort_order": 287,
+      "thumbnail": "thumbs/thumb_equip_super_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "equip_super_2.jpg",
+      "brand": "Equip Super",
+      "location": "Virtual Ground Sign - Turn 12",
+      "sort_order": 288,
+      "thumbnail": "thumbs/thumb_equip_super_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_0.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Foam Sign - Turn 13",
+      "sort_order": 289,
+      "thumbnail": "thumbs/thumb_blahst_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_1.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Foam Sign - Turn 13",
+      "sort_order": 290,
+      "thumbnail": "thumbs/thumb_blahst_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_2.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Foam Sign - Turn 13",
+      "sort_order": 291,
+      "thumbnail": "thumbs/thumb_blahst_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_3.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Foam Sign - Turn 13",
+      "sort_order": 292,
+      "thumbnail": "thumbs/thumb_blahst_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_4.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Barrier - Turn 13",
+      "sort_order": 293,
+      "thumbnail": "thumbs/thumb_blahst_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_5.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Barrier - Turn 13",
+      "sort_order": 294,
+      "thumbnail": "thumbs/thumb_blahst_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_6.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Billboard - Turn 13",
+      "sort_order": 295,
+      "thumbnail": "thumbs/thumb_blahst_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_7.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Billboard - Turn 13",
+      "sort_order": 296,
+      "thumbnail": "thumbs/thumb_blahst_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blahst_8.jpg",
+      "brand": "BLAHST",
+      "location": "Virtual Billboard - Pit Entry",
+      "sort_order": 297,
+      "thumbnail": "thumbs/thumb_blahst_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "commvault_0.jpg",
+      "brand": "Commvault",
+      "location": "Virtual Billboard - Main Straight",
+      "sort_order": 298,
+      "thumbnail": "thumbs/thumb_commvault_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "commvault_1.jpg",
+      "brand": "Commvault",
+      "location": "Virtual Barrier - Main Straight",
+      "sort_order": 299,
+      "thumbnail": "thumbs/thumb_commvault_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "signevent_0.jpg",
+      "brand": "Signevent",
+      "location": "Billboard - Turn 1",
+      "sort_order": 300,
+      "thumbnail": "thumbs/thumb_signevent_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "signevent_1.jpg",
+      "brand": "Signevent",
+      "location": "Billboard - Turn 1",
+      "sort_order": 301,
+      "thumbnail": "thumbs/thumb_signevent_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "signevent_2.jpg",
+      "brand": "Signevent",
+      "location": "Billboard - Turn 1",
+      "sort_order": 302,
+      "thumbnail": "thumbs/thumb_signevent_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "oliver_boots_0.jpg",
+      "brand": "Oliver Boots",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "sort_order": 303,
+      "thumbnail": "thumbs/thumb_oliver_boots_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "oliver_boots_1.jpg",
+      "brand": "Oliver Boots",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "sort_order": 304,
+      "thumbnail": "thumbs/thumb_oliver_boots_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "oliver_boots_2.jpg",
+      "brand": "Oliver Boots",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "sort_order": 305,
+      "thumbnail": "thumbs/thumb_oliver_boots_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "oliver_boots_3.jpg",
+      "brand": "Oliver Boots",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "sort_order": 306,
+      "thumbnail": "thumbs/thumb_oliver_boots_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "oliver_boots_4.jpg",
+      "brand": "Oliver Boots",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "sort_order": 307,
+      "thumbnail": "thumbs/thumb_oliver_boots_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blackwoods_0.jpg",
+      "brand": "Blackwoods",
+      "location": "Billboard - Turn 4 Exit",
+      "sort_order": 308,
+      "thumbnail": "thumbs/thumb_blackwoods_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blackwoods_1.jpg",
+      "brand": "Blackwoods",
+      "location": "Billboard - Turn 4 Exit",
+      "sort_order": 309,
+      "thumbnail": "thumbs/thumb_blackwoods_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "fireball_0.jpg",
+      "brand": "Fireball",
+      "location": "Virtual Ground Sign - Turn 12",
+      "sort_order": 310,
+      "thumbnail": "thumbs/thumb_fireball_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "fireball_1.jpg",
+      "brand": "Fireball",
+      "location": "Virtual Ground Sign - Turn 12",
+      "sort_order": 311,
+      "thumbnail": "thumbs/thumb_fireball_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "fireball_2.jpg",
+      "brand": "Fireball",
+      "location": "Virtual Ground Sign - Turn 12",
+      "sort_order": 312,
+      "thumbnail": "thumbs/thumb_fireball_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pedders_0.jpg",
+      "brand": "Pedders",
+      "location": "Foam Sign - Turn 12",
+      "sort_order": 313,
+      "thumbnail": "thumbs/thumb_pedders_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pedders_1.jpg",
+      "brand": "Pedders",
+      "location": "Foam Sign - Turn 12",
+      "sort_order": 314,
+      "thumbnail": "thumbs/thumb_pedders_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pedders_2.jpg",
+      "brand": "Pedders",
+      "location": "Foam Sign - Turn 12",
+      "sort_order": 315,
+      "thumbnail": "thumbs/thumb_pedders_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pedders_3.jpg",
+      "brand": "Pedders",
+      "location": "Foam Sign - Turn 12",
+      "sort_order": 316,
+      "thumbnail": "thumbs/thumb_pedders_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_0.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Billboard - Turn 6-8",
+      "sort_order": 317,
+      "thumbnail": "thumbs/thumb_sure_vision_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_1.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Billboard - Turn 6-8",
+      "sort_order": 318,
+      "thumbnail": "thumbs/thumb_sure_vision_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_2.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Billboard - Turn 6-8",
+      "sort_order": 319,
+      "thumbnail": "thumbs/thumb_sure_vision_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_3.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Ground Sign - Turn 6-8",
+      "sort_order": 320,
+      "thumbnail": "thumbs/thumb_sure_vision_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_4.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Ground Sign - Turn 6-8",
+      "sort_order": 321,
+      "thumbnail": "thumbs/thumb_sure_vision_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_5.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Ground Sign - Turn 6-8",
+      "sort_order": 322,
+      "thumbnail": "thumbs/thumb_sure_vision_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_6.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Barrier - Turn 6-8",
+      "sort_order": 323,
+      "thumbnail": "thumbs/thumb_sure_vision_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_7.jpg",
+      "brand": "Sure Vision",
+      "location": "Virutal Billboard - Turn 11",
+      "sort_order": 324,
+      "thumbnail": "thumbs/thumb_sure_vision_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_8.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Barrier - Turn 1",
+      "sort_order": 325,
+      "thumbnail": "thumbs/thumb_sure_vision_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_9.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Billboard - Turn 1",
+      "sort_order": 326,
+      "thumbnail": "thumbs/thumb_sure_vision_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sure_vision_10.jpg",
+      "brand": "Sure Vision",
+      "location": "Virtual Ground Sign - Turn 1-2",
+      "sort_order": 327,
+      "thumbnail": "thumbs/thumb_sure_vision_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_0.jpg",
+      "brand": "Pizza Hut",
+      "location": "Virtual Barrier - Turn 2-3",
+      "sort_order": 328,
+      "thumbnail": "thumbs/thumb_pizza_hut_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_1.jpg",
+      "brand": "Pizza Hut",
+      "location": "Virtual Barrier - Turn 2-3",
+      "sort_order": 329,
+      "thumbnail": "thumbs/thumb_pizza_hut_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_2.jpg",
+      "brand": "Pizza Hut",
+      "location": "Virtual Barrier - Turn 2-3",
+      "sort_order": 330,
+      "thumbnail": "thumbs/thumb_pizza_hut_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_3.jpg",
+      "brand": "Pizza Hut",
+      "location": "Virtual Billboard - Win Pizza. Lose? Pizza - Turn 2-3",
+      "sort_order": 331,
+      "thumbnail": "thumbs/thumb_pizza_hut_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_4.jpg",
+      "brand": "Pizza Hut",
+      "location": "Virtual Billboard - Win Pizza. Lose? Pizza - Turn 2-3",
+      "sort_order": 332,
+      "thumbnail": "thumbs/thumb_pizza_hut_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bundaberg_0.jpg",
+      "brand": "Bundaberg",
+      "location": "Foam Sign - Turn 1-2",
+      "sort_order": 333,
+      "thumbnail": "thumbs/thumb_bundaberg_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bundaberg_1.jpg",
+      "brand": "Bundaberg",
+      "location": "Foam Sign - Turn 1-2",
+      "sort_order": 334,
+      "thumbnail": "thumbs/thumb_bundaberg_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "niterra_0.jpg",
+      "brand": "Niterra",
+      "location": "Virtual Billboard - Turn 2-3",
+      "sort_order": 335,
+      "thumbnail": "thumbs/thumb_niterra_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "niterra_1.jpg",
+      "brand": "Niterra",
+      "location": "Billboard - Turn 2-3",
+      "sort_order": 336,
+      "thumbnail": "thumbs/thumb_niterra_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ntk_0.jpg",
+      "brand": "NTK",
+      "location": "Virtual Billboard - Turn 2-3",
+      "sort_order": 337,
+      "thumbnail": "thumbs/thumb_ntk_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ntk_1.jpg",
+      "brand": "NTK",
+      "location": "Foam Sign - Turn 2-3",
+      "sort_order": 338,
+      "thumbnail": "thumbs/thumb_ntk_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ntk_2.jpg",
+      "brand": "NTK",
+      "location": "Billboard - Turn 2-3",
+      "sort_order": 339,
+      "thumbnail": "thumbs/thumb_ntk_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bailey_ladders_0.jpg",
+      "brand": "Bailey Ladders",
+      "location": "Virtual Billboard - Turn 12",
+      "sort_order": 340,
+      "thumbnail": "thumbs/thumb_bailey_ladders_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_0.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Barrier - Turn 4",
+      "sort_order": 341,
+      "thumbnail": "thumbs/thumb_nti_limited_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_1.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Barrier - Turn 4",
+      "sort_order": 342,
+      "thumbnail": "thumbs/thumb_nti_limited_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_2.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Barrier - Turn 4",
+      "sort_order": 343,
+      "thumbnail": "thumbs/thumb_nti_limited_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_3.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Barrier - Turn 4",
+      "sort_order": 344,
+      "thumbnail": "thumbs/thumb_nti_limited_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_4.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Billboard - Turn 4",
+      "sort_order": 345,
+      "thumbnail": "thumbs/thumb_nti_limited_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_5.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Billboard - Turn 4",
+      "sort_order": 346,
+      "thumbnail": "thumbs/thumb_nti_limited_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_6.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Billboard - Turn 4",
+      "sort_order": 347,
+      "thumbnail": "thumbs/thumb_nti_limited_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nti_limited_7.jpg",
+      "brand": "NTI Limited",
+      "location": "Virtual Billboard - Turn 4",
+      "sort_order": 348,
+      "thumbnail": "thumbs/thumb_nti_limited_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "get2it_0.jpg",
+      "brand": "Get2It",
+      "location": "Virtual Ground Sign - Turn 4",
+      "sort_order": 349,
+      "thumbnail": "thumbs/thumb_get2it_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "logicalis_0.jpg",
+      "brand": "Logicalis",
+      "location": "Virtual Billboard - Main Straight",
+      "sort_order": 350,
+      "thumbnail": "thumbs/thumb_logicalis_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "logicalis_1.jpg",
+      "brand": "Logicalis",
+      "location": "Virtual Billboard - Main Straight",
+      "sort_order": 351,
+      "thumbnail": "thumbs/thumb_logicalis_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ngk_0.jpg",
+      "brand": "NGK",
+      "location": "Foam Sign - Turn 2-3",
+      "sort_order": 352,
+      "thumbnail": "thumbs/thumb_ngk_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ngk_1.jpg",
+      "brand": "NGK",
+      "location": "Foam Sign - Turn 2-3",
+      "sort_order": 353,
+      "thumbnail": "thumbs/thumb_ngk_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ngk_2.jpg",
+      "brand": "NGK",
+      "location": "Billboard - Turn 2-3",
+      "sort_order": 354,
+      "thumbnail": "thumbs/thumb_ngk_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ngk_3.jpg",
+      "brand": "NGK",
+      "location": "Virtual Billboard - Turn 2-3",
+      "sort_order": 355,
+      "thumbnail": "thumbs/thumb_ngk_3.jpg"
+    }
+  ],
+  "annotation_images": [
+    {
+      "type": "annotation",
+      "filename": "annotation_0.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_annotation_0.jpg"
+    }
+  ],
+  "created_at": "2026-11-25T00:33:59.554681"
+}

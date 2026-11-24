@@ -1,0 +1,1837 @@
+{
+  "id": "brief-20261125003249",
+  "client": "",
+  "event": "Sandown 500 – TVGI",
+  "competition": "Repco Supercars Championship",
+  "sport": "Motorsport",
+  "broadcaster": "Sandown500",
+  "date_start": "2026-11-06",
+  "date_end": "2026-11-08",
+  "notes": null,
+  "rules": "Pizza Hut — TVGI - Track Map\nInclude the entire duration of the TVGI - Track Map and not just the image examples shared in the brief.\nAriat - TVGI - Starting Grid\nInclude the entire duration of TVGI Starting Grid Ariat\nHino — Count this whole Segment as TVGI - Tech Cente\nBoost Mobile_TVGI - Qualifying Countdown — Boost Mobile_TVGI - Race Radio\nBoost Mobile_TVGI - Qualifying Logo\nBoost Mobile_TVGI - Qualifying Leaderboard",
+  "source_clips": [
+    "20261106_SC_Sandown500_Day01_Fox_0730_20261106_1315",
+    "20261107_20261107_SC_Sandown500_Day02_0800_0800",
+    "20261108_20261108_SC_Sandown_Day03_0855_0855"
+  ],
+  "brands": [
+    "Repco",
+    "Ariat",
+    "Bailey Ladders",
+    "Boost Mobile",
+    "Bosch",
+    "BP",
+    "Equip Super",
+    "Century Batteries",
+    "Coopers",
+    "Dunlop",
+    "Fireball",
+    "GET2IT",
+    "Harvey Norman",
+    "Hino",
+    "McDonalds",
+    "Mega Rewards",
+    "Pirtek",
+    "Pizza Hut",
+    "Shannons",
+    "Supercars",
+    "Thrifty",
+    "Titanium Caravans",
+    "Truck Assist",
+    "Valvoline",
+    "Ryco",
+    "Fuchs",
+    "Rinnai",
+    "Castrol",
+    "Penrite"
+  ],
+  "locations": [
+    "TVGI - Text",
+    "TVGI - Starting Grid",
+    "TVGI - Leaderboard",
+    "TVGI - Live Ladder",
+    "TVGI - Qualifying Leaderboard",
+    "TVGI - Qualifying Countdown",
+    "TVGI - Qualifying Winner",
+    "TVGI - Race Radio",
+    "TVGI - Last 5 Laps",
+    "TVGI - Shootout",
+    "TVGI - Eliminated Drivers",
+    "TVGI - Qualifying Logo",
+    "TVGI - Head To Head",
+    "TVGI - Onboard",
+    "TVGI - Pit Lane - Open",
+    "TVGI - Fuel Statistics - Logo",
+    "TVGI - Fuel Statistics - Barrel",
+    "TVGI - Race Leader",
+    "TVGI - Refueling",
+    "TVGI - Speed Cam",
+    "TVGI - Ultimate Performance",
+    "TVGI - Ultimate Performer",
+    "TVGI - Cooldown Room",
+    "TVGI - Battle Pack",
+    "TVGI - Fuel Stats",
+    "TVGI - Performance Moment",
+    "TVGI - Pitstop Stats",
+    "TVGI - Drone Cam",
+    "TVGI - Tech Facts",
+    "TVGI - Critical Tempretures",
+    "TVGI - Super 2 Leaderboard - Logo",
+    "TVGI - Super 2 Series Logo",
+    "TVGI - Tyre Compound Facts - Logo",
+    "TVGI - Tyre Compound Facts - Tyre",
+    "TVGI - Wheel Cam",
+    "TVGI - Super 2 Leaderboard - Text",
+    "TVGI - Biggest Mover",
+    "TVGI - Fire Pass",
+    "TVGI - Race Milestone",
+    "TVGI - Results",
+    "TVGI - Tech Centre",
+    "TVGI - Pitstop Leaderboard",
+    "TVGI - Pitstop Timing",
+    "TVGI - Race Statistics",
+    "TVGI - Lap To The Grid",
+    "TVGI - Gap To Lead",
+    "TVGI - Victory Lane",
+    "TVGI - Track Map",
+    "TVGI - Championship Logo",
+    "TVGI - Curb Cam",
+    "TVGI - Fastest Lap",
+    "TVGI - Lap Counter",
+    "TVGI - Replay",
+    "TVGI - Wall Cam",
+    "TVGI - Rewards",
+    "TVGI - Gap to Next",
+    "TVGI - Grid Walk",
+    "TVGI - QR code",
+    "TVGI - Safety Car",
+    "TVGI - Telemetry",
+    "TVGI - Time Machine",
+    "TVGI - Keys to the Track",
+    "TVGI - Closing Gap",
+    "TVGI - Share the passion",
+    "TVGI - Take out a new policy",
+    "TVGI - Plug",
+    "TVGI - Text - Supercars.com",
+    "TVGI - Championship Points",
+    "TVGI - Weather Report",
+    "TVGI - Highlights",
+    "TVGI - Confidence Call",
+    "TVGI - Enduro Cup",
+    "TVGI - Finals Series",
+    "TVGI - Race Stats",
+    "TVGI - Sector Times",
+    "TVGI - Performance Trusted by Experts",
+    "TVGI - Insurance for Motoring Enthusiasts",
+    "TVGI - Leaderboard - Text",
+    "TVGI - Eye in the Sky",
+    "TVGI - Paddock Enthusiasts"
+  ],
+  "combinations": [
+    {
+      "brand": "Repco",
+      "location": "TVGI - Text",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ariat",
+      "location": "TVGI - Starting Grid",
+      "auto_closed": false
+    },
+    {
+      "brand": "Bailey Ladders",
+      "location": "TVGI - Leaderboard",
+      "auto_closed": false
+    },
+    {
+      "brand": "Bailey Ladders",
+      "location": "TVGI - Live Ladder",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Leaderboard",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Countdown",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Winner",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Race Radio",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Last 5 Laps",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Shootout",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Eliminated Drivers",
+      "auto_closed": false
+    },
+    {
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Bosch",
+      "location": "TVGI - Last 5 Laps",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Head To Head",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Onboard",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Pit Lane - Open",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Fuel Statistics - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Fuel Statistics - Barrel",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Race Leader",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Refueling",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Speed Cam",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Ultimate Performance",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Ultimate Performer",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Cooldown Room",
+      "auto_closed": false
+    },
+    {
+      "brand": "Equip Super",
+      "location": "TVGI - Battle Pack",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Fuel Stats",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Performance Moment",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Pitstop Stats",
+      "auto_closed": false
+    },
+    {
+      "brand": "Century Batteries",
+      "location": "TVGI - Drone Cam",
+      "auto_closed": false
+    },
+    {
+      "brand": "Century Batteries",
+      "location": "TVGI - Tech Facts",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coopers",
+      "location": "TVGI - Critical Tempretures",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coopers",
+      "location": "TVGI - Last 5 Laps",
+      "auto_closed": false
+    },
+    {
+      "brand": "Coopers",
+      "location": "TVGI - Race Radio",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Leaderboard - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "TVGI - Tyre Compound Facts - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "TVGI - Tyre Compound Facts - Tyre",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "TVGI - Wheel Cam",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Leaderboard - Text",
+      "auto_closed": false
+    },
+    {
+      "brand": "Equip Super",
+      "location": "TVGI - Biggest Mover",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fireball",
+      "location": "TVGI - Fire Pass",
+      "auto_closed": false
+    },
+    {
+      "brand": "GET2IT",
+      "location": "TVGI - Race Milestone",
+      "auto_closed": false
+    },
+    {
+      "brand": "Harvey Norman",
+      "location": "TVGI - Results",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hino",
+      "location": "TVGI - Tech Centre",
+      "auto_closed": false
+    },
+    {
+      "brand": "McDonalds",
+      "location": "TVGI - Pitstop Leaderboard",
+      "auto_closed": false
+    },
+    {
+      "brand": "McDonalds",
+      "location": "TVGI - Pitstop Timing",
+      "auto_closed": false
+    },
+    {
+      "brand": "McDonalds",
+      "location": "TVGI - Race Statistics",
+      "auto_closed": false
+    },
+    {
+      "brand": "Mega Rewards",
+      "location": "TVGI - Lap To The Grid",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "TVGI - Gap To Lead",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "TVGI - Victory Lane",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pirtek",
+      "location": "TVGI - Last 5 Laps",
+      "auto_closed": false
+    },
+    {
+      "brand": "Pizza Hut",
+      "location": "TVGI - Track Map",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Championship Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Curb Cam",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Fastest Lap",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Onboard",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Lap Counter",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Replay",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Wall Cam",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Rewards",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Last 5 Laps",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Gap to Next",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Grid Walk",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Onboard",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - QR code",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Safety Car",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Telemetry",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Time Machine",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Keys to the Track",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Closing Gap",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Share the passion",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Take out a new policy",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Plug",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "TVGI - Text - Supercars.com",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "TVGI - Text",
+      "auto_closed": false
+    },
+    {
+      "brand": "Thrifty",
+      "location": "TVGI - Championship Points",
+      "auto_closed": false
+    },
+    {
+      "brand": "Titanium Caravans",
+      "location": "TVGI - Lap To The Grid",
+      "auto_closed": false
+    },
+    {
+      "brand": "Truck Assist",
+      "location": "TVGI - Weather Report",
+      "auto_closed": false
+    },
+    {
+      "brand": "Valvoline",
+      "location": "TVGI - Highlights",
+      "auto_closed": false
+    },
+    {
+      "brand": "Equip Super",
+      "location": "TVGI - Confidence Call",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ryco",
+      "location": "TVGI - Enduro Cup",
+      "auto_closed": false
+    },
+    {
+      "brand": "Supercars",
+      "location": "TVGI - Finals Series",
+      "auto_closed": false
+    },
+    {
+      "brand": "Repco",
+      "location": "TVGI - Finals Series",
+      "auto_closed": false
+    },
+    {
+      "brand": "Fuchs",
+      "location": "TVGI - Race Stats",
+      "auto_closed": false
+    },
+    {
+      "brand": "Rinnai",
+      "location": "TVGI - Last 5 Laps",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Sector Times",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castrol",
+      "location": "TVGI - Performance Trusted by Experts",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Championship Points",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Insurance for Motoring Enthusiasts",
+      "auto_closed": false
+    },
+    {
+      "brand": "BP",
+      "location": "TVGI - Text",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "TVGI - Leaderboard - Text",
+      "auto_closed": false
+    },
+    {
+      "brand": "Century Batteries",
+      "location": "TVGI - Eye in the Sky",
+      "auto_closed": false
+    },
+    {
+      "brand": "Shannons",
+      "location": "TVGI - Paddock Enthusiasts",
+      "auto_closed": false
+    },
+    {
+      "brand": "Penrite",
+      "location": "TVGI - Text",
+      "auto_closed": false
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "repco_0.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Text",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_repco_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_1.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Text",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_repco_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_2.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Text",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_repco_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_3.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Text",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_repco_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_4.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Text",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_repco_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_5.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_repco_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_6.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_repco_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_7.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Curb Cam",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_repco_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_8.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Curb Cam",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_repco_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_9.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Fastest Lap",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_repco_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_10.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Fastest Lap",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_repco_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_11.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Onboard",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_repco_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_12.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Lap Counter",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_repco_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_13.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Replay",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_repco_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_14.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Wall Cam",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_repco_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_15.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Wall Cam",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_repco_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_16.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Wall Cam",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_repco_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_17.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Rewards",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_repco_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_18.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Last 5 Laps",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_repco_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_19.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Finals Series",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_repco_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "repco_20.jpg",
+      "brand": "Repco",
+      "location": "TVGI - Finals Series",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_repco_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ariat_0.jpg",
+      "brand": "Ariat",
+      "location": "TVGI - Starting Grid",
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_ariat_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ariat_1.jpg",
+      "brand": "Ariat",
+      "location": "TVGI - Starting Grid",
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_ariat_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ariat_2.jpg",
+      "brand": "Ariat",
+      "location": "TVGI - Starting Grid",
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_ariat_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bailey_ladders_0.jpg",
+      "brand": "Bailey Ladders",
+      "location": "TVGI - Leaderboard",
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_bailey_ladders_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bailey_ladders_1.jpg",
+      "brand": "Bailey Ladders",
+      "location": "TVGI - Leaderboard",
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_bailey_ladders_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bailey_ladders_2.jpg",
+      "brand": "Bailey Ladders",
+      "location": "TVGI - Live Ladder",
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_bailey_ladders_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bailey_ladders_3.jpg",
+      "brand": "Bailey Ladders",
+      "location": "TVGI - Live Ladder",
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_bailey_ladders_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_0.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Leaderboard",
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_boost_mobile_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_1.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Leaderboard",
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_boost_mobile_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_2.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Countdown",
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_boost_mobile_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_3.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Winner",
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_boost_mobile_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_4.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Winner",
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_boost_mobile_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_5.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Winner",
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_boost_mobile_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_6.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Winner",
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_boost_mobile_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_7.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Race Radio",
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_boost_mobile_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_8.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Last 5 Laps",
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_boost_mobile_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_9.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Shootout",
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_boost_mobile_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_10.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Shootout",
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_boost_mobile_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_11.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Shootout",
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_boost_mobile_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_12.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Eliminated Drivers",
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_boost_mobile_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_13.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Logo",
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_boost_mobile_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "boost_mobile_14.jpg",
+      "brand": "Boost Mobile",
+      "location": "TVGI - Qualifying Logo",
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_boost_mobile_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bosch_0.jpg",
+      "brand": "Bosch",
+      "location": "TVGI - Last 5 Laps",
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_bosch_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_0.jpg",
+      "brand": "BP",
+      "location": "TVGI - Head To Head",
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_bp_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_1.jpg",
+      "brand": "BP",
+      "location": "TVGI - Head To Head",
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_bp_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_2.jpg",
+      "brand": "BP",
+      "location": "TVGI - Onboard",
+      "sort_order": 46,
+      "thumbnail": "thumbs/thumb_bp_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_3.jpg",
+      "brand": "BP",
+      "location": "TVGI - Pit Lane - Open",
+      "sort_order": 47,
+      "thumbnail": "thumbs/thumb_bp_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_4.jpg",
+      "brand": "BP",
+      "location": "TVGI - Pit Lane - Open",
+      "sort_order": 48,
+      "thumbnail": "thumbs/thumb_bp_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_5.jpg",
+      "brand": "BP",
+      "location": "TVGI - Fuel Statistics - Logo",
+      "sort_order": 49,
+      "thumbnail": "thumbs/thumb_bp_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_6.jpg",
+      "brand": "BP",
+      "location": "TVGI - Fuel Statistics - Barrel",
+      "sort_order": 50,
+      "thumbnail": "thumbs/thumb_bp_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_7.jpg",
+      "brand": "BP",
+      "location": "TVGI - Race Leader",
+      "sort_order": 51,
+      "thumbnail": "thumbs/thumb_bp_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_8.jpg",
+      "brand": "BP",
+      "location": "TVGI - Refueling",
+      "sort_order": 52,
+      "thumbnail": "thumbs/thumb_bp_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_9.jpg",
+      "brand": "BP",
+      "location": "TVGI - Speed Cam",
+      "sort_order": 53,
+      "thumbnail": "thumbs/thumb_bp_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_10.jpg",
+      "brand": "BP",
+      "location": "TVGI - Ultimate Performance",
+      "sort_order": 54,
+      "thumbnail": "thumbs/thumb_bp_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_11.jpg",
+      "brand": "BP",
+      "location": "TVGI - Ultimate Performer",
+      "sort_order": 55,
+      "thumbnail": "thumbs/thumb_bp_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_12.jpg",
+      "brand": "BP",
+      "location": "TVGI - Cooldown Room",
+      "sort_order": 56,
+      "thumbnail": "thumbs/thumb_bp_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_13.jpg",
+      "brand": "BP",
+      "location": "TVGI - Fuel Stats",
+      "sort_order": 57,
+      "thumbnail": "thumbs/thumb_bp_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_14.jpg",
+      "brand": "BP",
+      "location": "TVGI - Performance Moment",
+      "sort_order": 58,
+      "thumbnail": "thumbs/thumb_bp_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_15.jpg",
+      "brand": "BP",
+      "location": "TVGI - Performance Moment",
+      "sort_order": 59,
+      "thumbnail": "thumbs/thumb_bp_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "bp_16.jpg",
+      "brand": "BP",
+      "location": "TVGI - Pitstop Stats",
+      "sort_order": 60,
+      "thumbnail": "thumbs/thumb_bp_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "equip_super_0.jpg",
+      "brand": "Equip Super",
+      "location": "TVGI - Battle Pack",
+      "sort_order": 61,
+      "thumbnail": "thumbs/thumb_equip_super_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "equip_super_1.jpg",
+      "brand": "Equip Super",
+      "location": "TVGI - Biggest Mover",
+      "sort_order": 62,
+      "thumbnail": "thumbs/thumb_equip_super_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "equip_super_2.jpg",
+      "brand": "Equip Super",
+      "location": "TVGI - Confidence Call",
+      "sort_order": 63,
+      "thumbnail": "thumbs/thumb_equip_super_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_0.jpg",
+      "brand": "Century Batteries",
+      "location": "TVGI - Drone Cam",
+      "sort_order": 64,
+      "thumbnail": "thumbs/thumb_century_batteries_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_1.jpg",
+      "brand": "Century Batteries",
+      "location": "TVGI - Drone Cam",
+      "sort_order": 65,
+      "thumbnail": "thumbs/thumb_century_batteries_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_2.jpg",
+      "brand": "Century Batteries",
+      "location": "TVGI - Drone Cam",
+      "sort_order": 66,
+      "thumbnail": "thumbs/thumb_century_batteries_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_3.jpg",
+      "brand": "Century Batteries",
+      "location": "TVGI - Tech Facts",
+      "sort_order": 67,
+      "thumbnail": "thumbs/thumb_century_batteries_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "century_batteries_4.jpg",
+      "brand": "Century Batteries",
+      "location": "TVGI - Eye in the Sky",
+      "sort_order": 68,
+      "thumbnail": "thumbs/thumb_century_batteries_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coopers_0.jpg",
+      "brand": "Coopers",
+      "location": "TVGI - Critical Tempretures",
+      "sort_order": 69,
+      "thumbnail": "thumbs/thumb_coopers_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coopers_1.jpg",
+      "brand": "Coopers",
+      "location": "TVGI - Last 5 Laps",
+      "sort_order": 70,
+      "thumbnail": "thumbs/thumb_coopers_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "coopers_2.jpg",
+      "brand": "Coopers",
+      "location": "TVGI - Race Radio",
+      "sort_order": 71,
+      "thumbnail": "thumbs/thumb_coopers_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_0.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Leaderboard - Logo",
+      "sort_order": 72,
+      "thumbnail": "thumbs/thumb_dunlop_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_1.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Series Logo",
+      "sort_order": 73,
+      "thumbnail": "thumbs/thumb_dunlop_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_2.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Series Logo",
+      "sort_order": 74,
+      "thumbnail": "thumbs/thumb_dunlop_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_3.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Tyre Compound Facts - Logo",
+      "sort_order": 75,
+      "thumbnail": "thumbs/thumb_dunlop_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_4.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Tyre Compound Facts - Tyre",
+      "sort_order": 76,
+      "thumbnail": "thumbs/thumb_dunlop_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_5.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Wheel Cam",
+      "sort_order": 77,
+      "thumbnail": "thumbs/thumb_dunlop_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dunlop_6.jpg",
+      "brand": "Dunlop",
+      "location": "TVGI - Super 2 Leaderboard - Text",
+      "sort_order": 78,
+      "thumbnail": "thumbs/thumb_dunlop_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "fireball_0.jpg",
+      "brand": "Fireball",
+      "location": "TVGI - Fire Pass",
+      "sort_order": 79,
+      "thumbnail": "thumbs/thumb_fireball_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "fireball_1.jpg",
+      "brand": "Fireball",
+      "location": "TVGI - Fire Pass",
+      "sort_order": 80,
+      "thumbnail": "thumbs/thumb_fireball_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "get2it_0.jpg",
+      "brand": "GET2IT",
+      "location": "TVGI - Race Milestone",
+      "sort_order": 81,
+      "thumbnail": "thumbs/thumb_get2it_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "get2it_1.jpg",
+      "brand": "GET2IT",
+      "location": "TVGI - Race Milestone",
+      "sort_order": 82,
+      "thumbnail": "thumbs/thumb_get2it_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "get2it_2.jpg",
+      "brand": "GET2IT",
+      "location": "TVGI - Race Milestone",
+      "sort_order": 83,
+      "thumbnail": "thumbs/thumb_get2it_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "harvey_norman_0.jpg",
+      "brand": "Harvey Norman",
+      "location": "TVGI - Results",
+      "sort_order": 84,
+      "thumbnail": "thumbs/thumb_harvey_norman_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_0.jpg",
+      "brand": "Hino",
+      "location": "TVGI - Tech Centre",
+      "sort_order": 85,
+      "thumbnail": "thumbs/thumb_hino_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_1.jpg",
+      "brand": "Hino",
+      "location": "TVGI - Tech Centre",
+      "sort_order": 86,
+      "thumbnail": "thumbs/thumb_hino_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_2.jpg",
+      "brand": "Hino",
+      "location": "TVGI - Tech Centre",
+      "sort_order": 87,
+      "thumbnail": "thumbs/thumb_hino_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_3.jpg",
+      "brand": "Hino",
+      "location": "TVGI - Tech Centre",
+      "sort_order": 88,
+      "thumbnail": "thumbs/thumb_hino_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mcdonalds_0.jpg",
+      "brand": "McDonalds",
+      "location": "TVGI - Pitstop Leaderboard",
+      "sort_order": 89,
+      "thumbnail": "thumbs/thumb_mcdonalds_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mcdonalds_1.jpg",
+      "brand": "McDonalds",
+      "location": "TVGI - Pitstop Timing",
+      "sort_order": 90,
+      "thumbnail": "thumbs/thumb_mcdonalds_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mcdonalds_2.jpg",
+      "brand": "McDonalds",
+      "location": "TVGI - Race Statistics",
+      "sort_order": 91,
+      "thumbnail": "thumbs/thumb_mcdonalds_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mega_rewards_0.jpg",
+      "brand": "Mega Rewards",
+      "location": "TVGI - Lap To The Grid",
+      "sort_order": 92,
+      "thumbnail": "thumbs/thumb_mega_rewards_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_0.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Gap To Lead",
+      "sort_order": 93,
+      "thumbnail": "thumbs/thumb_pirtek_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_1.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Gap To Lead",
+      "sort_order": 94,
+      "thumbnail": "thumbs/thumb_pirtek_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_2.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Victory Lane",
+      "sort_order": 95,
+      "thumbnail": "thumbs/thumb_pirtek_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_3.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Victory Lane",
+      "sort_order": 96,
+      "thumbnail": "thumbs/thumb_pirtek_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_4.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Victory Lane",
+      "sort_order": 97,
+      "thumbnail": "thumbs/thumb_pirtek_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_5.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Victory Lane",
+      "sort_order": 98,
+      "thumbnail": "thumbs/thumb_pirtek_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pirtek_6.jpg",
+      "brand": "Pirtek",
+      "location": "TVGI - Last 5 Laps",
+      "sort_order": 99,
+      "thumbnail": "thumbs/thumb_pirtek_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_0.jpg",
+      "brand": "Pizza Hut",
+      "location": "TVGI - Track Map",
+      "sort_order": 100,
+      "thumbnail": "thumbs/thumb_pizza_hut_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_1.jpg",
+      "brand": "Pizza Hut",
+      "location": "TVGI - Track Map",
+      "sort_order": 101,
+      "thumbnail": "thumbs/thumb_pizza_hut_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "pizza_hut_2.jpg",
+      "brand": "Pizza Hut",
+      "location": "TVGI - Track Map",
+      "sort_order": 102,
+      "thumbnail": "thumbs/thumb_pizza_hut_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_0.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Gap to Next",
+      "sort_order": 103,
+      "thumbnail": "thumbs/thumb_shannons_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_1.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Grid Walk",
+      "sort_order": 104,
+      "thumbnail": "thumbs/thumb_shannons_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_2.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Onboard",
+      "sort_order": 105,
+      "thumbnail": "thumbs/thumb_shannons_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_3.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Onboard",
+      "sort_order": 106,
+      "thumbnail": "thumbs/thumb_shannons_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_4.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - QR code",
+      "sort_order": 107,
+      "thumbnail": "thumbs/thumb_shannons_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_5.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Safety Car",
+      "sort_order": 108,
+      "thumbnail": "thumbs/thumb_shannons_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_6.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Telemetry",
+      "sort_order": 109,
+      "thumbnail": "thumbs/thumb_shannons_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_7.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Time Machine",
+      "sort_order": 110,
+      "thumbnail": "thumbs/thumb_shannons_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_8.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Keys to the Track",
+      "sort_order": 111,
+      "thumbnail": "thumbs/thumb_shannons_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_9.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Keys to the Track",
+      "sort_order": 112,
+      "thumbnail": "thumbs/thumb_shannons_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_10.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Closing Gap",
+      "sort_order": 113,
+      "thumbnail": "thumbs/thumb_shannons_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_11.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Share the passion",
+      "sort_order": 114,
+      "thumbnail": "thumbs/thumb_shannons_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_12.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Take out a new policy",
+      "sort_order": 115,
+      "thumbnail": "thumbs/thumb_shannons_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_13.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Plug",
+      "sort_order": 116,
+      "thumbnail": "thumbs/thumb_shannons_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "shannons_14.jpg",
+      "brand": "Shannons",
+      "location": "TVGI - Plug",
+      "sort_order": 117,
+      "thumbnail": "thumbs/thumb_shannons_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_0.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 118,
+      "thumbnail": "thumbs/thumb_supercars_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_1.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 119,
+      "thumbnail": "thumbs/thumb_supercars_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_2.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 120,
+      "thumbnail": "thumbs/thumb_supercars_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_3.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 121,
+      "thumbnail": "thumbs/thumb_supercars_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_4.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Text - Supercars.com",
+      "sort_order": 122,
+      "thumbnail": "thumbs/thumb_supercars_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_5.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 123,
+      "thumbnail": "thumbs/thumb_supercars_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_6.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Championship Logo",
+      "sort_order": 124,
+      "thumbnail": "thumbs/thumb_supercars_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_7.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Text",
+      "sort_order": 125,
+      "thumbnail": "thumbs/thumb_supercars_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_8.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Text",
+      "sort_order": 126,
+      "thumbnail": "thumbs/thumb_supercars_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_9.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Finals Series",
+      "sort_order": 127,
+      "thumbnail": "thumbs/thumb_supercars_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "supercars_10.jpg",
+      "brand": "Supercars",
+      "location": "TVGI - Finals Series",
+      "sort_order": 128,
+      "thumbnail": "thumbs/thumb_supercars_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "thrifty_0.jpg",
+      "brand": "Thrifty",
+      "location": "TVGI - Championship Points",
+      "sort_order": 129,
+      "thumbnail": "thumbs/thumb_thrifty_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "titanium_caravans_0.jpg",
+      "brand": "Titanium Caravans",
+      "location": "TVGI - Lap To The Grid",
+      "sort_order": 130,
+      "thumbnail": "thumbs/thumb_titanium_caravans_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "titanium_caravans_1.jpg",
+      "brand": "Titanium Caravans",
+      "location": "TVGI - Lap To The Grid",
+      "sort_order": 131,
+      "thumbnail": "thumbs/thumb_titanium_caravans_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "truck_assist_0.jpg",
+      "brand": "Truck Assist",
+      "location": "TVGI - Weather Report",
+      "sort_order": 132,
+      "thumbnail": "thumbs/thumb_truck_assist_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "valvoline_0.jpg",
+      "brand": "Valvoline",
+      "location": "TVGI - Highlights",
+      "sort_order": 133,
+      "thumbnail": "thumbs/thumb_valvoline_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "valvoline_1.jpg",
+      "brand": "Valvoline",
+      "location": "TVGI - Highlights",
+      "sort_order": 134,
+      "thumbnail": "thumbs/thumb_valvoline_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "valvoline_2.jpg",
+      "brand": "Valvoline",
+      "location": "TVGI - Highlights",
+      "sort_order": 135,
+      "thumbnail": "thumbs/thumb_valvoline_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ryco_0.jpg",
+      "brand": "Ryco",
+      "location": "TVGI - Enduro Cup",
+      "sort_order": 136,
+      "thumbnail": "thumbs/thumb_ryco_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ryco_1.jpg",
+      "brand": "Ryco",
+      "location": "TVGI - Enduro Cup",
+      "sort_order": 137,
+      "thumbnail": "thumbs/thumb_ryco_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "fuchs_0.jpg",
+      "brand": "Fuchs",
+      "location": "TVGI - Race Stats",
+      "sort_order": 138,
+      "thumbnail": "thumbs/thumb_fuchs_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "rinnai_0.jpg",
+      "brand": "Rinnai",
+      "location": "TVGI - Last 5 Laps",
+      "sort_order": 139,
+      "thumbnail": "thumbs/thumb_rinnai_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castrol_0.jpg",
+      "brand": "Castrol",
+      "location": "TVGI - Performance Trusted by Experts",
+      "sort_order": 140,
+      "thumbnail": "thumbs/thumb_castrol_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_0.jpg",
+      "brand": "Penrite",
+      "location": "TVGI - Leaderboard - Text",
+      "sort_order": 141,
+      "thumbnail": "thumbs/thumb_penrite_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_1.jpg",
+      "brand": "Penrite",
+      "location": "TVGI - Leaderboard - Text",
+      "sort_order": 142,
+      "thumbnail": "thumbs/thumb_penrite_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_2.jpg",
+      "brand": "Penrite",
+      "location": "TVGI - Text",
+      "sort_order": 143,
+      "thumbnail": "thumbs/thumb_penrite_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_3.jpg",
+      "brand": "Penrite",
+      "location": "TVGI - Text",
+      "sort_order": 144,
+      "thumbnail": "thumbs/thumb_penrite_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_4.jpg",
+      "brand": "Penrite",
+      "location": "TVGI - Text",
+      "sort_order": 145,
+      "thumbnail": "thumbs/thumb_penrite_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "penrite_5.jpg",
+      "brand": "Penrite",
+      "location": "TVGI - Text",
+      "sort_order": 146,
+      "thumbnail": "thumbs/thumb_penrite_5.jpg"
+    }
+  ],
+  "annotation_images": [
+    {
+      "type": "annotation",
+      "filename": "annotation_0.jpg",
+      "annotation_type": "include",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_annotation_0.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_1.jpg",
+      "annotation_type": "include",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_annotation_1.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_2.jpg",
+      "annotation_type": "include",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_annotation_2.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_3.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_annotation_3.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_4.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_annotation_4.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_5.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_annotation_5.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_6.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_annotation_6.jpg"
+    }
+  ],
+  "created_at": "2026-11-25T00:33:08.452093"
+}

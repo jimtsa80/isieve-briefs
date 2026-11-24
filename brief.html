@@ -37,6 +37,25 @@
         </div>
     </div>
 
+    <!-- GitHub Token Modal -->
+    <div id="tokenModal" class="modal-backdrop" aria-hidden="true">
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="tokenModalTitle">
+            <h3 id="tokenModalTitle">GitHub Access Token</h3>
+            <p id="tokenModalDesc" class="text-muted">
+                Enter a GitHub fine-grained token with <strong>Contents: Read and write</strong> permission for <code>jimtsa80/isieve-briefs</code>. It will be saved in this browser's localStorage.
+            </p>
+            <div id="tokenModalError" class="edit-status error" style="display: none;"></div>
+            <div class="form-group">
+                <label for="githubTokenInput">Personal access token</label>
+                <input type="password" id="githubTokenInput" placeholder="github_pat_..." autocomplete="off">
+            </div>
+            <div class="modal-actions">
+                <button type="button" id="tokenModalCancel" class="btn btn-secondary">Cancel</button>
+                <button type="button" id="tokenModalSubmit" class="btn btn-primary">Save token &amp; continue</button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/brief.js"></script>
 </body>
 </html>
