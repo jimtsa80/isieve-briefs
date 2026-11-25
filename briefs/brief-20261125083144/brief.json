@@ -1,0 +1,296 @@
+{
+  "id": "brief-20261125083144",
+  "client": "",
+  "event": "2026_Supercars_Teams_-_Erebus_Motorsport_-_i-sieve_version",
+  "competition": null,
+  "sport": null,
+  "broadcaster": null,
+  "date_start": null,
+  "date_end": null,
+  "notes": null,
+  "rules": null,
+  "source_clips": null,
+  "brands": [
+    "Total Energies",
+    "Quartz Engine Oil"
+  ],
+  "locations": [
+    "Driver Cap - Car 99",
+    "Driver Suit - Car 99",
+    "Garage - Car 99",
+    "Car Side - Car 99",
+    "Team Apparel - Car 99",
+    "Flag",
+    "Truck",
+    "In-car camera - Car 99",
+    "TVGI - Text - Car 99",
+    "Bonnet - Car 99",
+    "Front Bumper - Car 99",
+    "Front Bumper - Car 9",
+    "Car Rear - Car 9"
+  ],
+  "combinations": [
+    {
+      "brand": "Total Energies",
+      "location": "Driver Cap - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "Driver Suit - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "Garage - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "Car Side - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "Team Apparel - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "Flag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "Truck",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "In-car camera - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Total Energies",
+      "location": "TVGI - Text - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Driver Cap - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Driver Suit - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Bonnet - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Front Bumper - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Garage - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Team Apparel - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "TVGI - Text - Car 99",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Front Bumper - Car 9",
+      "auto_closed": false
+    },
+    {
+      "brand": "Quartz Engine Oil",
+      "location": "Car Rear - Car 9",
+      "auto_closed": false
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "total_energies_0.jpg",
+      "brand": "Total Energies",
+      "location": "Driver Cap - Car 99",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_total_energies_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_1.jpg",
+      "brand": "Total Energies",
+      "location": "Driver Suit - Car 99",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_total_energies_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_2.jpg",
+      "brand": "Total Energies",
+      "location": "Driver Suit - Car 99",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_total_energies_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_3.jpg",
+      "brand": "Total Energies",
+      "location": "Driver Suit - Car 99",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_total_energies_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_4.jpg",
+      "brand": "Total Energies",
+      "location": "Garage - Car 99",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_total_energies_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_5.jpg",
+      "brand": "Total Energies",
+      "location": "Car Side - Car 99",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_total_energies_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_6.jpg",
+      "brand": "Total Energies",
+      "location": "Car Side - Car 99",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_total_energies_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_7.jpg",
+      "brand": "Total Energies",
+      "location": "Car Side - Car 99",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_total_energies_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_8.jpg",
+      "brand": "Total Energies",
+      "location": "Car Side - Car 99",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_total_energies_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_9.jpg",
+      "brand": "Total Energies",
+      "location": "Team Apparel - Car 99",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_total_energies_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_10.jpg",
+      "brand": "Total Energies",
+      "location": "Team Apparel - Car 99",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_total_energies_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_11.jpg",
+      "brand": "Total Energies",
+      "location": "Flag",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_total_energies_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "total_energies_12.jpg",
+      "brand": "Total Energies",
+      "location": "Flag",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_total_energies_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_0.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Driver Cap - Car 99",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_1.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Driver Suit - Car 99",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_2.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Bonnet - Car 99",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_3.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Bonnet - Car 99",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_4.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Front Bumper - Car 99",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_5.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Front Bumper - Car 99",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_6.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Garage - Car 99",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "quartz_engine_oil_7.jpg",
+      "brand": "Quartz Engine Oil",
+      "location": "Garage - Car 99",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_quartz_engine_oil_7.jpg"
+    }
+  ],
+  "annotation_images": [],
+  "created_at": "2026-11-25T08:31:47.663649"
+}
