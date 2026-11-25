@@ -1,0 +1,1108 @@
+{
+  "id": "brief-20261125083355",
+  "client": "",
+  "event": "2026_Supercars_Teams_-_PremiAir_-_i-sieve_Version",
+  "competition": null,
+  "sport": null,
+  "broadcaster": null,
+  "date_start": null,
+  "date_end": null,
+  "notes": null,
+  "rules": null,
+  "source_clips": [
+    "Azure Storage location",
+    "File format",
+    "Security token"
+  ],
+  "brands": [
+    "Fill'er App",
+    "Hiflex",
+    "Mr.Umami",
+    "NAPA",
+    "Nulon",
+    "Powercrank",
+    "PremiAir Fuels",
+    "PremiAir Hire",
+    "RRS",
+    "SP Tools",
+    "Chevrolet"
+  ],
+  "locations": [
+    "Front Bumper - Car 31",
+    "Front Bumper - Car 777",
+    "Front Car Side - Car 31",
+    "Front Car Side - Car 777",
+    "Driver Suit - Car 777",
+    "Side Mirror - Car 31",
+    "Side Mirror - Car 777",
+    "Bonnet - Car 31",
+    "Bonnet - Car 777",
+    "Team Apparel",
+    "Driver Suit - Car 31",
+    "Rear Bumper - Car 777",
+    "Car Rear - Car 777",
+    "Rear Bumper - Car 31",
+    "Car Rear - Car 31",
+    "Rear Wing Side - Car 31",
+    "Rear Wing - Car 777",
+    "Flag - Car 31",
+    "Car Nose - Car 31",
+    "Windscreen - Car 31",
+    "Windscreen - Car 777",
+    "Rear Windscreen - Car 777",
+    "Rear Windscreen - Car 31",
+    "Rear Wheel Upper - Car 777",
+    "Rear Wheel Upper - Car 31",
+    "Garage Sign - Car 31",
+    "Team Apparel - Car 31",
+    "C-Pillar - Car 777",
+    "C-Pillar - Car 31",
+    "Roof Skirt - Car 31",
+    "Roof Skirt - Car 777",
+    "Side Skirt - Car 777",
+    "TVGI - Text - Car 777",
+    "TVGI - Text - Car 31",
+    "Umbrella - Car 31",
+    "Umbrella - Car 777",
+    "Garage - Car 31",
+    "In-car camera - Car 31",
+    "Driver Cap - Car 31",
+    "Car Side - Car 31",
+    "Car Side - Car 777",
+    "Rear Wing - Car 31"
+  ],
+  "combinations": [
+    {
+      "brand": "Fill'er App",
+      "location": "Front Bumper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Fill'er App",
+      "location": "Front Bumper - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Hiflex",
+      "location": "Front Car Side - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Hiflex",
+      "location": "Front Car Side - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Hiflex",
+      "location": "Front Bumper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Hiflex",
+      "location": "Front Bumper - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Mr.Umami",
+      "location": "Driver Suit - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "NAPA",
+      "location": "Side Mirror - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "NAPA",
+      "location": "Side Mirror - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "NAPA",
+      "location": "Bonnet - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "NAPA",
+      "location": "Bonnet - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Team Apparel",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Driver Suit - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Front Bumper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Bonnet - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Front Bumper - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Bonnet - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Rear Bumper - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Car Rear - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Rear Bumper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Car Rear - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Rear Wing Side - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Rear Wing - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Driver Suit - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Flag - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Powercrank",
+      "location": "Front Car Side - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Powercrank",
+      "location": "Front Car Side - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Powercrank",
+      "location": "Rear Bumper - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Powercrank",
+      "location": "Rear Bumper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Fuels",
+      "location": "Car Nose - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Driver Suit - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Windscreen - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Windscreen - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Rear Bumper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Rear Windscreen - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Rear Windscreen - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Fill'er App",
+      "location": "Rear Wheel Upper - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Fill'er App",
+      "location": "Rear Wheel Upper - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Driver Suit - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Garage Sign - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Team Apparel - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "C-Pillar - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "C-Pillar - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Flag - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "RRS",
+      "location": "Driver Suit - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "RRS",
+      "location": "Roof Skirt - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "RRS",
+      "location": "Roof Skirt - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "RRS",
+      "location": "Driver Suit - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "SP Tools",
+      "location": "Side Skirt - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "TVGI - Text - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "TVGI - Text - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Umbrella - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Umbrella - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Hiflex",
+      "location": "Garage - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Mr.Umami",
+      "location": "Driver Suit - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "NAPA",
+      "location": "Garage - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Garage - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "Garage Sign - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Nulon",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Fuels",
+      "location": "Garage Sign - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Car Rear - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Driver Cap - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Garage - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Car Side - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Hire",
+      "location": "Car Side - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "SP Tools",
+      "location": "Rear Wing - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "SP Tools",
+      "location": "Rear Wing - Car 777",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "PremiAir Fuels",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "NAPA",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Chevrolet",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Hiflex",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "Fill'er App",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    },
+    {
+      "brand": "SP Tools",
+      "location": "In-car camera - Car 31",
+      "auto_closed": false,
+      "notes": "PremiAir"
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "hiflex_0.jpg",
+      "brand": "Hiflex",
+      "location": "Front Car Side - Car 31",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_hiflex_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hiflex_1.jpg",
+      "brand": "Hiflex",
+      "location": "Front Car Side - Car 36",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_hiflex_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hiflex_2.jpg",
+      "brand": "Hiflex",
+      "location": "Front Bumper - Car 31",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_hiflex_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hiflex_3.jpg",
+      "brand": "Hiflex",
+      "location": "Front Bumper - Car 36",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_hiflex_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hiflex_4.jpg",
+      "brand": "Hiflex",
+      "location": "Garage - Car 31",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_hiflex_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hiflex_5.jpg",
+      "brand": "Hiflex",
+      "location": "In-car camera - Car 31",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_hiflex_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mr_umami_0.jpg",
+      "brand": "Mr.Umami",
+      "location": "Driver Suit - Car 31",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_mr_umami_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_0.jpg",
+      "brand": "NAPA",
+      "location": "Side Mirror - Car 31",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_napa_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_1.jpg",
+      "brand": "NAPA",
+      "location": "Side Mirror - Car 36",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_napa_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_2.jpg",
+      "brand": "NAPA",
+      "location": "Bonnet - Car 31",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_napa_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_3.jpg",
+      "brand": "NAPA",
+      "location": "Bonnet - Car 36",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_napa_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_4.jpg",
+      "brand": "NAPA",
+      "location": "Garage - Car 31",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_napa_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_5.jpg",
+      "brand": "NAPA",
+      "location": "Side Mirror - Car 31",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_napa_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_6.jpg",
+      "brand": "NAPA",
+      "location": "In-car camera - Car 31",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_napa_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "napa_7.jpg",
+      "brand": "NAPA",
+      "location": "Driver Suit - Car 36",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_napa_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_0.jpg",
+      "brand": "Nulon",
+      "location": "Team Apparel",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_nulon_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_1.jpg",
+      "brand": "Nulon",
+      "location": "Driver Suit - Car 31",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_nulon_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_2.jpg",
+      "brand": "Nulon",
+      "location": "Front Bumper - Car 31",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_nulon_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_3.jpg",
+      "brand": "Nulon",
+      "location": "Bonnet - Car 31",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_nulon_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_4.jpg",
+      "brand": "Nulon",
+      "location": "Front Bumper - Car 36",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_nulon_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_5.jpg",
+      "brand": "Nulon",
+      "location": "Bonnet - Car 36",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_nulon_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_6.jpg",
+      "brand": "Nulon",
+      "location": "Rear Bumper - Car 36",
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_nulon_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_7.jpg",
+      "brand": "Nulon",
+      "location": "Car Rear - Car 36",
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_nulon_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_8.jpg",
+      "brand": "Nulon",
+      "location": "Rear Bumper - Car 31",
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_nulon_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_9.jpg",
+      "brand": "Nulon",
+      "location": "Car Rear - Car 31",
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_nulon_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_10.jpg",
+      "brand": "Nulon",
+      "location": "Rear Wing Side - Car 31",
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_nulon_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_11.jpg",
+      "brand": "Nulon",
+      "location": "Rear Wing - Car 36",
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_nulon_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_12.jpg",
+      "brand": "Nulon",
+      "location": "Driver Suit - Car 36",
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_nulon_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_13.jpg",
+      "brand": "Nulon",
+      "location": "Flag - Car 31",
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_nulon_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_14.jpg",
+      "brand": "Nulon",
+      "location": "Umbrella - Car 31",
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_nulon_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_15.jpg",
+      "brand": "Nulon",
+      "location": "Umbrella - Car 36",
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_nulon_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_16.jpg",
+      "brand": "Nulon",
+      "location": "Garage - Car 31",
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_nulon_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_17.jpg",
+      "brand": "Nulon",
+      "location": "Garage Sign - Car 31",
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_nulon_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_18.jpg",
+      "brand": "Nulon",
+      "location": "In-car camera - Car 31",
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_nulon_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_19.jpg",
+      "brand": "Nulon",
+      "location": "Bonnet - Car 36",
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_nulon_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nulon_20.jpg",
+      "brand": "Nulon",
+      "location": "Engine - Car 36",
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_nulon_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powercrank_0.jpg",
+      "brand": "Powercrank",
+      "location": "Front Car Side - Car 31",
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_powercrank_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powercrank_1.jpg",
+      "brand": "Powercrank",
+      "location": "Front Car Side - Car 36",
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_powercrank_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powercrank_2.jpg",
+      "brand": "Powercrank",
+      "location": "Rear Bumper - Car 36",
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_powercrank_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powercrank_3.jpg",
+      "brand": "Powercrank",
+      "location": "Rear Bumper - Car 31",
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_powercrank_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_fuels_0.jpg",
+      "brand": "PremiAir Fuels",
+      "location": "Car Nose - Car 31",
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_premiair_fuels_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_fuels_1.jpg",
+      "brand": "PremiAir Fuels",
+      "location": "Garage Sign - Car 31",
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_premiair_fuels_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_fuels_2.jpg",
+      "brand": "PremiAir Fuels",
+      "location": "In-car camera - Car 31",
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_premiair_fuels_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_0.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Driver Suit - Car 31",
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_premiair_hire_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_1.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Windscreen - Car 31",
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_premiair_hire_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_2.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Windscreen - Car 36",
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_premiair_hire_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_3.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Rear Bumper - Car 31",
+      "sort_order": 46,
+      "thumbnail": "thumbs/thumb_premiair_hire_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_4.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Rear Windscreen - Car 36",
+      "sort_order": 47,
+      "thumbnail": "thumbs/thumb_premiair_hire_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_5.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Rear Windscreen - Car 31",
+      "sort_order": 48,
+      "thumbnail": "thumbs/thumb_premiair_hire_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_6.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Driver Suit - Car 36",
+      "sort_order": 49,
+      "thumbnail": "thumbs/thumb_premiair_hire_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_7.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Garage Sign - Car 31",
+      "sort_order": 50,
+      "thumbnail": "thumbs/thumb_premiair_hire_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_8.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Team Apparel - Car 31",
+      "sort_order": 51,
+      "thumbnail": "thumbs/thumb_premiair_hire_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_9.jpg",
+      "brand": "PremiAir Hire",
+      "location": "C-Pillar - Car 36",
+      "sort_order": 52,
+      "thumbnail": "thumbs/thumb_premiair_hire_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_10.jpg",
+      "brand": "PremiAir Hire",
+      "location": "C-Pillar - Car 31",
+      "sort_order": 53,
+      "thumbnail": "thumbs/thumb_premiair_hire_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_11.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Flag - Car 31",
+      "sort_order": 54,
+      "thumbnail": "thumbs/thumb_premiair_hire_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_12.jpg",
+      "brand": "PremiAir Hire",
+      "location": "TVGI - Text - Car 36",
+      "sort_order": 55,
+      "thumbnail": "thumbs/thumb_premiair_hire_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_13.jpg",
+      "brand": "PremiAir Hire",
+      "location": "TVGI - Text - Car 31",
+      "sort_order": 56,
+      "thumbnail": "thumbs/thumb_premiair_hire_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_14.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Car Rear - Car 31",
+      "sort_order": 57,
+      "thumbnail": "thumbs/thumb_premiair_hire_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_15.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Driver Cap - Car 31",
+      "sort_order": 58,
+      "thumbnail": "thumbs/thumb_premiair_hire_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_16.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Garage - Car 31",
+      "sort_order": 59,
+      "thumbnail": "thumbs/thumb_premiair_hire_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_17.jpg",
+      "brand": "PremiAir Hire",
+      "location": "In-car camera - Car 31",
+      "sort_order": 60,
+      "thumbnail": "thumbs/thumb_premiair_hire_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_18.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Car Side - Car 31",
+      "sort_order": 61,
+      "thumbnail": "thumbs/thumb_premiair_hire_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_19.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Car Side - Car 36",
+      "sort_order": 62,
+      "thumbnail": "thumbs/thumb_premiair_hire_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "premiair_hire_20.jpg",
+      "brand": "PremiAir Hire",
+      "location": "Driver Cap - Car 36",
+      "sort_order": 63,
+      "thumbnail": "thumbs/thumb_premiair_hire_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "rrs_0.jpg",
+      "brand": "RRS",
+      "location": "Driver Suit - Car 31",
+      "sort_order": 64,
+      "thumbnail": "thumbs/thumb_rrs_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "rrs_1.jpg",
+      "brand": "RRS",
+      "location": "Roof Skirt - Car 31",
+      "sort_order": 65,
+      "thumbnail": "thumbs/thumb_rrs_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "rrs_2.jpg",
+      "brand": "RRS",
+      "location": "Roof Skirt - Car 36",
+      "sort_order": 66,
+      "thumbnail": "thumbs/thumb_rrs_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "rrs_3.jpg",
+      "brand": "RRS",
+      "location": "Driver Suit - Car 36",
+      "sort_order": 67,
+      "thumbnail": "thumbs/thumb_rrs_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sp_tools_0.jpg",
+      "brand": "SP Tools",
+      "location": "Side Skirt - Car 36",
+      "sort_order": 68,
+      "thumbnail": "thumbs/thumb_sp_tools_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sp_tools_1.jpg",
+      "brand": "SP Tools",
+      "location": "Rear Wing - Car 31",
+      "sort_order": 69,
+      "thumbnail": "thumbs/thumb_sp_tools_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sp_tools_2.jpg",
+      "brand": "SP Tools",
+      "location": "Rear Wing - Car 36",
+      "sort_order": 70,
+      "thumbnail": "thumbs/thumb_sp_tools_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sp_tools_3.jpg",
+      "brand": "SP Tools",
+      "location": "In-car camera - Car 31",
+      "sort_order": 71,
+      "thumbnail": "thumbs/thumb_sp_tools_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chevrolet_0.jpg",
+      "brand": "Chevrolet",
+      "location": "In-car camera - Car 31",
+      "sort_order": 72,
+      "thumbnail": "thumbs/thumb_chevrolet_0.jpg"
+    }
+  ],
+  "annotation_images": [],
+  "created_at": "2026-11-25T08:34:05.595236"
+}
