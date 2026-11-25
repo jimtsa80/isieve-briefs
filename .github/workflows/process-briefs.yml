@@ -50,16 +50,36 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A briefs briefs-inbox
-          if ! git diff --staged --quiet; then
-            git commit -m "🤖 Process brief inbox [skip ci]"
-            if ! git pull --rebase; then
-              git rebase --abort || true
-              git pull --rebase -X ours
-              python scripts/rebuild_index.py
-              git add briefs/index.json
-              git diff --staged --quiet || git commit --amend --no-edit
-            fi
-            git push
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
           fi
+          git commit -m "🤖 Process brief inbox [skip ci]"
+          NEW_BRIEFS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- briefs | cut -d/ -f1-2 | grep '^briefs/brief-' | sort -u || true)
+          DONE_INBOX=$(git diff --name-only --diff-filter=D HEAD~1 HEAD -- briefs-inbox || true)
+          echo "New briefs: $NEW_BRIEFS"
+          for attempt in 1 2 3 4 5 6; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected (main moved, e.g. an Edit/Delete from the site). Re-applying on latest main..."
+            sleep $((attempt * 3))
+            rm -rf /tmp/keep && mkdir -p /tmp/keep
+            for d in $NEW_BRIEFS; do cp -r "$d" /tmp/keep/; done
+            git fetch --depth 1 origin main
+            git reset --hard FETCH_HEAD
+            for d in $NEW_BRIEFS; do rm -rf "$d"; cp -r "/tmp/keep/$(basename "$d")" "$d"; done
+            for f in $DONE_INBOX; do git rm -q --ignore-unmatch "$f" || true; done
+            python scripts/rebuild_index.py
+            git add -A briefs briefs-inbox
+            if git diff --staged --quiet; then
+              echo "Nothing left to commit after re-sync"
+              exit 0
+            fi
+            git commit -m "🤖 Process brief inbox [skip ci]"
+          done
+          echo "Could not push after 6 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
