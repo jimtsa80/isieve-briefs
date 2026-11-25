@@ -64,8 +64,8 @@
         if (!banner) return;
 
         try {
-            const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/process-briefs.yml/runs?per_page=1`;
-            const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github+json' } });
+            const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/process-briefs.yml/runs?per_page=1&_=${Date.now()}`;
+            const res = await fetch(url, { cache: 'no-store', headers: { 'Accept': 'application/vnd.github+json' } });
             if (!res.ok) return;
 
             const data = await res.json();
@@ -75,7 +75,7 @@
             if (run.conclusion === 'failure') {
                 let detail = 'Automatic processing via GitHub Actions is currently failing.';
                 try {
-                    const jobsRes = await fetch(run.jobs_url, { headers: { 'Accept': 'application/vnd.github+json' } });
+                    const jobsRes = await fetch(`${run.jobs_url}?_=${Date.now()}`, { cache: 'no-store', headers: { 'Accept': 'application/vnd.github+json' } });
                     if (jobsRes.ok) {
                         const jobsData = await jobsRes.json();
                         const job = jobsData.jobs && jobsData.jobs[0];
@@ -802,9 +802,101 @@
         return await res.json();
     }
 
-    async function upsertRepoFile(path, token, message, base64Content) {
-        const existingSha = await githubGetExistingSha(path, token);
-        return await githubPutFileBase64(path, token, message, base64Content, existingSha);
+    async function githubApiJson(apiPath, token, options) {
+        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}${apiPath}`;
+        const opts = Object.assign({}, options || {});
+        opts.headers = Object.assign({
+            'Accept': 'application/vnd.github+json',
+            'Authorization': `Bearer ${token}`
+        }, opts.headers || {});
+        if (opts.body && !opts.headers['Content-Type']) {
+            opts.headers['Content-Type'] = 'application/json';
+        }
+        const res = await fetch(url, opts);
+        if (!res.ok) {
+            const errBody = await res.json().catch(() => ({}));
+            const err = new Error(errBody.message || `GitHub API ${opts.method || 'GET'} ${apiPath} failed (${res.status})`);
+            err.status = res.status;
+            throw err;
+        }
+        return await res.json();
+    }
+
+    function isNonFastForwardError(err) {
+        if (!err) return false;
+        if (err.status === 409) return true;
+        if (err.status === 422 && /fast forward|update|reference|sha|conflict/i.test(err.message || '')) return true;
+        return false;
+    }
+
+    async function commitInboxFilesAtomic(filesToCommit, token, commitMessage) {
+        const uploadedBlobs = [];
+        for (const f of filesToCommit) {
+            const blob = await githubApiJson('/git/blobs', token, {
+                method: 'POST',
+                body: JSON.stringify({
+                    content: f.base64Content,
+                    encoding: 'base64'
+                })
+            });
+            uploadedBlobs.push({
+                path: f.path,
+                mode: '100644',
+                type: 'blob',
+                sha: blob.sha
+            });
+        }
+
+        let attempts = 0;
+        while (attempts < 2) {
+            attempts += 1;
+            const refData = await githubApiJson(
+                `/git/ref/heads/${encodeURIComponent(GITHUB_BRANCH)}?_=${Date.now()}`,
+                token,
+                { method: 'GET', cache: 'no-store' }
+            );
+            const headSha = refData.object.sha;
+
+            const commitData = await githubApiJson(
+                `/git/commits/${headSha}?_=${Date.now()}`,
+                token,
+                { method: 'GET', cache: 'no-store' }
+            );
+            const baseTreeSha = commitData.tree.sha;
+
+            const newTree = await githubApiJson('/git/trees', token, {
+                method: 'POST',
+                body: JSON.stringify({
+                    base_tree: baseTreeSha,
+                    tree: uploadedBlobs
+                })
+            });
+
+            const newCommit = await githubApiJson('/git/commits', token, {
+                method: 'POST',
+                body: JSON.stringify({
+                    message: commitMessage,
+                    tree: newTree.sha,
+                    parents: [headSha]
+                })
+            });
+
+            try {
+                await githubApiJson(`/git/refs/heads/${encodeURIComponent(GITHUB_BRANCH)}`, token, {
+                    method: 'PATCH',
+                    body: JSON.stringify({
+                        sha: newCommit.sha,
+                        force: false
+                    })
+                });
+                return newCommit;
+            } catch (err) {
+                if (isNonFastForwardError(err) && attempts < 2) {
+                    continue;
+                }
+                throw err;
+            }
+        }
     }
 
     async function uploadToBriefsInbox(includeSidecar, statusElId, triggerBtnId) {
@@ -843,36 +935,34 @@
             triggerBtn.disabled = true;
             triggerBtn.textContent = 'Uploading to GitHub...';
         }
-        setStatus(statusElId, `Committing ${safeName} to ${inboxFilePath}...`, 'info');
+        setStatus(statusElId, `Uploading ${safeName} to ${inboxFilePath}...`, 'info');
 
         try {
             const fileB64 = arrayBufferToBase64(selectedArrayBuffer);
-            let committedFiles = [];
+            const filesToCommit = [];
+            if (sidecarPath) {
+                filesToCommit.push({
+                    path: sidecarPath,
+                    base64Content: encodeBase64Utf8(sidecarText)
+                });
+            }
+            filesToCommit.push({
+                path: inboxFilePath,
+                base64Content: fileB64
+            });
 
             let attempts = 0;
             while (attempts < 2) {
                 attempts += 1;
                 try {
-                    if (sidecarPath) {
-                        setStatus(statusElId, `Committing metadata sidecar ${stem}.txt...`, 'info');
-                        await upsertRepoFile(
-                            sidecarPath,
-                            token,
-                            `Add metadata sidecar for ${safeName}`,
-                            encodeBase64Utf8(sidecarText)
-                        );
-                        committedFiles.push(sidecarPath);
-                    }
-
-                    setStatus(statusElId, `Uploading ${safeName} to GitHub...`, 'info');
-                    const putRes = await upsertRepoFile(
-                        inboxFilePath,
-                        token,
-                        `Upload brief to inbox: ${safeName}`,
-                        fileB64
-                    );
-                    committedFiles.push(inboxFilePath);
-                    renderInboxUploadSuccess(committedFiles, putRes && putRes.commit && putRes.commit.html_url);
+                    const commitMsg = sidecarPath
+                        ? `Upload brief + metadata to inbox: ${safeName}`
+                        : `Upload brief to inbox: ${safeName}`;
+                    const commit = await commitInboxFilesAtomic(filesToCommit, token, commitMsg);
+                    const commitUrl = commit && commit.sha
+                        ? `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/commit/${commit.sha}`
+                        : null;
+                    renderInboxUploadSuccess(filesToCommit.map(f => f.path), commitUrl);
                     showStep(3);
                     return;
                 } catch (err) {
@@ -887,7 +977,6 @@
                         token = retryToken;
                         setStoredToken(token);
                         updateForgetTokenVisibility();
-                        committedFiles = [];
                         continue;
                     }
                     throw err;

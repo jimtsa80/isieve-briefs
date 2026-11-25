@@ -9,7 +9,7 @@
     // Load all briefs from briefs/ directory
     async function loadBriefs() {
         try {
-            const response = await fetch('briefs/index.json');
+            const response = await fetch('briefs/index.json?_=' + Date.now(), { cache: 'no-store' });
             if (!response.ok) {
                 throw new Error('Failed to load briefs index');
             }
@@ -160,8 +160,38 @@
         return div.innerHTML;
     }
 
+
+    function showDeletedNoticeIfPresent() {
+        const params = new URLSearchParams(window.location.search);
+        const deletedTitle = params.get('deleted');
+        if (!deletedTitle) return;
+
+        const notice = document.getElementById('libraryNotice');
+        if (notice) {
+            notice.innerHTML = `
+                <span><strong>Brief deleted:</strong> "${escapeHtml(deletedTitle)}" was removed from GitHub. GitHub Pages may take 1–2 minutes to refresh.</span>
+                <button type="button" class="notice-banner-close" aria-label="Dismiss">&times;</button>
+            `;
+            notice.style.display = 'flex';
+            const closeBtn = notice.querySelector('.notice-banner-close');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                    notice.style.display = 'none';
+                });
+            }
+        }
+
+        if (window.history && window.history.replaceState) {
+            params.delete('deleted');
+            const qs = params.toString();
+            const cleanUrl = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+            window.history.replaceState({}, '', cleanUrl);
+        }
+    }
+
     // Event listeners
     document.addEventListener('DOMContentLoaded', () => {
+        showDeletedNoticeIfPresent();
         loadBriefs();
         
         document.getElementById('globalSearch').addEventListener('input', filterBriefs);

@@ -731,1851 +731,2115 @@
   "images": [
     {
       "type": "example",
-      "filename": "aerpro_0.png",
+      "filename": "aerpro_0.jpg",
       "brand": "Aerpro",
       "location": "Car Rear - Car 7",
-      "sort_order": 0
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_aerpro_0.jpg"
     },
     {
       "type": "example",
-      "filename": "aerpro_1.png",
+      "filename": "aerpro_1.jpg",
       "brand": "Aerpro",
       "location": "Car Rear - Car 7",
-      "sort_order": 1
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_aerpro_1.jpg"
     },
     {
       "type": "example",
-      "filename": "aerpro_2.png",
+      "filename": "aerpro_2.jpg",
       "brand": "Aerpro",
       "location": "Car Rear - Car 7",
-      "sort_order": 2
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_aerpro_2.jpg"
     },
     {
       "type": "example",
-      "filename": "aerpro_3.png",
+      "filename": "aerpro_3.jpg",
       "brand": "Aerpro",
       "location": "Car Rear - Car 7",
-      "sort_order": 3
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_aerpro_3.jpg"
     },
     {
       "type": "example",
-      "filename": "aerpro_4.png",
+      "filename": "aerpro_4.jpg",
       "brand": "Aerpro",
       "location": "Car Rear - Car 7",
-      "sort_order": 4
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_aerpro_4.jpg"
     },
     {
       "type": "example",
-      "filename": "aerpro_5.png",
+      "filename": "aerpro_5.jpg",
       "brand": "Aerpro",
       "location": "Car Rear - Car 7",
-      "sort_order": 5
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_aerpro_5.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_0.png",
+      "filename": "ballarat_isuzu_0.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Front Car Side - Car 7",
-      "sort_order": 6
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_0.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_1.png",
+      "filename": "ballarat_isuzu_1.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Front Car Side - Car 7",
-      "sort_order": 7
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_1.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_2.png",
+      "filename": "ballarat_isuzu_2.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Front Car Side - Car 7",
-      "sort_order": 8
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_2.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_3.png",
+      "filename": "ballarat_isuzu_3.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Front Car Side - Car 7",
-      "sort_order": 9
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_3.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_4.png",
+      "filename": "ballarat_isuzu_4.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Front Car Side - Car 7",
-      "sort_order": 10
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_4.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_5.png",
+      "filename": "ballarat_isuzu_5.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Driver Suit - Car 7",
-      "sort_order": 11
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_5.jpg"
     },
     {
       "type": "example",
-      "filename": "ballarat_isuzu_6.png",
+      "filename": "ballarat_isuzu_6.jpg",
       "brand": "Ballarat Isuzu",
       "location": "Driver Suit - Car 7",
-      "sort_order": 12
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_ballarat_isuzu_6.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_0.png",
+      "filename": "blahst_0.jpg",
       "brand": "BLAHST",
       "location": "Garage - Car 3",
-      "sort_order": 13
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_blahst_0.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_1.png",
+      "filename": "blahst_1.jpg",
       "brand": "BLAHST",
       "location": "Garage - Car 3",
-      "sort_order": 14
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_blahst_1.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_2.png",
+      "filename": "blahst_2.jpg",
       "brand": "BLAHST",
       "location": "Garage - Car 3",
-      "sort_order": 15
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_blahst_2.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_3.png",
+      "filename": "blahst_3.jpg",
       "brand": "BLAHST",
       "location": "Garage - Car 3",
-      "sort_order": 16
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_blahst_3.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_4.png",
+      "filename": "blahst_4.jpg",
       "brand": "BLAHST",
       "location": "Garage - Car 3",
-      "sort_order": 17
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_blahst_4.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_5.png",
+      "filename": "blahst_5.jpg",
       "brand": "BLAHST",
       "location": "Rear Wheel Upper - Car 3",
-      "sort_order": 18
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_blahst_5.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_6.png",
+      "filename": "blahst_6.jpg",
       "brand": "BLAHST",
       "location": "Rear Wheel Upper - Car 3",
-      "sort_order": 19
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_blahst_6.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_7.png",
+      "filename": "blahst_7.jpg",
       "brand": "BLAHST",
       "location": "Rear Wheel Upper - Car 3",
-      "sort_order": 20
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_blahst_7.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_8.png",
+      "filename": "blahst_8.jpg",
       "brand": "BLAHST",
       "location": "Rear Wheel Upper - Car 3",
-      "sort_order": 21
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_blahst_8.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_9.png",
+      "filename": "blahst_9.jpg",
       "brand": "BLAHST",
       "location": "Rear Wheel Upper - Car 3",
-      "sort_order": 22
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_blahst_9.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_10.png",
+      "filename": "blahst_10.jpg",
       "brand": "BLAHST",
       "location": "Rear Wheel Upper - Car 3",
-      "sort_order": 23
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_blahst_10.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_11.png",
+      "filename": "blahst_11.jpg",
       "brand": "BLAHST",
       "location": "Car Nose - Car 3",
-      "sort_order": 24
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_blahst_11.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_12.png",
+      "filename": "blahst_12.jpg",
       "brand": "BLAHST",
       "location": "Car Nose - Car 3",
-      "sort_order": 25
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_blahst_12.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_13.png",
+      "filename": "blahst_13.jpg",
       "brand": "BLAHST",
       "location": "Car Nose - Car 3",
-      "sort_order": 26
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_blahst_13.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_14.png",
+      "filename": "blahst_14.jpg",
       "brand": "BLAHST",
       "location": "Car Nose - Car 3",
-      "sort_order": 27
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_blahst_14.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_15.png",
+      "filename": "blahst_15.jpg",
       "brand": "BLAHST",
       "location": "Car Nose - Car 3",
-      "sort_order": 28
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_blahst_15.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_16.png",
+      "filename": "blahst_16.jpg",
       "brand": "BLAHST",
       "location": "Car Nose - Car 3",
-      "sort_order": 29
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_blahst_16.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_17.png",
+      "filename": "blahst_17.jpg",
       "brand": "BLAHST",
       "location": "Car Rear - Car 3",
-      "sort_order": 30
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_blahst_17.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_18.png",
+      "filename": "blahst_18.jpg",
       "brand": "BLAHST",
       "location": "Car Rear - Car 3",
-      "sort_order": 31
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_blahst_18.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_19.png",
+      "filename": "blahst_19.jpg",
       "brand": "BLAHST",
       "location": "Car Rear - Car 3",
-      "sort_order": 32
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_blahst_19.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_20.png",
+      "filename": "blahst_20.jpg",
       "brand": "BLAHST",
       "location": "Car Rear - Car 3",
-      "sort_order": 33
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_blahst_20.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_21.png",
+      "filename": "blahst_21.jpg",
       "brand": "BLAHST",
       "location": "Rear Wing - Car 3",
-      "sort_order": 34
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_blahst_21.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_22.png",
+      "filename": "blahst_22.jpg",
       "brand": "BLAHST",
       "location": "Rear Wing - Car 3",
-      "sort_order": 35
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_blahst_22.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_23.png",
+      "filename": "blahst_23.jpg",
       "brand": "BLAHST",
       "location": "Rear Wing - Car 3",
-      "sort_order": 36
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_blahst_23.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_24.png",
+      "filename": "blahst_24.jpg",
       "brand": "BLAHST",
       "location": "Rear Wing - Car 3",
-      "sort_order": 37
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_blahst_24.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_25.png",
+      "filename": "blahst_25.jpg",
       "brand": "BLAHST",
       "location": "Team Apparel - Car 3",
-      "sort_order": 38
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_blahst_25.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_26.png",
+      "filename": "blahst_26.jpg",
       "brand": "BLAHST",
       "location": "Team Apparel - Car 3",
-      "sort_order": 39
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_blahst_26.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_27.png",
+      "filename": "blahst_27.jpg",
       "brand": "BLAHST",
       "location": "Team Apparel - Car 3",
-      "sort_order": 40
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_blahst_27.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_28.png",
+      "filename": "blahst_28.jpg",
       "brand": "BLAHST",
       "location": "Driver Suit - Car 3",
-      "sort_order": 41
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_blahst_28.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_29.png",
+      "filename": "blahst_29.jpg",
       "brand": "BLAHST",
       "location": "Driver Suit - Car 3",
-      "sort_order": 42
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_blahst_29.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_30.png",
+      "filename": "blahst_30.jpg",
       "brand": "BLAHST",
       "location": "Driver Suit - Car 3",
-      "sort_order": 43
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_blahst_30.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_31.png",
+      "filename": "blahst_31.jpg",
       "brand": "BLAHST",
       "location": "Driver Suit - Car 3",
-      "sort_order": 44
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_blahst_31.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_32.png",
+      "filename": "blahst_32.jpg",
       "brand": "BLAHST",
       "location": "Driver Suit - Car 3",
-      "sort_order": 45
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_blahst_32.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_33.png",
+      "filename": "blahst_33.jpg",
       "brand": "BLAHST",
       "location": "Driver Cap - Car 3",
-      "sort_order": 46
+      "sort_order": 46,
+      "thumbnail": "thumbs/thumb_blahst_33.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_34.png",
+      "filename": "blahst_34.jpg",
       "brand": "BLAHST",
       "location": "Driver Cap - Car 3",
-      "sort_order": 47
+      "sort_order": 47,
+      "thumbnail": "thumbs/thumb_blahst_34.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_35.png",
+      "filename": "blahst_35.jpg",
       "brand": "BLAHST",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 48
+      "sort_order": 48,
+      "thumbnail": "thumbs/thumb_blahst_35.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_36.png",
+      "filename": "blahst_36.jpg",
       "brand": "BLAHST",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 49
+      "sort_order": 49,
+      "thumbnail": "thumbs/thumb_blahst_36.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_37.png",
+      "filename": "blahst_37.jpg",
       "brand": "BLAHST",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 50
+      "sort_order": 50,
+      "thumbnail": "thumbs/thumb_blahst_37.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_38.png",
+      "filename": "blahst_38.jpg",
       "brand": "BLAHST",
       "location": "Truck - Car 3",
-      "sort_order": 51
+      "sort_order": 51,
+      "thumbnail": "thumbs/thumb_blahst_38.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_39.png",
+      "filename": "blahst_39.jpg",
       "brand": "BLAHST",
       "location": "Truck - Car 3",
-      "sort_order": 52
+      "sort_order": 52,
+      "thumbnail": "thumbs/thumb_blahst_39.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_40.png",
+      "filename": "blahst_40.jpg",
       "brand": "BLAHST",
       "location": "Flag - Car 3",
-      "sort_order": 53
+      "sort_order": 53,
+      "thumbnail": "thumbs/thumb_blahst_40.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_41.png",
+      "filename": "blahst_41.jpg",
       "brand": "BLAHST",
       "location": "Flag - Car 3",
-      "sort_order": 54
+      "sort_order": 54,
+      "thumbnail": "thumbs/thumb_blahst_41.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_42.png",
+      "filename": "blahst_42.jpg",
       "brand": "BLAHST",
       "location": "Flag - Car 3",
-      "sort_order": 55
+      "sort_order": 55,
+      "thumbnail": "thumbs/thumb_blahst_42.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_43.png",
+      "filename": "blahst_43.jpg",
       "brand": "BLAHST",
       "location": "Flag - Car 3",
-      "sort_order": 56
+      "sort_order": 56,
+      "thumbnail": "thumbs/thumb_blahst_43.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_44.png",
+      "filename": "blahst_44.jpg",
       "brand": "BLAHST",
       "location": "Driver Helmet - Car 3",
-      "sort_order": 57
+      "sort_order": 57,
+      "thumbnail": "thumbs/thumb_blahst_44.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_45.png",
+      "filename": "blahst_45.jpg",
       "brand": "BLAHST",
       "location": "TVGI - Text - Car 3",
-      "sort_order": 58
+      "sort_order": 58,
+      "thumbnail": "thumbs/thumb_blahst_45.jpg"
     },
     {
       "type": "example",
-      "filename": "blahst_46.png",
+      "filename": "blahst_46.jpg",
       "brand": "BLAHST",
       "location": "Garage Sign - Car 3",
-      "sort_order": 59
+      "sort_order": 59,
+      "thumbnail": "thumbs/thumb_blahst_46.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_0.png",
+      "filename": "bosch_0.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 3",
-      "sort_order": 60
+      "sort_order": 60,
+      "thumbnail": "thumbs/thumb_bosch_0.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_1.png",
+      "filename": "bosch_1.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 3",
-      "sort_order": 61
+      "sort_order": 61,
+      "thumbnail": "thumbs/thumb_bosch_1.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_2.png",
+      "filename": "bosch_2.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 3",
-      "sort_order": 62
+      "sort_order": 62,
+      "thumbnail": "thumbs/thumb_bosch_2.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_3.png",
+      "filename": "bosch_3.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 3",
-      "sort_order": 63
+      "sort_order": 63,
+      "thumbnail": "thumbs/thumb_bosch_3.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_4.png",
+      "filename": "bosch_4.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 3",
-      "sort_order": 64
+      "sort_order": 64,
+      "thumbnail": "thumbs/thumb_bosch_4.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_5.png",
+      "filename": "bosch_5.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 7",
-      "sort_order": 65
+      "sort_order": 65,
+      "thumbnail": "thumbs/thumb_bosch_5.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_6.png",
+      "filename": "bosch_6.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 7",
-      "sort_order": 66
+      "sort_order": 66,
+      "thumbnail": "thumbs/thumb_bosch_6.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_7.png",
+      "filename": "bosch_7.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 7",
-      "sort_order": 67
+      "sort_order": 67,
+      "thumbnail": "thumbs/thumb_bosch_7.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_8.png",
+      "filename": "bosch_8.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 7",
-      "sort_order": 68
+      "sort_order": 68,
+      "thumbnail": "thumbs/thumb_bosch_8.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_9.png",
+      "filename": "bosch_9.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 7",
-      "sort_order": 69
+      "sort_order": 69,
+      "thumbnail": "thumbs/thumb_bosch_9.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_10.png",
+      "filename": "bosch_10.jpg",
       "brand": "Bosch",
       "location": "Front Bumper - Car 7",
-      "sort_order": 70
+      "sort_order": 70,
+      "thumbnail": "thumbs/thumb_bosch_10.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_11.png",
+      "filename": "bosch_11.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 71
+      "sort_order": 71,
+      "thumbnail": "thumbs/thumb_bosch_11.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_12.png",
+      "filename": "bosch_12.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 72
+      "sort_order": 72,
+      "thumbnail": "thumbs/thumb_bosch_12.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_13.png",
+      "filename": "bosch_13.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 73
+      "sort_order": 73,
+      "thumbnail": "thumbs/thumb_bosch_13.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_14.png",
+      "filename": "bosch_14.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 74
+      "sort_order": 74,
+      "thumbnail": "thumbs/thumb_bosch_14.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_15.png",
+      "filename": "bosch_15.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 75
+      "sort_order": 75,
+      "thumbnail": "thumbs/thumb_bosch_15.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_16.png",
+      "filename": "bosch_16.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 76
+      "sort_order": 76,
+      "thumbnail": "thumbs/thumb_bosch_16.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_17.png",
+      "filename": "bosch_17.jpg",
       "brand": "Bosch",
       "location": "Car Nose - Car 7",
-      "sort_order": 77
+      "sort_order": 77,
+      "thumbnail": "thumbs/thumb_bosch_17.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_18.png",
+      "filename": "bosch_18.jpg",
       "brand": "Bosch",
       "location": "Team Apparel - Car 7",
-      "sort_order": 78
+      "sort_order": 78,
+      "thumbnail": "thumbs/thumb_bosch_18.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_19.png",
+      "filename": "bosch_19.jpg",
       "brand": "Bosch",
       "location": "Team Apparel - Car 7",
-      "sort_order": 79
+      "sort_order": 79,
+      "thumbnail": "thumbs/thumb_bosch_19.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_20.png",
+      "filename": "bosch_20.jpg",
       "brand": "Bosch",
       "location": "Team Apparel - Car 7",
-      "sort_order": 80
+      "sort_order": 80,
+      "thumbnail": "thumbs/thumb_bosch_20.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_21.png",
+      "filename": "bosch_21.jpg",
       "brand": "Bosch",
       "location": "Garage - Car 3",
-      "sort_order": 81
+      "sort_order": 81,
+      "thumbnail": "thumbs/thumb_bosch_21.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_22.png",
+      "filename": "bosch_22.jpg",
       "brand": "Bosch",
       "location": "Driver Cap - Car 7",
-      "sort_order": 82
+      "sort_order": 82,
+      "thumbnail": "thumbs/thumb_bosch_22.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_23.png",
+      "filename": "bosch_23.jpg",
       "brand": "Bosch",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 83
+      "sort_order": 83,
+      "thumbnail": "thumbs/thumb_bosch_23.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_24.png",
+      "filename": "bosch_24.jpg",
       "brand": "Bosch",
       "location": "Driver Suit - Car 3",
-      "sort_order": 84
+      "sort_order": 84,
+      "thumbnail": "thumbs/thumb_bosch_24.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_25.png",
+      "filename": "bosch_25.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 7",
-      "sort_order": 85
+      "sort_order": 85,
+      "thumbnail": "thumbs/thumb_bosch_25.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_26.png",
+      "filename": "bosch_26.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 7",
-      "sort_order": 86
+      "sort_order": 86,
+      "thumbnail": "thumbs/thumb_bosch_26.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_27.png",
+      "filename": "bosch_27.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 7",
-      "sort_order": 87
+      "sort_order": 87,
+      "thumbnail": "thumbs/thumb_bosch_27.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_28.png",
+      "filename": "bosch_28.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 7",
-      "sort_order": 88
+      "sort_order": 88,
+      "thumbnail": "thumbs/thumb_bosch_28.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_29.png",
+      "filename": "bosch_29.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 7",
-      "sort_order": 89
+      "sort_order": 89,
+      "thumbnail": "thumbs/thumb_bosch_29.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_30.png",
+      "filename": "bosch_30.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 7",
-      "sort_order": 90
+      "sort_order": 90,
+      "thumbnail": "thumbs/thumb_bosch_30.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_31.png",
+      "filename": "bosch_31.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 3",
-      "sort_order": 91
+      "sort_order": 91,
+      "thumbnail": "thumbs/thumb_bosch_31.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_32.png",
+      "filename": "bosch_32.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 3",
-      "sort_order": 92
+      "sort_order": 92,
+      "thumbnail": "thumbs/thumb_bosch_32.jpg"
     },
     {
       "type": "example",
-      "filename": "bosch_33.png",
+      "filename": "bosch_33.jpg",
       "brand": "Bosch",
       "location": "Rear Windscreen - Car 3",
-      "sort_order": 93
+      "sort_order": 93,
+      "thumbnail": "thumbs/thumb_bosch_33.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_0.png",
+      "filename": "bush_ranger_0.jpg",
       "brand": "Bush Ranger",
       "location": "Front Car Side - Car 3",
-      "sort_order": 94
+      "sort_order": 94,
+      "thumbnail": "thumbs/thumb_bush_ranger_0.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_1.png",
+      "filename": "bush_ranger_1.jpg",
       "brand": "Bush Ranger",
       "location": "Front Car Side - Car 3",
-      "sort_order": 95
+      "sort_order": 95,
+      "thumbnail": "thumbs/thumb_bush_ranger_1.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_2.png",
+      "filename": "bush_ranger_2.jpg",
       "brand": "Bush Ranger",
       "location": "Front Car Side - Car 3",
-      "sort_order": 96
+      "sort_order": 96,
+      "thumbnail": "thumbs/thumb_bush_ranger_2.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_3.png",
+      "filename": "bush_ranger_3.jpg",
       "brand": "Bush Ranger",
       "location": "Front Car Side - Car 3",
-      "sort_order": 97
+      "sort_order": 97,
+      "thumbnail": "thumbs/thumb_bush_ranger_3.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_4.png",
+      "filename": "bush_ranger_4.jpg",
       "brand": "Bush Ranger",
       "location": "Front Car Side - Car 3",
-      "sort_order": 98
+      "sort_order": 98,
+      "thumbnail": "thumbs/thumb_bush_ranger_4.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_5.png",
+      "filename": "bush_ranger_5.jpg",
       "brand": "Bush Ranger",
       "location": "Front Car Side - Car 3",
-      "sort_order": 99
+      "sort_order": 99,
+      "thumbnail": "thumbs/thumb_bush_ranger_5.jpg"
     },
     {
       "type": "example",
-      "filename": "bush_ranger_6.png",
+      "filename": "bush_ranger_6.jpg",
       "brand": "Bush Ranger",
       "location": "Driver Helmet - Car 3",
-      "sort_order": 100
+      "sort_order": 100,
+      "thumbnail": "thumbs/thumb_bush_ranger_6.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_0.png",
+      "filename": "cooldrive_0.jpg",
       "brand": "CoolDrive",
       "location": "Bonnet - Car 7",
-      "sort_order": 101
+      "sort_order": 101,
+      "thumbnail": "thumbs/thumb_cooldrive_0.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_1.png",
+      "filename": "cooldrive_1.jpg",
       "brand": "CoolDrive",
       "location": "Bonnet - Car 7",
-      "sort_order": 102
+      "sort_order": 102,
+      "thumbnail": "thumbs/thumb_cooldrive_1.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_2.png",
+      "filename": "cooldrive_2.jpg",
       "brand": "CoolDrive",
       "location": "Bonnet - Car 7",
-      "sort_order": 103
+      "sort_order": 103,
+      "thumbnail": "thumbs/thumb_cooldrive_2.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_3.png",
+      "filename": "cooldrive_3.jpg",
       "brand": "CoolDrive",
       "location": "Bonnet - Car 7",
-      "sort_order": 104
+      "sort_order": 104,
+      "thumbnail": "thumbs/thumb_cooldrive_3.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_4.png",
+      "filename": "cooldrive_4.jpg",
       "brand": "CoolDrive",
       "location": "Bonnet - Car 7",
-      "sort_order": 105
+      "sort_order": 105,
+      "thumbnail": "thumbs/thumb_cooldrive_4.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_5.png",
+      "filename": "cooldrive_5.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 106
+      "sort_order": 106,
+      "thumbnail": "thumbs/thumb_cooldrive_5.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_6.png",
+      "filename": "cooldrive_6.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 107
+      "sort_order": 107,
+      "thumbnail": "thumbs/thumb_cooldrive_6.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_7.png",
+      "filename": "cooldrive_7.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 108
+      "sort_order": 108,
+      "thumbnail": "thumbs/thumb_cooldrive_7.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_8.png",
+      "filename": "cooldrive_8.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 109
+      "sort_order": 109,
+      "thumbnail": "thumbs/thumb_cooldrive_8.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_9.png",
+      "filename": "cooldrive_9.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 110
+      "sort_order": 110,
+      "thumbnail": "thumbs/thumb_cooldrive_9.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_10.png",
+      "filename": "cooldrive_10.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 111
+      "sort_order": 111,
+      "thumbnail": "thumbs/thumb_cooldrive_10.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_11.png",
+      "filename": "cooldrive_11.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 112
+      "sort_order": 112,
+      "thumbnail": "thumbs/thumb_cooldrive_11.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_12.png",
+      "filename": "cooldrive_12.jpg",
       "brand": "CoolDrive",
       "location": "Car Side - Car 7",
-      "sort_order": 113
+      "sort_order": 113,
+      "thumbnail": "thumbs/thumb_cooldrive_12.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_13.png",
+      "filename": "cooldrive_13.jpg",
       "brand": "CoolDrive",
       "location": "Team Apparel - Car 7",
-      "sort_order": 114
+      "sort_order": 114,
+      "thumbnail": "thumbs/thumb_cooldrive_13.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_14.png",
+      "filename": "cooldrive_14.jpg",
       "brand": "CoolDrive",
       "location": "Team Apparel - Car 7",
-      "sort_order": 115
+      "sort_order": 115,
+      "thumbnail": "thumbs/thumb_cooldrive_14.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_15.png",
+      "filename": "cooldrive_15.jpg",
       "brand": "CoolDrive",
       "location": "Team Apparel - Car 7",
-      "sort_order": 116
+      "sort_order": 116,
+      "thumbnail": "thumbs/thumb_cooldrive_15.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_16.png",
+      "filename": "cooldrive_16.jpg",
       "brand": "CoolDrive",
       "location": "Team Apparel - Car 7",
-      "sort_order": 117
+      "sort_order": 117,
+      "thumbnail": "thumbs/thumb_cooldrive_16.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_17.png",
+      "filename": "cooldrive_17.jpg",
       "brand": "CoolDrive",
       "location": "Team Apparel - Car 7",
-      "sort_order": 118
+      "sort_order": 118,
+      "thumbnail": "thumbs/thumb_cooldrive_17.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_18.png",
+      "filename": "cooldrive_18.jpg",
       "brand": "CoolDrive",
       "location": "Garage - Car 7",
-      "sort_order": 119
+      "sort_order": 119,
+      "thumbnail": "thumbs/thumb_cooldrive_18.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_19.png",
+      "filename": "cooldrive_19.jpg",
       "brand": "CoolDrive",
       "location": "Garage - Car 7",
-      "sort_order": 120
+      "sort_order": 120,
+      "thumbnail": "thumbs/thumb_cooldrive_19.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_20.png",
+      "filename": "cooldrive_20.jpg",
       "brand": "CoolDrive",
       "location": "Garage - Car 7",
-      "sort_order": 121
+      "sort_order": 121,
+      "thumbnail": "thumbs/thumb_cooldrive_20.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_21.png",
+      "filename": "cooldrive_21.jpg",
       "brand": "CoolDrive",
       "location": "Garage - Car 7",
-      "sort_order": 122
+      "sort_order": 122,
+      "thumbnail": "thumbs/thumb_cooldrive_21.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_22.png",
+      "filename": "cooldrive_22.jpg",
       "brand": "CoolDrive",
       "location": "Driver Suit - Car 7",
-      "sort_order": 123
+      "sort_order": 123,
+      "thumbnail": "thumbs/thumb_cooldrive_22.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_23.png",
+      "filename": "cooldrive_23.jpg",
       "brand": "CoolDrive",
       "location": "Driver Suit - Car 7",
-      "sort_order": 124
+      "sort_order": 124,
+      "thumbnail": "thumbs/thumb_cooldrive_23.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_24.png",
+      "filename": "cooldrive_24.jpg",
       "brand": "CoolDrive",
       "location": "Driver Suit - Car 7",
-      "sort_order": 125
+      "sort_order": 125,
+      "thumbnail": "thumbs/thumb_cooldrive_24.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_25.png",
+      "filename": "cooldrive_25.jpg",
       "brand": "CoolDrive",
       "location": "Driver Suit - Car 7",
-      "sort_order": 126
+      "sort_order": 126,
+      "thumbnail": "thumbs/thumb_cooldrive_25.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_26.png",
+      "filename": "cooldrive_26.jpg",
       "brand": "CoolDrive",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 127
+      "sort_order": 127,
+      "thumbnail": "thumbs/thumb_cooldrive_26.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_27.png",
+      "filename": "cooldrive_27.jpg",
       "brand": "CoolDrive",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 128
+      "sort_order": 128,
+      "thumbnail": "thumbs/thumb_cooldrive_27.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_28.png",
+      "filename": "cooldrive_28.jpg",
       "brand": "CoolDrive",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 129
+      "sort_order": 129,
+      "thumbnail": "thumbs/thumb_cooldrive_28.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_29.png",
+      "filename": "cooldrive_29.jpg",
       "brand": "CoolDrive",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 130
+      "sort_order": 130,
+      "thumbnail": "thumbs/thumb_cooldrive_29.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_30.png",
+      "filename": "cooldrive_30.jpg",
       "brand": "CoolDrive",
       "location": "Driver Cap - Car 7",
-      "sort_order": 131
+      "sort_order": 131,
+      "thumbnail": "thumbs/thumb_cooldrive_30.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_31.png",
+      "filename": "cooldrive_31.jpg",
       "brand": "CoolDrive",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 132
+      "sort_order": 132,
+      "thumbnail": "thumbs/thumb_cooldrive_31.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_32.png",
+      "filename": "cooldrive_32.jpg",
       "brand": "CoolDrive",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 133
+      "sort_order": 133,
+      "thumbnail": "thumbs/thumb_cooldrive_32.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_33.png",
+      "filename": "cooldrive_33.jpg",
       "brand": "CoolDrive",
       "location": "Truck - Car 7",
-      "sort_order": 134
+      "sort_order": 134,
+      "thumbnail": "thumbs/thumb_cooldrive_33.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_34.png",
+      "filename": "cooldrive_34.jpg",
       "brand": "CoolDrive",
       "location": "Truck - Car 7",
-      "sort_order": 135
+      "sort_order": 135,
+      "thumbnail": "thumbs/thumb_cooldrive_34.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_35.png",
+      "filename": "cooldrive_35.jpg",
       "brand": "CoolDrive",
       "location": "In-Car Camera - Car 7",
-      "sort_order": 136
+      "sort_order": 136,
+      "thumbnail": "thumbs/thumb_cooldrive_35.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_36.png",
+      "filename": "cooldrive_36.jpg",
       "brand": "CoolDrive",
       "location": "In-Car Camera - Car 7",
-      "sort_order": 137
+      "sort_order": 137,
+      "thumbnail": "thumbs/thumb_cooldrive_36.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_37.png",
+      "filename": "cooldrive_37.jpg",
       "brand": "CoolDrive",
       "location": "TVGI - Text - Car 7",
-      "sort_order": 138
+      "sort_order": 138,
+      "thumbnail": "thumbs/thumb_cooldrive_37.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_38.png",
+      "filename": "cooldrive_38.jpg",
       "brand": "CoolDrive",
       "location": "Umbrella - Car 7",
-      "sort_order": 139
+      "sort_order": 139,
+      "thumbnail": "thumbs/thumb_cooldrive_38.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_39.png",
+      "filename": "cooldrive_39.jpg",
       "brand": "CoolDrive",
       "location": "Team Apparel - Car 3",
-      "sort_order": 140
+      "sort_order": 140,
+      "thumbnail": "thumbs/thumb_cooldrive_39.jpg"
     },
     {
       "type": "example",
-      "filename": "cooldrive_40.png",
+      "filename": "cooldrive_40.jpg",
       "brand": "CoolDrive",
       "location": "Driver Seat - Car 7",
-      "sort_order": 141
+      "sort_order": 141,
+      "thumbnail": "thumbs/thumb_cooldrive_40.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_0.png",
+      "filename": "custom_transport_equipment_0.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Rear Bumper - Car 7",
-      "sort_order": 142
+      "sort_order": 142,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_0.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_1.png",
+      "filename": "custom_transport_equipment_1.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Rear Bumper - Car 7",
-      "sort_order": 143
+      "sort_order": 143,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_1.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_2.png",
+      "filename": "custom_transport_equipment_2.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Rear Bumper - Car 7",
-      "sort_order": 144
+      "sort_order": 144,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_2.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_3.png",
+      "filename": "custom_transport_equipment_3.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Rear Bumper - Car 7",
-      "sort_order": 145
+      "sort_order": 145,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_3.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_4.png",
+      "filename": "custom_transport_equipment_4.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Rear Bumper - Car 7",
-      "sort_order": 146
+      "sort_order": 146,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_4.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_5.png",
+      "filename": "custom_transport_equipment_5.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Rear Bumper - Car 7",
-      "sort_order": 147
+      "sort_order": 147,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_5.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_6.png",
+      "filename": "custom_transport_equipment_6.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Front Bumper - Car 7",
-      "sort_order": 148
+      "sort_order": 148,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_6.jpg"
     },
     {
       "type": "example",
-      "filename": "custom_transport_equipment_7.png",
+      "filename": "custom_transport_equipment_7.jpg",
       "brand": "Custom Transport Equipment",
       "location": "Front Bumper - Car 7",
-      "sort_order": 149
+      "sort_order": 149,
+      "thumbnail": "thumbs/thumb_custom_transport_equipment_7.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_0.png",
+      "filename": "dayco_0.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 3",
-      "sort_order": 150
+      "sort_order": 150,
+      "thumbnail": "thumbs/thumb_dayco_0.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_1.png",
+      "filename": "dayco_1.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 3",
-      "sort_order": 151
+      "sort_order": 151,
+      "thumbnail": "thumbs/thumb_dayco_1.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_2.png",
+      "filename": "dayco_2.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 3",
-      "sort_order": 152
+      "sort_order": 152,
+      "thumbnail": "thumbs/thumb_dayco_2.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_3.png",
+      "filename": "dayco_3.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 3",
-      "sort_order": 153
+      "sort_order": 153,
+      "thumbnail": "thumbs/thumb_dayco_3.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_4.png",
+      "filename": "dayco_4.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 3",
-      "sort_order": 154
+      "sort_order": 154,
+      "thumbnail": "thumbs/thumb_dayco_4.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_5.png",
+      "filename": "dayco_5.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 7",
-      "sort_order": 155
+      "sort_order": 155,
+      "thumbnail": "thumbs/thumb_dayco_5.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_6.png",
+      "filename": "dayco_6.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 7",
-      "sort_order": 156
+      "sort_order": 156,
+      "thumbnail": "thumbs/thumb_dayco_6.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_7.png",
+      "filename": "dayco_7.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 7",
-      "sort_order": 157
+      "sort_order": 157,
+      "thumbnail": "thumbs/thumb_dayco_7.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_8.png",
+      "filename": "dayco_8.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 7",
-      "sort_order": 158
+      "sort_order": 158,
+      "thumbnail": "thumbs/thumb_dayco_8.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_9.png",
+      "filename": "dayco_9.jpg",
       "brand": "Dayco",
       "location": "Windscreen - Car 7",
-      "sort_order": 159
+      "sort_order": 159,
+      "thumbnail": "thumbs/thumb_dayco_9.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_10.png",
+      "filename": "dayco_10.jpg",
       "brand": "Dayco",
       "location": "Team Apparel - Car 7",
-      "sort_order": 160
+      "sort_order": 160,
+      "thumbnail": "thumbs/thumb_dayco_10.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_11.png",
+      "filename": "dayco_11.jpg",
       "brand": "Dayco",
       "location": "Team Apparel - Car 7",
-      "sort_order": 161
+      "sort_order": 161,
+      "thumbnail": "thumbs/thumb_dayco_11.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_12.png",
+      "filename": "dayco_12.jpg",
       "brand": "Dayco",
       "location": "Team Apparel - Car 7",
-      "sort_order": 162
+      "sort_order": 162,
+      "thumbnail": "thumbs/thumb_dayco_12.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_13.png",
+      "filename": "dayco_13.jpg",
       "brand": "Dayco",
       "location": "Garage - Car 3",
-      "sort_order": 163
+      "sort_order": 163,
+      "thumbnail": "thumbs/thumb_dayco_13.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_14.png",
+      "filename": "dayco_14.jpg",
       "brand": "Dayco",
       "location": "Garage - Car 3",
-      "sort_order": 164
+      "sort_order": 164,
+      "thumbnail": "thumbs/thumb_dayco_14.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_15.png",
+      "filename": "dayco_15.jpg",
       "brand": "Dayco",
       "location": "Driver Suit - Car 3",
-      "sort_order": 165
+      "sort_order": 165,
+      "thumbnail": "thumbs/thumb_dayco_15.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_16.png",
+      "filename": "dayco_16.jpg",
       "brand": "Dayco",
       "location": "Driver Suit - Car 3",
-      "sort_order": 166
+      "sort_order": 166,
+      "thumbnail": "thumbs/thumb_dayco_16.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_17.png",
+      "filename": "dayco_17.jpg",
       "brand": "Dayco",
       "location": "Driver Suit - Car 7",
-      "sort_order": 167
+      "sort_order": 167,
+      "thumbnail": "thumbs/thumb_dayco_17.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_18.png",
+      "filename": "dayco_18.jpg",
       "brand": "Dayco",
       "location": "Driver Suit - Car 7",
-      "sort_order": 168
+      "sort_order": 168,
+      "thumbnail": "thumbs/thumb_dayco_18.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_19.png",
+      "filename": "dayco_19.jpg",
       "brand": "Dayco",
       "location": "Driver Cap - Car 7",
-      "sort_order": 169
+      "sort_order": 169,
+      "thumbnail": "thumbs/thumb_dayco_19.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_20.png",
+      "filename": "dayco_20.jpg",
       "brand": "Dayco",
       "location": "Windscreen Cover - Car 7",
-      "sort_order": 170
+      "sort_order": 170,
+      "thumbnail": "thumbs/thumb_dayco_20.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_21.png",
+      "filename": "dayco_21.jpg",
       "brand": "Dayco",
       "location": "Bonnet - Car 7",
-      "sort_order": 171
+      "sort_order": 171,
+      "thumbnail": "thumbs/thumb_dayco_21.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_22.png",
+      "filename": "dayco_22.jpg",
       "brand": "Dayco",
       "location": "Garage - Car 7",
-      "sort_order": 172
+      "sort_order": 172,
+      "thumbnail": "thumbs/thumb_dayco_22.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_23.png",
+      "filename": "dayco_23.jpg",
       "brand": "Dayco",
       "location": "Driver Suit - Car 7",
-      "sort_order": 173
+      "sort_order": 173,
+      "thumbnail": "thumbs/thumb_dayco_23.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_24.png",
+      "filename": "dayco_24.jpg",
       "brand": "Dayco",
       "location": "TVGI - Text - Car 7",
-      "sort_order": 174
+      "sort_order": 174,
+      "thumbnail": "thumbs/thumb_dayco_24.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_25.png",
+      "filename": "dayco_25.jpg",
       "brand": "Dayco",
       "location": "Car Side - Car 7",
-      "sort_order": 175
+      "sort_order": 175,
+      "thumbnail": "thumbs/thumb_dayco_25.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_26.png",
+      "filename": "dayco_26.jpg",
       "brand": "Dayco",
       "location": "Car Side - Car 7",
-      "sort_order": 176
+      "sort_order": 176,
+      "thumbnail": "thumbs/thumb_dayco_26.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_27.png",
+      "filename": "dayco_27.jpg",
       "brand": "Dayco",
       "location": "Car Side - Car 7",
-      "sort_order": 177
+      "sort_order": 177,
+      "thumbnail": "thumbs/thumb_dayco_27.jpg"
     },
     {
       "type": "example",
-      "filename": "dayco_28.png",
+      "filename": "dayco_28.jpg",
       "brand": "Dayco",
       "location": "Garage Sign - Car 7",
-      "sort_order": 178
+      "sort_order": 178,
+      "thumbnail": "thumbs/thumb_dayco_28.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_0.png",
+      "filename": "ford_0.jpg",
       "brand": "Ford",
       "location": "Team Apparel - Car 7",
-      "sort_order": 179
+      "sort_order": 179,
+      "thumbnail": "thumbs/thumb_ford_0.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_1.png",
+      "filename": "ford_1.jpg",
       "brand": "Ford",
       "location": "Team Apparel - Car 7",
-      "sort_order": 180
+      "sort_order": 180,
+      "thumbnail": "thumbs/thumb_ford_1.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_2.png",
+      "filename": "ford_2.jpg",
       "brand": "Ford",
       "location": "Team Apparel - Car 7",
-      "sort_order": 181
+      "sort_order": 181,
+      "thumbnail": "thumbs/thumb_ford_2.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_3.png",
+      "filename": "ford_3.jpg",
       "brand": "Ford",
       "location": "Team Apparel - Car 7",
-      "sort_order": 182
+      "sort_order": 182,
+      "thumbnail": "thumbs/thumb_ford_3.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_4.png",
+      "filename": "ford_4.jpg",
       "brand": "Ford",
       "location": "Team Apparel - Car 7",
-      "sort_order": 183
+      "sort_order": 183,
+      "thumbnail": "thumbs/thumb_ford_4.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_5.png",
+      "filename": "ford_5.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 7",
-      "sort_order": 184
+      "sort_order": 184,
+      "thumbnail": "thumbs/thumb_ford_5.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_6.png",
+      "filename": "ford_6.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 7",
-      "sort_order": 185
+      "sort_order": 185,
+      "thumbnail": "thumbs/thumb_ford_6.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_7.png",
+      "filename": "ford_7.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 7",
-      "sort_order": 186
+      "sort_order": 186,
+      "thumbnail": "thumbs/thumb_ford_7.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_8.png",
+      "filename": "ford_8.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 7",
-      "sort_order": 187
+      "sort_order": 187,
+      "thumbnail": "thumbs/thumb_ford_8.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_9.png",
+      "filename": "ford_9.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 7",
-      "sort_order": 188
+      "sort_order": 188,
+      "thumbnail": "thumbs/thumb_ford_9.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_10.png",
+      "filename": "ford_10.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 3",
-      "sort_order": 189
+      "sort_order": 189,
+      "thumbnail": "thumbs/thumb_ford_10.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_11.png",
+      "filename": "ford_11.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 3",
-      "sort_order": 190
+      "sort_order": 190,
+      "thumbnail": "thumbs/thumb_ford_11.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_12.png",
+      "filename": "ford_12.jpg",
       "brand": "Ford",
       "location": "Driver Suit - Car 3",
-      "sort_order": 191
+      "sort_order": 191,
+      "thumbnail": "thumbs/thumb_ford_12.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_13.png",
+      "filename": "ford_13.jpg",
       "brand": "Ford",
       "location": "Roof - Car 7",
-      "sort_order": 192
+      "sort_order": 192,
+      "thumbnail": "thumbs/thumb_ford_13.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_14.png",
+      "filename": "ford_14.jpg",
       "brand": "Ford",
       "location": "Roof - Car 7",
-      "sort_order": 193
+      "sort_order": 193,
+      "thumbnail": "thumbs/thumb_ford_14.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_15.png",
+      "filename": "ford_15.jpg",
       "brand": "Ford",
       "location": "Roof - Car 7",
-      "sort_order": 194
+      "sort_order": 194,
+      "thumbnail": "thumbs/thumb_ford_15.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_16.png",
+      "filename": "ford_16.jpg",
       "brand": "Ford",
       "location": "Roof - Car 7",
-      "sort_order": 195
+      "sort_order": 195,
+      "thumbnail": "thumbs/thumb_ford_16.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_17.png",
+      "filename": "ford_17.jpg",
       "brand": "Ford",
       "location": "Roof - Car 7",
-      "sort_order": 196
+      "sort_order": 196,
+      "thumbnail": "thumbs/thumb_ford_17.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_18.png",
+      "filename": "ford_18.jpg",
       "brand": "Ford",
       "location": "Roof - Car 3",
-      "sort_order": 197
+      "sort_order": 197,
+      "thumbnail": "thumbs/thumb_ford_18.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_19.png",
+      "filename": "ford_19.jpg",
       "brand": "Ford",
       "location": "Roof - Car 3",
-      "sort_order": 198
+      "sort_order": 198,
+      "thumbnail": "thumbs/thumb_ford_19.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_20.png",
+      "filename": "ford_20.jpg",
       "brand": "Ford",
       "location": "Roof - Car 3",
-      "sort_order": 199
+      "sort_order": 199,
+      "thumbnail": "thumbs/thumb_ford_20.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_21.png",
+      "filename": "ford_21.jpg",
       "brand": "Ford",
       "location": "Rear Bumper- Car 3",
-      "sort_order": 200
+      "sort_order": 200,
+      "thumbnail": "thumbs/thumb_ford_21.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_22.png",
+      "filename": "ford_22.jpg",
       "brand": "Ford",
       "location": "Rear Bumper- Car 3",
-      "sort_order": 201
+      "sort_order": 201,
+      "thumbnail": "thumbs/thumb_ford_22.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_23.png",
+      "filename": "ford_23.jpg",
       "brand": "Ford",
       "location": "Rear Bumper- Car 3",
-      "sort_order": 202
+      "sort_order": 202,
+      "thumbnail": "thumbs/thumb_ford_23.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_24.png",
+      "filename": "ford_24.jpg",
       "brand": "Ford",
       "location": "Rear Bumper- Car 7",
-      "sort_order": 203
+      "sort_order": 203,
+      "thumbnail": "thumbs/thumb_ford_24.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_25.png",
+      "filename": "ford_25.jpg",
       "brand": "Ford",
       "location": "Rear Bumper- Car 7",
-      "sort_order": 204
+      "sort_order": 204,
+      "thumbnail": "thumbs/thumb_ford_25.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_26.png",
+      "filename": "ford_26.jpg",
       "brand": "Ford",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 205
+      "sort_order": 205,
+      "thumbnail": "thumbs/thumb_ford_26.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_27.png",
+      "filename": "ford_27.jpg",
       "brand": "Ford",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 206
+      "sort_order": 206,
+      "thumbnail": "thumbs/thumb_ford_27.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_28.png",
+      "filename": "ford_28.jpg",
       "brand": "Ford",
       "location": "Team Apparel - Car 3",
-      "sort_order": 207
+      "sort_order": 207,
+      "thumbnail": "thumbs/thumb_ford_28.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_29.png",
+      "filename": "ford_29.jpg",
       "brand": "Ford",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 208
+      "sort_order": 208,
+      "thumbnail": "thumbs/thumb_ford_29.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_30.png",
+      "filename": "ford_30.jpg",
       "brand": "Ford",
       "location": "Car Rear - Car 7",
-      "sort_order": 209
+      "sort_order": 209,
+      "thumbnail": "thumbs/thumb_ford_30.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_31.png",
+      "filename": "ford_31.jpg",
       "brand": "Ford",
       "location": "Car Rear - Car 7",
-      "sort_order": 210
+      "sort_order": 210,
+      "thumbnail": "thumbs/thumb_ford_31.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_32.png",
+      "filename": "ford_32.jpg",
       "brand": "Ford",
       "location": "Bonnet - Car 3",
-      "sort_order": 211
+      "sort_order": 211,
+      "thumbnail": "thumbs/thumb_ford_32.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_33.png",
+      "filename": "ford_33.jpg",
       "brand": "Ford",
       "location": "Bonnet - Car 3",
-      "sort_order": 212
+      "sort_order": 212,
+      "thumbnail": "thumbs/thumb_ford_33.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_34.png",
-      "brand": "Ford",
-      "location": "Bonnet - Car 7",
-      "sort_order": 213
-    },
-    {
-      "type": "example",
-      "filename": "ford_35.png",
+      "filename": "ford_34.jpg",
       "brand": "Ford",
       "location": "Bonnet - Car 7",
-      "sort_order": 214
+      "sort_order": 213,
+      "thumbnail": "thumbs/thumb_ford_34.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_36.png",
+      "filename": "ford_35.jpg",
+      "brand": "Ford",
+      "location": "Bonnet - Car 7",
+      "sort_order": 214,
+      "thumbnail": "thumbs/thumb_ford_35.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_36.jpg",
       "brand": "Ford",
       "location": "In-car camera - Car 7",
-      "sort_order": 215
+      "sort_order": 215,
+      "thumbnail": "thumbs/thumb_ford_36.jpg"
     },
     {
       "type": "example",
-      "filename": "ford_37.png",
+      "filename": "ford_37.jpg",
       "brand": "Ford",
       "location": "In-car camera - Car 7",
-      "sort_order": 216
+      "sort_order": 216,
+      "thumbnail": "thumbs/thumb_ford_37.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_0.png",
+      "filename": "liqui_moly_0.jpg",
       "brand": "LIQUI MOLY",
       "location": "Car Side - Car 3",
-      "sort_order": 217
+      "sort_order": 217,
+      "thumbnail": "thumbs/thumb_liqui_moly_0.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_1.png",
+      "filename": "liqui_moly_1.jpg",
       "brand": "LIQUI MOLY",
       "location": "Car Side - Car 3",
-      "sort_order": 218
+      "sort_order": 218,
+      "thumbnail": "thumbs/thumb_liqui_moly_1.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_2.png",
+      "filename": "liqui_moly_2.jpg",
       "brand": "LIQUI MOLY",
       "location": "Car Side - Car 3",
-      "sort_order": 219
+      "sort_order": 219,
+      "thumbnail": "thumbs/thumb_liqui_moly_2.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_3.png",
+      "filename": "liqui_moly_3.jpg",
       "brand": "LIQUI MOLY",
       "location": "Car Side - Car 3",
-      "sort_order": 220
+      "sort_order": 220,
+      "thumbnail": "thumbs/thumb_liqui_moly_3.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_4.png",
+      "filename": "liqui_moly_4.jpg",
       "brand": "LIQUI MOLY",
       "location": "Car Side - Car 3",
-      "sort_order": 221
+      "sort_order": 221,
+      "thumbnail": "thumbs/thumb_liqui_moly_4.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_5.png",
+      "filename": "liqui_moly_5.jpg",
       "brand": "LIQUI MOLY",
       "location": "Bonnet - Car 3",
-      "sort_order": 222
+      "sort_order": 222,
+      "thumbnail": "thumbs/thumb_liqui_moly_5.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_6.png",
+      "filename": "liqui_moly_6.jpg",
       "brand": "LIQUI MOLY",
       "location": "Bonnet - Car 3",
-      "sort_order": 223
+      "sort_order": 223,
+      "thumbnail": "thumbs/thumb_liqui_moly_6.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_7.png",
+      "filename": "liqui_moly_7.jpg",
       "brand": "LIQUI MOLY",
       "location": "Bonnet - Car 3",
-      "sort_order": 224
+      "sort_order": 224,
+      "thumbnail": "thumbs/thumb_liqui_moly_7.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_8.png",
+      "filename": "liqui_moly_8.jpg",
       "brand": "LIQUI MOLY",
       "location": "Bonnet - Car 3",
-      "sort_order": 225
+      "sort_order": 225,
+      "thumbnail": "thumbs/thumb_liqui_moly_8.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_9.png",
+      "filename": "liqui_moly_9.jpg",
       "brand": "LIQUI MOLY",
       "location": "Bonnet - Car 3",
-      "sort_order": 226
+      "sort_order": 226,
+      "thumbnail": "thumbs/thumb_liqui_moly_9.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_10.png",
+      "filename": "liqui_moly_10.jpg",
       "brand": "LIQUI MOLY",
       "location": "Front Bumper - Car 3",
-      "sort_order": 227
+      "sort_order": 227,
+      "thumbnail": "thumbs/thumb_liqui_moly_10.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_11.png",
+      "filename": "liqui_moly_11.jpg",
       "brand": "LIQUI MOLY",
       "location": "Front Bumper - Car 3",
-      "sort_order": 228
+      "sort_order": 228,
+      "thumbnail": "thumbs/thumb_liqui_moly_11.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_12.png",
+      "filename": "liqui_moly_12.jpg",
       "brand": "LIQUI MOLY",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 229
+      "sort_order": 229,
+      "thumbnail": "thumbs/thumb_liqui_moly_12.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_13.png",
+      "filename": "liqui_moly_13.jpg",
       "brand": "LIQUI MOLY",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 230
+      "sort_order": 230,
+      "thumbnail": "thumbs/thumb_liqui_moly_13.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_14.png",
+      "filename": "liqui_moly_14.jpg",
       "brand": "LIQUI MOLY",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 231
+      "sort_order": 231,
+      "thumbnail": "thumbs/thumb_liqui_moly_14.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_15.png",
+      "filename": "liqui_moly_15.jpg",
       "brand": "LIQUI MOLY",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 232
+      "sort_order": 232,
+      "thumbnail": "thumbs/thumb_liqui_moly_15.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_16.png",
+      "filename": "liqui_moly_16.jpg",
       "brand": "LIQUI MOLY",
       "location": "Team Apparel - Car 7",
-      "sort_order": 233
+      "sort_order": 233,
+      "thumbnail": "thumbs/thumb_liqui_moly_16.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_17.png",
+      "filename": "liqui_moly_17.jpg",
       "brand": "LIQUI MOLY",
       "location": "Team Apparel - Car 7",
-      "sort_order": 234
+      "sort_order": 234,
+      "thumbnail": "thumbs/thumb_liqui_moly_17.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_18.png",
+      "filename": "liqui_moly_18.jpg",
       "brand": "LIQUI MOLY",
       "location": "Team Apparel - Car 7",
-      "sort_order": 235
+      "sort_order": 235,
+      "thumbnail": "thumbs/thumb_liqui_moly_18.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_19.png",
+      "filename": "liqui_moly_19.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage - Car 3",
-      "sort_order": 236
+      "sort_order": 236,
+      "thumbnail": "thumbs/thumb_liqui_moly_19.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_20.png",
+      "filename": "liqui_moly_20.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage - Car 3",
-      "sort_order": 237
+      "sort_order": 237,
+      "thumbnail": "thumbs/thumb_liqui_moly_20.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_21.png",
+      "filename": "liqui_moly_21.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage - Car 3",
-      "sort_order": 238
+      "sort_order": 238,
+      "thumbnail": "thumbs/thumb_liqui_moly_21.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_22.png",
+      "filename": "liqui_moly_22.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage - Car 3",
-      "sort_order": 239
+      "sort_order": 239,
+      "thumbnail": "thumbs/thumb_liqui_moly_22.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_23.png",
+      "filename": "liqui_moly_23.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage - Car 3",
-      "sort_order": 240
+      "sort_order": 240,
+      "thumbnail": "thumbs/thumb_liqui_moly_23.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_24.png",
+      "filename": "liqui_moly_24.jpg",
       "brand": "LIQUI MOLY",
       "location": "Team Apparel - Car 3",
-      "sort_order": 241
+      "sort_order": 241,
+      "thumbnail": "thumbs/thumb_liqui_moly_24.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_25.png",
+      "filename": "liqui_moly_25.jpg",
       "brand": "LIQUI MOLY",
       "location": "Team Apparel - Car 3",
-      "sort_order": 242
+      "sort_order": 242,
+      "thumbnail": "thumbs/thumb_liqui_moly_25.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_26.png",
+      "filename": "liqui_moly_26.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Helmet - Car 3",
-      "sort_order": 243
+      "sort_order": 243,
+      "thumbnail": "thumbs/thumb_liqui_moly_26.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_27.png",
+      "filename": "liqui_moly_27.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Suit - Car 3",
-      "sort_order": 244
+      "sort_order": 244,
+      "thumbnail": "thumbs/thumb_liqui_moly_27.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_28.png",
+      "filename": "liqui_moly_28.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Suit - Car 3",
-      "sort_order": 245
+      "sort_order": 245,
+      "thumbnail": "thumbs/thumb_liqui_moly_28.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_29.png",
+      "filename": "liqui_moly_29.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Suit - Car 3",
-      "sort_order": 246
+      "sort_order": 246,
+      "thumbnail": "thumbs/thumb_liqui_moly_29.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_30.png",
+      "filename": "liqui_moly_30.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Suit - Car 3",
-      "sort_order": 247
+      "sort_order": 247,
+      "thumbnail": "thumbs/thumb_liqui_moly_30.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_31.png",
+      "filename": "liqui_moly_31.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Suit - Car 3",
-      "sort_order": 248
+      "sort_order": 248,
+      "thumbnail": "thumbs/thumb_liqui_moly_31.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_32.png",
+      "filename": "liqui_moly_32.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Cap - Car 3",
-      "sort_order": 249
+      "sort_order": 249,
+      "thumbnail": "thumbs/thumb_liqui_moly_32.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_33.png",
+      "filename": "liqui_moly_33.jpg",
       "brand": "LIQUI MOLY",
       "location": "Driver Cap - Car 3",
-      "sort_order": 250
+      "sort_order": 250,
+      "thumbnail": "thumbs/thumb_liqui_moly_33.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_34.png",
+      "filename": "liqui_moly_34.jpg",
       "brand": "LIQUI MOLY",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 251
+      "sort_order": 251,
+      "thumbnail": "thumbs/thumb_liqui_moly_34.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_35.png",
+      "filename": "liqui_moly_35.jpg",
       "brand": "LIQUI MOLY",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 252
+      "sort_order": 252,
+      "thumbnail": "thumbs/thumb_liqui_moly_35.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_36.png",
+      "filename": "liqui_moly_36.jpg",
       "brand": "LIQUI MOLY",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 253
+      "sort_order": 253,
+      "thumbnail": "thumbs/thumb_liqui_moly_36.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_37.png",
+      "filename": "liqui_moly_37.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage Sign - Car 3",
-      "sort_order": 254
+      "sort_order": 254,
+      "thumbnail": "thumbs/thumb_liqui_moly_37.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_38.png",
+      "filename": "liqui_moly_38.jpg",
       "brand": "LIQUI MOLY",
       "location": "Truck - Car 3",
-      "sort_order": 255
+      "sort_order": 255,
+      "thumbnail": "thumbs/thumb_liqui_moly_38.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_39.png",
+      "filename": "liqui_moly_39.jpg",
       "brand": "LIQUI MOLY",
       "location": "Truck - Car 3",
-      "sort_order": 256
+      "sort_order": 256,
+      "thumbnail": "thumbs/thumb_liqui_moly_39.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_40.png",
+      "filename": "liqui_moly_40.jpg",
       "brand": "LIQUI MOLY",
       "location": "Flag - Car 3",
-      "sort_order": 257
+      "sort_order": 257,
+      "thumbnail": "thumbs/thumb_liqui_moly_40.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_41.png",
+      "filename": "liqui_moly_41.jpg",
       "brand": "LIQUI MOLY",
       "location": "Flag - Car 3",
-      "sort_order": 258
+      "sort_order": 258,
+      "thumbnail": "thumbs/thumb_liqui_moly_41.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_42.png",
+      "filename": "liqui_moly_42.jpg",
       "brand": "LIQUI MOLY",
       "location": "Flag - Car 3",
-      "sort_order": 259
+      "sort_order": 259,
+      "thumbnail": "thumbs/thumb_liqui_moly_42.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_43.png",
+      "filename": "liqui_moly_43.jpg",
       "brand": "LIQUI MOLY",
       "location": "Flag - Car 3",
-      "sort_order": 260
+      "sort_order": 260,
+      "thumbnail": "thumbs/thumb_liqui_moly_43.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_44.png",
+      "filename": "liqui_moly_44.jpg",
       "brand": "LIQUI MOLY",
       "location": "TVGI - Text - Car 3",
-      "sort_order": 261
+      "sort_order": 261,
+      "thumbnail": "thumbs/thumb_liqui_moly_44.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_45.png",
+      "filename": "liqui_moly_45.jpg",
       "brand": "LIQUI MOLY",
       "location": "Garage Sign - Car 3",
-      "sort_order": 262
+      "sort_order": 262,
+      "thumbnail": "thumbs/thumb_liqui_moly_45.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_46.png",
+      "filename": "liqui_moly_46.jpg",
       "brand": "LIQUI MOLY",
       "location": "Helmet - Car 3",
-      "sort_order": 263
+      "sort_order": 263,
+      "thumbnail": "thumbs/thumb_liqui_moly_46.jpg"
     },
     {
       "type": "example",
@@ -2908,444 +3172,507 @@
     },
     {
       "type": "example",
-      "filename": "racer_industries_0.png",
+      "filename": "racer_industries_0.jpg",
       "brand": "Racer Industries",
       "location": "Car Rear - Car 3",
-      "sort_order": 311
+      "sort_order": 311,
+      "thumbnail": "thumbs/thumb_racer_industries_0.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_1.png",
+      "filename": "racer_industries_1.jpg",
       "brand": "Racer Industries",
       "location": "Car Rear - Car 3",
-      "sort_order": 312
+      "sort_order": 312,
+      "thumbnail": "thumbs/thumb_racer_industries_1.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_2.png",
+      "filename": "racer_industries_2.jpg",
       "brand": "Racer Industries",
       "location": "Car Rear - Car 3",
-      "sort_order": 313
+      "sort_order": 313,
+      "thumbnail": "thumbs/thumb_racer_industries_2.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_3.png",
+      "filename": "racer_industries_3.jpg",
       "brand": "Racer Industries",
       "location": "Car Rear - Car 3",
-      "sort_order": 314
+      "sort_order": 314,
+      "thumbnail": "thumbs/thumb_racer_industries_3.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_4.png",
+      "filename": "racer_industries_4.jpg",
       "brand": "Racer Industries",
       "location": "Car Rear - Car 3",
-      "sort_order": 315
+      "sort_order": 315,
+      "thumbnail": "thumbs/thumb_racer_industries_4.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_5.png",
+      "filename": "racer_industries_5.jpg",
       "brand": "Racer Industries",
       "location": "Team Apparel - Car 7",
-      "sort_order": 316
+      "sort_order": 316,
+      "thumbnail": "thumbs/thumb_racer_industries_5.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_6.png",
+      "filename": "racer_industries_6.jpg",
       "brand": "Racer Industries",
       "location": "Team Apparel - Car 7",
-      "sort_order": 317
+      "sort_order": 317,
+      "thumbnail": "thumbs/thumb_racer_industries_6.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_7.png",
+      "filename": "racer_industries_7.jpg",
       "brand": "Racer Industries",
       "location": "Team Apparel - Car 7",
-      "sort_order": 318
+      "sort_order": 318,
+      "thumbnail": "thumbs/thumb_racer_industries_7.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_8.png",
+      "filename": "racer_industries_8.jpg",
       "brand": "Racer Industries",
       "location": "Garage - Car 3",
-      "sort_order": 319
+      "sort_order": 319,
+      "thumbnail": "thumbs/thumb_racer_industries_8.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_9.png",
+      "filename": "racer_industries_9.jpg",
       "brand": "Racer Industries",
       "location": "Garage - Car 3",
-      "sort_order": 320
+      "sort_order": 320,
+      "thumbnail": "thumbs/thumb_racer_industries_9.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_10.png",
+      "filename": "racer_industries_10.jpg",
       "brand": "Racer Industries",
       "location": "Driver Suit - Car 7",
-      "sort_order": 321
+      "sort_order": 321,
+      "thumbnail": "thumbs/thumb_racer_industries_10.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_11.png",
+      "filename": "racer_industries_11.jpg",
       "brand": "Racer Industries",
       "location": "Driver Suit - Car 7",
-      "sort_order": 322
+      "sort_order": 322,
+      "thumbnail": "thumbs/thumb_racer_industries_11.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_12.png",
+      "filename": "racer_industries_12.jpg",
       "brand": "Racer Industries",
       "location": "Driver Suit - Car 7",
-      "sort_order": 323
+      "sort_order": 323,
+      "thumbnail": "thumbs/thumb_racer_industries_12.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_13.png",
+      "filename": "racer_industries_13.jpg",
       "brand": "Racer Industries",
       "location": "Driver Suit - Car 3",
-      "sort_order": 324
+      "sort_order": 324,
+      "thumbnail": "thumbs/thumb_racer_industries_13.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_14.png",
+      "filename": "racer_industries_14.jpg",
       "brand": "Racer Industries",
       "location": "Driver Suit - Car 3",
-      "sort_order": 325
+      "sort_order": 325,
+      "thumbnail": "thumbs/thumb_racer_industries_14.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_15.png",
+      "filename": "racer_industries_15.jpg",
       "brand": "Racer Industries",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 326
+      "sort_order": 326,
+      "thumbnail": "thumbs/thumb_racer_industries_15.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_16.png",
+      "filename": "racer_industries_16.jpg",
       "brand": "Racer Industries",
       "location": "Driver Cap - Car 3",
-      "sort_order": 327
+      "sort_order": 327,
+      "thumbnail": "thumbs/thumb_racer_industries_16.jpg"
     },
     {
       "type": "example",
-      "filename": "racer_industries_17.png",
+      "filename": "racer_industries_17.jpg",
       "brand": "Racer Industries",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 328
+      "sort_order": 328,
+      "thumbnail": "thumbs/thumb_racer_industries_17.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_0.png",
+      "filename": "s_a_stairs_0.jpg",
       "brand": "S&A Stairs",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 329
+      "sort_order": 329,
+      "thumbnail": "thumbs/thumb_s_a_stairs_0.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_1.png",
+      "filename": "s_a_stairs_1.jpg",
       "brand": "S&A Stairs",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 330
+      "sort_order": 330,
+      "thumbnail": "thumbs/thumb_s_a_stairs_1.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_2.png",
+      "filename": "s_a_stairs_2.jpg",
       "brand": "S&A Stairs",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 331
+      "sort_order": 331,
+      "thumbnail": "thumbs/thumb_s_a_stairs_2.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_3.png",
+      "filename": "s_a_stairs_3.jpg",
       "brand": "S&A Stairs",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 332
+      "sort_order": 332,
+      "thumbnail": "thumbs/thumb_s_a_stairs_3.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_4.png",
+      "filename": "s_a_stairs_4.jpg",
       "brand": "S&A Stairs",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 333
+      "sort_order": 333,
+      "thumbnail": "thumbs/thumb_s_a_stairs_4.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_5.png",
+      "filename": "s_a_stairs_5.jpg",
       "brand": "S&A Stairs",
       "location": "Rear Wheel Upper - Car 7",
-      "sort_order": 334
+      "sort_order": 334,
+      "thumbnail": "thumbs/thumb_s_a_stairs_5.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_6.png",
+      "filename": "s_a_stairs_6.jpg",
       "brand": "S&A Stairs",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 335
+      "sort_order": 335,
+      "thumbnail": "thumbs/thumb_s_a_stairs_6.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_7.png",
+      "filename": "s_a_stairs_7.jpg",
       "brand": "S&A Stairs",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 336
+      "sort_order": 336,
+      "thumbnail": "thumbs/thumb_s_a_stairs_7.jpg"
     },
     {
       "type": "example",
-      "filename": "s_a_stairs_8.png",
+      "filename": "s_a_stairs_8.jpg",
       "brand": "S&A Stairs",
       "location": "Driver Helmet - Car 7",
-      "sort_order": 337
+      "sort_order": 337,
+      "thumbnail": "thumbs/thumb_s_a_stairs_8.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_0.png",
+      "filename": "sakura_filters_0.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 3",
-      "sort_order": 338
+      "sort_order": 338,
+      "thumbnail": "thumbs/thumb_sakura_filters_0.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_1.png",
+      "filename": "sakura_filters_1.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 3",
-      "sort_order": 339
+      "sort_order": 339,
+      "thumbnail": "thumbs/thumb_sakura_filters_1.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_2.png",
+      "filename": "sakura_filters_2.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 3",
-      "sort_order": 340
+      "sort_order": 340,
+      "thumbnail": "thumbs/thumb_sakura_filters_2.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_3.png",
+      "filename": "sakura_filters_3.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 3",
-      "sort_order": 341
+      "sort_order": 341,
+      "thumbnail": "thumbs/thumb_sakura_filters_3.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_4.png",
+      "filename": "sakura_filters_4.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 3",
-      "sort_order": 342
+      "sort_order": 342,
+      "thumbnail": "thumbs/thumb_sakura_filters_4.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_5.png",
+      "filename": "sakura_filters_5.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 7",
-      "sort_order": 343
+      "sort_order": 343,
+      "thumbnail": "thumbs/thumb_sakura_filters_5.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_6.png",
+      "filename": "sakura_filters_6.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 7",
-      "sort_order": 344
+      "sort_order": 344,
+      "thumbnail": "thumbs/thumb_sakura_filters_6.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_7.png",
+      "filename": "sakura_filters_7.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 7",
-      "sort_order": 345
+      "sort_order": 345,
+      "thumbnail": "thumbs/thumb_sakura_filters_7.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_8.png",
+      "filename": "sakura_filters_8.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 7",
-      "sort_order": 346
+      "sort_order": 346,
+      "thumbnail": "thumbs/thumb_sakura_filters_8.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_9.png",
+      "filename": "sakura_filters_9.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 7",
-      "sort_order": 347
+      "sort_order": 347,
+      "thumbnail": "thumbs/thumb_sakura_filters_9.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_10.png",
+      "filename": "sakura_filters_10.jpg",
       "brand": "Sakura Filters",
       "location": "Front Bumper - Car 7",
-      "sort_order": 348
+      "sort_order": 348,
+      "thumbnail": "thumbs/thumb_sakura_filters_10.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_11.png",
+      "filename": "sakura_filters_11.jpg",
       "brand": "Sakura Filters",
       "location": "Driver Suit - Car 3",
-      "sort_order": 349
+      "sort_order": 349,
+      "thumbnail": "thumbs/thumb_sakura_filters_11.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_12.png",
+      "filename": "sakura_filters_12.jpg",
       "brand": "Sakura Filters",
       "location": "Driver Suit - Car 3",
-      "sort_order": 350
+      "sort_order": 350,
+      "thumbnail": "thumbs/thumb_sakura_filters_12.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_13.png",
+      "filename": "sakura_filters_13.jpg",
       "brand": "Sakura Filters",
       "location": "Team Apparel - Car 3",
-      "sort_order": 351
+      "sort_order": 351,
+      "thumbnail": "thumbs/thumb_sakura_filters_13.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_14.png",
+      "filename": "sakura_filters_14.jpg",
       "brand": "Sakura Filters",
       "location": "Team Apparel - Car 3",
-      "sort_order": 352
+      "sort_order": 352,
+      "thumbnail": "thumbs/thumb_sakura_filters_14.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_15.png",
+      "filename": "sakura_filters_15.jpg",
       "brand": "Sakura Filters",
       "location": "Driver Suit - Car 7",
-      "sort_order": 353
+      "sort_order": 353,
+      "thumbnail": "thumbs/thumb_sakura_filters_15.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_16.png",
+      "filename": "sakura_filters_16.jpg",
       "brand": "Sakura Filters",
       "location": "Driver Suit - Car 7",
-      "sort_order": 354
+      "sort_order": 354,
+      "thumbnail": "thumbs/thumb_sakura_filters_16.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_17.png",
+      "filename": "sakura_filters_17.jpg",
       "brand": "Sakura Filters",
       "location": "Garage - Car 3",
-      "sort_order": 355
+      "sort_order": 355,
+      "thumbnail": "thumbs/thumb_sakura_filters_17.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_18.png",
+      "filename": "sakura_filters_18.jpg",
       "brand": "Sakura Filters",
       "location": "Garage - Car 3",
-      "sort_order": 356
+      "sort_order": 356,
+      "thumbnail": "thumbs/thumb_sakura_filters_18.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_19.png",
+      "filename": "sakura_filters_19.jpg",
       "brand": "Sakura Filters",
       "location": "Driver Shirt - Car 7",
-      "sort_order": 357
+      "sort_order": 357,
+      "thumbnail": "thumbs/thumb_sakura_filters_19.jpg"
     },
     {
       "type": "example",
-      "filename": "sakura_filters_20.png",
+      "filename": "sakura_filters_20.jpg",
       "brand": "Sakura Filters",
       "location": "Driver Cap - Car 3",
-      "sort_order": 358
+      "sort_order": 358,
+      "thumbnail": "thumbs/thumb_sakura_filters_20.jpg"
     },
     {
       "type": "example",
-      "filename": "super_spill_safety_solutions_0.png",
+      "filename": "super_spill_safety_solutions_0.jpg",
       "brand": "Super Spill & Safety Solutions",
       "location": "Rear Wing Side - Car 7",
-      "sort_order": 359
+      "sort_order": 359,
+      "thumbnail": "thumbs/thumb_super_spill_safety_solutions_0.jpg"
     },
     {
       "type": "example",
-      "filename": "super_spill_safety_solutions_1.png",
+      "filename": "super_spill_safety_solutions_1.jpg",
       "brand": "Super Spill & Safety Solutions",
       "location": "Rear Wing Side - Car 7",
-      "sort_order": 360
+      "sort_order": 360,
+      "thumbnail": "thumbs/thumb_super_spill_safety_solutions_1.jpg"
     },
     {
       "type": "example",
-      "filename": "super_spill_safety_solutions_2.png",
+      "filename": "super_spill_safety_solutions_2.jpg",
       "brand": "Super Spill & Safety Solutions",
       "location": "Rear Wing Side - Car 7",
-      "sort_order": 361
+      "sort_order": 361,
+      "thumbnail": "thumbs/thumb_super_spill_safety_solutions_2.jpg"
     },
     {
       "type": "example",
-      "filename": "super_spill_safety_solutions_3.png",
+      "filename": "super_spill_safety_solutions_3.jpg",
       "brand": "Super Spill & Safety Solutions",
       "location": "Rear Wing Side - Car 3",
-      "sort_order": 362
+      "sort_order": 362,
+      "thumbnail": "thumbs/thumb_super_spill_safety_solutions_3.jpg"
     },
     {
       "type": "example",
-      "filename": "super_spill_safety_solutions_4.png",
+      "filename": "super_spill_safety_solutions_4.jpg",
       "brand": "Super Spill & Safety Solutions",
       "location": "Rear Wing Side - Car 3",
-      "sort_order": 363
+      "sort_order": 363,
+      "thumbnail": "thumbs/thumb_super_spill_safety_solutions_4.jpg"
     },
     {
       "type": "example",
-      "filename": "super_spill_safety_solutions_5.png",
+      "filename": "super_spill_safety_solutions_5.jpg",
       "brand": "Super Spill & Safety Solutions",
       "location": "Rear Wing Side - Car 3",
-      "sort_order": 364
+      "sort_order": 364,
+      "thumbnail": "thumbs/thumb_super_spill_safety_solutions_5.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_0.png",
+      "filename": "tyree_cable_0.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 7",
-      "sort_order": 365
+      "sort_order": 365,
+      "thumbnail": "thumbs/thumb_tyree_cable_0.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_1.png",
+      "filename": "tyree_cable_1.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 7",
-      "sort_order": 366
+      "sort_order": 366,
+      "thumbnail": "thumbs/thumb_tyree_cable_1.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_2.png",
+      "filename": "tyree_cable_2.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 7",
-      "sort_order": 367
+      "sort_order": 367,
+      "thumbnail": "thumbs/thumb_tyree_cable_2.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_3.png",
+      "filename": "tyree_cable_3.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 7",
-      "sort_order": 368
+      "sort_order": 368,
+      "thumbnail": "thumbs/thumb_tyree_cable_3.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_4.png",
+      "filename": "tyree_cable_4.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 3",
-      "sort_order": 369
+      "sort_order": 369,
+      "thumbnail": "thumbs/thumb_tyree_cable_4.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_5.png",
+      "filename": "tyree_cable_5.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 3",
-      "sort_order": 370
+      "sort_order": 370,
+      "thumbnail": "thumbs/thumb_tyree_cable_5.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_6.png",
+      "filename": "tyree_cable_6.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 3",
-      "sort_order": 371
+      "sort_order": 371,
+      "thumbnail": "thumbs/thumb_tyree_cable_6.jpg"
     },
     {
       "type": "example",
-      "filename": "tyree_cable_7.png",
+      "filename": "tyree_cable_7.jpg",
       "brand": "Tyree Cable",
       "location": "Side Mirror - Car 3",
-      "sort_order": 372
+      "sort_order": 372,
+      "thumbnail": "thumbs/thumb_tyree_cable_7.jpg"
     },
     {
       "type": "example",
-      "filename": "the_precinct_0.png",
+      "filename": "the_precinct_0.jpg",
       "brand": "The Precinct",
       "location": "C-Pillar - Car 7",
-      "sort_order": 373
+      "sort_order": 373,
+      "thumbnail": "thumbs/thumb_the_precinct_0.jpg"
     }
   ],
   "annotation_images": [],
