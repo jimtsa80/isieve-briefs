@@ -1,4 +1,4 @@
-# Inbox για νέα briefs
+# Inbox for new briefs
 
-Ανεβάστε .xlsx αρχεία εδώ μέσω GitHub web UI.
-Το GitHub Action θα τα επεξεργαστεί αυτόματα.
+Upload .xlsx or .xlsm files here (or via upload.html).
+GitHub Actions will process them automatically once active.

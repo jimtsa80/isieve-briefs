@@ -13,107 +13,114 @@
             <div class="navbar-brand">
                 <a href="index.html">&larr; Back to library</a>
             </div>
+            <div class="navbar-menu">
+                <button type="button" id="forgetTokenLink" class="btn-link" style="display: none;">Forget token</button>
+            </div>
         </div>
     </nav>
 
     <div class="container main-content">
         <h1>Add New Brief</h1>
-        
+
+        <div id="actionsStatusBanner" class="actions-status-banner edit-status info" style="display: none;"></div>
+
         <div class="upload-wizard">
-            <!-- Step 1: Upload -->
+            <!-- Step 1: Select File -->
             <div id="step1" class="wizard-step active">
-                <h2>Step 1: Upload Excel File</h2>
-                
+                <h2>Step 1: Select Excel File</h2>
+
                 <div class="upload-area" id="uploadArea">
                     <div class="upload-icon">📁</div>
                     <p>Drag the Excel file here or click to select</p>
-                    <p class="text-muted">Supported: .xlsx (with embedded images)</p>
-                    <input type="file" id="excelFile" accept=".xlsx,.xls" style="display: none;">
+                    <p class="text-muted">Supported: .xlsx, .xlsm, .xls (with embedded images)</p>
+                    <input type="file" id="excelFile" accept=".xlsx,.xlsm,.xls" style="display: none;">
                 </div>
-                
+
                 <div id="uploadProgress" class="upload-progress" style="display: none;">
                     <div class="progress-bar">
                         <div class="progress-fill" id="progressFill"></div>
                     </div>
                     <p id="progressText">Parsing file...</p>
                 </div>
-                
+
                 <div id="parseResults" style="display: none;">
                     <div class="parse-info">
                         <h3>✓ File parsed successfully</h3>
                         <div id="parseInfo"></div>
                     </div>
-                    <button id="nextToEdit" class="btn btn-primary btn-large">Continue to edit &rarr;</button>
+                    <div id="quickUploadStatus" class="edit-status" style="display: none; margin-bottom: 1rem;"></div>
+                    <div class="upload-actions-row">
+                        <button type="button" id="nextToEdit" class="btn btn-primary btn-large">Review metadata &amp; upload &rarr;</button>
+                        <button type="button" id="quickUploadBtn" class="btn btn-secondary btn-large">Upload directly to GitHub (briefs-inbox/)</button>
+                    </div>
                 </div>
             </div>
-            
-            <!-- Step 2: Review and Edit -->
+
+            <!-- Step 2: Review Metadata & Upload -->
             <div id="step2" class="wizard-step">
-                <h2>Step 2: Review & Edit</h2>
-                
+                <h2>Step 2: Review &amp; Upload</h2>
+
                 <form id="briefForm">
                     <div class="form-section">
                         <h3>General Information</h3>
-                        
+                        <p class="text-muted" style="margin-bottom: 1rem;">
+                            Fields filled here will be saved in a sidecar <code>.txt</code> alongside your Excel file when uploading to <code>briefs-inbox/</code>.
+                        </p>
+
                         <div class="form-group">
-                            <label for="client">Client *</label>
-                            <input type="text" id="client" name="client" required>
+                            <label for="client">Client</label>
+                            <input type="text" id="client" name="client" placeholder="e.g. Omnicom / FSE">
                         </div>
-                        
+
                         <div class="form-group">
-                            <label for="event">Event *</label>
-                            <input type="text" id="event" name="event" required>
+                            <label for="event">Event</label>
+                            <input type="text" id="event" name="event" placeholder="e.g. Sandown 500 – Car Branding">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="competition">Competition</label>
-                            <input type="text" id="competition" name="competition">
+                            <input type="text" id="competition" name="competition" placeholder="e.g. Repco Supercars Championship">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="sport">Sport</label>
-                            <input type="text" id="sport" name="sport">
+                            <input type="text" id="sport" name="sport" placeholder="e.g. Motorsport">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="footage_clips">Footage / Clips</label>
                             <textarea id="footage_clips" name="footage_clips" rows="2"></textarea>
                         </div>
-                        
+
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="date_start">From Date</label>
                                 <input type="date" id="date_start" name="date_start">
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="date_end">To Date</label>
                                 <input type="date" id="date_end" name="date_end">
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="notes">Notes</label>
                             <textarea id="notes" name="notes" rows="3"></textarea>
                         </div>
-                        
-                        <div class="form-group">
-                            <label for="rules">Rules / Exceptions</label>
-                            <textarea id="rules" name="rules" rows="4" placeholder="Description of rules and exceptions..."></textarea>
-                        </div>
                     </div>
-                    
+
                     <div class="form-section">
-                        <h3>Brands & Locations</h3>
+                        <h3>Brands &amp; Locations</h3>
                         <p class="text-muted">
-                            Found: <span id="brandCount">0</span> brands, 
-                            <span id="locationCount">0</span> locations, 
+                            Found: <span id="brandCount">0</span> brands,
+                            <span id="locationCount">0</span> locations,
                             <span id="comboCount">0</span> combinations
                         </p>
-                        
+
                         <div id="brandsLocationsPreview"></div>
                     </div>
-                    
+
                     <div class="form-section">
                         <h3>Images</h3>
                         <p class="text-muted">
@@ -121,50 +128,39 @@
                         </p>
                         <div id="imagesPreview" class="images-preview"></div>
                     </div>
-                    
+
+                    <div id="githubUploadStatus" class="edit-status" style="display: none; margin-bottom: 1rem;"></div>
+
                     <div class="form-actions">
                         <button type="button" id="backToUpload" class="btn btn-secondary">&larr; Back</button>
-                        <button type="submit" class="btn btn-primary">Create Brief Package</button>
+                        <button type="submit" id="uploadToGitHubBtn" class="btn btn-primary">Upload to GitHub (briefs-inbox/)</button>
+                        <button type="button" id="createZipBtn" class="btn btn-secondary">Export Brief Package (.zip)</button>
                     </div>
                 </form>
             </div>
-            
-            <!-- Step 3: Download -->
+
+            <!-- Step 3: Result / Download -->
             <div id="step3" class="wizard-step">
-                <div class="success-message">
-                    <div class="success-icon">✓</div>
-                    <h2>Brief Package is ready!</h2>
-                    <p class="instructions">
-                        Download the file below and upload it to GitHub:
-                    </p>
-                    
-                    <div class="download-section">
-                        <button id="downloadPackage" class="btn btn-primary btn-large">
-                            ⬇ Download Brief Package (.zip)
-                        </button>
-                    </div>
-                    
-                    <div class="github-instructions">
-                        <h3>GitHub Upload Instructions:</h3>
-                        <ol>
-                            <li>Go to the <a href="https://github.com/jimtsa80/isieve-briefs" target="_blank">GitHub repository</a></li>
-                            <li>Extract the .zip file</li>
-                            <li>Drag the created folder into the <code>briefs/</code> folder</li>
-                            <li>Commit the changes</li>
-                            <li>GitHub Actions will automatically update the library</li>
-                        </ol>
-                        
-                        <p class="text-muted">
-                            <strong>Alternatively:</strong> Upload the original .xlsx file to the 
-                            <code>briefs-inbox/</code> folder via GitHub web UI and the GitHub Action will process it automatically.
-                        </p>
-                    </div>
-                    
-                    <div class="success-actions">
-                        <a href="index.html" class="btn btn-secondary">Back to library</a>
-                        <button id="uploadAnother" class="btn btn-primary">Upload another Brief</button>
-                    </div>
-                </div>
+                <div class="success-message" id="step3Content"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GitHub Token Modal -->
+    <div id="tokenModal" class="modal-backdrop" aria-hidden="true">
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="tokenModalTitle">
+            <h3 id="tokenModalTitle">GitHub Access Token</h3>
+            <p id="tokenModalDesc" class="text-muted">
+                Enter a GitHub fine-grained token with <strong>Contents: Read and write</strong> permission for <code>jimtsa80/isieve-briefs</code>. It will be saved in this browser's localStorage.
+            </p>
+            <div id="tokenModalError" class="edit-status error" style="display: none;"></div>
+            <div class="form-group">
+                <label for="githubTokenInput">Personal access token</label>
+                <input type="password" id="githubTokenInput" placeholder="github_pat_..." autocomplete="off">
+            </div>
+            <div class="modal-actions">
+                <button type="button" id="tokenModalCancel" class="btn btn-secondary">Cancel</button>
+                <button type="button" id="tokenModalSubmit" class="btn btn-primary">Save token &amp; continue</button>
             </div>
         </div>
     </div>

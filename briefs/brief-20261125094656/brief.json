@@ -1,0 +1,1039 @@
+{
+  "id": "brief-20261125094656",
+  "client": "Omnicom / FSE",
+  "event": "Sandown 500 – Car Branding",
+  "competition": "Repco Supercars Championship",
+  "sport": "Motorsport",
+  "broadcaster": null,
+  "date_start": "2026-11-06",
+  "date_end": "2026-11-08",
+  "notes": null,
+  "rules": null,
+  "source_clips": null,
+  "brands": [
+    "HFI",
+    "SCT Logistics",
+    "Triple M",
+    "Mineco",
+    "Blanchard Racing Team",
+    "Logitech",
+    "Entertainment Park",
+    "Awcon",
+    "Genuine Flashlube",
+    "Mate Internet and Mobile",
+    "Auto Parts Supply",
+    "CTE",
+    "Gates",
+    "Grima",
+    "Castrol",
+    "Autobarn",
+    "Genisis Equipment",
+    "Kids with Cancer Foundation",
+    "Precision International",
+    "Dormer HVAC",
+    "Unit Racing",
+    "MLH Steel Fabrication",
+    "Arteva Funding",
+    "Hino",
+    "MG Plasterers",
+    "Hadley Green Investment Group",
+    "Kangan Institute",
+    "Lloyd Auctions",
+    "Roadpod",
+    "Ordminnett",
+    "Northcoast Heavy Towing",
+    "West Construction",
+    "Truck and Trailer Rentals",
+    "Airdunkum",
+    "Mount Gambier Izuzu",
+    "Ozwide",
+    "Vacationer Caravans",
+    "Make it Super",
+    "Macmahon",
+    "Victorian RV Sales",
+    "Rewired Electrical",
+    "Joyce",
+    "Plunkett Cranes",
+    "Statewide Bearings",
+    "MHE",
+    "MSIA",
+    "Red Hot Courier"
+  ],
+  "locations": [
+    "Car Branding - Car 54",
+    "Car Branding - Car 16",
+    "Car Branding - Car 88",
+    "Car Branding - Car 33",
+    "Car Branding - Car 43",
+    "Car Branding - Car 36",
+    "Car Branding - Car 28",
+    "Car Branding - Car 38",
+    "Car Branding - Car 50",
+    "In Car Camera - Car 88",
+    "In-Car Camera - Car 36",
+    "Car Branding - Car 80",
+    "Car Branding - Car 6",
+    "Car Branding - Car 56",
+    "Car Branding - Car 5",
+    "Car Branding - Car 2",
+    "Car Branding - Car 55",
+    "Car Branding - Car 26",
+    "Car Branding -Car 38",
+    "Car Branding - Car 777"
+  ],
+  "combinations": [
+    {
+      "brand": "HFI",
+      "location": "Car Branding - Car 54",
+      "auto_closed": false
+    },
+    {
+      "brand": "SCT Logistics",
+      "location": "Car Branding - Car 16",
+      "auto_closed": false
+    },
+    {
+      "brand": "Triple M",
+      "location": "Car Branding - Car 16",
+      "auto_closed": false
+    },
+    {
+      "brand": "Mineco",
+      "location": "Car Branding - Car 88",
+      "auto_closed": false
+    },
+    {
+      "brand": "Blanchard Racing Team",
+      "location": "Car Branding - Car 33",
+      "auto_closed": false
+    },
+    {
+      "brand": "Logitech",
+      "location": "Car Branding - Car 43",
+      "auto_closed": false
+    },
+    {
+      "brand": "Entertainment Park",
+      "location": "Car Branding - Car 43",
+      "auto_closed": false
+    },
+    {
+      "brand": "Awcon",
+      "location": "Car Branding - Car 36",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genuine Flashlube",
+      "location": "Car Branding - Car 36",
+      "auto_closed": false
+    },
+    {
+      "brand": "Mate Internet and Mobile",
+      "location": "Car Branding - Car 28",
+      "auto_closed": false
+    },
+    {
+      "brand": "Auto Parts Supply",
+      "location": "Car Branding - Car 28",
+      "auto_closed": false
+    },
+    {
+      "brand": "CTE",
+      "location": "Car Branding - Car 38",
+      "auto_closed": false
+    },
+    {
+      "brand": "Gates",
+      "location": "Car Branding - Car 88",
+      "auto_closed": false
+    },
+    {
+      "brand": "Grima",
+      "location": "Car Branding - Car 38",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castrol",
+      "location": "Car Branding - Car 50",
+      "auto_closed": false
+    },
+    {
+      "brand": "Autobarn",
+      "location": "Car Branding - Car 50",
+      "auto_closed": false
+    },
+    {
+      "brand": "Mineco",
+      "location": "In Car Camera - Car 88",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genisis Equipment",
+      "location": "Car Branding - Car 33",
+      "auto_closed": false
+    },
+    {
+      "brand": "Kids with Cancer Foundation",
+      "location": "In-Car Camera - Car 36",
+      "auto_closed": false
+    },
+    {
+      "brand": "Precision International",
+      "location": "Car Branding - Car 80",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dormer HVAC",
+      "location": "Car Branding - Car 80",
+      "auto_closed": false
+    },
+    {
+      "brand": "Unit Racing",
+      "location": "Car Branding - Car 6",
+      "auto_closed": false
+    },
+    {
+      "brand": "MLH Steel Fabrication",
+      "location": "Car Branding - Car 6",
+      "auto_closed": false
+    },
+    {
+      "brand": "Arteva Funding",
+      "location": "Car Branding - Car 56",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hino",
+      "location": "Car Branding - Car 56",
+      "auto_closed": false
+    },
+    {
+      "brand": "MG Plasterers",
+      "location": "Car Branding - Car 5",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hadley Green Investment Group",
+      "location": "Car Branding - Car 5",
+      "auto_closed": false
+    },
+    {
+      "brand": "Kangan Institute",
+      "location": "Car Branding - Car 2",
+      "auto_closed": false
+    },
+    {
+      "brand": "Lloyd Auctions",
+      "location": "Car Branding - Car 2",
+      "auto_closed": false
+    },
+    {
+      "brand": "Roadpod",
+      "location": "Car Branding - Car 55",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ordminnett",
+      "location": "Car Branding - Car 55",
+      "auto_closed": false
+    },
+    {
+      "brand": "Northcoast Heavy Towing",
+      "location": "Car Branding - Car 38",
+      "auto_closed": false
+    },
+    {
+      "brand": "Gates",
+      "location": "In Car Camera - Car 88",
+      "auto_closed": false
+    },
+    {
+      "brand": "West Construction",
+      "location": "Car Branding - Car 26",
+      "auto_closed": false
+    },
+    {
+      "brand": "Truck and Trailer Rentals",
+      "location": "Car Branding - Car 26",
+      "auto_closed": false
+    },
+    {
+      "brand": "Kids with Cancer Foundation",
+      "location": "Car Branding - Car 36",
+      "auto_closed": false
+    },
+    {
+      "brand": "Airdunkum",
+      "location": "Car Branding - Car 36",
+      "auto_closed": false
+    },
+    {
+      "brand": "Mount Gambier Izuzu",
+      "location": "Car Branding - Car 38",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ozwide",
+      "location": "Car Branding -Car 38",
+      "auto_closed": false
+    },
+    {
+      "brand": "Vacationer Caravans",
+      "location": "Car Branding - Car 54",
+      "auto_closed": false
+    },
+    {
+      "brand": "Make it Super",
+      "location": "Car Branding - Car 54",
+      "auto_closed": false
+    },
+    {
+      "brand": "Macmahon",
+      "location": "Car Branding - Car 88",
+      "auto_closed": false
+    },
+    {
+      "brand": "Victorian RV Sales",
+      "location": "Car Branding - Car 38",
+      "auto_closed": false
+    },
+    {
+      "brand": "Rewired Electrical",
+      "location": "Car Branding - Car 54",
+      "auto_closed": false
+    },
+    {
+      "brand": "Joyce",
+      "location": "Car Branding - Car 88",
+      "auto_closed": false
+    },
+    {
+      "brand": "Plunkett Cranes",
+      "location": "Car Branding - Car 38",
+      "auto_closed": false,
+      "notes": "Additional Tracking from Sandown"
+    },
+    {
+      "brand": "Statewide Bearings",
+      "location": "Car Branding - Car 88",
+      "auto_closed": false,
+      "notes": "Additional Tracking from Sandown"
+    },
+    {
+      "brand": "MHE",
+      "location": "Car Branding - Car 777",
+      "auto_closed": false,
+      "notes": "Additional Tracking from Sandown"
+    },
+    {
+      "brand": "MSIA",
+      "location": "Car Branding - Car 777",
+      "auto_closed": false,
+      "notes": "Additional Tracking from Sandown"
+    },
+    {
+      "brand": "Red Hot Courier",
+      "location": "Car Branding - Car 777",
+      "auto_closed": false,
+      "notes": "Additional Tracking from Sandown"
+    },
+    {
+      "brand": "Triple M",
+      "location": "Car Branding - Car 777",
+      "auto_closed": false,
+      "notes": "Additional Tracking from Sandown"
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "hfi_0.jpg",
+      "brand": "HFI",
+      "location": "Car Branding - Car 54",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_hfi_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hfi_1.jpg",
+      "brand": "HFI",
+      "location": "Car Branding - Car 54",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_hfi_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sct_logistics_0.jpg",
+      "brand": "SCT Logistics",
+      "location": "Car Branding - Car 16",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_sct_logistics_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sct_logistics_1.jpg",
+      "brand": "SCT Logistics",
+      "location": "Car Branding - Car 16",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_sct_logistics_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sct_logistics_2.jpg",
+      "brand": "SCT Logistics",
+      "location": "Car Branding - Car 16",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_sct_logistics_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "triple_m_0.jpg",
+      "brand": "Triple M",
+      "location": "Car Branding - Car 16",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_triple_m_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "triple_m_1.jpg",
+      "brand": "Triple M",
+      "location": "Car Branding - Car 777",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_triple_m_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mineco_0.jpg",
+      "brand": "Mineco",
+      "location": "Car Branding - Car 88",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_mineco_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mineco_1.jpg",
+      "brand": "Mineco",
+      "location": "Car Branding - Car 88",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_mineco_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mineco_2.jpg",
+      "brand": "Mineco",
+      "location": "In Car Camera - Car 88",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_mineco_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mineco_3.jpg",
+      "brand": "Mineco",
+      "location": "In Car Camera - Car 88",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_mineco_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "blanchard_racing_team_0.jpg",
+      "brand": "Blanchard Racing Team",
+      "location": "Car Branding - Car 33",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_blanchard_racing_team_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "logitech_0.jpg",
+      "brand": "Logitech",
+      "location": "Car Branding - Car 43",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_logitech_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "logitech_1.jpg",
+      "brand": "Logitech",
+      "location": "Car Branding - Car 43",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_logitech_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "entertainment_park_0.jpg",
+      "brand": "Entertainment Park",
+      "location": "Car Branding - Car 43",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_entertainment_park_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "entertainment_park_1.jpg",
+      "brand": "Entertainment Park",
+      "location": "Car Branding - Car 43",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_entertainment_park_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "entertainment_park_2.jpg",
+      "brand": "Entertainment Park",
+      "location": "Car Branding - Car 43",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_entertainment_park_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "awcon_0.jpg",
+      "brand": "Awcon",
+      "location": "Car Branding - Car 36",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_awcon_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "awcon_1.jpg",
+      "brand": "Awcon",
+      "location": "Car Branding - Car 36",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_awcon_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "awcon_2.jpg",
+      "brand": "Awcon",
+      "location": "Car Branding - Car 36",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_awcon_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genuine_flashlube_0.jpg",
+      "brand": "Genuine Flashlube",
+      "location": "Car Branding - Car 36",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_genuine_flashlube_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mate_internet_and_mobile_0.jpg",
+      "brand": "Mate Internet and Mobile",
+      "location": "Car Branding - Car 28",
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_mate_internet_and_mobile_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "auto_parts_supply_0.jpg",
+      "brand": "Auto Parts Supply",
+      "location": "Car Branding - Car 28",
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_auto_parts_supply_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "auto_parts_supply_1.jpg",
+      "brand": "Auto Parts Supply",
+      "location": "Car Branding - Car 28",
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_auto_parts_supply_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "auto_parts_supply_2.jpg",
+      "brand": "Auto Parts Supply",
+      "location": "Car Branding - Car 28",
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_auto_parts_supply_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "cte_0.jpg",
+      "brand": "CTE",
+      "location": "Car Branding - Car 38",
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_cte_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "cte_1.jpg",
+      "brand": "CTE",
+      "location": "Car Branding - Car 38",
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_cte_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "cte_2.jpg",
+      "brand": "CTE",
+      "location": "Car Branding - Car 38",
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_cte_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gates_0.jpg",
+      "brand": "Gates",
+      "location": "Car Branding - Car 88",
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_gates_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gates_1.jpg",
+      "brand": "Gates",
+      "location": "Car Branding - Car 88",
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_gates_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gates_2.jpg",
+      "brand": "Gates",
+      "location": "In Car Camera - Car 88",
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_gates_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gates_3.jpg",
+      "brand": "Gates",
+      "location": "Car Branding - Car 88",
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_gates_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "grima_0.jpg",
+      "brand": "Grima",
+      "location": "Car Branding - Car 38",
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_grima_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "grima_1.jpg",
+      "brand": "Grima",
+      "location": "Car Branding - Car 38",
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_grima_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castrol_0.jpg",
+      "brand": "Castrol",
+      "location": "Car Branding - Car 50",
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_castrol_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "autobarn_0.jpg",
+      "brand": "Autobarn",
+      "location": "Car Branding - Car 50",
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_autobarn_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "autobarn_1.jpg",
+      "brand": "Autobarn",
+      "location": "Car Branding - Car 50",
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_autobarn_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "autobarn_2.jpg",
+      "brand": "Autobarn",
+      "location": "Car Branding - Car 50",
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_autobarn_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genisis_equipment_0.jpg",
+      "brand": "Genisis Equipment",
+      "location": "Car Branding - Car 33",
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_genisis_equipment_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kids_with_cancer_foundation_0.jpg",
+      "brand": "Kids with Cancer Foundation",
+      "location": "In-Car Camera - Car 36",
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_kids_with_cancer_foundation_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kids_with_cancer_foundation_1.jpg",
+      "brand": "Kids with Cancer Foundation",
+      "location": "In-Car Camera - Car 36",
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_kids_with_cancer_foundation_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kids_with_cancer_foundation_2.jpg",
+      "brand": "Kids with Cancer Foundation",
+      "location": "Car Branding - Car 36",
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_kids_with_cancer_foundation_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kids_with_cancer_foundation_3.jpg",
+      "brand": "Kids with Cancer Foundation",
+      "location": "Car Branding - Car 36",
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_kids_with_cancer_foundation_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kids_with_cancer_foundation_4.jpg",
+      "brand": "Kids with Cancer Foundation",
+      "location": "Car Branding - Car 36",
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_kids_with_cancer_foundation_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "precision_international_0.jpg",
+      "brand": "Precision International",
+      "location": "Car Branding - Car 80",
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_precision_international_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dormer_hvac_0.jpg",
+      "brand": "Dormer HVAC",
+      "location": "Car Branding - Car 80",
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_dormer_hvac_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "unit_racing_0.jpg",
+      "brand": "Unit Racing",
+      "location": "Car Branding - Car 6",
+      "sort_order": 46,
+      "thumbnail": "thumbs/thumb_unit_racing_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mlh_steel_fabrication_0.jpg",
+      "brand": "MLH Steel Fabrication",
+      "location": "Car Branding - Car 6",
+      "sort_order": 47,
+      "thumbnail": "thumbs/thumb_mlh_steel_fabrication_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arteva_funding_0.jpg",
+      "brand": "Arteva Funding",
+      "location": "Car Branding - Car 56",
+      "sort_order": 48,
+      "thumbnail": "thumbs/thumb_arteva_funding_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hino_0.jpg",
+      "brand": "Hino",
+      "location": "Car Branding - Car 56",
+      "sort_order": 49,
+      "thumbnail": "thumbs/thumb_hino_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mg_plasterers_0.jpg",
+      "brand": "MG Plasterers",
+      "location": "Car Branding - Car 5",
+      "sort_order": 50,
+      "thumbnail": "thumbs/thumb_mg_plasterers_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hadley_green_investment_group_0.jpg",
+      "brand": "Hadley Green Investment Group",
+      "location": "Car Branding - Car 5",
+      "sort_order": 51,
+      "thumbnail": "thumbs/thumb_hadley_green_investment_group_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hadley_green_investment_group_1.jpg",
+      "brand": "Hadley Green Investment Group",
+      "location": "Car Branding - Car 5",
+      "sort_order": 52,
+      "thumbnail": "thumbs/thumb_hadley_green_investment_group_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hadley_green_investment_group_2.jpg",
+      "brand": "Hadley Green Investment Group",
+      "location": "Car Branding - Car 5",
+      "sort_order": 53,
+      "thumbnail": "thumbs/thumb_hadley_green_investment_group_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hadley_green_investment_group_3.jpg",
+      "brand": "Hadley Green Investment Group",
+      "location": "Car Branding - Car 5",
+      "sort_order": 54,
+      "thumbnail": "thumbs/thumb_hadley_green_investment_group_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kangan_institute_0.jpg",
+      "brand": "Kangan Institute",
+      "location": "Car Branding - Car 2",
+      "sort_order": 55,
+      "thumbnail": "thumbs/thumb_kangan_institute_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kangan_institute_1.jpg",
+      "brand": "Kangan Institute",
+      "location": "Car Branding - Car 2",
+      "sort_order": 56,
+      "thumbnail": "thumbs/thumb_kangan_institute_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "lloyd_auctions_0.jpg",
+      "brand": "Lloyd Auctions",
+      "location": "Car Branding - Car 2",
+      "sort_order": 57,
+      "thumbnail": "thumbs/thumb_lloyd_auctions_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "roadpod_0.jpg",
+      "brand": "Roadpod",
+      "location": "Car Branding - Car 55",
+      "sort_order": 58,
+      "thumbnail": "thumbs/thumb_roadpod_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ordminnett_0.jpg",
+      "brand": "Ordminnett",
+      "location": "Car Branding - Car 55",
+      "sort_order": 59,
+      "thumbnail": "thumbs/thumb_ordminnett_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "northcoast_heavy_towing_0.jpg",
+      "brand": "Northcoast Heavy Towing",
+      "location": "Car Branding - Car 38",
+      "sort_order": 60,
+      "thumbnail": "thumbs/thumb_northcoast_heavy_towing_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "west_construction_0.jpg",
+      "brand": "West Construction",
+      "location": "Car Branding - Car 26",
+      "sort_order": 61,
+      "thumbnail": "thumbs/thumb_west_construction_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "truck_and_trailer_rentals_0.jpg",
+      "brand": "Truck and Trailer Rentals",
+      "location": "Car Branding - Car 26",
+      "sort_order": 62,
+      "thumbnail": "thumbs/thumb_truck_and_trailer_rentals_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "truck_and_trailer_rentals_1.jpg",
+      "brand": "Truck and Trailer Rentals",
+      "location": "Car Branding - Car 26",
+      "sort_order": 63,
+      "thumbnail": "thumbs/thumb_truck_and_trailer_rentals_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "truck_and_trailer_rentals_2.jpg",
+      "brand": "Truck and Trailer Rentals",
+      "location": "Car Branding - Car 26",
+      "sort_order": 64,
+      "thumbnail": "thumbs/thumb_truck_and_trailer_rentals_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "airdunkum_0.jpg",
+      "brand": "Airdunkum",
+      "location": "Car Branding - Car 36",
+      "sort_order": 65,
+      "thumbnail": "thumbs/thumb_airdunkum_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mount_gambier_izuzu_0.jpg",
+      "brand": "Mount Gambier Izuzu",
+      "location": "Car Branding - Car 38",
+      "sort_order": 66,
+      "thumbnail": "thumbs/thumb_mount_gambier_izuzu_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mount_gambier_izuzu_1.jpg",
+      "brand": "Mount Gambier Izuzu",
+      "location": "Car Branding - Car 38",
+      "sort_order": 67,
+      "thumbnail": "thumbs/thumb_mount_gambier_izuzu_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mount_gambier_izuzu_2.jpg",
+      "brand": "Mount Gambier Izuzu",
+      "location": "Car Branding - Car 38",
+      "sort_order": 68,
+      "thumbnail": "thumbs/thumb_mount_gambier_izuzu_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ozwide_0.jpg",
+      "brand": "Ozwide",
+      "location": "Car Branding -Car 38",
+      "sort_order": 69,
+      "thumbnail": "thumbs/thumb_ozwide_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "vacationer_caravans_0.jpg",
+      "brand": "Vacationer Caravans",
+      "location": "Car Branding - Car 54",
+      "sort_order": 70,
+      "thumbnail": "thumbs/thumb_vacationer_caravans_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "vacationer_caravans_1.jpg",
+      "brand": "Vacationer Caravans",
+      "location": "Car Branding - Car 54",
+      "sort_order": 71,
+      "thumbnail": "thumbs/thumb_vacationer_caravans_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "vacationer_caravans_2.jpg",
+      "brand": "Vacationer Caravans",
+      "location": "Car Branding - Car 54",
+      "sort_order": 72,
+      "thumbnail": "thumbs/thumb_vacationer_caravans_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "make_it_super_0.jpg",
+      "brand": "Make it Super",
+      "location": "Car Branding - Car 54",
+      "sort_order": 73,
+      "thumbnail": "thumbs/thumb_make_it_super_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "macmahon_0.jpg",
+      "brand": "Macmahon",
+      "location": "Car Branding - Car 88",
+      "sort_order": 74,
+      "thumbnail": "thumbs/thumb_macmahon_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "victorian_rv_sales_0.jpg",
+      "brand": "Victorian RV Sales",
+      "location": "Car Branding - Car 38",
+      "sort_order": 75,
+      "thumbnail": "thumbs/thumb_victorian_rv_sales_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "victorian_rv_sales_1.jpg",
+      "brand": "Victorian RV Sales",
+      "location": "Car Branding - Car 38",
+      "sort_order": 76,
+      "thumbnail": "thumbs/thumb_victorian_rv_sales_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "rewired_electrical_0.jpg",
+      "brand": "Rewired Electrical",
+      "location": "Car Branding - Car 54",
+      "sort_order": 77,
+      "thumbnail": "thumbs/thumb_rewired_electrical_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "joyce_0.jpg",
+      "brand": "Joyce",
+      "location": "Car Branding - Car 88",
+      "sort_order": 78,
+      "thumbnail": "thumbs/thumb_joyce_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "plunkett_cranes_0.jpg",
+      "brand": "Plunkett Cranes",
+      "location": "Car Branding - Car 38",
+      "sort_order": 79,
+      "thumbnail": "thumbs/thumb_plunkett_cranes_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "plunkett_cranes_1.jpg",
+      "brand": "Plunkett Cranes",
+      "location": "Car Branding - Car 38",
+      "sort_order": 80,
+      "thumbnail": "thumbs/thumb_plunkett_cranes_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "statewide_bearings_0.jpg",
+      "brand": "Statewide Bearings",
+      "location": "Car Branding - Car 88",
+      "sort_order": 81,
+      "thumbnail": "thumbs/thumb_statewide_bearings_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "statewide_bearings_1.jpg",
+      "brand": "Statewide Bearings",
+      "location": "Car Branding - Car 88",
+      "sort_order": 82,
+      "thumbnail": "thumbs/thumb_statewide_bearings_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "mhe_0.jpg",
+      "brand": "MHE",
+      "location": "Car Branding - Car 777",
+      "sort_order": 83,
+      "thumbnail": "thumbs/thumb_mhe_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "msia_0.jpg",
+      "brand": "MSIA",
+      "location": "Car Branding - Car 777",
+      "sort_order": 84,
+      "thumbnail": "thumbs/thumb_msia_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "red_hot_courier_0.jpg",
+      "brand": "Red Hot Courier",
+      "location": "Car Branding - Car 777",
+      "sort_order": 85,
+      "thumbnail": "thumbs/thumb_red_hot_courier_0.jpg"
+    }
+  ],
+  "annotation_images": [],
+  "created_at": "2026-11-25T09:47:06.992825"
+}
