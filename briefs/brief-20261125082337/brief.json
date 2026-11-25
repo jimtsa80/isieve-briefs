@@ -1,0 +1,536 @@
+{
+  "id": "brief-20261125082337",
+  "client": "",
+  "event": "2026_Supercars_Teams_-_Bradjones_Racing_-_i-sieve_Version",
+  "competition": null,
+  "sport": null,
+  "broadcaster": null,
+  "date_start": null,
+  "date_end": null,
+  "notes": null,
+  "rules": null,
+  "source_clips": [
+    "Azure Storage location",
+    "File format",
+    "Security token"
+  ],
+  "brands": [
+    "Dare",
+    "ARC",
+    "Schaeffler",
+    "TRG",
+    "Toyota",
+    "Farmers Union"
+  ],
+  "locations": [
+    "Car Side - Car 14",
+    "Car Rear - Car 14",
+    "Windscreen - Car 14",
+    "Front Bumper - Car 14",
+    "Bonnet - Car 14",
+    "Car Nose- Car 14",
+    "Drivers Suit - Car 14",
+    "Team Apparel - Car 14",
+    "Roof - Car 14",
+    "Garage - Car 14"
+  ],
+  "combinations": [
+    {
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dare",
+      "location": "Bonnet - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "TRG",
+      "location": "Car Nose- Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Toyota",
+      "location": "Bonnet - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Toyota",
+      "location": "Drivers Suit - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Schaeffler",
+      "location": "Drivers Suit - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "ARC",
+      "location": "Drivers Suit - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dare",
+      "location": "Drivers Suit - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "TRG",
+      "location": "Drivers Suit - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dare",
+      "location": "Team Apparel - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "TRG",
+      "location": "Team Apparel - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Schaeffler",
+      "location": "Team Apparel - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "ARC",
+      "location": "Team Apparel - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Farmers Union",
+      "location": "Bonnet - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Farmers Union",
+      "location": "Car Side - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Farmers Union",
+      "location": "Car Rear - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dare",
+      "location": "Roof - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Farmers Union",
+      "location": "Drivers Suit - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "ARC",
+      "location": "Garage - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Schaeffler",
+      "location": "Garage - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Toyota",
+      "location": "Garage - Car 14",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dare",
+      "location": "Garage - Car 14",
+      "auto_closed": false
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "dare_0.jpg",
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_dare_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_1.jpg",
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_dare_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_2.jpg",
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_dare_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_3.jpg",
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_dare_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_4.jpg",
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_dare_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_5.jpg",
+      "brand": "Dare",
+      "location": "Car Side - Car 14",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_dare_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_6.jpg",
+      "brand": "Dare",
+      "location": "Bonnet - Car 14",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_dare_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_7.jpg",
+      "brand": "Dare",
+      "location": "Bonnet - Car 14",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_dare_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dare_8.jpg",
+      "brand": "Dare",
+      "location": "Bonnet - Car 14",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_dare_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_0.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_arc_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_1.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_arc_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_2.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_arc_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_3.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_arc_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_4.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_arc_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_5.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_arc_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_6.jpg",
+      "brand": "ARC",
+      "location": "Car Rear - Car 14",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_arc_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_7.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_arc_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_8.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_arc_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_9.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_arc_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_10.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_arc_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_11.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_arc_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_12.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_arc_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_13.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_arc_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "arc_14.jpg",
+      "brand": "ARC",
+      "location": "Front Bumper - Car 14",
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_arc_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_0.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_schaeffler_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_1.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_schaeffler_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_2.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_schaeffler_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_3.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_schaeffler_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_4.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_schaeffler_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_5.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_schaeffler_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "schaeffler_6.jpg",
+      "brand": "Schaeffler",
+      "location": "Windscreen - Car 14",
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_schaeffler_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "trg_0.jpg",
+      "brand": "TRG",
+      "location": "Car Nose- Car 14",
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_trg_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "trg_1.jpg",
+      "brand": "TRG",
+      "location": "Car Nose- Car 14",
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_trg_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "trg_2.jpg",
+      "brand": "TRG",
+      "location": "Car Nose- Car 14",
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_trg_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "trg_3.jpg",
+      "brand": "TRG",
+      "location": "Car Nose- Car 14",
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_trg_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "toyota_0.jpg",
+      "brand": "Toyota",
+      "location": "Bonnet - Car 14",
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_toyota_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "toyota_1.jpg",
+      "brand": "Toyota",
+      "location": "Bonnet - Car 14",
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_toyota_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_0.jpg",
+      "brand": "Farmers Union",
+      "location": "Bonnet - Car 14",
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_farmers_union_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_1.jpg",
+      "brand": "Farmers Union",
+      "location": "Bonnet - Car 14",
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_farmers_union_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_2.jpg",
+      "brand": "Farmers Union",
+      "location": "Bonnet - Car 14",
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_farmers_union_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_3.jpg",
+      "brand": "Farmers Union",
+      "location": "Car Side - Car 14",
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_farmers_union_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_4.jpg",
+      "brand": "Farmers Union",
+      "location": "Car Side - Car 14",
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_farmers_union_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_5.jpg",
+      "brand": "Farmers Union",
+      "location": "Car Side - Car 14",
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_farmers_union_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_6.jpg",
+      "brand": "Farmers Union",
+      "location": "Car Side - Car 14",
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_farmers_union_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_7.jpg",
+      "brand": "Farmers Union",
+      "location": "Car Rear - Car 14",
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_farmers_union_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "farmers_union_8.jpg",
+      "brand": "Farmers Union",
+      "location": "Car Rear - Car 14",
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_farmers_union_8.jpg"
+    }
+  ],
+  "annotation_images": [],
+  "created_at": "2026-11-25T08:23:44.056000"
+}

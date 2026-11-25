@@ -84,6 +84,39 @@
     "created_at": "2026-11-25T09:47:06.992825"
   },
   {
+    "id": "brief-20261125082337",
+    "client": "",
+    "event": "2026_Supercars_Teams_-_Bradjones_Racing_-_i-sieve_Version",
+    "competition": null,
+    "sport": null,
+    "date_start": null,
+    "date_end": null,
+    "brand_count": 6,
+    "location_count": 10,
+    "combination_count": 25,
+    "brands": [
+      "Dare",
+      "ARC",
+      "Schaeffler",
+      "TRG",
+      "Toyota",
+      "Farmers Union"
+    ],
+    "locations": [
+      "Car Side - Car 14",
+      "Car Rear - Car 14",
+      "Windscreen - Car 14",
+      "Front Bumper - Car 14",
+      "Bonnet - Car 14",
+      "Car Nose- Car 14",
+      "Drivers Suit - Car 14",
+      "Team Apparel - Car 14",
+      "Roof - Car 14",
+      "Garage - Car 14"
+    ],
+    "created_at": "2026-11-25T08:23:44.056000"
+  },
+  {
     "id": "brief-20261125075947",
     "client": "",
     "event": "Supercars Teams Blanchard Racing",
