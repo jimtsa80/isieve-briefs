@@ -2843,332 +2843,379 @@
     },
     {
       "type": "example",
-      "filename": "liqui_moly_0.png",
+      "filename": "liqui_moly_47.jpg",
       "brand": "Liqui Moly",
       "location": "Car Side - Car 3",
-      "sort_order": 264
+      "sort_order": 264,
+      "thumbnail": "thumbs/thumb_liqui_moly_47.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_1.png",
+      "filename": "liqui_moly_48.jpg",
       "brand": "Liqui Moly",
       "location": "Car Side - Car 3",
-      "sort_order": 265
+      "sort_order": 265,
+      "thumbnail": "thumbs/thumb_liqui_moly_48.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_2.png",
+      "filename": "liqui_moly_49.jpg",
       "brand": "Liqui Moly",
       "location": "Car Side - Car 3",
-      "sort_order": 266
+      "sort_order": 266,
+      "thumbnail": "thumbs/thumb_liqui_moly_49.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_3.png",
+      "filename": "liqui_moly_50.jpg",
       "brand": "Liqui Moly",
       "location": "Car Side - Car 3",
-      "sort_order": 267
+      "sort_order": 267,
+      "thumbnail": "thumbs/thumb_liqui_moly_50.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_4.png",
+      "filename": "liqui_moly_51.jpg",
       "brand": "Liqui Moly",
       "location": "Car Side - Car 3",
-      "sort_order": 268
+      "sort_order": 268,
+      "thumbnail": "thumbs/thumb_liqui_moly_51.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_5.png",
+      "filename": "liqui_moly_52.jpg",
       "brand": "Liqui Moly",
       "location": "Bonnet - Car 3",
-      "sort_order": 269
+      "sort_order": 269,
+      "thumbnail": "thumbs/thumb_liqui_moly_52.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_6.png",
+      "filename": "liqui_moly_53.jpg",
       "brand": "Liqui Moly",
       "location": "Bonnet - Car 3",
-      "sort_order": 270
+      "sort_order": 270,
+      "thumbnail": "thumbs/thumb_liqui_moly_53.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_7.png",
+      "filename": "liqui_moly_54.jpg",
       "brand": "Liqui Moly",
       "location": "Bonnet - Car 3",
-      "sort_order": 271
+      "sort_order": 271,
+      "thumbnail": "thumbs/thumb_liqui_moly_54.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_8.png",
+      "filename": "liqui_moly_55.jpg",
       "brand": "Liqui Moly",
       "location": "Bonnet - Car 3",
-      "sort_order": 272
+      "sort_order": 272,
+      "thumbnail": "thumbs/thumb_liqui_moly_55.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_9.png",
+      "filename": "liqui_moly_56.jpg",
       "brand": "Liqui Moly",
       "location": "Bonnet - Car 3",
-      "sort_order": 273
+      "sort_order": 273,
+      "thumbnail": "thumbs/thumb_liqui_moly_56.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_10.png",
+      "filename": "liqui_moly_57.jpg",
       "brand": "Liqui Moly",
       "location": "Front Bumper - Car 3",
-      "sort_order": 274
+      "sort_order": 274,
+      "thumbnail": "thumbs/thumb_liqui_moly_57.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_11.png",
+      "filename": "liqui_moly_58.jpg",
       "brand": "Liqui Moly",
       "location": "Front Bumper - Car 3",
-      "sort_order": 275
+      "sort_order": 275,
+      "thumbnail": "thumbs/thumb_liqui_moly_58.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_12.png",
+      "filename": "liqui_moly_59.jpg",
       "brand": "Liqui Moly",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 276
+      "sort_order": 276,
+      "thumbnail": "thumbs/thumb_liqui_moly_59.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_13.png",
+      "filename": "liqui_moly_60.jpg",
       "brand": "Liqui Moly",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 277
+      "sort_order": 277,
+      "thumbnail": "thumbs/thumb_liqui_moly_60.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_14.png",
+      "filename": "liqui_moly_61.jpg",
       "brand": "Liqui Moly",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 278
+      "sort_order": 278,
+      "thumbnail": "thumbs/thumb_liqui_moly_61.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_15.png",
+      "filename": "liqui_moly_62.jpg",
       "brand": "Liqui Moly",
       "location": "Rear Bumper - Car 3",
-      "sort_order": 279
+      "sort_order": 279,
+      "thumbnail": "thumbs/thumb_liqui_moly_62.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_16.png",
+      "filename": "liqui_moly_63.jpg",
       "brand": "Liqui Moly",
       "location": "Team Apparel - Car 7",
-      "sort_order": 280
+      "sort_order": 280,
+      "thumbnail": "thumbs/thumb_liqui_moly_63.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_17.png",
+      "filename": "liqui_moly_64.jpg",
       "brand": "Liqui Moly",
       "location": "Team Apparel - Car 7",
-      "sort_order": 281
+      "sort_order": 281,
+      "thumbnail": "thumbs/thumb_liqui_moly_64.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_18.png",
+      "filename": "liqui_moly_65.jpg",
       "brand": "Liqui Moly",
       "location": "Team Apparel - Car 7",
-      "sort_order": 282
+      "sort_order": 282,
+      "thumbnail": "thumbs/thumb_liqui_moly_65.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_19.png",
+      "filename": "liqui_moly_66.jpg",
       "brand": "Liqui Moly",
       "location": "Garage - Car 3",
-      "sort_order": 283
+      "sort_order": 283,
+      "thumbnail": "thumbs/thumb_liqui_moly_66.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_20.png",
+      "filename": "liqui_moly_67.jpg",
       "brand": "Liqui Moly",
       "location": "Garage - Car 3",
-      "sort_order": 284
+      "sort_order": 284,
+      "thumbnail": "thumbs/thumb_liqui_moly_67.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_21.png",
+      "filename": "liqui_moly_68.jpg",
       "brand": "Liqui Moly",
       "location": "Garage - Car 3",
-      "sort_order": 285
+      "sort_order": 285,
+      "thumbnail": "thumbs/thumb_liqui_moly_68.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_22.png",
+      "filename": "liqui_moly_69.jpg",
       "brand": "Liqui Moly",
       "location": "Garage - Car 3",
-      "sort_order": 286
+      "sort_order": 286,
+      "thumbnail": "thumbs/thumb_liqui_moly_69.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_23.png",
+      "filename": "liqui_moly_70.jpg",
       "brand": "Liqui Moly",
       "location": "Garage - Car 3",
-      "sort_order": 287
+      "sort_order": 287,
+      "thumbnail": "thumbs/thumb_liqui_moly_70.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_24.png",
+      "filename": "liqui_moly_71.jpg",
       "brand": "Liqui Moly",
       "location": "Team Apparel - Car 3",
-      "sort_order": 288
+      "sort_order": 288,
+      "thumbnail": "thumbs/thumb_liqui_moly_71.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_25.png",
+      "filename": "liqui_moly_72.jpg",
       "brand": "Liqui Moly",
       "location": "Team Apparel - Car 3",
-      "sort_order": 289
+      "sort_order": 289,
+      "thumbnail": "thumbs/thumb_liqui_moly_72.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_26.png",
+      "filename": "liqui_moly_73.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Helmet - Car 3",
-      "sort_order": 290
+      "sort_order": 290,
+      "thumbnail": "thumbs/thumb_liqui_moly_73.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_27.png",
+      "filename": "liqui_moly_74.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Suit - Car 3",
-      "sort_order": 291
+      "sort_order": 291,
+      "thumbnail": "thumbs/thumb_liqui_moly_74.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_28.png",
+      "filename": "liqui_moly_75.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Suit - Car 3",
-      "sort_order": 292
+      "sort_order": 292,
+      "thumbnail": "thumbs/thumb_liqui_moly_75.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_29.png",
+      "filename": "liqui_moly_76.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Suit - Car 3",
-      "sort_order": 293
+      "sort_order": 293,
+      "thumbnail": "thumbs/thumb_liqui_moly_76.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_30.png",
+      "filename": "liqui_moly_77.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Suit - Car 3",
-      "sort_order": 294
+      "sort_order": 294,
+      "thumbnail": "thumbs/thumb_liqui_moly_77.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_31.png",
+      "filename": "liqui_moly_78.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Suit - Car 3",
-      "sort_order": 295
+      "sort_order": 295,
+      "thumbnail": "thumbs/thumb_liqui_moly_78.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_32.png",
+      "filename": "liqui_moly_79.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Cap - Car 3",
-      "sort_order": 296
+      "sort_order": 296,
+      "thumbnail": "thumbs/thumb_liqui_moly_79.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_33.png",
+      "filename": "liqui_moly_80.jpg",
       "brand": "Liqui Moly",
       "location": "Driver Cap - Car 3",
-      "sort_order": 297
+      "sort_order": 297,
+      "thumbnail": "thumbs/thumb_liqui_moly_80.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_34.png",
+      "filename": "liqui_moly_81.jpg",
       "brand": "Liqui Moly",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 298
+      "sort_order": 298,
+      "thumbnail": "thumbs/thumb_liqui_moly_81.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_35.png",
+      "filename": "liqui_moly_82.jpg",
       "brand": "Liqui Moly",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 299
+      "sort_order": 299,
+      "thumbnail": "thumbs/thumb_liqui_moly_82.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_36.png",
+      "filename": "liqui_moly_83.jpg",
       "brand": "Liqui Moly",
       "location": "In-Car Camera - Car 3",
-      "sort_order": 300
+      "sort_order": 300,
+      "thumbnail": "thumbs/thumb_liqui_moly_83.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_37.png",
+      "filename": "liqui_moly_84.jpg",
       "brand": "Liqui Moly",
       "location": "Garage Sign - Car 3",
-      "sort_order": 301
+      "sort_order": 301,
+      "thumbnail": "thumbs/thumb_liqui_moly_84.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_38.png",
+      "filename": "liqui_moly_85.jpg",
       "brand": "Liqui Moly",
       "location": "Truck - Car 3",
-      "sort_order": 302
+      "sort_order": 302,
+      "thumbnail": "thumbs/thumb_liqui_moly_85.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_39.png",
+      "filename": "liqui_moly_86.jpg",
       "brand": "Liqui Moly",
       "location": "Truck - Car 3",
-      "sort_order": 303
+      "sort_order": 303,
+      "thumbnail": "thumbs/thumb_liqui_moly_86.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_40.png",
+      "filename": "liqui_moly_87.jpg",
       "brand": "Liqui Moly",
       "location": "Flag - Car 3",
-      "sort_order": 304
+      "sort_order": 304,
+      "thumbnail": "thumbs/thumb_liqui_moly_87.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_41.png",
+      "filename": "liqui_moly_88.jpg",
       "brand": "Liqui Moly",
       "location": "Flag - Car 3",
-      "sort_order": 305
+      "sort_order": 305,
+      "thumbnail": "thumbs/thumb_liqui_moly_88.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_42.png",
+      "filename": "liqui_moly_89.jpg",
       "brand": "Liqui Moly",
       "location": "Flag - Car 3",
-      "sort_order": 306
+      "sort_order": 306,
+      "thumbnail": "thumbs/thumb_liqui_moly_89.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_43.png",
+      "filename": "liqui_moly_90.jpg",
       "brand": "Liqui Moly",
       "location": "Flag - Car 3",
-      "sort_order": 307
+      "sort_order": 307,
+      "thumbnail": "thumbs/thumb_liqui_moly_90.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_44.png",
+      "filename": "liqui_moly_91.jpg",
       "brand": "Liqui Moly",
       "location": "TVGI - Text - Car 3",
-      "sort_order": 308
+      "sort_order": 308,
+      "thumbnail": "thumbs/thumb_liqui_moly_91.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_45.png",
+      "filename": "liqui_moly_92.jpg",
       "brand": "Liqui Moly",
       "location": "Garage Sign - Car 3",
-      "sort_order": 309
+      "sort_order": 309,
+      "thumbnail": "thumbs/thumb_liqui_moly_92.jpg"
     },
     {
       "type": "example",
-      "filename": "liqui_moly_46.png",
+      "filename": "liqui_moly_93.jpg",
       "brand": "Liqui Moly",
       "location": "Helmet - Car 3",
-      "sort_order": 310
+      "sort_order": 310,
+      "thumbnail": "thumbs/thumb_liqui_moly_93.jpg"
     },
     {
       "type": "example",
