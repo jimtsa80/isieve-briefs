@@ -37,6 +37,27 @@
         </div>
     </div>
 
+    <!-- Delete Brief Confirmation Modal -->
+    <div id="deleteModal" class="modal-backdrop" aria-hidden="true">
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="deleteModalTitle">
+            <h3 id="deleteModalTitle">Delete brief</h3>
+            <p id="deleteModalDesc" class="text-muted">
+                This will permanently delete the entire brief folder and remove it from the library index in one commit.
+            </p>
+            <div id="deleteModalStatus" class="edit-status" style="display: none;"></div>
+            <div class="form-group">
+                <label for="deleteConfirmInput">
+                    Type <strong id="deleteExpectedTitle"></strong> or <code>DELETE</code> to confirm
+                </label>
+                <input type="text" id="deleteConfirmInput" placeholder="Type brief title or DELETE" autocomplete="off">
+            </div>
+            <div class="modal-actions">
+                <button type="button" id="deleteModalCancel" class="btn btn-secondary">Cancel</button>
+                <button type="button" id="deleteModalConfirm" class="btn btn-danger" disabled>Delete brief</button>
+            </div>
+        </div>
+    </div>
+
     <!-- GitHub Token Modal -->
     <div id="tokenModal" class="modal-backdrop" aria-hidden="true">
         <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="tokenModalTitle">

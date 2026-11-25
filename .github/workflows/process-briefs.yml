@@ -4,8 +4,11 @@ on:
   push:
     paths:
       - 'briefs-inbox/**'
-      - 'briefs/**'
   workflow_dispatch:
+
+concurrency:
+  group: process-brief-inbox
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -13,33 +16,50 @@ permissions:
 jobs:
   process:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
           pip install openpyxl Pillow
-      
+
       - name: Process inbox files
         run: python scripts/process_inbox.py
-      
+
+      - name: Optimize images in new briefs
+        run: |
+          for brief_dir in briefs/brief-*/; do
+            if [ ! -d "${brief_dir}thumbs" ] || find "$brief_dir" -maxdepth 1 -name "*.png" -o -name "*.PNG" | grep -q .; then
+              echo "Optimizing $brief_dir"
+              python scripts/optimize_images.py "$brief_dir"
+            fi
+          done
+
       - name: Rebuild index
         run: python scripts/rebuild_index.py
-      
+
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A briefs briefs-inbox
-          git diff --staged --quiet || git commit -m "🤖 Process brief inbox [skip ci]"
-          git pull --rebase
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Process brief inbox [skip ci]"
+            if ! git pull --rebase; then
+              git rebase --abort || true
+              git pull --rebase -X ours
+              python scripts/rebuild_index.py
+              git add briefs/index.json
+              git diff --staged --quiet || git commit --amend --no-edit
+            fi
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -10,6 +10,7 @@
     let currentImageIndex = 0;
     let isEditingHeader = false;
     let isSavingHeader = false;
+    let isDeletingBrief = false;
     let tokenModalResolver = null;
 
     function encodeBase64Utf8(str) {
@@ -66,7 +67,7 @@
         }
 
         try {
-            const response = await fetch(`briefs/${briefId}/brief.json`);
+            const response = await fetch(`briefs/${briefId}/brief.json?_=${Date.now()}`, { cache: 'no-store' });
             if (!response.ok) {
                 throw new Error('Brief not found');
             }
@@ -142,6 +143,7 @@
                 </div>
                 <div class="brief-header-actions">
                     <button type="button" id="editHeaderBtn" class="btn btn-secondary btn-sm">Edit</button>
+                    <button type="button" id="deleteBriefBtn" class="btn btn-danger btn-sm">Delete brief</button>
                     ${forgetLinkHtml}
                 </div>
             </div>
@@ -198,6 +200,11 @@
     }
 
     function attachHeaderListeners() {
+        const deleteBtn = document.getElementById('deleteBriefBtn');
+        if (deleteBtn) {
+            deleteBtn.addEventListener('click', () => openDeleteModal());
+        }
+
         const editBtn = document.getElementById('editHeaderBtn');
         if (editBtn) {
             editBtn.addEventListener('click', () => {
@@ -503,6 +510,250 @@
         }
     }
 
+
+    async function githubApiJson(apiPath, token, options) {
+        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}${apiPath}`;
+        const opts = Object.assign({}, options || {});
+        opts.headers = Object.assign({
+            'Accept': 'application/vnd.github+json',
+            'Authorization': `Bearer ${token}`
+        }, opts.headers || {});
+        if (opts.body && !opts.headers['Content-Type']) {
+            opts.headers['Content-Type'] = 'application/json';
+        }
+        const res = await fetch(url, opts);
+        if (!res.ok) {
+            const errBody = await res.json().catch(() => ({}));
+            const err = new Error(errBody.message || `GitHub API ${opts.method || 'GET'} ${apiPath} failed (${res.status})`);
+            err.status = res.status;
+            throw err;
+        }
+        return await res.json();
+    }
+
+    function isNonFastForwardError(err) {
+        if (!err) return false;
+        if (err.status === 409) return true;
+        if (err.status === 422 && /fast forward|update|reference|sha|conflict/i.test(err.message || '')) return true;
+        return false;
+    }
+
+    function setDeleteStatus(message, type) {
+        const statusEl = document.getElementById('deleteModalStatus');
+        if (!statusEl) return;
+        if (!message) {
+            statusEl.style.display = 'none';
+            statusEl.textContent = '';
+            statusEl.className = 'edit-status';
+            return;
+        }
+        statusEl.textContent = message;
+        statusEl.className = `edit-status ${type || 'info'}`;
+        statusEl.style.display = 'block';
+    }
+
+    function isDeleteConfirmationValid(value) {
+        if (!currentBrief) return false;
+        const typed = String(value || '').trim();
+        if (!typed) return false;
+        if (typed === 'DELETE') return true;
+        const title = String(currentBrief.event || '').trim();
+        return Boolean(title && typed === title);
+    }
+
+    function updateDeleteConfirmButtonState() {
+        const input = document.getElementById('deleteConfirmInput');
+        const confirmBtn = document.getElementById('deleteModalConfirm');
+        if (!confirmBtn || !input) return;
+        confirmBtn.disabled = isDeletingBrief || !isDeleteConfirmationValid(input.value);
+    }
+
+    function openDeleteModal() {
+        if (!currentBrief) return;
+        const modal = document.getElementById('deleteModal');
+        const expectedEl = document.getElementById('deleteExpectedTitle');
+        const input = document.getElementById('deleteConfirmInput');
+        if (!modal || !input) return;
+
+        if (expectedEl) {
+            expectedEl.textContent = currentBrief.event || currentBrief.id;
+        }
+        input.value = '';
+        input.disabled = false;
+        setDeleteStatus('', '');
+        updateDeleteConfirmButtonState();
+
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+        setTimeout(() => input.focus(), 50);
+    }
+
+    function closeDeleteModal() {
+        if (isDeletingBrief) return;
+        const modal = document.getElementById('deleteModal');
+        if (modal) {
+            modal.classList.remove('active');
+            modal.setAttribute('aria-hidden', 'true');
+        }
+    }
+
+    async function deleteBriefFromGitHub(briefId, briefTitle, token) {
+        const folderExact = `briefs/${briefId}`;
+        const folderPrefix = `briefs/${briefId}/`;
+        let attempts = 0;
+
+        while (attempts < 2) {
+            attempts += 1;
+            const refData = await githubApiJson(
+                `/git/ref/heads/${encodeURIComponent(GITHUB_BRANCH)}?_=${Date.now()}`,
+                token,
+                { method: 'GET', cache: 'no-store' }
+            );
+            const headSha = refData.object.sha;
+
+            const commitData = await githubApiJson(
+                `/git/commits/${headSha}?_=${Date.now()}`,
+                token,
+                { method: 'GET', cache: 'no-store' }
+            );
+            const baseTreeSha = commitData.tree.sha;
+
+            const treeData = await githubApiJson(
+                `/git/trees/${baseTreeSha}?recursive=1&_=${Date.now()}`,
+                token,
+                { method: 'GET', cache: 'no-store' }
+            );
+            if (treeData.truncated) {
+                throw new Error('Repository tree response was truncated; cannot safely delete via API.');
+            }
+
+            const indexFile = await githubGetFile('briefs/index.json', token);
+            const indexList = JSON.parse(decodeBase64Utf8(indexFile.content));
+            const nextIndex = Array.isArray(indexList)
+                ? indexList.filter(entry => !(entry && entry.id === briefId))
+                : [];
+            const serializedIndex = JSON.stringify(nextIndex, null, 2) + '\n';
+
+            const indexBlob = await githubApiJson('/git/blobs', token, {
+                method: 'POST',
+                body: JSON.stringify({
+                    content: encodeBase64Utf8(serializedIndex),
+                    encoding: 'base64'
+                })
+            });
+
+            const newTree = [];
+            for (const item of treeData.tree) {
+                if (item.type === 'tree') continue;
+                if (item.path === folderExact || item.path.startsWith(folderPrefix)) continue;
+                if (item.path === 'briefs/index.json') continue;
+                newTree.push({
+                    path: item.path,
+                    mode: item.mode,
+                    type: item.type,
+                    sha: item.sha
+                });
+            }
+            newTree.push({
+                path: 'briefs/index.json',
+                mode: '100644',
+                type: 'blob',
+                sha: indexBlob.sha
+            });
+
+            const newTreeData = await githubApiJson('/git/trees', token, {
+                method: 'POST',
+                body: JSON.stringify({ tree: newTree })
+            });
+
+            const newCommit = await githubApiJson('/git/commits', token, {
+                method: 'POST',
+                body: JSON.stringify({
+                    message: `Delete brief: ${briefTitle || briefId}`,
+                    tree: newTreeData.sha,
+                    parents: [headSha]
+                })
+            });
+
+            try {
+                await githubApiJson(`/git/refs/heads/${encodeURIComponent(GITHUB_BRANCH)}`, token, {
+                    method: 'PATCH',
+                    body: JSON.stringify({
+                        sha: newCommit.sha,
+                        force: false
+                    })
+                });
+                return;
+            } catch (err) {
+                if (isNonFastForwardError(err) && attempts < 2) {
+                    continue;
+                }
+                throw err;
+            }
+        }
+    }
+
+    async function handleDeleteBrief() {
+        if (!currentBrief || isDeletingBrief) return;
+        const input = document.getElementById('deleteConfirmInput');
+        if (!input || !isDeleteConfirmationValid(input.value)) {
+            setDeleteStatus('Please type the brief title or DELETE to confirm.', 'error');
+            return;
+        }
+
+        let token = getStoredToken();
+        if (!token) {
+            token = await requestTokenFromUser();
+            if (!token) {
+                setDeleteStatus('Delete cancelled (no GitHub token provided).', 'error');
+                return;
+            }
+            setStoredToken(token);
+        }
+
+        isDeletingBrief = true;
+        const confirmBtn = document.getElementById('deleteModalConfirm');
+        const cancelBtn = document.getElementById('deleteModalCancel');
+        input.disabled = true;
+        if (confirmBtn) { confirmBtn.disabled = true; confirmBtn.textContent = 'Deleting...'; }
+        if (cancelBtn) { cancelBtn.disabled = true; }
+        setDeleteStatus('Deleting brief folder and updating index in one commit...', 'info');
+
+        try {
+            let authAttempts = 0;
+            while (true) {
+                authAttempts += 1;
+                try {
+                    await deleteBriefFromGitHub(currentBrief.id, currentBrief.event, token);
+                    break;
+                } catch (err) {
+                    if (err && err.status === 401 && authAttempts < 3) {
+                        clearStoredToken();
+                        const newToken = await requestTokenFromUser('GitHub rejected the token (401 Unauthorized). Please enter a valid token.');
+                        if (!newToken) {
+                            throw new Error('Authentication cancelled after 401 Unauthorized.');
+                        }
+                        token = newToken;
+                        setStoredToken(token);
+                        continue;
+                    }
+                    throw err;
+                }
+            }
+
+            const deletedLabel = currentBrief.event || currentBrief.id;
+            window.location.href = `index.html?deleted=${encodeURIComponent(deletedLabel)}`;
+        } catch (err) {
+            console.error('Error deleting brief:', err);
+            isDeletingBrief = false;
+            input.disabled = false;
+            if (confirmBtn) { confirmBtn.textContent = 'Delete brief'; }
+            if (cancelBtn) { cancelBtn.disabled = false; }
+            updateDeleteConfirmButtonState();
+            setDeleteStatus(`Delete failed: ${err.message}`, 'error');
+        }
+    }
+
     function renderBrief(brief) {
         const container = document.getElementById('briefContainer');
 
@@ -798,6 +1049,35 @@
             });
         }
 
+        // Delete modal listeners
+        const deleteModal = document.getElementById('deleteModal');
+        const deleteInput = document.getElementById('deleteConfirmInput');
+        const deleteConfirmBtn = document.getElementById('deleteModalConfirm');
+        const deleteCancelBtn = document.getElementById('deleteModalCancel');
+
+        if (deleteInput) {
+            deleteInput.addEventListener('input', updateDeleteConfirmButtonState);
+            deleteInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    if (deleteConfirmBtn && !deleteConfirmBtn.disabled) {
+                        deleteConfirmBtn.click();
+                    }
+                }
+            });
+        }
+        if (deleteConfirmBtn) {
+            deleteConfirmBtn.addEventListener('click', handleDeleteBrief);
+        }
+        if (deleteCancelBtn) {
+            deleteCancelBtn.addEventListener('click', closeDeleteModal);
+        }
+        if (deleteModal) {
+            deleteModal.addEventListener('click', (e) => {
+                if (e.target.id === 'deleteModal') closeDeleteModal();
+            });
+        }
+
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (document.getElementById('lightbox').classList.contains('active')) {
@@ -806,6 +1086,8 @@
                 if (e.key === 'ArrowRight') navigateLightbox(1);
             } else if (tokenModal && tokenModal.classList.contains('active') && e.key === 'Escape') {
                 closeTokenModal(null);
+            } else if (deleteModal && deleteModal.classList.contains('active') && e.key === 'Escape') {
+                closeDeleteModal();
             }
         });
     });
