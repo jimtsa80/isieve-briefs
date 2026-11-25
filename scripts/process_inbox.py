@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Process .xlsx files from briefs-inbox/ directory.
+Process .xlsx and .xlsm files from briefs-inbox/ directory.
 Extracts data, images by drawing anchor, reads shape fill/stroke colors from XML.
 Supports both single-match briefs (e.g., Rugby) and multi-day/TVGI/Venue briefs (e.g., Supercars).
 """
@@ -726,7 +726,7 @@ def main():
     inbox_dir.mkdir(exist_ok=True)
     output_dir.mkdir(exist_ok=True)
 
-    excel_files = sorted(list(inbox_dir.glob('*.xlsx')) + list(inbox_dir.glob('*.xls')))
+    excel_files = sorted(p for p in inbox_dir.iterdir() if p.is_file() and p.suffix.lower() in {'.xlsx', '.xlsm', '.xls'})
 
     if not excel_files:
         print("No Excel files found in briefs-inbox/")
