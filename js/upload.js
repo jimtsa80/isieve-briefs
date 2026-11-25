@@ -751,9 +751,10 @@
 
     async function githubGetExistingSha(path, token) {
         const encodedPath = path.split('/').map(encodeURIComponent).join('/');
-        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodedPath}?ref=${encodeURIComponent(GITHUB_BRANCH)}`;
+        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodedPath}?ref=${encodeURIComponent(GITHUB_BRANCH)}&_=${Date.now()}`;
         const res = await fetch(url, {
             method: 'GET',
+            cache: 'no-store',
             headers: {
                 'Accept': 'application/vnd.github+json',
                 'Authorization': `Bearer ${token}`

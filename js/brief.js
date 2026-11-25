@@ -289,9 +289,10 @@
     }
 
     async function githubGetFile(path, token) {
-        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${encodeURIComponent(GITHUB_BRANCH)}`;
+        const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${encodeURIComponent(GITHUB_BRANCH)}&_=${Date.now()}`;
         const res = await fetch(url, {
             method: 'GET',
+            cache: 'no-store',
             headers: {
                 'Accept': 'application/vnd.github+json',
                 'Authorization': `Bearer ${token}`
