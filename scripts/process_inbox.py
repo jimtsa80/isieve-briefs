@@ -177,13 +177,37 @@ def extract_source_clips(sheet):
 
 
 def find_sheet(wb, names):
-    """Find a sheet by one of several possible names (case-insensitive, stripped)"""
+    """Find a sheet by one of several possible names.
+
+    Preference order (so case-distinct brand names do not steal the wrong sheet):
+    1. Exact name match
+    2. Exact match after stripping whitespace
+    3. Case-insensitive stripped match
+    """
     for name in names:
-        target = name.strip().lower()
+        if name in wb.sheetnames:
+            return wb[name]
+        stripped = name.strip()
+        for sheet_name in wb.sheetnames:
+            if sheet_name.strip() == stripped:
+                return wb[sheet_name]
+        target = stripped.lower()
         for sheet_name in wb.sheetnames:
             if sheet_name.strip().lower() == target:
                 return wb[sheet_name]
     return None
+
+
+def allocate_unique_filename(brief_dir, stem, extension, used_names):
+    """Return a filename like {stem}_{n}.{ext} that is unused on disk and in used_names."""
+    ext = extension.lstrip('.')
+    idx = 0
+    while True:
+        filename = f"{stem}_{idx}.{ext}"
+        if filename not in used_names and not (Path(brief_dir) / filename).exists():
+            used_names.add(filename)
+            return filename
+        idx += 1
 
 
 def normalize_whitespace(text):
@@ -456,6 +480,7 @@ def parse_brand_sheets(wb, filepath, brands, brief_dir):
     Parse brand sheets for example images using exact sheet->drawing XML mapping.
     """
     images = []
+    used_names = {p.name for p in Path(brief_dir).iterdir() if p.is_file()}
 
     try:
         with zipfile.ZipFile(filepath, 'r') as zf:
@@ -486,7 +511,6 @@ def parse_brand_sheets(wb, filepath, brands, brief_dir):
                                 break
 
                     safe_brand = sanitize_filename_part(brand_name)
-                    img_idx = 0
 
                     for drawing_path in drawings:
                         placements, _shapes = parse_drawing_elements(zf, drawing_path)
@@ -509,7 +533,7 @@ def parse_brand_sheets(wb, filepath, brands, brief_dir):
                                 if img.width < 32 or img.height < 32:
                                     continue
 
-                                filename = f"{safe_brand}_{img_idx}.png"
+                                filename = allocate_unique_filename(brief_dir, safe_brand, 'png', used_names)
                                 filepath_out = brief_dir / filename
                                 img.save(filepath_out, format='PNG')
 
@@ -526,7 +550,6 @@ def parse_brand_sheets(wb, filepath, brands, brief_dir):
                                     'location': location_name,
                                     'sort_order': len(images)
                                 })
-                                img_idx += 1
                             except Exception as e:
                                 print(f"Warning: Could not save image for {brand_name}: {e}")
                                 continue
@@ -550,6 +573,7 @@ def parse_annotations_sheet(wb, filepath, brief_dir):
     """
     annotation_images = []
     rules_lines = []
+    used_ann_names = {p.name for p in Path(brief_dir).iterdir() if p.is_file()}
 
     ann_sheet = find_sheet(wb, ['Annotations', 'Annotation'])
     if not ann_sheet:
@@ -613,7 +637,7 @@ def parse_annotations_sheet(wb, filepath, brief_dir):
                             ann_type = 'include'
 
                         idx = len(annotation_images)
-                        filename = f"annotation_{idx}.png"
+                        filename = allocate_unique_filename(brief_dir, 'annotation', 'png', used_ann_names)
                         filepath_out = brief_dir / filename
                         img.save(filepath_out, format='PNG')
 
@@ -634,14 +658,15 @@ def parse_annotations_sheet(wb, filepath, brief_dir):
     return annotation_images, rules_text
 
 
-def process_excel_file(filepath, output_dir):
+def process_excel_file(filepath, output_dir, brief_id=None):
     """Process a single Excel file and create brief package"""
     print(f"Processing: {filepath.name}")
 
     try:
         wb = load_workbook(filepath, data_only=True)
 
-        brief_id = generate_id(output_dir)
+        if not brief_id:
+            brief_id = generate_id(output_dir)
         brief_dir = output_dir / brief_id
         brief_dir.mkdir(parents=True, exist_ok=True)
 
