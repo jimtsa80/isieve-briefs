@@ -1,0 +1,2616 @@
+{
+  "id": "brief-20261125180929",
+  "client": "",
+  "event": "2027_NZC_i-sieve_brief_Men's_T20I_and_ODI_-_i-sieve_version",
+  "competition": null,
+  "sport": null,
+  "broadcaster": null,
+  "date_start": null,
+  "date_end": null,
+  "notes": null,
+  "rules": "Important Note:\nThe highlighted area is all called End of wicket i.e. exactly behind the stumps on both ends of the pitch.\nTherefore, LED Sign at the Back of the Stumps (on both ends) should be categorized as LED Sign - End of Wicket Signage\nLED sign on any other part of the stadium should be categoried as LED Sign",
+  "source_clips": null,
+  "brands": [
+    "ANZ",
+    "BRB",
+    "Castore",
+    "Chemist Warehouse",
+    "Dulux",
+    "Electoral Commission",
+    "Ford",
+    "Freemans",
+    "Genesis",
+    "GJ Gardner",
+    "Hero Vida",
+    "KFC",
+    "Life Direct",
+    "Powerade",
+    "Sky Sport",
+    "Super Liquor",
+    "Tegel",
+    "NZTA",
+    "Brookvale Union"
+  ],
+  "locations": [
+    "Training Kit - Shirt Front",
+    "Training Kit - Cap",
+    "LED Sign",
+    "Gazebo",
+    "Bolster",
+    "Spectator Clothing",
+    "Boundary Rope",
+    "LED Sightscreen",
+    "Coin Toss Mat",
+    "Kids Clothing",
+    "LED Sign - Coin Toss",
+    "LED Sign - End of Wicket Signage",
+    "Virtual Grass Sign - End of Wicket",
+    "Spectator Card",
+    "Media Backdrop - Player of the Match",
+    "Playing Kit Shirt Front",
+    "Playing Kit Arm",
+    "Giant Screen",
+    "Banner",
+    "Polo Shirt",
+    "Training Apparel",
+    "Hoodie",
+    "LED Sign - Ultra 99% carb free",
+    "LED Sign - Boundary Rd Brewery",
+    "Virtual Grass Sign - Square of Wicket",
+    "Playing Kit Cap",
+    "Playing Kit Pants",
+    "Virtual Grass Sign - GO Healthy - Square of Wicket",
+    "LED Sign - GO Healthy",
+    "LED Sign - How Good",
+    "Virtual Grass Sign - Go Healthy - End of Wicket",
+    "Virtual Gass Sign - Square of Wicket",
+    "Spectator Sign",
+    "TVGI - Logo",
+    "Stadium Signage",
+    "Giant Screen - Count down",
+    "Dugout",
+    "Ute",
+    "TVGI - Power Score Board",
+    "TVGI - Power Play",
+    "Playing Kit Shirt Back",
+    "LED Sign - Power Play",
+    "Giant Screen - HALF TIME SHOW",
+    "Giant Screen - Power Play",
+    "Banner - Powerplay Winner",
+    "Giant Screen - Decision Pending",
+    "Static Board",
+    "TVGI - Series Logo",
+    "Stumps",
+    "Media Backdrop",
+    "TGVI - Series Logo",
+    "TVGI - Stumps",
+    "Flame Throwers",
+    "TVGI - Text - 6 & Shout",
+    "TVGI - Stumps - 6&Shout",
+    "TVGI - Are You Ready To Win Some Free KFC",
+    "TVGI - Colonel Sanders - 6 & Shout",
+    "TVGI - Unlock Free KFC - 6 & Shout",
+    "TVGI - LED Sign - 6 & Shout",
+    "TVGI - Grass Sign - 6 & Shout",
+    "TVGI - LED Parapet - 6 & Shout",
+    "LED Sign - Life Insurance",
+    "LED Sign - Health Insurance",
+    "Drinks Box",
+    "Drinks Cannister",
+    "TVGI - Drinks Break",
+    "Commentator Stand",
+    "Microphone",
+    "TVGI - LED Sightscreen",
+    "Event Staff Apparel",
+    "LED Sign - The BIG Summer of Cricket",
+    "LED Sign - Cheers to that",
+    "LED Sign - Free Feels Good",
+    "LED Sign - Drinking? Don’t Drive",
+    "LED Sign - NZ Transport Agency",
+    "Drinks Bag",
+    "Powerade Cart",
+    "Coaches Table"
+  ],
+  "combinations": [
+    {
+      "brand": "ANZ",
+      "location": "Training Kit - Shirt Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Training Kit - Cap",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Gazebo",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Bolster",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Spectator Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Boundary Rope",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "LED Sightscreen",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Coin Toss Mat",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Kids Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "LED Sign - Coin Toss",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "LED Sign - End of Wicket Signage",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Spectator Card",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Media Backdrop - Player of the Match",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Playing Kit Shirt Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Playing Kit Arm",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Giant Screen",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Banner",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Polo Shirt",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Training Apparel",
+      "auto_closed": false
+    },
+    {
+      "brand": "ANZ",
+      "location": "Hoodie",
+      "auto_closed": false
+    },
+    {
+      "brand": "BRB",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "BRB",
+      "location": "LED Sign - Ultra 99% carb free",
+      "auto_closed": false
+    },
+    {
+      "brand": "BRB",
+      "location": "LED Sign - Boundary Rd Brewery",
+      "auto_closed": false
+    },
+    {
+      "brand": "BRB",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Playing Kit Shirt Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Training Apparel",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Kids Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Playing Kit Arm",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Playing Kit Cap",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Playing Kit Pants",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Training Kit - Shirt Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "Castore",
+      "location": "Hoodie",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - GO Healthy - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - GO Healthy",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - How Good",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - Go Healthy - End of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dulux",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dulux",
+      "location": "Virtual Gass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Dulux",
+      "location": "Spectator Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Electoral Commission",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "TVGI - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "Bolster",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "Stadium Signage",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "Giant Screen - Count down",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "Dugout",
+      "auto_closed": false
+    },
+    {
+      "brand": "Ford",
+      "location": "Ute",
+      "auto_closed": false
+    },
+    {
+      "brand": "Freemans",
+      "location": "Boundary Rope",
+      "auto_closed": false
+    },
+    {
+      "brand": "Freemans",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Freemans",
+      "location": "LED Sightscreen",
+      "auto_closed": false
+    },
+    {
+      "brand": "Freemans",
+      "location": "Playing Kit Shirt Front",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "TVGI - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "TVGI - Power Score Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "TVGI - Power Play",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Playing Kit Shirt Back",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "LED Sign - Power Play",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Giant Screen - HALF TIME SHOW",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Giant Screen - Power Play",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Giant Screen",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "Banner - Powerplay Winner",
+      "auto_closed": false
+    },
+    {
+      "brand": "Genesis",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "GJ Gardner",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "GJ Gardner",
+      "location": "Giant Screen - Decision Pending",
+      "auto_closed": false
+    },
+    {
+      "brand": "GJ Gardner",
+      "location": "Static Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hero Vida",
+      "location": "TVGI - Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hero Vida",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hero Vida",
+      "location": "Stumps",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hero Vida",
+      "location": "Media Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hero Vida",
+      "location": "TGVI - Series Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Hero Vida",
+      "location": "TVGI - Stumps",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "Flame Throwers",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Text - 6 & Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Stumps - 6&Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Are You Ready To Win Some Free KFC",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Colonel Sanders - 6 & Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Unlock Free KFC - 6 & Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - LED Sign - 6 & Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - Grass Sign - 6 & Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "TVGI - LED Parapet - 6 & Shout",
+      "auto_closed": false
+    },
+    {
+      "brand": "KFC",
+      "location": "Giant Screen",
+      "auto_closed": false
+    },
+    {
+      "brand": "Life Direct",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Life Direct",
+      "location": "LED Sign - Life Insurance",
+      "auto_closed": false
+    },
+    {
+      "brand": "Life Direct",
+      "location": "LED Sign - Health Insurance",
+      "auto_closed": false
+    },
+    {
+      "brand": "Life Direct",
+      "location": "Spectator Clothing",
+      "auto_closed": false
+    },
+    {
+      "brand": "Life Direct",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "Drinks Box",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "Drinks Cannister",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "TVGI - Drinks Break",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "Commentator Stand",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "Microphone",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "TVGI - Logo",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "TVGI - LED Sightscreen",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "Media Backdrop",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "Event Staff Apparel",
+      "auto_closed": false
+    },
+    {
+      "brand": "Sky Sport",
+      "location": "LED Sign - The BIG Summer of Cricket",
+      "auto_closed": false
+    },
+    {
+      "brand": "Super Liquor",
+      "location": "LED Sign - Cheers to that",
+      "auto_closed": false
+    },
+    {
+      "brand": "Super Liquor",
+      "location": "Static Board",
+      "auto_closed": false
+    },
+    {
+      "brand": "Super Liquor",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Tegel",
+      "location": "LED Sign - Free Feels Good",
+      "auto_closed": false
+    },
+    {
+      "brand": "Tegel",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "NZTA",
+      "location": "LED Sign - Drinking? Don’t Drive",
+      "auto_closed": false
+    },
+    {
+      "brand": "NZTA",
+      "location": "LED Sign - NZ Transport Agency",
+      "auto_closed": false
+    },
+    {
+      "brand": "Brookvale Union",
+      "location": "LED Sign",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "Drinks Bag",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "Powerade Cart",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "Coaches Table",
+      "auto_closed": false
+    },
+    {
+      "brand": "Powerade",
+      "location": "LED Sightscreen",
+      "auto_closed": false
+    }
+  ],
+  "images": [
+    {
+      "type": "example",
+      "filename": "anz_0.jpg",
+      "brand": "ANZ",
+      "location": "Training Kit - Shirt Front",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_anz_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_1.jpg",
+      "brand": "ANZ",
+      "location": "Training Kit - Shirt Front",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_anz_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_2.jpg",
+      "brand": "ANZ",
+      "location": "Training Kit - Shirt Front",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_anz_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_3.jpg",
+      "brand": "ANZ",
+      "location": "Training Kit - Cap",
+      "sort_order": 3,
+      "thumbnail": "thumbs/thumb_anz_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_4.jpg",
+      "brand": "ANZ",
+      "location": "Training Kit - Cap",
+      "sort_order": 4,
+      "thumbnail": "thumbs/thumb_anz_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_5.jpg",
+      "brand": "ANZ",
+      "location": "LED Sign",
+      "sort_order": 5,
+      "thumbnail": "thumbs/thumb_anz_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_6.jpg",
+      "brand": "ANZ",
+      "location": "LED Sign",
+      "sort_order": 6,
+      "thumbnail": "thumbs/thumb_anz_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_7.jpg",
+      "brand": "ANZ",
+      "location": "Gazebo",
+      "sort_order": 7,
+      "thumbnail": "thumbs/thumb_anz_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_8.jpg",
+      "brand": "ANZ",
+      "location": "Gazebo",
+      "sort_order": 8,
+      "thumbnail": "thumbs/thumb_anz_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_9.jpg",
+      "brand": "ANZ",
+      "location": "Bolster",
+      "sort_order": 9,
+      "thumbnail": "thumbs/thumb_anz_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_10.jpg",
+      "brand": "ANZ",
+      "location": "Bolster",
+      "sort_order": 10,
+      "thumbnail": "thumbs/thumb_anz_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_11.jpg",
+      "brand": "ANZ",
+      "location": "Spectator Clothing",
+      "sort_order": 11,
+      "thumbnail": "thumbs/thumb_anz_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_12.jpg",
+      "brand": "ANZ",
+      "location": "Boundary Rope",
+      "sort_order": 12,
+      "thumbnail": "thumbs/thumb_anz_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_13.jpg",
+      "brand": "ANZ",
+      "location": "Boundary Rope",
+      "sort_order": 13,
+      "thumbnail": "thumbs/thumb_anz_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_14.jpg",
+      "brand": "ANZ",
+      "location": "Boundary Rope",
+      "sort_order": 14,
+      "thumbnail": "thumbs/thumb_anz_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_15.jpg",
+      "brand": "ANZ",
+      "location": "Boundary Rope",
+      "sort_order": 15,
+      "thumbnail": "thumbs/thumb_anz_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_16.jpg",
+      "brand": "ANZ",
+      "location": "LED Sightscreen",
+      "sort_order": 16,
+      "thumbnail": "thumbs/thumb_anz_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_17.jpg",
+      "brand": "ANZ",
+      "location": "Coin Toss Mat",
+      "sort_order": 17,
+      "thumbnail": "thumbs/thumb_anz_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_18.jpg",
+      "brand": "ANZ",
+      "location": "Coin Toss Mat",
+      "sort_order": 18,
+      "thumbnail": "thumbs/thumb_anz_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_19.jpg",
+      "brand": "ANZ",
+      "location": "Coin Toss Mat",
+      "sort_order": 19,
+      "thumbnail": "thumbs/thumb_anz_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_20.jpg",
+      "brand": "ANZ",
+      "location": "Kids Clothing",
+      "sort_order": 20,
+      "thumbnail": "thumbs/thumb_anz_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_21.jpg",
+      "brand": "ANZ",
+      "location": "Kids Clothing",
+      "sort_order": 21,
+      "thumbnail": "thumbs/thumb_anz_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_22.jpg",
+      "brand": "ANZ",
+      "location": "LED Sign - Coin Toss",
+      "sort_order": 22,
+      "thumbnail": "thumbs/thumb_anz_22.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_23.jpg",
+      "brand": "ANZ",
+      "location": "LED Sign - Coin Toss",
+      "sort_order": 23,
+      "thumbnail": "thumbs/thumb_anz_23.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_24.jpg",
+      "brand": "ANZ",
+      "location": "LED Sign - End of Wicket Signage",
+      "sort_order": 24,
+      "thumbnail": "thumbs/thumb_anz_24.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_25.jpg",
+      "brand": "ANZ",
+      "location": "LED Sign - End of Wicket Signage",
+      "sort_order": 25,
+      "thumbnail": "thumbs/thumb_anz_25.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_26.jpg",
+      "brand": "ANZ",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 26,
+      "thumbnail": "thumbs/thumb_anz_26.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_27.jpg",
+      "brand": "ANZ",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 27,
+      "thumbnail": "thumbs/thumb_anz_27.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_28.jpg",
+      "brand": "ANZ",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 28,
+      "thumbnail": "thumbs/thumb_anz_28.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_29.jpg",
+      "brand": "ANZ",
+      "location": "LED Sightscreen",
+      "sort_order": 29,
+      "thumbnail": "thumbs/thumb_anz_29.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_30.jpg",
+      "brand": "ANZ",
+      "location": "Spectator Card",
+      "sort_order": 30,
+      "thumbnail": "thumbs/thumb_anz_30.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_31.jpg",
+      "brand": "ANZ",
+      "location": "Spectator Card",
+      "sort_order": 31,
+      "thumbnail": "thumbs/thumb_anz_31.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_32.jpg",
+      "brand": "ANZ",
+      "location": "Spectator Card",
+      "sort_order": 32,
+      "thumbnail": "thumbs/thumb_anz_32.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_33.jpg",
+      "brand": "ANZ",
+      "location": "Spectator Card",
+      "sort_order": 33,
+      "thumbnail": "thumbs/thumb_anz_33.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_34.jpg",
+      "brand": "ANZ",
+      "location": "Media Backdrop - Player of the Match",
+      "sort_order": 34,
+      "thumbnail": "thumbs/thumb_anz_34.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_35.jpg",
+      "brand": "ANZ",
+      "location": "Media Backdrop - Player of the Match",
+      "sort_order": 35,
+      "thumbnail": "thumbs/thumb_anz_35.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_36.jpg",
+      "brand": "ANZ",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 36,
+      "thumbnail": "thumbs/thumb_anz_36.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_37.jpg",
+      "brand": "ANZ",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 37,
+      "thumbnail": "thumbs/thumb_anz_37.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_38.jpg",
+      "brand": "ANZ",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 38,
+      "thumbnail": "thumbs/thumb_anz_38.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_39.jpg",
+      "brand": "ANZ",
+      "location": "Playing Kit Arm",
+      "sort_order": 39,
+      "thumbnail": "thumbs/thumb_anz_39.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_40.jpg",
+      "brand": "ANZ",
+      "location": "Playing Kit Arm",
+      "sort_order": 40,
+      "thumbnail": "thumbs/thumb_anz_40.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_41.jpg",
+      "brand": "ANZ",
+      "location": "Playing Kit Arm",
+      "sort_order": 41,
+      "thumbnail": "thumbs/thumb_anz_41.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_42.jpg",
+      "brand": "ANZ",
+      "location": "Giant Screen",
+      "sort_order": 42,
+      "thumbnail": "thumbs/thumb_anz_42.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_43.jpg",
+      "brand": "ANZ",
+      "location": "Giant Screen",
+      "sort_order": 43,
+      "thumbnail": "thumbs/thumb_anz_43.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_44.jpg",
+      "brand": "ANZ",
+      "location": "Giant Screen",
+      "sort_order": 44,
+      "thumbnail": "thumbs/thumb_anz_44.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_45.jpg",
+      "brand": "ANZ",
+      "location": "Banner",
+      "sort_order": 45,
+      "thumbnail": "thumbs/thumb_anz_45.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_46.jpg",
+      "brand": "ANZ",
+      "location": "Polo Shirt",
+      "sort_order": 46,
+      "thumbnail": "thumbs/thumb_anz_46.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_47.jpg",
+      "brand": "ANZ",
+      "location": "Training Apparel",
+      "sort_order": 47,
+      "thumbnail": "thumbs/thumb_anz_47.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "anz_48.jpg",
+      "brand": "ANZ",
+      "location": "Hoodie",
+      "sort_order": 48,
+      "thumbnail": "thumbs/thumb_anz_48.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_0.jpg",
+      "brand": "BRB",
+      "location": "LED Sign",
+      "sort_order": 49,
+      "thumbnail": "thumbs/thumb_brb_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_1.png",
+      "brand": "BRB",
+      "location": "LED Sign",
+      "sort_order": 50,
+      "thumbnail": "thumbs/thumb_brb_1.png"
+    },
+    {
+      "type": "example",
+      "filename": "brb_2.jpg",
+      "brand": "BRB",
+      "location": "LED Sign",
+      "sort_order": 51,
+      "thumbnail": "thumbs/thumb_brb_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_3.jpg",
+      "brand": "BRB",
+      "location": "LED Sign - Ultra 99% carb free",
+      "sort_order": 52,
+      "thumbnail": "thumbs/thumb_brb_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_4.png",
+      "brand": "BRB",
+      "location": "LED Sign - Ultra 99% carb free",
+      "sort_order": 53,
+      "thumbnail": "thumbs/thumb_brb_4.png"
+    },
+    {
+      "type": "example",
+      "filename": "brb_5.jpg",
+      "brand": "BRB",
+      "location": "LED Sign - Boundary Rd Brewery",
+      "sort_order": 54,
+      "thumbnail": "thumbs/thumb_brb_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_6.jpg",
+      "brand": "BRB",
+      "location": "LED Sign - Boundary Rd Brewery",
+      "sort_order": 55,
+      "thumbnail": "thumbs/thumb_brb_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_7.jpg",
+      "brand": "BRB",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 56,
+      "thumbnail": "thumbs/thumb_brb_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_8.jpg",
+      "brand": "BRB",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 57,
+      "thumbnail": "thumbs/thumb_brb_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brb_9.jpg",
+      "brand": "BRB",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 58,
+      "thumbnail": "thumbs/thumb_brb_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_0.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 59,
+      "thumbnail": "thumbs/thumb_castore_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_1.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 60,
+      "thumbnail": "thumbs/thumb_castore_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_2.jpg",
+      "brand": "Castore",
+      "location": "Training Apparel",
+      "sort_order": 61,
+      "thumbnail": "thumbs/thumb_castore_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_3.jpg",
+      "brand": "Castore",
+      "location": "LED Sign",
+      "sort_order": 62,
+      "thumbnail": "thumbs/thumb_castore_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_4.jpg",
+      "brand": "Castore",
+      "location": "LED Sign",
+      "sort_order": 63,
+      "thumbnail": "thumbs/thumb_castore_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_5.jpg",
+      "brand": "Castore",
+      "location": "Kids Clothing",
+      "sort_order": 64,
+      "thumbnail": "thumbs/thumb_castore_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_6.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Arm",
+      "sort_order": 65,
+      "thumbnail": "thumbs/thumb_castore_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_7.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Arm",
+      "sort_order": 66,
+      "thumbnail": "thumbs/thumb_castore_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_8.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Arm",
+      "sort_order": 67,
+      "thumbnail": "thumbs/thumb_castore_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_9.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Cap",
+      "sort_order": 68,
+      "thumbnail": "thumbs/thumb_castore_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_10.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Pants",
+      "sort_order": 69,
+      "thumbnail": "thumbs/thumb_castore_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_11.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Pants",
+      "sort_order": 70,
+      "thumbnail": "thumbs/thumb_castore_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_12.jpg",
+      "brand": "Castore",
+      "location": "Playing Kit Pants",
+      "sort_order": 71,
+      "thumbnail": "thumbs/thumb_castore_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_13.jpg",
+      "brand": "Castore",
+      "location": "Training Kit - Shirt Front",
+      "sort_order": 72,
+      "thumbnail": "thumbs/thumb_castore_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "castore_14.jpg",
+      "brand": "Castore",
+      "location": "Hoodie",
+      "sort_order": 73,
+      "thumbnail": "thumbs/thumb_castore_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_0.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 74,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_1.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 75,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_2.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 76,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_3.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - GO Healthy - Square of Wicket",
+      "sort_order": 77,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_4.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - GO Healthy - Square of Wicket",
+      "sort_order": 78,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_5.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - GO Healthy - Square of Wicket",
+      "sort_order": 79,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_6.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign",
+      "sort_order": 80,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_7.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign",
+      "sort_order": 81,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_8.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign",
+      "sort_order": 82,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_9.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign",
+      "sort_order": 83,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_10.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - GO Healthy",
+      "sort_order": 84,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_11.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - GO Healthy",
+      "sort_order": 85,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_12.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - GO Healthy",
+      "sort_order": 86,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_13.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - How Good",
+      "sort_order": 87,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_14.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "LED Sign - How Good",
+      "sort_order": 88,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_15.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 89,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "chemist_warehouse_16.jpg",
+      "brand": "Chemist Warehouse",
+      "location": "Virtual Grass Sign - Go Healthy - End of Wicket",
+      "sort_order": 90,
+      "thumbnail": "thumbs/thumb_chemist_warehouse_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dulux_0.jpg",
+      "brand": "Dulux",
+      "location": "LED Sign",
+      "sort_order": 91,
+      "thumbnail": "thumbs/thumb_dulux_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dulux_1.jpg",
+      "brand": "Dulux",
+      "location": "LED Sign",
+      "sort_order": 92,
+      "thumbnail": "thumbs/thumb_dulux_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dulux_2.jpg",
+      "brand": "Dulux",
+      "location": "LED Sign",
+      "sort_order": 93,
+      "thumbnail": "thumbs/thumb_dulux_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dulux_3.jpg",
+      "brand": "Dulux",
+      "location": "Virtual Gass Sign - Square of Wicket",
+      "sort_order": 94,
+      "thumbnail": "thumbs/thumb_dulux_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dulux_4.jpg",
+      "brand": "Dulux",
+      "location": "Virtual Gass Sign - Square of Wicket",
+      "sort_order": 95,
+      "thumbnail": "thumbs/thumb_dulux_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "dulux_5.jpg",
+      "brand": "Dulux",
+      "location": "Spectator Sign",
+      "sort_order": 96,
+      "thumbnail": "thumbs/thumb_dulux_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "electoral_commission_0.jpg",
+      "brand": "Electoral Commission",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 97,
+      "thumbnail": "thumbs/thumb_electoral_commission_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "electoral_commission_1.png",
+      "brand": "Electoral Commission",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 98,
+      "thumbnail": "thumbs/thumb_electoral_commission_1.png"
+    },
+    {
+      "type": "example",
+      "filename": "ford_0.jpg",
+      "brand": "Ford",
+      "location": "TVGI - Logo",
+      "sort_order": 99,
+      "thumbnail": "thumbs/thumb_ford_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_1.jpg",
+      "brand": "Ford",
+      "location": "Bolster",
+      "sort_order": 100,
+      "thumbnail": "thumbs/thumb_ford_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_2.jpg",
+      "brand": "Ford",
+      "location": "Bolster",
+      "sort_order": 101,
+      "thumbnail": "thumbs/thumb_ford_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_3.jpg",
+      "brand": "Ford",
+      "location": "Bolster",
+      "sort_order": 102,
+      "thumbnail": "thumbs/thumb_ford_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_4.jpg",
+      "brand": "Ford",
+      "location": "Stadium Signage",
+      "sort_order": 103,
+      "thumbnail": "thumbs/thumb_ford_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_5.jpg",
+      "brand": "Ford",
+      "location": "Stadium Signage",
+      "sort_order": 104,
+      "thumbnail": "thumbs/thumb_ford_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_6.jpg",
+      "brand": "Ford",
+      "location": "LED Sign",
+      "sort_order": 105,
+      "thumbnail": "thumbs/thumb_ford_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_7.jpg",
+      "brand": "Ford",
+      "location": "LED Sign",
+      "sort_order": 106,
+      "thumbnail": "thumbs/thumb_ford_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_8.jpg",
+      "brand": "Ford",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 107,
+      "thumbnail": "thumbs/thumb_ford_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_9.jpg",
+      "brand": "Ford",
+      "location": "TVGI - Logo",
+      "sort_order": 108,
+      "thumbnail": "thumbs/thumb_ford_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_10.jpg",
+      "brand": "Ford",
+      "location": "LED Sign",
+      "sort_order": 109,
+      "thumbnail": "thumbs/thumb_ford_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_11.jpg",
+      "brand": "Ford",
+      "location": "Giant Screen - Count down",
+      "sort_order": 110,
+      "thumbnail": "thumbs/thumb_ford_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_12.jpg",
+      "brand": "Ford",
+      "location": "Giant Screen - Count down",
+      "sort_order": 111,
+      "thumbnail": "thumbs/thumb_ford_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_13.jpg",
+      "brand": "Ford",
+      "location": "Giant Screen - Count down",
+      "sort_order": 112,
+      "thumbnail": "thumbs/thumb_ford_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_14.jpg",
+      "brand": "Ford",
+      "location": "Dugout",
+      "sort_order": 113,
+      "thumbnail": "thumbs/thumb_ford_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_15.jpg",
+      "brand": "Ford",
+      "location": "Ute",
+      "sort_order": 114,
+      "thumbnail": "thumbs/thumb_ford_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_16.jpg",
+      "brand": "Ford",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 115,
+      "thumbnail": "thumbs/thumb_ford_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_17.jpg",
+      "brand": "Ford",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 116,
+      "thumbnail": "thumbs/thumb_ford_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_18.jpg",
+      "brand": "Ford",
+      "location": "Dugout",
+      "sort_order": 117,
+      "thumbnail": "thumbs/thumb_ford_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "ford_19.jpg",
+      "brand": "Ford",
+      "location": "Dugout",
+      "sort_order": 118,
+      "thumbnail": "thumbs/thumb_ford_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_0.jpg",
+      "brand": "Freemans",
+      "location": "Boundary Rope",
+      "sort_order": 119,
+      "thumbnail": "thumbs/thumb_freemans_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_1.jpg",
+      "brand": "Freemans",
+      "location": "LED Sign",
+      "sort_order": 120,
+      "thumbnail": "thumbs/thumb_freemans_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_2.jpg",
+      "brand": "Freemans",
+      "location": "LED Sign",
+      "sort_order": 121,
+      "thumbnail": "thumbs/thumb_freemans_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_3.jpg",
+      "brand": "Freemans",
+      "location": "LED Sign",
+      "sort_order": 122,
+      "thumbnail": "thumbs/thumb_freemans_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_4.jpg",
+      "brand": "Freemans",
+      "location": "LED Sightscreen",
+      "sort_order": 123,
+      "thumbnail": "thumbs/thumb_freemans_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_5.jpg",
+      "brand": "Freemans",
+      "location": "LED Sightscreen",
+      "sort_order": 124,
+      "thumbnail": "thumbs/thumb_freemans_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_6.jpg",
+      "brand": "Freemans",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 125,
+      "thumbnail": "thumbs/thumb_freemans_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "freemans_7.jpg",
+      "brand": "Freemans",
+      "location": "Playing Kit Shirt Front",
+      "sort_order": 126,
+      "thumbnail": "thumbs/thumb_freemans_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_0.jpg",
+      "brand": "Genesis",
+      "location": "TVGI - Logo",
+      "sort_order": 127,
+      "thumbnail": "thumbs/thumb_genesis_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_1.jpg",
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 128,
+      "thumbnail": "thumbs/thumb_genesis_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_2.jpg",
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 129,
+      "thumbnail": "thumbs/thumb_genesis_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_3.jpg",
+      "brand": "Genesis",
+      "location": "TVGI - Power Score Board",
+      "sort_order": 130,
+      "thumbnail": "thumbs/thumb_genesis_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_4.jpg",
+      "brand": "Genesis",
+      "location": "TVGI - Power Play",
+      "sort_order": 131,
+      "thumbnail": "thumbs/thumb_genesis_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_5.jpg",
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 132,
+      "thumbnail": "thumbs/thumb_genesis_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_6.jpg",
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 133,
+      "thumbnail": "thumbs/thumb_genesis_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_7.jpg",
+      "brand": "Genesis",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 134,
+      "thumbnail": "thumbs/thumb_genesis_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_8.jpg",
+      "brand": "Genesis",
+      "location": "Playing Kit Shirt Back",
+      "sort_order": 135,
+      "thumbnail": "thumbs/thumb_genesis_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_9.jpg",
+      "brand": "Genesis",
+      "location": "LED Sign - Power Play",
+      "sort_order": 136,
+      "thumbnail": "thumbs/thumb_genesis_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_10.jpg",
+      "brand": "Genesis",
+      "location": "LED Sign - Power Play",
+      "sort_order": 137,
+      "thumbnail": "thumbs/thumb_genesis_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_11.jpg",
+      "brand": "Genesis",
+      "location": "LED Sign - Power Play",
+      "sort_order": 138,
+      "thumbnail": "thumbs/thumb_genesis_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_12.jpg",
+      "brand": "Genesis",
+      "location": "Giant Screen - HALF TIME SHOW",
+      "sort_order": 139,
+      "thumbnail": "thumbs/thumb_genesis_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_13.jpg",
+      "brand": "Genesis",
+      "location": "Giant Screen - Power Play",
+      "sort_order": 140,
+      "thumbnail": "thumbs/thumb_genesis_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_14.jpg",
+      "brand": "Genesis",
+      "location": "Giant Screen",
+      "sort_order": 141,
+      "thumbnail": "thumbs/thumb_genesis_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_15.jpg",
+      "brand": "Genesis",
+      "location": "Banner - Powerplay Winner",
+      "sort_order": 142,
+      "thumbnail": "thumbs/thumb_genesis_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_16.jpg",
+      "brand": "Genesis",
+      "location": "Playing Kit Shirt Back",
+      "sort_order": 143,
+      "thumbnail": "thumbs/thumb_genesis_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "genesis_17.jpg",
+      "brand": "Genesis",
+      "location": "LED Sign",
+      "sort_order": 144,
+      "thumbnail": "thumbs/thumb_genesis_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gj_gardner_0.jpg",
+      "brand": "GJ Gardner",
+      "location": "LED Sign",
+      "sort_order": 145,
+      "thumbnail": "thumbs/thumb_gj_gardner_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gj_gardner_1.jpg",
+      "brand": "GJ Gardner",
+      "location": "Giant Screen - Decision Pending",
+      "sort_order": 146,
+      "thumbnail": "thumbs/thumb_gj_gardner_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gj_gardner_2.jpg",
+      "brand": "GJ Gardner",
+      "location": "LED Sign",
+      "sort_order": 147,
+      "thumbnail": "thumbs/thumb_gj_gardner_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gj_gardner_3.jpg",
+      "brand": "GJ Gardner",
+      "location": "LED Sign",
+      "sort_order": 148,
+      "thumbnail": "thumbs/thumb_gj_gardner_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gj_gardner_4.jpg",
+      "brand": "GJ Gardner",
+      "location": "Static Board",
+      "sort_order": 149,
+      "thumbnail": "thumbs/thumb_gj_gardner_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "gj_gardner_5.jpg",
+      "brand": "GJ Gardner",
+      "location": "Static Board",
+      "sort_order": 150,
+      "thumbnail": "thumbs/thumb_gj_gardner_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_0.jpg",
+      "brand": "Hero Vida",
+      "location": "TVGI - Series Logo",
+      "sort_order": 151,
+      "thumbnail": "thumbs/thumb_hero_vida_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_1.jpg",
+      "brand": "Hero Vida",
+      "location": "LED Sign",
+      "sort_order": 152,
+      "thumbnail": "thumbs/thumb_hero_vida_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_2.jpg",
+      "brand": "Hero Vida",
+      "location": "LED Sign",
+      "sort_order": 153,
+      "thumbnail": "thumbs/thumb_hero_vida_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_3.jpg",
+      "brand": "Hero Vida",
+      "location": "LED Sign",
+      "sort_order": 154,
+      "thumbnail": "thumbs/thumb_hero_vida_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_4.jpg",
+      "brand": "Hero Vida",
+      "location": "TVGI - Series Logo",
+      "sort_order": 155,
+      "thumbnail": "thumbs/thumb_hero_vida_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_5.jpg",
+      "brand": "Hero Vida",
+      "location": "Stumps",
+      "sort_order": 156,
+      "thumbnail": "thumbs/thumb_hero_vida_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_6.jpg",
+      "brand": "Hero Vida",
+      "location": "Stumps",
+      "sort_order": 157,
+      "thumbnail": "thumbs/thumb_hero_vida_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_7.jpg",
+      "brand": "Hero Vida",
+      "location": "Stumps",
+      "sort_order": 158,
+      "thumbnail": "thumbs/thumb_hero_vida_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_8.jpg",
+      "brand": "Hero Vida",
+      "location": "Media Backdrop",
+      "sort_order": 159,
+      "thumbnail": "thumbs/thumb_hero_vida_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_9.jpg",
+      "brand": "Hero Vida",
+      "location": "TGVI - Series Logo",
+      "sort_order": 160,
+      "thumbnail": "thumbs/thumb_hero_vida_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_10.jpg",
+      "brand": "Hero Vida",
+      "location": "TVGI - Stumps",
+      "sort_order": 161,
+      "thumbnail": "thumbs/thumb_hero_vida_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "hero_vida_11.jpg",
+      "brand": "Hero Vida",
+      "location": "TVGI - Stumps",
+      "sort_order": 162,
+      "thumbnail": "thumbs/thumb_hero_vida_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_0.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Logo",
+      "sort_order": 163,
+      "thumbnail": "thumbs/thumb_kfc_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_1.jpg",
+      "brand": "KFC",
+      "location": "LED Sign",
+      "sort_order": 164,
+      "thumbnail": "thumbs/thumb_kfc_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_2.jpg",
+      "brand": "KFC",
+      "location": "LED Sign",
+      "sort_order": 165,
+      "thumbnail": "thumbs/thumb_kfc_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_3.jpg",
+      "brand": "KFC",
+      "location": "LED Sign",
+      "sort_order": 166,
+      "thumbnail": "thumbs/thumb_kfc_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_4.jpg",
+      "brand": "KFC",
+      "location": "Virtual Grass Sign - End of Wicket",
+      "sort_order": 167,
+      "thumbnail": "thumbs/thumb_kfc_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_5.jpg",
+      "brand": "KFC",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 168,
+      "thumbnail": "thumbs/thumb_kfc_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_6.jpg",
+      "brand": "KFC",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 169,
+      "thumbnail": "thumbs/thumb_kfc_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_7.jpg",
+      "brand": "KFC",
+      "location": "Flame Throwers",
+      "sort_order": 170,
+      "thumbnail": "thumbs/thumb_kfc_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_8.jpg",
+      "brand": "KFC",
+      "location": "Flame Throwers",
+      "sort_order": 171,
+      "thumbnail": "thumbs/thumb_kfc_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_9.jpg",
+      "brand": "KFC",
+      "location": "Flame Throwers",
+      "sort_order": 172,
+      "thumbnail": "thumbs/thumb_kfc_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_10.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Text - 6 & Shout",
+      "sort_order": 173,
+      "thumbnail": "thumbs/thumb_kfc_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_11.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Stumps - 6&Shout",
+      "sort_order": 174,
+      "thumbnail": "thumbs/thumb_kfc_11.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_12.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Are You Ready To Win Some Free KFC",
+      "sort_order": 175,
+      "thumbnail": "thumbs/thumb_kfc_12.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_13.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Colonel Sanders - 6 & Shout",
+      "sort_order": 176,
+      "thumbnail": "thumbs/thumb_kfc_13.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_14.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Unlock Free KFC - 6 & Shout",
+      "sort_order": 177,
+      "thumbnail": "thumbs/thumb_kfc_14.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_15.jpg",
+      "brand": "KFC",
+      "location": "TVGI - LED Sign - 6 & Shout",
+      "sort_order": 178,
+      "thumbnail": "thumbs/thumb_kfc_15.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_16.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Grass Sign - 6 & Shout",
+      "sort_order": 179,
+      "thumbnail": "thumbs/thumb_kfc_16.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_17.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Grass Sign - 6 & Shout",
+      "sort_order": 180,
+      "thumbnail": "thumbs/thumb_kfc_17.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_18.jpg",
+      "brand": "KFC",
+      "location": "TVGI - LED Parapet - 6 & Shout",
+      "sort_order": 181,
+      "thumbnail": "thumbs/thumb_kfc_18.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_19.jpg",
+      "brand": "KFC",
+      "location": "TVGI - LED Parapet - 6 & Shout",
+      "sort_order": 182,
+      "thumbnail": "thumbs/thumb_kfc_19.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_20.jpg",
+      "brand": "KFC",
+      "location": "TVGI - Logo",
+      "sort_order": 183,
+      "thumbnail": "thumbs/thumb_kfc_20.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "kfc_21.jpg",
+      "brand": "KFC",
+      "location": "Giant Screen",
+      "sort_order": 184,
+      "thumbnail": "thumbs/thumb_kfc_21.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_0.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign",
+      "sort_order": 185,
+      "thumbnail": "thumbs/thumb_life_direct_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_1.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign",
+      "sort_order": 186,
+      "thumbnail": "thumbs/thumb_life_direct_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_2.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign - Life Insurance",
+      "sort_order": 187,
+      "thumbnail": "thumbs/thumb_life_direct_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_3.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign - Life Insurance",
+      "sort_order": 188,
+      "thumbnail": "thumbs/thumb_life_direct_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_4.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign - Health Insurance",
+      "sort_order": 189,
+      "thumbnail": "thumbs/thumb_life_direct_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_5.jpg",
+      "brand": "Life Direct",
+      "location": "Spectator Clothing",
+      "sort_order": 190,
+      "thumbnail": "thumbs/thumb_life_direct_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_6.jpg",
+      "brand": "Life Direct",
+      "location": "Virtual Grass Sign - Square of Wicket",
+      "sort_order": 191,
+      "thumbnail": "thumbs/thumb_life_direct_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_7.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign",
+      "sort_order": 192,
+      "thumbnail": "thumbs/thumb_life_direct_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_8.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign",
+      "sort_order": 193,
+      "thumbnail": "thumbs/thumb_life_direct_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "life_direct_9.jpg",
+      "brand": "Life Direct",
+      "location": "LED Sign",
+      "sort_order": 194,
+      "thumbnail": "thumbs/thumb_life_direct_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_0.jpg",
+      "brand": "Powerade",
+      "location": "Drinks Box",
+      "sort_order": 195,
+      "thumbnail": "thumbs/thumb_powerade_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_1.jpg",
+      "brand": "Powerade",
+      "location": "Drinks Cannister",
+      "sort_order": 196,
+      "thumbnail": "thumbs/thumb_powerade_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_2.jpg",
+      "brand": "Powerade",
+      "location": "LED Sign",
+      "sort_order": 197,
+      "thumbnail": "thumbs/thumb_powerade_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_3.jpg",
+      "brand": "Powerade",
+      "location": "LED Sign",
+      "sort_order": 198,
+      "thumbnail": "thumbs/thumb_powerade_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_4.jpg",
+      "brand": "Powerade",
+      "location": "TVGI - Drinks Break",
+      "sort_order": 199,
+      "thumbnail": "thumbs/thumb_powerade_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_5.jpg",
+      "brand": "Powerade",
+      "location": null,
+      "sort_order": 200,
+      "thumbnail": "thumbs/thumb_powerade_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_6.jpg",
+      "brand": "Powerade",
+      "location": null,
+      "sort_order": 201,
+      "thumbnail": "thumbs/thumb_powerade_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_7.jpg",
+      "brand": "Powerade",
+      "location": null,
+      "sort_order": 202,
+      "thumbnail": "thumbs/thumb_powerade_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "powerade_8.jpg",
+      "brand": "Powerade",
+      "location": null,
+      "sort_order": 203,
+      "thumbnail": "thumbs/thumb_powerade_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_0.jpg",
+      "brand": "Sky Sport",
+      "location": "Commentator Stand",
+      "sort_order": 204,
+      "thumbnail": "thumbs/thumb_sky_sport_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_1.jpg",
+      "brand": "Sky Sport",
+      "location": "Microphone",
+      "sort_order": 205,
+      "thumbnail": "thumbs/thumb_sky_sport_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_2.jpg",
+      "brand": "Sky Sport",
+      "location": "TVGI - Logo",
+      "sort_order": 206,
+      "thumbnail": "thumbs/thumb_sky_sport_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_3.jpg",
+      "brand": "Sky Sport",
+      "location": "LED Sign",
+      "sort_order": 207,
+      "thumbnail": "thumbs/thumb_sky_sport_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_4.jpg",
+      "brand": "Sky Sport",
+      "location": "TVGI - LED Sightscreen",
+      "sort_order": 208,
+      "thumbnail": "thumbs/thumb_sky_sport_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_5.jpg",
+      "brand": "Sky Sport",
+      "location": "Media Backdrop",
+      "sort_order": 209,
+      "thumbnail": "thumbs/thumb_sky_sport_5.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_6.jpg",
+      "brand": "Sky Sport",
+      "location": "Event Staff Apparel",
+      "sort_order": 210,
+      "thumbnail": "thumbs/thumb_sky_sport_6.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_7.jpg",
+      "brand": "Sky Sport",
+      "location": "Microphone",
+      "sort_order": 211,
+      "thumbnail": "thumbs/thumb_sky_sport_7.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_8.jpg",
+      "brand": "Sky Sport",
+      "location": "LED Sign - The BIG Summer of Cricket",
+      "sort_order": 212,
+      "thumbnail": "thumbs/thumb_sky_sport_8.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_9.jpg",
+      "brand": "Sky Sport",
+      "location": "TVGI - LED Sightscreen",
+      "sort_order": 213,
+      "thumbnail": "thumbs/thumb_sky_sport_9.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "sky_sport_10.jpg",
+      "brand": "Sky Sport",
+      "location": "TVGI - LED Sightscreen",
+      "sort_order": 214,
+      "thumbnail": "thumbs/thumb_sky_sport_10.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super_liquor_0.jpg",
+      "brand": "Super Liquor",
+      "location": "LED Sign - Cheers to that",
+      "sort_order": 215,
+      "thumbnail": "thumbs/thumb_super_liquor_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super_liquor_1.jpg",
+      "brand": "Super Liquor",
+      "location": "LED Sign - Cheers to that",
+      "sort_order": 216,
+      "thumbnail": "thumbs/thumb_super_liquor_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super_liquor_2.jpg",
+      "brand": "Super Liquor",
+      "location": "Static Board",
+      "sort_order": 217,
+      "thumbnail": "thumbs/thumb_super_liquor_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super_liquor_3.jpg",
+      "brand": "Super Liquor",
+      "location": "Static Board",
+      "sort_order": 218,
+      "thumbnail": "thumbs/thumb_super_liquor_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "super_liquor_4.jpg",
+      "brand": "Super Liquor",
+      "location": "LED Sign",
+      "sort_order": 219,
+      "thumbnail": "thumbs/thumb_super_liquor_4.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tegel_0.jpg",
+      "brand": "Tegel",
+      "location": "LED Sign - Free Feels Good",
+      "sort_order": 220,
+      "thumbnail": "thumbs/thumb_tegel_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tegel_1.jpg",
+      "brand": "Tegel",
+      "location": "LED Sign - Free Feels Good",
+      "sort_order": 221,
+      "thumbnail": "thumbs/thumb_tegel_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tegel_2.jpg",
+      "brand": "Tegel",
+      "location": "LED Sign",
+      "sort_order": 222,
+      "thumbnail": "thumbs/thumb_tegel_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "tegel_3.jpg",
+      "brand": "Tegel",
+      "location": "LED Sign",
+      "sort_order": 223,
+      "thumbnail": "thumbs/thumb_tegel_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nzta_0.jpg",
+      "brand": "NZTA",
+      "location": null,
+      "sort_order": 224,
+      "thumbnail": "thumbs/thumb_nzta_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nzta_1.jpg",
+      "brand": "NZTA",
+      "location": null,
+      "sort_order": 225,
+      "thumbnail": "thumbs/thumb_nzta_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nzta_2.jpg",
+      "brand": "NZTA",
+      "location": null,
+      "sort_order": 226,
+      "thumbnail": "thumbs/thumb_nzta_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "nzta_3.jpg",
+      "brand": "NZTA",
+      "location": null,
+      "sort_order": 227,
+      "thumbnail": "thumbs/thumb_nzta_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brookvale_union_0.jpg",
+      "brand": "Brookvale Union",
+      "location": null,
+      "sort_order": 228,
+      "thumbnail": "thumbs/thumb_brookvale_union_0.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brookvale_union_1.jpg",
+      "brand": "Brookvale Union",
+      "location": null,
+      "sort_order": 229,
+      "thumbnail": "thumbs/thumb_brookvale_union_1.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brookvale_union_2.jpg",
+      "brand": "Brookvale Union",
+      "location": null,
+      "sort_order": 230,
+      "thumbnail": "thumbs/thumb_brookvale_union_2.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brookvale_union_3.jpg",
+      "brand": "Brookvale Union",
+      "location": null,
+      "sort_order": 231,
+      "thumbnail": "thumbs/thumb_brookvale_union_3.jpg"
+    },
+    {
+      "type": "example",
+      "filename": "brookvale_union_4.jpg",
+      "brand": "Brookvale Union",
+      "location": null,
+      "sort_order": 232,
+      "thumbnail": "thumbs/thumb_brookvale_union_4.jpg"
+    }
+  ],
+  "annotation_images": [
+    {
+      "type": "annotation",
+      "filename": "annotation_0.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 0,
+      "thumbnail": "thumbs/thumb_annotation_0.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_1.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 1,
+      "thumbnail": "thumbs/thumb_annotation_1.jpg"
+    },
+    {
+      "type": "annotation",
+      "filename": "annotation_2.jpg",
+      "annotation_type": "exclude",
+      "sort_order": 2,
+      "thumbnail": "thumbs/thumb_annotation_2.jpg"
+    }
+  ],
+  "created_at": "2026-11-25T18:10:00.170998"
+}
