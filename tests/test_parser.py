@@ -283,10 +283,39 @@ def test_tracked_brands_layout():
             print(f"❌ FAILED: Expected at least 1 image, got {len(brief_data['images'])}")
             return False
         
+        # Verify combos are NOT full cartesian product
+        cartesian_product_size = len(brief_data['brands']) * len(brief_data['locations'])
+        if len(brief_data['combinations']) >= cartesian_product_size:
+            print(f"❌ FAILED: Combinations ({len(brief_data['combinations'])}) should not be full cartesian product ({cartesian_product_size})")
+            return False
+        
+        # Verify images have locations mapped
+        images_with_location = sum(1 for img in brief_data['images'] if img.get('location'))
+        if images_with_location == 0:
+            print(f"❌ FAILED: No images have locations mapped (0/{len(brief_data['images'])})")
+            return False
+        
+        # Verify some combos have images
+        image_combos = set()
+        for img in brief_data['images']:
+            if img.get('brand') and img.get('location'):
+                image_combos.add((img['brand'].lower(), img['location'].lower()))
+        
+        combos_with_images = 0
+        for combo in brief_data['combinations']:
+            combo_key = (combo['brand'].lower(), combo['location'].lower())
+            if combo_key in image_combos:
+                combos_with_images += 1
+        
+        if combos_with_images == 0:
+            print(f"❌ FAILED: No combinations have images (0/{len(brief_data['combinations'])})")
+            return False
+        
         print(f"  ✓ Brands: {len(brief_data['brands'])}")
         print(f"  ✓ Locations: {len(brief_data['locations'])}")
-        print(f"  ✓ Combinations: {len(brief_data['combinations'])}")
-        print(f"  ✓ Images: {len(brief_data['images'])}")
+        print(f"  ✓ Combinations: {len(brief_data['combinations'])} (not cartesian: {cartesian_product_size})")
+        print(f"  ✓ Images: {len(brief_data['images'])} ({images_with_location} with location)")
+        print(f"  ✓ Combos with images: {combos_with_images}")
         print("✅ PASSED")
         return True
 
@@ -339,10 +368,39 @@ def test_overview_layout():
             print(f"❌ FAILED: Expected at least 1 image, got {len(brief_data['images'])}")
             return False
         
+        # Verify combos are NOT full cartesian product
+        cartesian_product_size = len(brief_data['brands']) * len(brief_data['locations'])
+        if len(brief_data['combinations']) >= cartesian_product_size:
+            print(f"❌ FAILED: Combinations ({len(brief_data['combinations'])}) should not be full cartesian product ({cartesian_product_size})")
+            return False
+        
+        # Verify images have locations mapped
+        images_with_location = sum(1 for img in brief_data['images'] if img.get('location'))
+        if images_with_location == 0:
+            print(f"❌ FAILED: No images have locations mapped (0/{len(brief_data['images'])})")
+            return False
+        
+        # Verify some combos have images
+        image_combos = set()
+        for img in brief_data['images']:
+            if img.get('brand') and img.get('location'):
+                image_combos.add((img['brand'].lower(), img['location'].lower()))
+        
+        combos_with_images = 0
+        for combo in brief_data['combinations']:
+            combo_key = (combo['brand'].lower(), combo['location'].lower())
+            if combo_key in image_combos:
+                combos_with_images += 1
+        
+        if combos_with_images == 0:
+            print(f"❌ FAILED: No combinations have images (0/{len(brief_data['combinations'])})")
+            return False
+        
         print(f"  ✓ Brands: {len(brief_data['brands'])}")
         print(f"  ✓ Locations: {len(brief_data['locations'])}")
-        print(f"  ✓ Combinations: {len(brief_data['combinations'])}")
-        print(f"  ✓ Images: {len(brief_data['images'])}")
+        print(f"  ✓ Combinations: {len(brief_data['combinations'])} (not cartesian: {cartesian_product_size})")
+        print(f"  ✓ Images: {len(brief_data['images'])} ({images_with_location} with location)")
+        print(f"  ✓ Combos with images: {combos_with_images}")
         print("✅ PASSED")
         return True
 
