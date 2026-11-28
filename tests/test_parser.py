@@ -235,6 +235,118 @@ def test_existing_briefs_still_parse():
     return all_valid
 
 
+def test_tracked_brands_layout():
+    """Test parsing of tracked_brands layout (URC2526 style)."""
+    print("\n=== Test: Tracked Brands Layout ===")
+    
+    repo_root = Path(__file__).parent.parent
+    fixture_path = repo_root / 'tests' / 'fixtures' / 'tracked_brands_layout.xlsx'
+    
+    if not fixture_path.exists():
+        print("⚠️  SKIPPED: Fixture not found")
+        return True
+    
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmpdir = Path(tmpdir)
+        output_dir = tmpdir / 'output'
+        output_dir.mkdir()
+        
+        success = process_inbox.process_excel_file(fixture_path, output_dir)
+        
+        if not success:
+            print("❌ FAILED: Parser returned False")
+            return False
+        
+        brief_dirs = list(output_dir.glob("brief-*"))
+        if len(brief_dirs) != 1:
+            print(f"❌ FAILED: Expected 1 brief directory, found {len(brief_dirs)}")
+            return False
+        
+        brief_json_path = brief_dirs[0] / "brief.json"
+        with open(brief_json_path, 'r') as f:
+            brief_data = json.load(f)
+        
+        # Verify counts
+        if len(brief_data['brands']) < 2:
+            print(f"❌ FAILED: Expected at least 2 brands, got {len(brief_data['brands'])}")
+            return False
+        
+        if len(brief_data['locations']) < 2:
+            print(f"❌ FAILED: Expected at least 2 locations, got {len(brief_data['locations'])}")
+            return False
+        
+        if len(brief_data['combinations']) < 1:
+            print(f"❌ FAILED: Expected at least 1 combination, got {len(brief_data['combinations'])}")
+            return False
+        
+        if len(brief_data['images']) < 1:
+            print(f"❌ FAILED: Expected at least 1 image, got {len(brief_data['images'])}")
+            return False
+        
+        print(f"  ✓ Brands: {len(brief_data['brands'])}")
+        print(f"  ✓ Locations: {len(brief_data['locations'])}")
+        print(f"  ✓ Combinations: {len(brief_data['combinations'])}")
+        print(f"  ✓ Images: {len(brief_data['images'])}")
+        print("✅ PASSED")
+        return True
+
+
+def test_overview_layout():
+    """Test parsing of overview layout."""
+    print("\n=== Test: Overview Layout ===")
+    
+    repo_root = Path(__file__).parent.parent
+    fixture_path = repo_root / 'tests' / 'fixtures' / 'overview_layout.xlsx'
+    
+    if not fixture_path.exists():
+        print("⚠️  SKIPPED: Fixture not found")
+        return True
+    
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmpdir = Path(tmpdir)
+        output_dir = tmpdir / 'output'
+        output_dir.mkdir()
+        
+        success = process_inbox.process_excel_file(fixture_path, output_dir)
+        
+        if not success:
+            print("❌ FAILED: Parser returned False")
+            return False
+        
+        brief_dirs = list(output_dir.glob("brief-*"))
+        if len(brief_dirs) != 1:
+            print(f"❌ FAILED: Expected 1 brief directory, found {len(brief_dirs)}")
+            return False
+        
+        brief_json_path = brief_dirs[0] / "brief.json"
+        with open(brief_json_path, 'r') as f:
+            brief_data = json.load(f)
+        
+        # Verify counts
+        if len(brief_data['brands']) < 2:
+            print(f"❌ FAILED: Expected at least 2 brands, got {len(brief_data['brands'])}")
+            return False
+        
+        if len(brief_data['locations']) < 1:
+            print(f"❌ FAILED: Expected at least 1 location, got {len(brief_data['locations'])}")
+            return False
+        
+        if len(brief_data['combinations']) < 1:
+            print(f"❌ FAILED: Expected at least 1 combination, got {len(brief_data['combinations'])}")
+            return False
+        
+        if len(brief_data['images']) < 1:
+            print(f"❌ FAILED: Expected at least 1 image, got {len(brief_data['images'])}")
+            return False
+        
+        print(f"  ✓ Brands: {len(brief_data['brands'])}")
+        print(f"  ✓ Locations: {len(brief_data['locations'])}")
+        print(f"  ✓ Combinations: {len(brief_data['combinations'])}")
+        print(f"  ✓ Images: {len(brief_data['images'])}")
+        print("✅ PASSED")
+        return True
+
+
 def run_all_tests():
     """Run all tests and report results."""
     print("=" * 60)
@@ -244,6 +356,8 @@ def run_all_tests():
     tests = [
         ("Minimal Valid Brief", test_minimal_valid_brief),
         ("Zero Brands Validation", test_zero_brands_validation),
+        ("Tracked Brands Layout", test_tracked_brands_layout),
+        ("Overview Layout", test_overview_layout),
         ("Existing Briefs Compatibility", test_existing_briefs_still_parse),
     ]
     

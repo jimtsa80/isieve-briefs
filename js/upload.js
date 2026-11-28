@@ -309,6 +309,179 @@
         });
     }
 
+    function detectWorkbookLayout(wb) {
+        const sheetNames = wb.SheetNames.map(s => s.toLowerCase());
+        
+        // Layout 1: Tracked Brands + URC (URC2526 style)
+        if (sheetNames.includes('tracked brands') && sheetNames.includes('urc')) {
+            return 'tracked_brands';
+        }
+        
+        // Layout 2: Overview + brand sheets
+        if (sheetNames.includes('overview')) {
+            const overviewSheet = findSheet(wb, ['Overview']);
+            if (overviewSheet) {
+                const sheet = wb.Sheets[overviewSheet];
+                const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+                if (data[0] && String(data[0][0] || '').toLowerCase().includes('brand')) {
+                    return 'overview';
+                }
+            }
+        }
+        
+        // Default: Summary sheet layout
+        return 'summary';
+    }
+
+    function parseTrackedBrandsLayout(wb) {
+        const result = {
+            brands: [],
+            locations: [],
+            combinations: []
+        };
+        
+        // Get brands from Tracked Brands sheet
+        const trackedSheet = findSheet(wb, ['Tracked Brands']);
+        if (trackedSheet) {
+            const sheet = wb.Sheets[trackedSheet];
+            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+            const seenBrands = new Set();
+            
+            for (let r = 1; r < data.length; r++) {  // Skip header
+                const brandVal = data[r] && data[r][0];
+                if (brandVal) {
+                    const brandName = normalizeBrandValue(brandVal);
+                    if (brandName && !seenBrands.has(brandName)) {
+                        result.brands.push(brandName);
+                        seenBrands.add(brandName);
+                    }
+                }
+            }
+        }
+        
+        // Get locations from URC sheet (column A)
+        const urcSheet = findSheet(wb, ['URC']);
+        if (urcSheet) {
+            const sheet = wb.Sheets[urcSheet];
+            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+            const seenLocations = new Set();
+            
+            for (let r = 0; r < data.length; r++) {
+                const locVal = data[r] && data[r][0];
+                if (locVal) {
+                    const locStr = String(locVal).trim();
+                    // Skip numeric-only and very short values
+                    if (locStr.length > 2 && !/^\d+$/.test(locStr)) {
+                        const locationName = normalizeBrandValue(locVal);
+                        if (locationName && !seenLocations.has(locationName)) {
+                            result.locations.push(locationName);
+                            seenLocations.add(locationName);
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Create all brand x location combinations
+        const seenCombos = new Set();
+        for (const brand of result.brands) {
+            for (const location of result.locations) {
+                const comboKey = `${brand.toLowerCase()}|||${location.toLowerCase()}`;
+                if (!seenCombos.has(comboKey)) {
+                    seenCombos.add(comboKey);
+                    result.combinations.push({
+                        brand: brand,
+                        location: location,
+                        auto_closed: false
+                    });
+                }
+            }
+        }
+        
+        return result;
+    }
+
+    function parseOverviewLayout(wb) {
+        const result = {
+            brands: [],
+            locations: [],
+            combinations: []
+        };
+        
+        // Get brands from Overview sheet
+        const overviewSheet = findSheet(wb, ['Overview']);
+        if (overviewSheet) {
+            const sheet = wb.Sheets[overviewSheet];
+            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+            const seenBrands = new Set();
+            
+            for (let r = 1; r < data.length; r++) {  // Skip header
+                const brandVal = data[r] && data[r][0];
+                if (brandVal) {
+                    const brandName = normalizeBrandValue(brandVal);
+                    if (brandName && !seenBrands.has(brandName)) {
+                        result.brands.push(brandName);
+                        seenBrands.add(brandName);
+                    }
+                }
+            }
+        }
+        
+        // Get locations from brand sheets
+        const seenLocations = new Set();
+        const seenCombos = new Set();
+        
+        const brandSheetNames = wb.SheetNames.filter(s => s.toLowerCase() !== 'overview');
+        
+        for (const sheetName of brandSheetNames) {
+            // Try to match sheet name to a brand
+            const sheetLower = sheetName.toLowerCase().replace(/[-_\s]/g, '');
+            let matchedBrand = null;
+            
+            for (const brand of result.brands) {
+                const brandLower = brand.toLowerCase().replace(/[-_\s]/g, '');
+                if (sheetLower === brandLower || sheetLower.includes(brandLower) || brandLower.includes(sheetLower)) {
+                    matchedBrand = brand;
+                    break;
+                }
+            }
+            
+            // Extract locations from column A
+            const sheet = wb.Sheets[sheetName];
+            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+            
+            for (let r = 0; r < data.length; r++) {
+                const locVal = data[r] && data[r][0];
+                if (locVal) {
+                    const locStr = String(locVal).trim();
+                    // Skip numeric values, file names, and very short values
+                    if (locStr.length > 2 && !/^\d+(\.\d+)?$/.test(locStr) && !locStr.includes('_URC_') && !locStr.startsWith('000')) {
+                        const locationName = normalizeBrandValue(locVal);
+                        if (locationName && !seenLocations.has(locationName)) {
+                            result.locations.push(locationName);
+                            seenLocations.add(locationName);
+                        }
+                        
+                        // Create combination if we matched a brand
+                        if (matchedBrand) {
+                            const comboKey = `${matchedBrand.toLowerCase()}|||${locationName.toLowerCase()}`;
+                            if (!seenCombos.has(comboKey)) {
+                                seenCombos.add(comboKey);
+                                result.combinations.push({
+                                    brand: matchedBrand,
+                                    location: locationName,
+                                    auto_closed: false
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        return result;
+    }
+
     async function parseWorkbook(wb, filename) {
         const data = {
             id: generateId(),
@@ -321,12 +494,28 @@
             rules: ''
         };
 
-        const summarySheet = findSheet(wb, ['Summary', 'SUMMARY']);
-        if (summarySheet) {
-            const summaryData = parseSummarySheet(wb.Sheets[summarySheet]);
-            data.brands = summaryData.brands;
-            data.locations = summaryData.locations;
-            data.combinations = summaryData.combinations;
+        // Detect layout and parse accordingly
+        const layout = detectWorkbookLayout(wb);
+        
+        if (layout === 'tracked_brands') {
+            const layoutData = parseTrackedBrandsLayout(wb);
+            data.brands = layoutData.brands;
+            data.locations = layoutData.locations;
+            data.combinations = layoutData.combinations;
+        } else if (layout === 'overview') {
+            const layoutData = parseOverviewLayout(wb);
+            data.brands = layoutData.brands;
+            data.locations = layoutData.locations;
+            data.combinations = layoutData.combinations;
+        } else {
+            // Default: Summary sheet layout
+            const summarySheet = findSheet(wb, ['Summary', 'SUMMARY']);
+            if (summarySheet) {
+                const summaryData = parseSummarySheet(wb.Sheets[summarySheet]);
+                data.brands = summaryData.brands;
+                data.locations = summaryData.locations;
+                data.combinations = summaryData.combinations;
+            }
         }
 
         const firstSheet = wb.Sheets[wb.SheetNames[0]];
