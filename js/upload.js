@@ -642,8 +642,9 @@
         document.getElementById('parseResults').style.display = 'block';
 
         const warnings = [];
+        const errors = [];
         if (parsedData.brands.length === 0) {
-            warnings.push('⚠️ No brands found automatically — upload to briefs-inbox/ for full server-side parsing.');
+            errors.push('❌ <strong>Error: No brands found.</strong> The brief cannot be created without brands. Please check that the Summary sheet exists and the Brand_Assets table (B2:E...) has brand names in Column B and asset/location names in Column C.');
         }
         if (parsedData.images.length === 0 && parsedData.annotation_images.length === 0) {
             warnings.push('⚠️ No embedded images detected in browser preview.');
@@ -657,6 +658,7 @@
             <p><strong>Locations:</strong> ${parsedData.locations.length}</p>
             <p><strong>Combinations:</strong> ${parsedData.combinations.length}</p>
             <p><strong>Embedded media files:</strong> ${parsedData.images.length + parsedData.annotation_images.length}</p>
+            ${errors.length > 0 ? `<div class="edit-status error" style="margin-top: 1rem; text-align: left;">${errors.join('<br>')}</div>` : ''}
             ${warnings.length > 0 ? `<div class="text-muted" style="margin-top: 1rem;">${warnings.join('<br>')}</div>` : ''}
         `;
     }
@@ -902,6 +904,12 @@
     async function uploadToBriefsInbox(includeSidecar, statusElId, triggerBtnId) {
         if (isUploadingToGitHub || !selectedFile || !selectedArrayBuffer) return;
 
+        // Validate: fail if no brands found
+        if (!parsedData || parsedData.brands.length === 0) {
+            setStatus(statusElId, 'Error: Cannot upload brief with 0 brands. The Excel file must contain brands in the Summary sheet (Brand_Assets table at B2:E...). Please check that Column B contains brand names and Column C contains asset/location names.', 'error');
+            return;
+        }
+
         if (selectedFile.size > 45 * 1024 * 1024) {
             setStatus(
                 statusElId,
@@ -1035,6 +1043,12 @@
     }
 
     async function generateBriefPackage() {
+        // Validate: fail if no brands found
+        if (!parsedData || parsedData.brands.length === 0) {
+            setMessage('zipStatus', 'Error: Cannot create brief with 0 brands. The Excel file must contain brands in the Summary sheet (Brand_Assets table at B2:E...). Please check that Column B contains brand names and Column C contains asset/location names.', 'error');
+            return;
+        }
+
         const formData = new FormData(document.getElementById('briefForm'));
 
         const briefData = {
