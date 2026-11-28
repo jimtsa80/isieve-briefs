@@ -1119,6 +1119,119 @@
         }
     }
 
+    async function compressExcelImages(arrayBuffer, originalFilename) {
+        try {
+            const zip = await JSZip.loadAsync(arrayBuffer);
+            let compressionNeeded = false;
+            const compressionPromises = [];
+            
+            // Find all images in xl/media/
+            const mediaFiles = Object.keys(zip.files).filter(name => 
+                name.startsWith('xl/media/') && /\.(png|jpg|jpeg|gif|bmp)$/i.test(name)
+            );
+            
+            if (mediaFiles.length === 0) {
+                // No images to compress
+                return { compressed: false, blob: new Blob([arrayBuffer]) };
+            }
+            
+            for (const mediaPath of mediaFiles) {
+                compressionPromises.push((async () => {
+                    const file = zip.files[mediaPath];
+                    const imgData = await file.async('arraybuffer');
+                    
+                    // Skip tiny images (< 10 KB)
+                    if (imgData.byteLength < 10 * 1024) {
+                        return null;
+                    }
+                    
+                    // Load image to check dimensions
+                    const blob = new Blob([imgData]);
+                    const url = URL.createObjectURL(blob);
+                    
+                    return new Promise((resolve) => {
+                        const img = new Image();
+                        img.onload = async () => {
+                            URL.revokeObjectURL(url);
+                            
+                            const maxSize = 1600;
+                            let { width, height } = img;
+                            
+                            // Skip if already small
+                            if (width <= maxSize && height <= maxSize && imgData.byteLength < 200 * 1024) {
+                                resolve(null);
+                                return;
+                            }
+                            
+                            // Calculate new dimensions
+                            if (width > maxSize || height > maxSize) {
+                                if (width > height) {
+                                    height = Math.round((height * maxSize) / width);
+                                    width = maxSize;
+                                } else {
+                                    width = Math.round((width * maxSize) / height);
+                                    height = maxSize;
+                                }
+                            }
+                            
+                            // Compress via canvas
+                            const canvas = document.createElement('canvas');
+                            canvas.width = width;
+                            canvas.height = height;
+                            const ctx = canvas.getContext('2d');
+                            ctx.drawImage(img, 0, 0, width, height);
+                            
+                            canvas.toBlob((compressedBlob) => {
+                                if (compressedBlob && compressedBlob.size < imgData.byteLength) {
+                                    compressionNeeded = true;
+                                    resolve({ path: mediaPath, blob: compressedBlob });
+                                } else {
+                                    resolve(null);
+                                }
+                            }, 'image/jpeg', 0.8);
+                        };
+                        img.onerror = () => {
+                            URL.revokeObjectURL(url);
+                            resolve(null);
+                        };
+                        img.src = url;
+                    });
+                })());
+            }
+            
+            const results = await Promise.all(compressionPromises);
+            
+            // Replace compressed images in zip
+            for (const result of results) {
+                if (result) {
+                    const arrayBuf = await result.blob.arrayBuffer();
+                    zip.file(result.path, arrayBuf);
+                }
+            }
+            
+            if (!compressionNeeded) {
+                return { compressed: false, blob: new Blob([arrayBuffer]) };
+            }
+            
+            // Generate new Excel file
+            const compressedArrayBuffer = await zip.generateAsync({ 
+                type: 'arraybuffer',
+                compression: 'DEFLATE',
+                compressionOptions: { level: 6 }
+            });
+            
+            return { 
+                compressed: true, 
+                blob: new Blob([compressedArrayBuffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }),
+                originalSize: arrayBuffer.byteLength,
+                compressedSize: compressedArrayBuffer.byteLength
+            };
+        } catch (error) {
+            console.error('Image compression failed:', error);
+            return { compressed: false, blob: new Blob([arrayBuffer]), error: error.message };
+        }
+    }
+
     async function uploadToBriefsInbox(includeSidecar, statusElId, triggerBtnId) {
         if (isUploadingToGitHub || !selectedFile || !selectedArrayBuffer) return;
 
@@ -1128,10 +1241,28 @@
             return;
         }
 
-        if (selectedFile.size > 45 * 1024 * 1024) {
+        // Try to compress images if file is large
+        let fileToUpload = selectedFile;
+        let arrayBufferToUpload = selectedArrayBuffer;
+        
+        if (selectedFile.size > 30 * 1024 * 1024) {
+            setStatus(statusElId, 'Large file detected, compressing images...', 'info');
+            const compressionResult = await compressExcelImages(selectedArrayBuffer, selectedFile.name);
+            
+            if (compressionResult.compressed) {
+                fileToUpload = new File([compressionResult.blob], selectedFile.name, { type: selectedFile.type });
+                arrayBufferToUpload = await compressionResult.blob.arrayBuffer();
+                const savedMB = ((compressionResult.originalSize - compressionResult.compressedSize) / (1024 * 1024)).toFixed(1);
+                setStatus(statusElId, `Compressed from ${(compressionResult.originalSize / (1024 * 1024)).toFixed(1)} MB to ${(compressionResult.compressedSize / (1024 * 1024)).toFixed(1)} MB (saved ${savedMB} MB)`, 'info');
+            } else if (compressionResult.error) {
+                console.warn('Compression failed, uploading original:', compressionResult.error);
+            }
+        }
+
+        if (fileToUpload.size > 45 * 1024 * 1024) {
             setStatus(
                 statusElId,
-                'This file exceeds 45 MB for browser API upload. Please upload it directly via git or GitHub web UI into briefs-inbox/.',
+                'This file exceeds 45 MB even after image compression. Please upload it directly via git or GitHub web UI into briefs-inbox/.',
                 'error'
             );
             return;
@@ -1164,7 +1295,7 @@
         setStatus(statusElId, `Uploading ${safeName} to ${inboxFilePath}...`, 'info');
 
         try {
-            const fileB64 = arrayBufferToBase64(selectedArrayBuffer);
+            const fileB64 = arrayBufferToBase64(arrayBufferToUpload);
             const filesToCommit = [];
             if (sidecarPath) {
                 filesToCommit.push({
