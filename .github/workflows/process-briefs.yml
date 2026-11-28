@@ -30,6 +30,9 @@ jobs:
         run: |
           pip install openpyxl Pillow
 
+      - name: Run parser tests
+        run: python tests/test_parser.py
+
       - name: Process inbox files
         run: python scripts/process_inbox.py
 

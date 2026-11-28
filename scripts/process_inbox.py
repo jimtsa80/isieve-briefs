@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 import re
 from io import BytesIO
 import zipfile
+import shutil
 import xml.etree.ElementTree as ET
 
 try:
@@ -723,6 +724,22 @@ def process_excel_file(filepath, output_dir, brief_id=None):
             except Exception as e:
                 print(f"Warning: Could not delete sidecar {sidecar_path.name}: {e}")
 
+        # Validate: fail if no brands found
+        if len(brief_data['brands']) == 0:
+            print(f"✗ Error: No brands found in {filepath.name}")
+            print("  The brief cannot be published without brands.")
+            print("  Please check:")
+            print("    - Summary sheet exists and is named 'Summary'")
+            print("    - Brand_Assets table starts at B2:E...")
+            print("    - Column B contains brand names")
+            print("    - Column C contains asset/location names")
+            print("    - Rows have both brand and asset values")
+            # Clean up the brief directory since it's invalid
+            import shutil
+            if brief_dir.exists():
+                shutil.rmtree(brief_dir)
+            return False
+
         with open(brief_dir / 'brief.json', 'w', encoding='utf-8') as f:
             json.dump(brief_data, f, ensure_ascii=False, indent=2)
 
@@ -767,6 +784,10 @@ def main():
             print(f"✓ Deleted inbox file: {filepath.name}\n")
 
     print(f"\nProcessed {processed_count}/{len(excel_files)} files successfully")
+    
+    # Exit with error if any files failed
+    if processed_count < len(excel_files):
+        sys.exit(1)
 
 
 if __name__ == '__main__':
