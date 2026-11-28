@@ -312,8 +312,9 @@
     function detectWorkbookLayout(wb) {
         const sheetNames = wb.SheetNames.map(s => s.toLowerCase());
         
-        // Layout 1: Tracked Brands + URC (URC2526 style)
-        if (sheetNames.includes('tracked brands') && sheetNames.includes('urc')) {
+        // Layout 1: Tracked Brands + brand sheets (URC2526 style)
+        // Note: May or may not have URC sheet - locations come from brand sheets
+        if (sheetNames.includes('tracked brands')) {
             return 'tracked_brands';
         }
         
@@ -340,18 +341,27 @@
             combinations: []
         };
         
-        // Get brands from Tracked Brands sheet
+        // Get brands from Tracked Brands sheet (skip header row)
         const trackedSheet = findSheet(wb, ['Tracked Brands']);
-        if (trackedSheet) {
-            const sheet = wb.Sheets[trackedSheet];
-            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
-            const seenBrands = new Set();
-            
-            for (let r = 1; r < data.length; r++) {  // Skip header
-                const brandVal = data[r] && data[r][0];
-                if (brandVal) {
-                    const brandName = normalizeBrandValue(brandVal);
-                    if (brandName && !seenBrands.has(brandName)) {
+        if (!trackedSheet) return result;
+        
+        const sheet = wb.Sheets[trackedSheet];
+        const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+        const seenBrands = new Set();
+        
+        // Check if row 0 is a header
+        let startRow = 0;
+        if (data[0] && data[0][0] && String(data[0][0]).toLowerCase().includes('brand')) {
+            startRow = 1;
+        }
+        
+        for (let r = startRow; r < data.length; r++) {
+            const brandVal = data[r] && data[r][0];
+            if (brandVal) {
+                const brandName = normalizeBrandValue(brandVal);
+                // Skip header-like values
+                if (brandName && !brandName.toLowerCase().match(/^(brand|brands|united rugby championship)$/)) {
+                    if (!seenBrands.has(brandName)) {
                         result.brands.push(brandName);
                         seenBrands.add(brandName);
                     }
@@ -359,41 +369,56 @@
             }
         }
         
-        // Get locations from URC sheet (column A)
-        const urcSheet = findSheet(wb, ['URC']);
-        if (urcSheet) {
-            const sheet = wb.Sheets[urcSheet];
-            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
-            const seenLocations = new Set();
-            
-            for (let r = 0; r < data.length; r++) {
-                const locVal = data[r] && data[r][0];
-                if (locVal) {
-                    const locStr = String(locVal).trim();
-                    // Skip numeric-only and very short values
-                    if (locStr.length > 2 && !/^\d+$/.test(locStr)) {
-                        const locationName = normalizeBrandValue(locVal);
-                        if (locationName && !seenLocations.has(locationName)) {
-                            result.locations.push(locationName);
-                            seenLocations.add(locationName);
-                        }
+        // Get locations and combinations from brand sheets (not cartesian product)
+        const seenLocations = new Set();
+        const seenCombos = new Set();
+        
+        for (const brandName of result.brands) {
+            // Try to find brand sheet
+            let brandSheet = findSheet(wb, [brandName]);
+            if (!brandSheet) {
+                // Try fuzzy match
+                const brandLower = brandName.toLowerCase().replace(/[-_\s]/g, '');
+                for (const sheetName of wb.SheetNames) {
+                    const sheetLower = sheetName.toLowerCase().replace(/[-_\s]/g, '');
+                    if (brandLower.includes(sheetLower) || sheetLower.includes(brandLower)) {
+                        brandSheet = sheetName;
+                        break;
                     }
                 }
             }
-        }
-        
-        // Create all brand x location combinations
-        const seenCombos = new Set();
-        for (const brand of result.brands) {
-            for (const location of result.locations) {
-                const comboKey = `${brand.toLowerCase()}|||${location.toLowerCase()}`;
-                if (!seenCombos.has(comboKey)) {
-                    seenCombos.add(comboKey);
-                    result.combinations.push({
-                        brand: brand,
-                        location: location,
-                        auto_closed: false
-                    });
+            
+            if (!brandSheet) continue;
+            
+            const bSheet = wb.Sheets[brandSheet];
+            const bData = XLSX.utils.sheet_to_json(bSheet, { header: 1, defval: null });
+            
+            // Extract locations from column A
+            for (let r = 0; r < bData.length; r++) {
+                const locVal = bData[r] && bData[r][0];
+                if (locVal) {
+                    const locStr = String(locVal).trim();
+                    // Skip numeric values, file names
+                    if (locStr.length > 2 && !/^\d+(\.\d+)?$/.test(locStr) && !locStr.includes('_URC_') && !locStr.startsWith('000')) {
+                        const locationName = normalizeBrandValue(locVal);
+                        if (locationName) {
+                            if (!seenLocations.has(locationName)) {
+                                result.locations.push(locationName);
+                                seenLocations.add(locationName);
+                            }
+                            
+                            // Create combination for this brand + location
+                            const comboKey = `${brandName.toLowerCase()}|||${locationName.toLowerCase()}`;
+                            if (!seenCombos.has(comboKey)) {
+                                seenCombos.add(comboKey);
+                                result.combinations.push({
+                                    brand: brandName,
+                                    location: locationName,
+                                    auto_closed: false
+                                });
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -408,21 +433,27 @@
             combinations: []
         };
         
-        // Get brands from Overview sheet
+        // Get brands from Overview sheet (skip header row)
         const overviewSheet = findSheet(wb, ['Overview']);
-        if (overviewSheet) {
-            const sheet = wb.Sheets[overviewSheet];
-            const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
-            const seenBrands = new Set();
-            
-            for (let r = 1; r < data.length; r++) {  // Skip header
-                const brandVal = data[r] && data[r][0];
-                if (brandVal) {
-                    const brandName = normalizeBrandValue(brandVal);
-                    if (brandName && !seenBrands.has(brandName)) {
-                        result.brands.push(brandName);
-                        seenBrands.add(brandName);
-                    }
+        if (!overviewSheet) return result;
+        
+        const sheet = wb.Sheets[overviewSheet];
+        const data = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: null });
+        const seenBrands = new Set();
+        
+        // Check if row 0 is a header
+        let startRow = 0;
+        if (data[0] && data[0][0] && String(data[0][0]).toLowerCase().includes('brand')) {
+            startRow = 1;
+        }
+        
+        for (let r = startRow; r < data.length; r++) {
+            const brandVal = data[r] && data[r][0];
+            if (brandVal) {
+                const brandName = normalizeBrandValue(brandVal);
+                if (brandName && !seenBrands.has(brandName)) {
+                    result.brands.push(brandName);
+                    seenBrands.add(brandName);
                 }
             }
         }
@@ -520,9 +551,7 @@
 
         const firstSheet = wb.Sheets[wb.SheetNames[0]];
         data.metadata = extractMetadata(firstSheet);
-        if (!data.metadata.event && filename) {
-            data.metadata.event = filename.replace(/\.(xlsx|xlsm|xls)$/i, '').replace(/[_-]+/g, ' ').trim();
-        }
+        // Do NOT infer event from filename - leave empty if not in workbook
 
         return data;
     }

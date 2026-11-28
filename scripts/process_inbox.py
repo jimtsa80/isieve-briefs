@@ -229,8 +229,9 @@ def detect_workbook_layout(wb):
     """
     sheet_names = [s.lower() for s in wb.sheetnames]
     
-    # Layout 1: Tracked Brands + URC + brand sheets (URC2526 style)
-    if 'tracked brands' in sheet_names and 'urc' in sheet_names:
+    # Layout 1: Tracked Brands + brand sheets (URC2526 style)
+    # Note: May or may not have URC sheet - locations come from brand sheets
+    if 'tracked brands' in sheet_names:
         return 'tracked_brands'
     
     # Layout 2: Overview + brand sheets
@@ -247,9 +248,10 @@ def detect_workbook_layout(wb):
 def parse_tracked_brands_layout(wb):
     """
     Parse 'Tracked Brands' layout (URC2526 style):
-    - 'Tracked Brands' sheet: brands in column A
-    - 'URC' sheet: locations/assets in column A
-    - Brand sheets: one per brand with images
+    - 'Tracked Brands' sheet: brands in column A (skip header row)
+    - Brand sheets: one per brand, with locations in column A and images
+    
+    Combinations are discovered from actual brand sheet content, not cartesian product.
     """
     result = {
         'brands': [],
@@ -258,48 +260,74 @@ def parse_tracked_brands_layout(wb):
         'summary_notes': []
     }
     
-    # Get brands from 'Tracked Brands' sheet
+    # Get brands from 'Tracked Brands' sheet (skip header row and filter out headers)
     tracked_brands = find_sheet(wb, ['Tracked Brands'])
     if not tracked_brands:
         return result
     
     seen_brands = set()
-    for row_idx in range(2, tracked_brands.max_row + 1):  # Skip header row
+    # Check if row 1 is a header by looking for "Brand" or similar
+    header_row = 0
+    if tracked_brands.cell(1, 1).value and 'brand' in str(tracked_brands.cell(1, 1).value).lower():
+        header_row = 1
+    
+    for row_idx in range(header_row + 1, tracked_brands.max_row + 1):
         brand_val = tracked_brands.cell(row_idx, 1).value  # Column A
         if brand_val and str(brand_val).strip():
             brand_name = normalize_whitespace(brand_val)
-            if brand_name not in seen_brands:
-                result['brands'].append(brand_name)
-                seen_brands.add(brand_name)
+            # Skip header-like values
+            if not brand_name.lower() in ['brand', 'brands', 'united rugby championship']:
+                if brand_name not in seen_brands:
+                    result['brands'].append(brand_name)
+                    seen_brands.add(brand_name)
     
-    # Get locations from 'URC' sheet (column A)
-    urc_sheet = find_sheet(wb, ['URC'])
-    if urc_sheet:
-        seen_locations = set()
-        for row_idx in range(1, urc_sheet.max_row + 1):
-            loc_val = urc_sheet.cell(row_idx, 1).value  # Column A
+    # Get locations and combinations from brand sheets
+    # Don't create cartesian product - only create combos that exist in brand sheets
+    seen_locations = set()
+    seen_combos = set()
+    
+    for brand_name in result['brands']:
+        # Try to find brand sheet
+        sheet = find_sheet(wb, [brand_name])
+        if not sheet:
+            # Try fuzzy match
+            brand_lower = brand_name.lower().replace('-', '').replace('_', '').replace(' ', '')
+            for sheet_name in wb.sheetnames:
+                sheet_lower = sheet_name.lower().replace('-', '').replace('_', '').replace(' ', '')
+                if brand_lower in sheet_lower or sheet_lower in brand_lower:
+                    sheet = wb[sheet_name]
+                    break
+        
+        if not sheet:
+            continue
+        
+        # Extract locations from column A of brand sheet
+        for row_idx in range(1, sheet.max_row + 1):
+            loc_val = sheet.cell(row_idx, 1).value  # Column A
             if loc_val and str(loc_val).strip():
                 loc_str = str(loc_val).strip()
-                # Skip numeric-only values and very short values
-                if not loc_str.isdigit() and len(loc_str) > 2:
+                # Skip numeric values, file names, very short values
+                try:
+                    float(loc_str)
+                    continue  # Skip numeric values
+                except ValueError:
+                    pass
+                
+                if len(loc_str) > 2 and not ('_URC_' in loc_str or loc_str.startswith('000')):
                     location_name = normalize_whitespace(loc_val)
                     if location_name not in seen_locations:
                         result['locations'].append(location_name)
                         seen_locations.add(location_name)
-    
-    # Create combinations for all brand x location pairs
-    # (Images will be mapped via drawing anchors during image extraction)
-    seen_combos = set()
-    for brand in result['brands']:
-        for location in result['locations']:
-            combo_key = (brand.lower(), location.lower())
-            if combo_key not in seen_combos:
-                seen_combos.add(combo_key)
-                result['combinations'].append({
-                    'brand': brand,
-                    'location': location,
-                    'auto_closed': False
-                })
+                    
+                    # Create combination for this brand + location
+                    combo_key = (brand_name.lower(), location_name.lower())
+                    if combo_key not in seen_combos:
+                        seen_combos.add(combo_key)
+                        result['combinations'].append({
+                            'brand': brand_name,
+                            'location': location_name,
+                            'auto_closed': False
+                        })
     
     return result
 
@@ -307,8 +335,10 @@ def parse_tracked_brands_layout(wb):
 def parse_overview_layout(wb):
     """
     Parse 'Overview' layout:
-    - 'Overview' sheet: brands in column A
+    - 'Overview' sheet: brands in column A (skip header row)
     - Brand sheets: one per brand, locations in column A with images
+    
+    Combinations are discovered from actual brand sheet content only.
     """
     result = {
         'brands': [],
@@ -317,13 +347,18 @@ def parse_overview_layout(wb):
         'summary_notes': []
     }
     
-    # Get brands from 'Overview' sheet
+    # Get brands from 'Overview' sheet (skip header row)
     overview = find_sheet(wb, ['Overview'])
     if not overview:
         return result
     
     seen_brands = set()
-    for row_idx in range(2, overview.max_row + 1):  # Skip header row
+    # Check if row 1 is a header
+    header_row = 0
+    if overview.cell(1, 1).value and 'brand' in str(overview.cell(1, 1).value).lower():
+        header_row = 1
+    
+    for row_idx in range(header_row + 1, overview.max_row + 1):
         brand_val = overview.cell(row_idx, 1).value  # Column A
         if brand_val and str(brand_val).strip():
             brand_name = normalize_whitespace(brand_val)
@@ -331,33 +366,33 @@ def parse_overview_layout(wb):
                 result['brands'].append(brand_name)
                 seen_brands.add(brand_name)
     
-    # Get locations from brand sheets (each brand sheet has locations in column A)
+    # Get locations and combinations from brand sheets
     seen_locations = set()
     seen_combos = set()
     
-    # Get brand sheets (all sheets except Overview)
-    brand_sheet_names = [s for s in wb.sheetnames if s.lower() != 'overview']
-    
-    for sheet_name in brand_sheet_names:
-        sheet = wb[sheet_name]
+    for brand_name in result['brands']:
+        # Try to find brand sheet
+        sheet = find_sheet(wb, [brand_name])
+        if not sheet:
+            # Try fuzzy match
+            brand_lower = brand_name.lower().replace('-', '').replace('_', '').replace(' ', '').replace('(', '').replace(')', '')
+            for sheet_name in wb.sheetnames:
+                if sheet_name.lower() == 'overview':
+                    continue
+                sheet_lower = sheet_name.lower().replace('-', '').replace('_', '').replace(' ', '').replace('(', '').replace(')', '')
+                if brand_lower in sheet_lower or sheet_lower in brand_lower:
+                    sheet = wb[sheet_name]
+                    break
         
-        # Try to match sheet name to a brand
-        # Normalize for matching (case-insensitive, handle variations)
-        sheet_name_lower = sheet_name.lower().strip()
-        matched_brand = None
-        for brand in result['brands']:
-            brand_lower = brand.lower().strip()
-            if sheet_name_lower == brand_lower or sheet_name_lower in brand_lower or brand_lower in sheet_name_lower:
-                matched_brand = brand
-                break
+        if not sheet:
+            continue
         
         # Extract locations from column A
         for row_idx in range(1, sheet.max_row + 1):
             loc_val = sheet.cell(row_idx, 1).value
             if loc_val and str(loc_val).strip():
                 loc_str = str(loc_val).strip()
-                # Skip numeric-only values, file names, and very short values
-                # Also skip values that look like numbers (including floats)
+                # Skip numeric values, file names, and very short values
                 try:
                     float(loc_str)
                     continue  # Skip numeric values
@@ -370,16 +405,15 @@ def parse_overview_layout(wb):
                         result['locations'].append(location_name)
                         seen_locations.add(location_name)
                     
-                    # Create combination if we matched a brand
-                    if matched_brand:
-                        combo_key = (matched_brand.lower(), location_name.lower())
-                        if combo_key not in seen_combos:
-                            seen_combos.add(combo_key)
-                            result['combinations'].append({
-                                'brand': matched_brand,
-                                'location': location_name,
-                                'auto_closed': False
-                            })
+                    # Create combination for this brand + location
+                    combo_key = (brand_name.lower(), location_name.lower())
+                    if combo_key not in seen_combos:
+                        seen_combos.add(combo_key)
+                        result['combinations'].append({
+                            'brand': brand_name,
+                            'location': location_name,
+                            'auto_closed': False
+                        })
     
     return result
 
@@ -704,19 +738,30 @@ def parse_brand_sheets(wb, filepath, brands, brief_dir):
                             img_binary = media_data[media_path]
                             try:
                                 img = Image.open(BytesIO(img_binary))
-                                # Accept images 8x8 or larger (to handle placeholder images in stripped files)
-                                if img.width < 8 or img.height < 8:
+                                # Accept images 32x32 or larger
+                                if img.width < 32 or img.height < 32:
                                     continue
 
                                 filename = allocate_unique_filename(brief_dir, safe_brand, 'png', used_names)
                                 filepath_out = brief_dir / filename
                                 img.save(filepath_out, format='PNG')
 
+                                # Map image to location based on drawing anchor row
                                 location_name = None
                                 if from_row < len(rows):
                                     row_data = rows[from_row]
+                                    # For summary layout: check asset_col_idx
                                     if len(row_data) > asset_col_idx and row_data[asset_col_idx]:
                                         location_name = normalize_whitespace(row_data[asset_col_idx])
+                                    # For new layouts: check column A (index 0)
+                                    elif len(row_data) > 0 and row_data[0]:
+                                        loc_str = str(row_data[0]).strip()
+                                        # Only use if it looks like a location (not numeric, not too short)
+                                        try:
+                                            float(loc_str)
+                                        except ValueError:
+                                            if len(loc_str) > 2 and not ('_URC_' in loc_str or loc_str.startswith('000')):
+                                                location_name = normalize_whitespace(row_data[0])
 
                                 images.append({
                                     'type': 'example',
@@ -794,8 +839,8 @@ def parse_annotations_sheet(wb, filepath, brief_dir):
                     img_binary = media_data[media_path]
                     try:
                         img = Image.open(BytesIO(img_binary))
-                        # Accept images 8x8 or larger (to handle placeholder images in stripped files)
-                        if img.width < 8 or img.height < 8:
+                        # Accept images 32x32 or larger
+                        if img.width < 32 or img.height < 32:
                             continue
 
                         # Determine annotation_type from overlapping shapes
@@ -873,8 +918,7 @@ def process_excel_file(filepath, output_dir, brief_id=None):
         inferred_metadata = {}
         if source_clips:
             inferred_metadata = parse_clip_name(source_clips[0])
-        if not inferred_metadata:
-            inferred_metadata = parse_clip_name(filepath.stem)
+        # Do NOT infer from filename - leave empty if not in source clips
 
         sidecar_metadata = read_sidecar_file(filepath)
         sidecar_path = sidecar_metadata.pop('_sidecar_path', None)
@@ -884,7 +928,7 @@ def process_excel_file(filepath, output_dir, brief_id=None):
         brief_data = {
             'id': brief_id,
             'client': '',
-            'event': inferred_metadata.get('event', filepath.stem),
+            'event': inferred_metadata.get('event', ''),  # Leave empty, don't use filename
             'competition': None,
             'sport': None,
             'broadcaster': inferred_metadata.get('broadcaster'),
